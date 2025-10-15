@@ -8,6 +8,7 @@ from tqdm import tqdm
 
 from data.math10k import Math10k
 from models.llama import MODEL_TYPES
+from optimizer.asyflat import AsyFlat_LoRA
 from utility.initialize import initialize
 
 tokenizer = None 
@@ -52,9 +53,9 @@ def train():
     # 加载模型
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
-        torch_dtype=torch.bfloat16,
+        dtype=torch.bfloat16,
         # quantization_config=bnb_config,
-        device_map="auto"
+        device_map="cpu"
     )
     
     peft_config = LoraConfig(
@@ -68,11 +69,12 @@ def train():
     model = get_peft_model(model, peft_config)
     model.print_trainable_parameters()
 
-    print(model.parameters())
+    print(type(model.parameters()))
 
     # 配置不同的优化器
-    base_optimizer = SGD(model.parameters(), lr=args["learning_rate"], momentum=0.9)
-    asyflat_optimizer = 
+    trainable_params = [p for p in model.parameters() if p.requires_grad]
+    base_optimizer = SGD(trainable_params, lr=args["learning_rate"], momentum=0.9)
+    # asyflat_optimizer = AsyFlat_LoRA(trainable_params, base_optimizer, )
 
     for epoch in range(args["epochs"]):
         model.train()
