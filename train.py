@@ -1,3 +1,9 @@
+import os
+
+from utility.scheduler import CosineScheduler, ProportionScheduler
+from utility.bypass_bn import disable_running_stats, enable_running_stats
+from utility.loss import smooth_crossentropy
+os.environ["CUDA_VISIBLE_DEVICES"] = "7"
 from peft import LoraConfig, get_peft_model
 import torch
 from torch.optim import SGD
@@ -10,6 +16,7 @@ from data.math10k import Math10k
 from models.llama import MODEL_TYPES
 from optimizer.asyflat import AsyFlat_LoRA
 from utility.initialize import initialize
+import torch.nn.functional as F
 
 tokenizer = None 
 
@@ -23,12 +30,21 @@ def train():
 
     # 命令行参数
     args = {}
-    args["batch_size"] = 256
+    args["batch_size"] = 4
     args["threads"] = 0
     args["model_type"] = "llama"
     args["model_name"] = "meta-llama/Meta-Llama-3-8B"
     args["learning_rate"] = 2.0e-4
     args["epochs"] = 3
+    args["rho"] = 0.1
+    args["rho_max"] = 0.1
+    args["rho_min"] = 0.1
+    args["adaptive"] = False
+    args["alpha"] = 0.5
+    args["beta"] = 0.5
+
+    args["fmin"] = 0.1
+    args["fmax"] = 0.5
 
     # 初始化
     # index_num = random.randint(1, 2000)
@@ -67,24 +83,74 @@ def train():
         task_type="CAUSAL_LM"
     )
     model = get_peft_model(model, peft_config)
+    model = model.to(device)
     model.print_trainable_parameters()
-
-    print(type(model.parameters()))
 
     # 配置不同的优化器
     trainable_params = [p for p in model.parameters() if p.requires_grad]
     base_optimizer = SGD(trainable_params, lr=args["learning_rate"], momentum=0.9)
-    # asyflat_optimizer = AsyFlat_LoRA(trainable_params, base_optimizer, )
+
+    scheduler = CosineScheduler(T_max=args["epochs"] * len(dataset.train), max_value=args["learning_rate"],
+                                min_value=0.0, optimizer=base_optimizer)
+
+    rho_scheduler = ProportionScheduler(pytorch_lr_scheduler=scheduler, max_lr=args["learning_rate"], min_lr=0.0,
+                                        max_value=args["rho_max"], min_value=args["rho_min"])
+
+    asyflat_optimizer = AsyFlat_LoRA(trainable_params, base_optimizer, rho=args["rho"], rho_scheduler=rho_scheduler, adaptive=args["adaptive"],
+                         storage_size=args["storage_size"], alpha=args["alpha"], beta=args["beta"])
+
+    whole_time = 0
 
     for epoch in range(args["epochs"]):
         model.train()
-        start_time = time.time()
+        tt = 0
+
+        # 规约化后的最大值，在不断上升
+        fmax_ = args["fmax"] - ((args["epochs"] - epoch) / args["epochs"]) * (args["fmax"] - args["fmin"]) + 0.000000001
 
         for batch in dataset.train:
+            start_time = time.time()
+            tt += 1
             inputs, targets, index = batch[0].to(device), batch[1].to(device), batch[2].to(device)
-            # tf 是采样之后的样本集
-            tf = optimizer.sampledata_index(args, epoch, index, fmax_)
+            # base_optimizer.zero_grad()
+            # outputs = model(inputs).logits
+            # loss = F.cross_entropy(
+            #     outputs.view(-1, outputs.size(-1)),
+            #     targets.view(-1),
+            #     ignore_index=tokenizer.pad_token_id,
+            #     label_smoothing=0.1
+            # )
+            # loss.backward()
+            # base_optimizer.step()
 
+            # tf 是采样之后的样本集
+            tf = asyflat_optimizer.sample_index(args, epoch, index, fmax_)
+
+            enable_running_stats(model)
+            loss_bef = smooth_crossentropy(model(inputs[tf]).logits, targets[tf])
+            loss_bef.mean().backward()
+            asyflat_optimizer.first_step(zero_grad=True)
+
+            disable_running_stats(model)
+            loss_aft = smooth_crossentropy(model(inputs[tf]).logits, targets[tf])
+            loss_aft.mean().backward()
+            asyflat_optimizer.second_step_without_norm(zero_grad=True)
+
+            # 更新权重梯度的估计
+            roc = torch.abs(loss_aft - loss_bef)
+            asyflat_optimizer.impt_roc(epoch, index, tf, roc)
+
+            # 更新 rho
+            with torch.no_grad():
+                scheduler.step()
+
+            end_time = time.time()
+            es_time = end_time - start_time
+            whole_time += es_time
+
+            if tt % 10 == 0:
+                print(tt, " ", whole_time)
+        
 
 if __name__ == "__main__":
     train()
