@@ -2,7 +2,7 @@ import torch
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 class AsyFlat_LoRA(torch.optim.Optimizer):
-    def __init__(self, params, base_optimizer: torch.optim.Optimizer, rho, rho_scheduler, adaptive, storage_size, alpha, beta, **kwargs):
+    def __init__(self, params: list[torch.nn.parameter.Parameter], base_optimizer: torch.optim.Optimizer, rho, rho_scheduler, adaptive, storage_size, alpha, beta, **kwargs):
         defaults = dict(rho=rho, adaptive=adaptive, **kwargs)
         super(AsyFlat_LoRA, self).__init__(params, defaults)
 
@@ -40,7 +40,7 @@ class AsyFlat_LoRA(torch.optim.Optimizer):
         if epoch == 0:
             tf = torch.arange(data_len)
         else:
-            prob_distribution = self.norm_to_prob(self.impt[index, 2], scale_min=args.fmin, scale_max=fmax_)
+            prob_distribution = self.norm_to_prob(self.impt[index, 2], scale_min=args["fmin"], scale_max=fmax_)
             tf = torch.multinomial(prob_distribution, sample_size, replacement=False)
         return tf
     
