@@ -2,21 +2,21 @@ import json
 import torch
 from torch.utils.data import DataLoader, Dataset
 from transformers import AutoTokenizer
+from datasets import load_dataset
 
 
-class Math10k:
+class GSM8k:
     def __init__(self, batch_size, threads, model_name="gpt2", data_dir="./datasets"):
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         if self.tokenizer.pad_token is None:
             self.tokenizer.pad_token = self.tokenizer.eos_token
 
-        train_path = f"{data_dir}/math_10k.json"
-        train_data = self._load_data(train_path)
+        test_path = f"{data_dir}/gsm_8k.json"
+        test_data = self._load_data(test_path)
 
-        train_set = self._Dataset(train_data, self.tokenizer)
+        test_set = self._Dataset(test_data, self.tokenizer)
 
-        self.train = DataLoader(train_set, batch_size=batch_size, shuffle=True, num_workers=threads)
-
+        self.test = DataLoader(test_set, batch_size=batch_size, shuffle=False, num_workers=threads)
 
     def _load_data(self, path):
         with open(path, "r", encoding="utf-8") as f:
@@ -33,14 +33,11 @@ class Math10k:
 
         def __getitem__(self, idx):
             example = self.data[idx]
-            question_text = example["instruction"]
-            if example.get("input", "").strip():
-                question_text += "\n" + example["input"]
-            
-            answer_text = example["output"] + "\n####" + example["answer"]
+            question = example["question"]
+            answer = example["answer"]
 
             q_enc = self.tokenizer(
-                question_text,
+                question,
                 max_length=512,
                 truncation=True,
                 padding="max_length",
@@ -48,7 +45,7 @@ class Math10k:
             )
 
             a_enc = self.tokenizer(
-                answer_text,
+                answer,
                 max_length=512,
                 truncation=True,
                 padding="max_length",
@@ -56,7 +53,7 @@ class Math10k:
             )
 
             return (
-                q_enc["input_ids"].squeeze(0),  # inputs
-                a_enc["input_ids"].squeeze(0),  # targets
-                torch.tensor(idx, dtype=torch.long)  # index
+                q_enc["input_ids"].squeeze(0),
+                a_enc["input_ids"].squeeze(0),
+                torch.tensor(idx, dtype=torch.long)
             )

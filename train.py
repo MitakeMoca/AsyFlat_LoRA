@@ -1,8 +1,9 @@
 import os
 
+from data.gsm8k import GSM8k
 from utility.scheduler import CosineScheduler, ProportionScheduler
 from utility.bypass_bn import disable_running_stats, enable_running_stats
-from utility.loss import smooth_crossentropy
+from utility.loss import extract_final_answer, smooth_crossentropy
 os.environ["CUDA_VISIBLE_DEVICES"] = "7"
 from peft import LoraConfig, get_peft_model
 import torch
@@ -103,13 +104,12 @@ def train():
 
     for epoch in range(args["epochs"]):
         model.train()
-        tt = 0
+        start_time = time.time()
 
         # 规约化后的最大值，在不断上升
         fmax_ = args["fmax"] - ((args["epochs"] - epoch) / args["epochs"]) * (args["fmax"] - args["fmin"]) + 0.000000001
 
         for batch in dataset.train:
-            start_time = time.time()
             tt += 1
             inputs, targets, index = batch[0].to(device), batch[1].to(device), batch[2].to(device)
             # base_optimizer.zero_grad()
@@ -124,32 +124,88 @@ def train():
             # base_optimizer.step()
 
             # tf 是采样之后的样本集
-            tf = asyflat_optimizer.sample_index(args, epoch, index, fmax_)
+            # tf = asyflat_optimizer.sample_index(args, epoch, index, fmax_)
 
-            enable_running_stats(model)
-            loss_bef = smooth_crossentropy(model(inputs[tf]).logits, targets[tf])
-            loss_bef.mean().backward()
-            asyflat_optimizer.first_step(zero_grad=True)
+            # enable_running_stats(model)
+            # loss_bef = smooth_crossentropy(model(inputs[tf]).logits, targets[tf])
+            # loss_bef.mean().backward()
+            # asyflat_optimizer.first_step(zero_grad=True)
 
-            disable_running_stats(model)
-            loss_aft = smooth_crossentropy(model(inputs[tf]).logits, targets[tf])
-            loss_aft.mean().backward()
-            asyflat_optimizer.second_step_without_norm(zero_grad=True)
+            # disable_running_stats(model)
+            # loss_aft = smooth_crossentropy(model(inputs[tf]).logits, targets[tf])
+            # loss_aft.mean().backward()
+            # asyflat_optimizer.second_step_without_norm(zero_grad=True)
 
             # 更新权重梯度的估计
-            roc = torch.abs(loss_aft - loss_bef)
-            asyflat_optimizer.impt_roc(epoch, index, tf, roc)
+            # roc = torch.abs(loss_aft - loss_bef)
+            # asyflat_optimizer.impt_roc(epoch, index, tf, roc)
 
             # 更新 rho
-            with torch.no_grad():
-                scheduler.step()
+            # with torch.no_grad():
+            #     scheduler.step()
 
-            end_time = time.time()
-            es_time = end_time - start_time
-            whole_time += es_time
+        end_time = time.time()
+        es_time = end_time - start_time
+        whole_time += es_time
+        print(whole_time)
 
-            if tt % 10 == 0:
-                print(tt, " ", whole_time)
+        test_dataset = GSM8k(args["batch_size"], args["threads"])
+        model.eval()
+        correct = 0
+        total = 0
+        total_loss = 0.0
+        num_loss = 0
+
+        with torch.no_grad():
+            for sample in test_dataset.test:
+                prompt, label, _ = batch[0].to(device), batch[1].to(device), batch[2]
+
+                enc = tokenizer(
+                    prompt,
+                    return_tensors="pt",
+                    truncation=True,
+                    max_length=512,
+                ).to(device)
+                ans = tokenizer(
+                    label,
+                    return_tensors="pt",
+                    truncation=True,
+                    max_length=256,
+                ).to(device)
+
+                # 拼接输入: [prompt + answer[:-1]] -> 预测 answer[1:]
+                input_ids = torch.cat([enc.input_ids, ans.input_ids[:, :-1]], dim=1)
+                labels = torch.cat(
+                    [torch.full_like(enc.input_ids, -100), ans.input_ids], dim=1
+                )  # prompt 部分不计入 loss
+
+                outputs = model(input_ids=input_ids, labels=labels)
+                loss = outputs.loss
+                total_loss += loss.item()
+                num_loss += 1
+
+                # --- 2. 推理生成 ---
+                output = model.generate(
+                    tokenizer(prompt, return_tensors="pt").to(device),
+                    max_new_tokens=256,
+                    temperature=0.0,
+                )
+                pred_text = tokenizer.decode(output[0], skip_special_tokens=True)
+
+                # --- 3. 提取答案并比较 ---
+                pred_ans = extract_final_answer(pred_text)
+                gold_ans = extract_final_answer(label)
+
+                if pred_ans == gold_ans:
+                    correct += 1
+                total += 1
+
+            avg_loss = total_loss / max(1, num_loss)
+            acc = correct / max(1, total)
+            print(f"Accuracy: {acc:.2%}, Avg Loss: {avg_loss:.4f}")
+
+        # if tt % 10 == 0:
+        #     print(tt, " ", whole_time)
         
 
 if __name__ == "__main__":
