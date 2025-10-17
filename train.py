@@ -4,7 +4,8 @@ from data.gsm8k import GSM8k
 from utility.scheduler import CosineScheduler, ProportionScheduler
 from utility.bypass_bn import disable_running_stats, enable_running_stats
 from utility.loss import extract_final_answer, smooth_crossentropy
-os.environ["CUDA_VISIBLE_DEVICES"] = "7"
+from utility.evaluate import evaluate_model
+os.environ["CUDA_VISIBLE_DEVICES"] = "6"
 from peft import LoraConfig, get_peft_model
 import torch
 from torch.optim import SGD
@@ -118,17 +119,17 @@ def train():
         for batch in dataset.train:
             start_time = time.time()
             tt += 1
-            inputs, targets, index = batch[0].to(device), batch[1].to(device), batch[2].to(device)
-            base_optimizer.zero_grad()
-            outputs = model(inputs).logits
-            loss = F.cross_entropy(
-                outputs.view(-1, outputs.size(-1)),
-                targets.view(-1),
-                ignore_index=tokenizer.pad_token_id,
-                label_smoothing=0.1
-            )
-            loss.backward()
-            base_optimizer.step()
+            # inputs, targets, index = batch[0].to(device), batch[1].to(device), batch[2].to(device)
+            # base_optimizer.zero_grad()
+            # outputs = model(inputs).logits
+            # loss = F.cross_entropy(
+            #     outputs.view(-1, outputs.size(-1)),
+            #     targets.view(-1),
+            #     ignore_index=tokenizer.pad_token_id,
+            #     label_smoothing=0.1
+            # )
+            # loss.backward()
+            # base_optimizer.step()
 
             # tf 是采样之后的样本集
             # tf = asyflat_optimizer.sample_index(args, epoch, index, fmax_)
@@ -155,64 +156,15 @@ def train():
             es_time = end_time - start_time
             whole_time += es_time
 
-            if tt % 10 == 0 :
-                print(whole_time)
+            # if tt % 10 == 0 :
+            #     print(whole_time)
 
         end_time = time.time()
         es_time = end_time - start_time
         whole_time += es_time
         print(whole_time)
 
-        test_dataset = GSM8k(int(args["batch_size"] / 2), args["threads"])
-        model.eval()
-        total_loss = 0.0
-        total_samples = 0
-        correct = 0
-        total = 0
-
-        with torch.no_grad():
-            for batch in test_dataset.test:
-                input_ids = batch["input_ids"].to(device)
-                attention_mask = batch["attention_mask"].to(device)
-                labels = batch["labels"].to(device)
-                final_answers = batch["final_answer"]  # list[str]
-
-                # === 计算 loss ===
-                outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
-                loss = outputs.loss
-                total_loss += loss.item() * input_ids.size(0)
-                total_samples += input_ids.size(0)
-
-                # === 生成预测 ===
-                generated = model.generate(
-                    input_ids=input_ids,
-                    attention_mask=attention_mask,
-                    max_new_tokens=256,
-                    do_sample=False,
-                    pad_token_id=tokenizer.pad_token_id,
-                )
-
-                for gen_text, true_text in zip(
-                    tokenizer.batch_decode(generated, skip_special_tokens=True),
-                    tokenizer.batch_decode(labels, skip_special_tokens=True)
-                ):
-                    pred_ans = extract_final_answer(gen_text)
-                    true_ans = extract_final_answer(true_text)
-                    print("pred_ans: ", pred_ans)
-                    print("true_ans: ", true_ans)
-
-                    if pred_ans is not None and true_ans is not None and pred_ans == true_ans:
-                        correct += 1
-                    total += 1
-
-                    print(total_loss / total_samples, correct / total)
-
-        # === 打印结果 ===
-        avg_loss = total_loss / total_samples if total_samples > 0 else 0
-        accuracy = correct / total if total > 0 else 0
-        print(total_loss, correct, total_samples, total)
-        print(f"Average loss: {avg_loss:.4f}")
-        print(f"Accuracy: {accuracy:.2%}")
+        avg_loss, acc = evaluate_model(model, tokenizer, device, int(args["batch_size"] / 2), args["threads"])
 
         # if tt % 10 == 0:
         #     print(tt, " ", whole_time)
