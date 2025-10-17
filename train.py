@@ -19,7 +19,7 @@ from optimizer.asyflat import AsyFlat_LoRA
 from utility.initialize import initialize
 import torch.nn.functional as F
 
-tokenizer = None 
+tokenizer = None
 
 def train():
     global tokenizer
@@ -74,7 +74,7 @@ def train():
         # quantization_config=bnb_config,
         device_map="cpu"
     )
-    
+
     peft_config = LoraConfig(
         r=config['lora_r'],
         lora_alpha=config['lora_alpha'],
@@ -85,6 +85,7 @@ def train():
     )
     model = get_peft_model(model, peft_config)
     model = model.to(device)
+    model.config.pad_token_id = tokenizer.pad_token_id
     model.print_trainable_parameters()
 
     # 配置不同的优化器
@@ -102,6 +103,11 @@ def train():
 
     whole_time = 0
 
+    text = "Hello world!"
+    ids = tokenizer.encode(text)
+    print(tokenizer.batch_decode(ids, skip_special_tokens=True))
+    print(tokenizer.decode(ids))
+
     for epoch in range(args["epochs"]):
         model.train()
         tt = 0
@@ -109,22 +115,20 @@ def train():
         # 规约化后的最大值，在不断上升
         fmax_ = args["fmax"] - ((args["epochs"] - epoch) / args["epochs"]) * (args["fmax"] - args["fmin"]) + 0.000000001
 
-        # 规约化后的最大值，在不断上升
-        fmax_ = args["fmax"] - ((args["epochs"] - epoch) / args["epochs"]) * (args["fmax"] - args["fmin"]) + 0.000000001
-
         for batch in dataset.train:
+            start_time = time.time()
             tt += 1
             inputs, targets, index = batch[0].to(device), batch[1].to(device), batch[2].to(device)
-            # base_optimizer.zero_grad()
-            # outputs = model(inputs).logits
-            # loss = F.cross_entropy(
-            #     outputs.view(-1, outputs.size(-1)),
-            #     targets.view(-1),
-            #     ignore_index=tokenizer.pad_token_id,
-            #     label_smoothing=0.1
-            # )
-            # loss.backward()
-            # base_optimizer.step()
+            base_optimizer.zero_grad()
+            outputs = model(inputs).logits
+            loss = F.cross_entropy(
+                outputs.view(-1, outputs.size(-1)),
+                targets.view(-1),
+                ignore_index=tokenizer.pad_token_id,
+                label_smoothing=0.1
+            )
+            loss.backward()
+            base_optimizer.step()
 
             # tf 是采样之后的样本集
             # tf = asyflat_optimizer.sample_index(args, epoch, index, fmax_)
@@ -147,69 +151,72 @@ def train():
             # with torch.no_grad():
             #     scheduler.step()
 
+            end_time = time.time()
+            es_time = end_time - start_time
+            whole_time += es_time
+
+            if tt % 10 == 0 :
+                print(whole_time)
+
         end_time = time.time()
         es_time = end_time - start_time
         whole_time += es_time
         print(whole_time)
 
-        test_dataset = GSM8k(args["batch_size"], args["threads"])
+        test_dataset = GSM8k(int(args["batch_size"] / 2), args["threads"])
         model.eval()
+        total_loss = 0.0
+        total_samples = 0
         correct = 0
         total = 0
-        total_loss = 0.0
-        num_loss = 0
 
         with torch.no_grad():
-            for sample in test_dataset.test:
-                prompt, label, _ = batch[0].to(device), batch[1].to(device), batch[2]
+            for batch in test_dataset.test:
+                input_ids = batch["input_ids"].to(device)
+                attention_mask = batch["attention_mask"].to(device)
+                labels = batch["labels"].to(device)
+                final_answers = batch["final_answer"]  # list[str]
 
-                enc = tokenizer(
-                    prompt,
-                    return_tensors="pt",
-                    truncation=True,
-                    max_length=512,
-                ).to(device)
-                ans = tokenizer(
-                    label,
-                    return_tensors="pt",
-                    truncation=True,
-                    max_length=256,
-                ).to(device)
-
-                # 拼接输入: [prompt + answer[:-1]] -> 预测 answer[1:]
-                input_ids = torch.cat([enc.input_ids, ans.input_ids[:, :-1]], dim=1)
-                labels = torch.cat(
-                    [torch.full_like(enc.input_ids, -100), ans.input_ids], dim=1
-                )  # prompt 部分不计入 loss
-
-                outputs = model(input_ids=input_ids, labels=labels)
+                # === 计算 loss ===
+                outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
                 loss = outputs.loss
-                total_loss += loss.item()
-                num_loss += 1
+                total_loss += loss.item() * input_ids.size(0)
+                total_samples += input_ids.size(0)
 
-                # --- 2. 推理生成 ---
-                output = model.generate(
-                    tokenizer(prompt, return_tensors="pt").to(device),
+                # === 生成预测 ===
+                generated = model.generate(
+                    input_ids=input_ids,
+                    attention_mask=attention_mask,
                     max_new_tokens=256,
-                    temperature=0.0,
+                    do_sample=False,
+                    pad_token_id=tokenizer.pad_token_id,
                 )
-                pred_text = tokenizer.decode(output[0], skip_special_tokens=True)
 
-                # --- 3. 提取答案并比较 ---
-                pred_ans = extract_final_answer(pred_text)
-                gold_ans = extract_final_answer(label)
+                for gen_text, true_text in zip(
+                    tokenizer.batch_decode(generated, skip_special_tokens=True),
+                    tokenizer.batch_decode(labels, skip_special_tokens=True)
+                ):
+                    pred_ans = extract_final_answer(gen_text)
+                    true_ans = extract_final_answer(true_text)
+                    print("pred_ans: ", pred_ans)
+                    print("true_ans: ", true_ans)
 
-                if pred_ans == gold_ans:
-                    correct += 1
-                total += 1
+                    if pred_ans is not None and true_ans is not None and pred_ans == true_ans:
+                        correct += 1
+                    total += 1
 
-            avg_loss = total_loss / max(1, num_loss)
-            acc = correct / max(1, total)
-            print(f"Accuracy: {acc:.2%}, Avg Loss: {avg_loss:.4f}")
+                    print(total_loss / total_samples, correct / total)
+
+        # === 打印结果 ===
+        avg_loss = total_loss / total_samples if total_samples > 0 else 0
+        accuracy = correct / total if total > 0 else 0
+        print(total_loss, correct, total_samples, total)
+        print(f"Average loss: {avg_loss:.4f}")
+        print(f"Accuracy: {accuracy:.2%}")
 
         # if tt % 10 == 0:
         #     print(tt, " ", whole_time)
-        
+
 
 if __name__ == "__main__":
     train()
