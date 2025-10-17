@@ -40,7 +40,7 @@ class GSM8k:
             answer = example["answer"]
 
             # 拼接为完整输入
-            full_text = f"Question: {question}\nAnswer: {answer}"
+            full_text = f"Question: {question}\nAnswer: "
 
             enc = self.tokenizer(
                 full_text,

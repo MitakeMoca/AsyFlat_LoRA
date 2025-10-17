@@ -42,10 +42,10 @@ def evaluate_model(model, tokenizer, device, batch_size, threads):
 
             for gen_text, true_text in zip(
                 tokenizer.batch_decode(generated, skip_special_tokens=True),
-                tokenizer.batch_decode(labels, skip_special_tokens=True)
+                final_answers
             ):
                 pred_ans = extract_final_answer(gen_text)
-                true_ans = extract_final_answer(true_text)
+                true_ans = true_text
 
                 print("pred_ans:", pred_ans)
                 print("true_ans:", true_ans)

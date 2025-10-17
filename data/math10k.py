@@ -36,7 +36,7 @@ class Math10k:
             if example.get("input", "").strip():
                 question_text += "\n" + example["input"].strip()
 
-            answer_text = example["output"].strip() + "\n#### " + example["answer"].strip()
+            answer_text = example["answer"].strip() + "\n" + "Explanation: " + example["output"].strip()
 
             input_text = f"Question: {question_text}\nAnswer:"
 

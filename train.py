@@ -6,7 +6,8 @@ from utility.loss import extract_final_answer, smooth_crossentropy
 from utility.evaluate import evaluate_model
 from trainer.basic_trainer import BaseTrainer
 from trainer.asyflat_trainer import AsyFlatTrainer
-os.environ["CUDA_VISIBLE_DEVICES"] = "7"
+from trainer.flat_trainer import FlatLoRATrainer
+os.environ["CUDA_VISIBLE_DEVICES"] = "6"
 from peft import LoraConfig, get_peft_model
 import torch
 from torch.optim import SGD
@@ -33,7 +34,7 @@ def train():
 
     # 命令行参数
     args = {}
-    args["batch_size"] = 4
+    args["batch_size"] = 2
     args["threads"] = 0
     args["model_type"] = "llama"
     args["model_name"] = "meta-llama/Meta-Llama-3-8B"
@@ -92,6 +93,14 @@ def train():
     model.config.pad_token_id = tokenizer.pad_token_id
     model.print_trainable_parameters()
 
+    for name, m in model.named_modules():
+        if hasattr(m, "lora_A"):
+            print(f"{name}: {type(m.lora_A)}")
+            if isinstance(m.lora_A, torch.nn.ModuleDict):
+                print(" keys:", list(m.lora_A.keys()))
+            break
+
+
     # 配置不同的优化器
     trainable_params = [p for p in model.parameters() if p.requires_grad]
     base_optimizer = SGD(trainable_params, lr=args["learning_rate"], momentum=0.9)
@@ -112,8 +121,9 @@ def train():
     print(tokenizer.batch_decode(ids, skip_special_tokens=True))
     print(tokenizer.decode(ids))
 
-    trainer = BaseTrainer(model, tokenizer, base_optimizer, device)
+    # trainer = BaseTrainer(model, tokenizer, base_optimizer, device)
     # trainer = AsyFlatTrainer(model, tokenizer, base_optimizer, asyflat_optimizer, device)
+    trainer = FlatLoRATrainer(model, tokenizer, base_optimizer, device, rho=0.1)
 
     for epoch in range(args["epochs"]):
         model.train()
@@ -125,11 +135,11 @@ def train():
         for batch in dataset.train:
             start_time = time.time()
             tt += 1
-            trainer.train_step(batch)
+            trainer.train_step(batch, epoch=epoch, step=tt)
 
             # 更新 rho
-            # with torch.no_grad():
-            #     scheduler.step()
+            with torch.no_grad():
+                scheduler.step()
 
             end_time = time.time()
             es_time = end_time - start_time

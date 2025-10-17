@@ -35,7 +35,7 @@ def extract_final_answer(text: str) -> str:
     if not text:
         return ""
     
-    match = re.search(r"####\s*(.+)", text)
+    match = re.search(r"Answer:\s*(.+)", text)
     if match:
         ans = match.group(1).strip()
         # 去除可能出现在结尾的标点
