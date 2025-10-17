@@ -10,7 +10,7 @@ def extract_final_answer(answer: str) -> str:
 
 class GSM8k:
     def __init__(self, batch_size, threads, model_name="NousResearch/Meta-Llama-3-8B", data_dir="./datasets"):
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side='left')
         if self.tokenizer.pad_token is None:
             self.tokenizer.pad_token = self.tokenizer.eos_token
         self.tokenizer.pad_token_id = self.tokenizer.eos_token_id

@@ -27,12 +27,17 @@ def evaluate_model(model, tokenizer, device, batch_size, threads):
             total_loss += loss.item() * input_ids.size(0)
             total_samples += input_ids.size(0)
 
+
             generated = model.generate(
                 input_ids=input_ids,
                 attention_mask=attention_mask,
-                max_new_tokens=256,
-                do_sample=False,
+                max_new_tokens=8,
+                do_sample=True,
+                temperature=0.7,
+                top_p=0.9,
+                repetition_penalty=1.2,
                 pad_token_id=tokenizer.pad_token_id,
+                eos_token_id=tokenizer.eos_token_id,
             )
 
             for gen_text, true_text in zip(

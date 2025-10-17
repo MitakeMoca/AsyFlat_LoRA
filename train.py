@@ -2,10 +2,11 @@ import os
 
 from data.gsm8k import GSM8k
 from utility.scheduler import CosineScheduler, ProportionScheduler
-from utility.bypass_bn import disable_running_stats, enable_running_stats
 from utility.loss import extract_final_answer, smooth_crossentropy
 from utility.evaluate import evaluate_model
-os.environ["CUDA_VISIBLE_DEVICES"] = "6"
+from trainer.basic_trainer import BaseTrainer
+from trainer.asyflat_trainer import AsyFlatTrainer
+os.environ["CUDA_VISIBLE_DEVICES"] = "7"
 from peft import LoraConfig, get_peft_model
 import torch
 from torch.optim import SGD
@@ -63,10 +64,12 @@ def train():
 
     # 使用模型 llama3-8B
     model_name = config['model_name']
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side="left")
     # 设置 pad token
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
+    tokenizer.padding_side = 'left'
+    tokenizer.truncation_side = 'left'
 
     # 加载模型
     model = AutoModelForCausalLM.from_pretrained(
@@ -109,6 +112,9 @@ def train():
     print(tokenizer.batch_decode(ids, skip_special_tokens=True))
     print(tokenizer.decode(ids))
 
+    trainer = BaseTrainer(model, tokenizer, base_optimizer, device)
+    # trainer = AsyFlatTrainer(model, tokenizer, base_optimizer, asyflat_optimizer, device)
+
     for epoch in range(args["epochs"]):
         model.train()
         tt = 0
@@ -119,34 +125,7 @@ def train():
         for batch in dataset.train:
             start_time = time.time()
             tt += 1
-            # inputs, targets, index = batch[0].to(device), batch[1].to(device), batch[2].to(device)
-            # base_optimizer.zero_grad()
-            # outputs = model(inputs).logits
-            # loss = F.cross_entropy(
-            #     outputs.view(-1, outputs.size(-1)),
-            #     targets.view(-1),
-            #     ignore_index=tokenizer.pad_token_id,
-            #     label_smoothing=0.1
-            # )
-            # loss.backward()
-            # base_optimizer.step()
-
-            # tf 是采样之后的样本集
-            # tf = asyflat_optimizer.sample_index(args, epoch, index, fmax_)
-
-            # enable_running_stats(model)
-            # loss_bef = smooth_crossentropy(model(inputs[tf]).logits, targets[tf])
-            # loss_bef.mean().backward()
-            # asyflat_optimizer.first_step(zero_grad=True)
-
-            # disable_running_stats(model)
-            # loss_aft = smooth_crossentropy(model(inputs[tf]).logits, targets[tf])
-            # loss_aft.mean().backward()
-            # asyflat_optimizer.second_step_without_norm(zero_grad=True)
-
-            # 更新权重梯度的估计
-            # roc = torch.abs(loss_aft - loss_bef)
-            # asyflat_optimizer.impt_roc(epoch, index, tf, roc)
+            trainer.train_step(batch)
 
             # 更新 rho
             # with torch.no_grad():
@@ -156,16 +135,17 @@ def train():
             es_time = end_time - start_time
             whole_time += es_time
 
-            # if tt % 10 == 0 :
-            #     print(whole_time)
+            if tt % 10 == 0 :
+                print(whole_time)
 
         end_time = time.time()
         es_time = end_time - start_time
         whole_time += es_time
         print(whole_time)
 
-        avg_loss, acc = evaluate_model(model, tokenizer, device, int(args["batch_size"] / 2), args["threads"])
-
+    avg_loss, acc = evaluate_model(model, tokenizer, device, int(args["batch_size"] / 2), args["threads"])
+    print("final: ", avg_loss, acc)
+    exit(0)
         # if tt % 10 == 0:
         #     print(tt, " ", whole_time)
 
