@@ -77,7 +77,7 @@ def train():
         model_name,
         dtype=torch.bfloat16,
         # quantization_config=bnb_config,
-        device_map="cpu"
+        device_map="auto"
     )
 
     peft_config = LoraConfig(
@@ -88,6 +88,7 @@ def train():
         bias="none",
         task_type="CAUSAL_LM"
     )
+    print(peft_config)
     model = get_peft_model(model, peft_config)
     model = model.to(device)
     model.config.pad_token_id = tokenizer.pad_token_id
@@ -121,9 +122,9 @@ def train():
     print(tokenizer.batch_decode(ids, skip_special_tokens=True))
     print(tokenizer.decode(ids))
 
-    # trainer = BaseTrainer(model, tokenizer, base_optimizer, device)
+    trainer = BaseTrainer(model, tokenizer, base_optimizer, device)
     # trainer = AsyFlatTrainer(model, tokenizer, base_optimizer, asyflat_optimizer, device)
-    trainer = FlatLoRATrainer(model, tokenizer, base_optimizer, device, rho=0.1)
+    # trainer = FlatLoRATrainer(model, tokenizer, base_optimizer, device, rho=0.1)
 
     for epoch in range(args["epochs"]):
         model.train()
@@ -135,7 +136,8 @@ def train():
         for batch in dataset.train:
             start_time = time.time()
             tt += 1
-            trainer.train_step(batch, epoch=epoch, step=tt)
+            # trainer.train_step(batch, epoch=epoch, step=tt)
+            trainer.train_step(batch)
 
             # 更新 rho
             with torch.no_grad():
@@ -148,16 +150,15 @@ def train():
             if tt % 10 == 0 :
                 print(whole_time)
 
+        avg_loss, acc = evaluate_model(model, tokenizer, device, int(args["batch_size"] / 2), args["threads"])
+        print("final: ", avg_loss, acc)
+
         end_time = time.time()
         es_time = end_time - start_time
         whole_time += es_time
         print(whole_time)
 
-    avg_loss, acc = evaluate_model(model, tokenizer, device, int(args["batch_size"] / 2), args["threads"])
-    print("final: ", avg_loss, acc)
-    exit(0)
-        # if tt % 10 == 0:
-        #     print(tt, " ", whole_time)
+        
 
 
 if __name__ == "__main__":

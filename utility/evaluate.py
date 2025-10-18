@@ -1,5 +1,4 @@
 import torch
-
 from utility.loss import extract_final_answer
 from data.gsm8k import GSM8k
 
@@ -15,9 +14,11 @@ def evaluate_model(model, tokenizer, device, batch_size, threads):
         for batch in test_dataset.test:
             input_ids = batch["input_ids"].to(device)
             attention_mask = batch["attention_mask"].to(device)
-            labels = batch["labels"].to(device)
+            labels = batch["labels"].clone().to(device)
+            labels[labels == tokenizer.pad_token_id] = -100 
             final_answers = batch["final_answer"]
 
+            # === loss ===
             outputs = model(
                 input_ids=input_ids,
                 attention_mask=attention_mask,
@@ -27,15 +28,14 @@ def evaluate_model(model, tokenizer, device, batch_size, threads):
             total_loss += loss.item() * input_ids.size(0)
             total_samples += input_ids.size(0)
 
-
             generated = model.generate(
                 input_ids=input_ids,
                 attention_mask=attention_mask,
-                max_new_tokens=8,
+                max_new_tokens=16,
                 do_sample=True,
-                temperature=0.7,
-                top_p=0.9,
-                repetition_penalty=1.2,
+                temperature = 0.3,
+                top_p = 0.6,
+                repetition_penalty = 1.05,
                 pad_token_id=tokenizer.pad_token_id,
                 eos_token_id=tokenizer.eos_token_id,
             )
@@ -54,7 +54,7 @@ def evaluate_model(model, tokenizer, device, batch_size, threads):
                     correct += 1
                 total += 1
 
-                print("Current avg_loss:", total_loss / total_samples, "accuracy:", correct / total)
+                print(f"Current avg_loss: {total_loss / total_samples:.4f}, accuracy: {correct / total:.4f}")
 
     avg_loss = total_loss / total_samples if total_samples > 0 else 0
     accuracy = correct / total if total > 0 else 0

@@ -22,44 +22,48 @@ class Math10k:
             return json.load(f)
 
     class _Dataset(Dataset):
-        def __init__(self, data, tokenizer):
+        def __init__(self, data, tokenizer, max_length=512):
             self.data = data
             self.tokenizer = tokenizer
+            self.max_length = max_length
 
         def __len__(self):
             return len(self.data)
 
         def __getitem__(self, idx):
             example = self.data[idx]
-
             question_text = example["instruction"].strip()
             if example.get("input", "").strip():
                 question_text += "\n" + example["input"].strip()
-
+            
             answer_text = example["answer"].strip() + "\n" + "Explanation: " + example["output"].strip()
-
-            input_text = f"Question: {question_text}\nAnswer:"
-
-            target_text = " " + answer_text  # 加一个空格以避免紧贴 "Answer:"
-
-            q_enc = self.tokenizer(
-                input_text,
+            
+            # 构建完整序列
+            full_text = f"Question: {question_text}\nAnswer: {answer_text}"
+            
+            enc = self.tokenizer(
+                full_text,
                 max_length=512,
                 truncation=True,
                 padding="max_length",
                 return_tensors="pt"
             )
+            
+            input_ids = enc["input_ids"].squeeze(0)
+            attention_mask = enc["attention_mask"].squeeze(0)
+            
+            # 创建labels：只计算答案部分的loss
+            labels = input_ids.clone()
+            
+            # 找到"Answer:"的位置，之前的部分设为-100
+            text_before_answer = f"Question: {question_text}\nAnswer:"
+            answer_start = len(self.tokenizer.encode(text_before_answer, add_special_tokens=False))
+            labels[:answer_start] = -100
+            
+            return {
+                "input_ids": input_ids,
+                "attention_mask": attention_mask,
+                "labels": labels,
+                "idx": torch.tensor(idx, dtype=torch.long)
+            }
 
-            a_enc = self.tokenizer(
-                target_text,
-                max_length=512,
-                truncation=True,
-                padding="max_length",
-                return_tensors="pt"
-            )
-
-            return (
-                q_enc["input_ids"].squeeze(0),
-                a_enc["input_ids"].squeeze(0),
-                torch.tensor(idx, dtype=torch.long)
-            )
