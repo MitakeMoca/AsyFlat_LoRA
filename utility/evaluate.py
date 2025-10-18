@@ -2,6 +2,71 @@ import torch
 from utility.loss import extract_final_answer
 from data.gsm8k import GSM8k
 
+import re
+
+def normalize_number(text: str):
+    """
+    将数字字符串规范化为 float，处理逗号、百分号、小数点等
+    若无法解析则返回 None
+    """
+    if text is None:
+        return None
+
+    text = text.strip()
+    if text == "":
+        return None
+
+    # 去掉逗号和空格
+    text = text.replace(",", "").replace(" ", "")
+
+    # 匹配百分号（转化为小数）
+    if text.endswith("%"):
+        try:
+            val = float(text[:-1])
+            return val / 100.0
+        except ValueError:
+            return None
+
+    # 尝试直接解析为 float
+    try:
+        return float(text)
+    except ValueError:
+        pass
+
+    # 匹配整数形式
+    match = re.search(r"[-+]?\d*\.?\d+", text)
+    if match:
+        try:
+            return float(match.group())
+        except ValueError:
+            return None
+
+    return None
+
+
+def is_equiv_answer(pred: str, truth: str, tol: float = 1e-4) -> bool:
+    """
+    判断两个答案在语义上是否相等
+    - 支持格式差异（5600 vs 5,600 vs 5600.0）
+    - 支持百分比 (56% vs 0.56)
+    - 支持微小浮点误差
+    """
+    if pred is None or truth is None:
+        return False
+
+    if pred.strip().lower() == truth.strip().lower():
+        return True
+
+    # 尝试数值比较
+    pred_val = normalize_number(pred)
+    true_val = normalize_number(truth)
+
+    if pred_val is not None and true_val is not None:
+        return abs(pred_val - true_val) < tol * max(1.0, abs(true_val))
+
+    return False
+
+
 def evaluate_model(model, tokenizer, device, batch_size, threads):
     test_dataset = GSM8k(batch_size, threads)
     model.eval()
@@ -50,7 +115,7 @@ def evaluate_model(model, tokenizer, device, batch_size, threads):
                 print("pred_ans:", pred_ans)
                 print("true_ans:", true_ans)
 
-                if pred_ans is not None and true_ans is not None and pred_ans == true_ans:
+                if is_equiv_answer(pred_ans, true_ans):
                     correct += 1
                 total += 1
 

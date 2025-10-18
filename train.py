@@ -34,7 +34,7 @@ def train():
 
     # 命令行参数
     args = {}
-    args["batch_size"] = 2
+    args["batch_size"] = 4
     args["threads"] = 0
     args["model_type"] = "llama"
     args["model_name"] = "meta-llama/Meta-Llama-3-8B"
@@ -122,7 +122,7 @@ def train():
     print(tokenizer.batch_decode(ids, skip_special_tokens=True))
     print(tokenizer.decode(ids))
 
-    trainer = BaseTrainer(model, tokenizer, base_optimizer, device)
+    # trainer = BaseTrainer(model, tokenizer, base_optimizer, device)
     # trainer = AsyFlatTrainer(model, tokenizer, base_optimizer, asyflat_optimizer, device)
     # trainer = FlatLoRATrainer(model, tokenizer, base_optimizer, device, rho=0.1)
 
@@ -137,7 +137,7 @@ def train():
             start_time = time.time()
             tt += 1
             # trainer.train_step(batch, epoch=epoch, step=tt)
-            trainer.train_step(batch)
+            # trainer.train_step(batch)
 
             # 更新 rho
             with torch.no_grad():
@@ -147,8 +147,8 @@ def train():
             es_time = end_time - start_time
             whole_time += es_time
 
-            if tt % 10 == 0 :
-                print(whole_time)
+            # if tt % 10 == 0 :
+            #     print(whole_time)
 
         avg_loss, acc = evaluate_model(model, tokenizer, device, int(args["batch_size"] / 2), args["threads"])
         print("final: ", avg_loss, acc)
