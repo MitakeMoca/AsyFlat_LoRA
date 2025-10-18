@@ -1,0 +1,5287 @@
+=== Starting Evaluation ===
+Device: cuda:0
+Batch size: 2, Threads: 0
+Log file: ./logs/eval_log_20251018_211014.txt
+==================================================
+[Batch 0] pred_ans: 112
+[Batch 0] true_ans: 18
+Current avg_loss: 3.3332, accuracy: 0.0000
+----------------------------------------
+[Batch 0] pred_ans: 3
+[Batch 0] true_ans: 3
+Current avg_loss: 3.3332, accuracy: 0.5000
+----------------------------------------
+[Batch 1] pred_ans: $50,000
+[Batch 1] true_ans: 70000
+Current avg_loss: 3.0465, accuracy: 0.3333
+----------------------------------------
+[Batch 1] pred_ans: 2520 meters
+[Batch 1] true_ans: 540
+Current avg_loss: 3.0465, accuracy: 0.2500
+----------------------------------------
+[Batch 2] pred_ans: 10
+[Batch 2] true_ans: 20
+Current avg_loss: 2.8441, accuracy: 0.2000
+----------------------------------------
+[Batch 2] pred_ans: 16 glasses cost $80
+[Batch 2] true_ans: 64
+Current avg_loss: 2.8441, accuracy: 0.1667
+----------------------------------------
+[Batch 3] pred_ans: 100
+[Batch 3] true_ans: 260
+Current avg_loss: 2.8581, accuracy: 0.1429
+----------------------------------------
+[Batch 3] pred_ans: 1.6 hours
+[Batch 3] true_ans: 160
+Current avg_loss: 2.8581, accuracy: 0.1250
+----------------------------------------
+[Batch 4] pred_ans: 60 miles
+[Batch 4] true_ans: 45
+Current avg_loss: 2.8196, accuracy: 0.1111
+----------------------------------------
+[Batch 4] pred_ans: 450
+[Batch 4] true_ans: 460
+Current avg_loss: 2.8196, accuracy: 0.1000
+----------------------------------------
+[Batch 5] pred_ans: 180
+[Batch 5] true_ans: 366
+Current avg_loss: 2.7560, accuracy: 0.0909
+----------------------------------------
+[Batch 5] pred_ans: 3 dozen donuts = $68
+[Batch 5] true_ans: 694
+Current avg_loss: 2.7560, accuracy: 0.0833
+----------------------------------------
+[Batch 6] pred_ans: 10 years
+[Batch 6] true_ans: 13
+Current avg_loss: 2.7481, accuracy: 0.0769
+----------------------------------------
+[Batch 6] pred_ans: 10
+[Batch 6] true_ans: 18
+Current avg_loss: 2.7481, accuracy: 0.0714
+----------------------------------------
+[Batch 7] pred_ans: 55%
+[Batch 7] true_ans: 60
+Current avg_loss: 2.7190, accuracy: 0.0667
+----------------------------------------
+[Batch 7] pred_ans: 0.5%
+[Batch 7] true_ans: 125
+Current avg_loss: 2.7190, accuracy: 0.0625
+----------------------------------------
+[Batch 8] pred_ans: 160 miles
+[Batch 8] true_ans: 230
+Current avg_loss: 2.7490, accuracy: 0.0588
+----------------------------------------
+[Batch 8] pred_ans: 50 x 35 x 20 + 50 x 15 x 30
+[Batch 8] true_ans: 57500
+Current avg_loss: 2.7490, accuracy: 0.0556
+----------------------------------------
+[Batch 9] pred_ans: 12
+[Batch 9] true_ans: 7
+Current avg_loss: 2.7436, accuracy: 0.0526
+----------------------------------------
+[Batch 9] pred_ans: 6 miles per hour
+[Batch 9] true_ans: 6
+Current avg_loss: 2.7436, accuracy: 0.0500
+----------------------------------------
+[Batch 10] pred_ans: 16 liters
+[Batch 10] true_ans: 15
+Current avg_loss: 2.7493, accuracy: 0.0476
+----------------------------------------
+[Batch 10] pred_ans: 6
+[Batch 10] true_ans: 14
+Current avg_loss: 2.7493, accuracy: 0.0455
+----------------------------------------
+[Batch 11] pred_ans: 6
+[Batch 11] true_ans: 7
+Current avg_loss: 2.7384, accuracy: 0.0435
+----------------------------------------
+[Batch 11] pred_ans: 4 centimeters
+[Batch 11] true_ans: 8
+Current avg_loss: 2.7384, accuracy: 0.0417
+----------------------------------------
+[Batch 12] pred_ans: 26
+[Batch 12] true_ans: 26
+Current avg_loss: 2.7275, accuracy: 0.0800
+----------------------------------------
+[Batch 12] pred_ans: 2 boxes of pizza
+[Batch 12] true_ans: 2
+Current avg_loss: 2.7275, accuracy: 0.0769
+----------------------------------------
+[Batch 13] pred_ans: 3 x 16.50 = 49.50
+[Batch 13] true_ans: 243
+Current avg_loss: 2.6994, accuracy: 0.0741
+----------------------------------------
+[Batch 13] pred_ans: 240.00
+[Batch 13] true_ans: 16
+Current avg_loss: 2.6994, accuracy: 0.0714
+----------------------------------------
+[Batch 14] pred_ans: 25
+[Batch 14] true_ans: 25
+Current avg_loss: 2.7052, accuracy: 0.1034
+----------------------------------------
+[Batch 14] pred_ans: 33
+[Batch 14] true_ans: 104
+Current avg_loss: 2.7052, accuracy: 0.1000
+----------------------------------------
+[Batch 15] pred_ans: 40
+[Batch 15] true_ans: 109
+Current avg_loss: 2.7163, accuracy: 0.0968
+----------------------------------------
+[Batch 15] pred_ans: 60
+[Batch 15] true_ans: 80
+Current avg_loss: 2.7163, accuracy: 0.0938
+----------------------------------------
+[Batch 16] pred_ans: 10 dogs x.5 hours a day = 5 hours a day
+[Batch 16] true_ans: 35
+Current avg_loss: 2.7401, accuracy: 0.0909
+----------------------------------------
+[Batch 16] pred_ans: 60
+[Batch 16] true_ans: 70
+Current avg_loss: 2.7401, accuracy: 0.0882
+----------------------------------------
+[Batch 17] pred_ans: 35
+[Batch 17] true_ans: 23
+Current avg_loss: 2.7216, accuracy: 0.0857
+----------------------------------------
+[Batch 17] pred_ans: 25
+[Batch 17] true_ans: 9
+Current avg_loss: 2.7216, accuracy: 0.0833
+----------------------------------------
+[Batch 18] pred_ans: 60 yogurts at $5.00 = $300.00
+[Batch 18] true_ans: 75
+Current avg_loss: 2.7096, accuracy: 0.0811
+----------------------------------------
+[Batch 18] pred_ans: 5
+[Batch 18] true_ans: 2
+Current avg_loss: 2.7096, accuracy: 0.0789
+----------------------------------------
+[Batch 19] pred_ans: 60 miles / 3 days = 20 miles per day.  20
+[Batch 19] true_ans: 10
+Current avg_loss: 2.6864, accuracy: 0.0769
+----------------------------------------
+[Batch 19] pred_ans: 12 miles
+[Batch 19] true_ans: 18
+Current avg_loss: 2.6864, accuracy: 0.0750
+----------------------------------------
+[Batch 20] pred_ans: 4 years
+[Batch 20] true_ans: 8
+Current avg_loss: 2.6806, accuracy: 0.0732
+----------------------------------------
+[Batch 20] pred_ans: 600 feet
+[Batch 20] true_ans: 200
+Current avg_loss: 2.6806, accuracy: 0.0714
+----------------------------------------
+[Batch 21] pred_ans: 40
+[Batch 21] true_ans: 26
+Current avg_loss: 2.6657, accuracy: 0.0698
+----------------------------------------
+[Batch 21] pred_ans: 0.0 g
+[Batch 21] true_ans: 48
+Current avg_loss: 2.6657, accuracy: 0.0682
+----------------------------------------
+[Batch 22] pred_ans: $20.00
+[Batch 22] true_ans: 20
+Current avg_loss: 2.6644, accuracy: 0.0889
+----------------------------------------
+[Batch 22] pred_ans: 40 hours
+[Batch 22] true_ans: 104
+Current avg_loss: 2.6644, accuracy: 0.0870
+----------------------------------------
+[Batch 23] pred_ans: 3
+[Batch 23] true_ans: 163
+Current avg_loss: 2.6659, accuracy: 0.0851
+----------------------------------------
+[Batch 23] pred_ans: 200
+[Batch 23] true_ans: 800
+Current avg_loss: 2.6659, accuracy: 0.0833
+----------------------------------------
+[Batch 24] pred_ans: 4 feet = 48 inches
+[Batch 24] true_ans: 8
+Current avg_loss: 2.6765, accuracy: 0.0816
+----------------------------------------
+[Batch 24] pred_ans: 3
+[Batch 24] true_ans: 30
+Current avg_loss: 2.6765, accuracy: 0.0800
+----------------------------------------
+[Batch 25] pred_ans: 252 eggs per day x 7 days per week = 1,764 eggs
+[Batch 25] true_ans: 294
+Current avg_loss: 2.6902, accuracy: 0.0784
+----------------------------------------
+[Batch 25] pred_ans: 4 hours
+[Batch 25] true_ans: 5
+Current avg_loss: 2.6902, accuracy: 0.0769
+----------------------------------------
+[Batch 26] pred_ans: 60
+[Batch 26] true_ans: 15
+Current avg_loss: 2.6743, accuracy: 0.0755
+----------------------------------------
+[Batch 26] pred_ans: $240
+[Batch 26] true_ans: 40
+Current avg_loss: 2.6743, accuracy: 0.0741
+----------------------------------------
+[Batch 27] pred_ans: 19
+[Batch 27] true_ans: 40
+Current avg_loss: 2.6758, accuracy: 0.0727
+----------------------------------------
+[Batch 27] pred_ans: 15
+[Batch 27] true_ans: 14
+Current avg_loss: 2.6758, accuracy: 0.0714
+----------------------------------------
+[Batch 28] pred_ans: 3
+[Batch 28] true_ans: 3
+Current avg_loss: 2.6701, accuracy: 0.0877
+----------------------------------------
+[Batch 28] pred_ans: 333
+[Batch 28] true_ans: 83
+Current avg_loss: 2.6701, accuracy: 0.0862
+----------------------------------------
+[Batch 29] pred_ans: $40.00 + (25% * $40.00) + $
+[Batch 29] true_ans: 57
+Current avg_loss: 2.6794, accuracy: 0.0847
+----------------------------------------
+[Batch 29] pred_ans: 103
+[Batch 29] true_ans: 187
+Current avg_loss: 2.6794, accuracy: 0.0833
+----------------------------------------
+[Batch 30] pred_ans: 10
+[Batch 30] true_ans: 17
+Current avg_loss: 2.6820, accuracy: 0.0820
+----------------------------------------
+[Batch 30] pred_ans: $1,050
+[Batch 30] true_ans: 1430
+Current avg_loss: 2.6820, accuracy: 0.0806
+----------------------------------------
+[Batch 31] pred_ans: 50,000 x 0.5 = 25,000
+[Batch 31] true_ans: 25000
+Current avg_loss: 2.6818, accuracy: 0.0794
+----------------------------------------
+[Batch 31] pred_ans: 1,680
+[Batch 31] true_ans: 1596
+Current avg_loss: 2.6818, accuracy: 0.0781
+----------------------------------------
+[Batch 32] pred_ans: 480 miles
+[Batch 32] true_ans: 300
+Current avg_loss: 2.6670, accuracy: 0.0769
+----------------------------------------
+[Batch 32] pred_ans: 12 hours
+[Batch 32] true_ans: 36
+Current avg_loss: 2.6670, accuracy: 0.0758
+----------------------------------------
+[Batch 33] pred_ans: 40
+[Batch 33] true_ans: 48
+Current avg_loss: 2.6688, accuracy: 0.0746
+----------------------------------------
+[Batch 33] pred_ans: 350
+[Batch 33] true_ans: 595
+Current avg_loss: 2.6688, accuracy: 0.0735
+----------------------------------------
+[Batch 34] pred_ans: 5
+[Batch 34] true_ans: 36
+Current avg_loss: 2.6610, accuracy: 0.0725
+----------------------------------------
+[Batch 34] pred_ans: 95
+[Batch 34] true_ans: 60
+Current avg_loss: 2.6610, accuracy: 0.0714
+----------------------------------------
+[Batch 35] pred_ans: $4500.00
+[Batch 35] true_ans: 7425
+Current avg_loss: 2.6677, accuracy: 0.0704
+----------------------------------------
+[Batch 35] pred_ans: 40
+[Batch 35] true_ans: 60
+Current avg_loss: 2.6677, accuracy: 0.0694
+----------------------------------------
+[Batch 36] pred_ans: 43 x 3 + 23 x 4 = 129 + 92
+[Batch 36] true_ans: 221
+Current avg_loss: 2.6767, accuracy: 0.0685
+----------------------------------------
+[Batch 36] pred_ans: 2% of $150 = $3
+[Batch 36] true_ans: 255
+Current avg_loss: 2.6767, accuracy: 0.0676
+----------------------------------------
+[Batch 37] pred_ans: 12 x $1.00 + 9 x $2.00 +
+[Batch 37] true_ans: 88
+Current avg_loss: 2.6601, accuracy: 0.0667
+----------------------------------------
+[Batch 37] pred_ans: 8
+[Batch 37] true_ans: 60
+Current avg_loss: 2.6601, accuracy: 0.0658
+----------------------------------------
+[Batch 38] pred_ans: 1.5
+[Batch 38] true_ans: 5
+Current avg_loss: 2.6517, accuracy: 0.0649
+----------------------------------------
+[Batch 38] pred_ans: 200 pounds
+[Batch 38] true_ans: 100
+Current avg_loss: 2.6517, accuracy: 0.0641
+----------------------------------------
+[Batch 39] pred_ans: 1.50
+[Batch 39] true_ans: 6
+Current avg_loss: 2.6505, accuracy: 0.0633
+----------------------------------------
+[Batch 39] pred_ans: 70
+[Batch 39] true_ans: 70
+Current avg_loss: 2.6505, accuracy: 0.0750
+----------------------------------------
+[Batch 40] pred_ans: 12 liters of water were left
+[Batch 40] true_ans: 10
+Current avg_loss: 2.6580, accuracy: 0.0741
+----------------------------------------
+[Batch 40] pred_ans: 0
+[Batch 40] true_ans: 17
+Current avg_loss: 2.6580, accuracy: 0.0732
+----------------------------------------
+[Batch 41] pred_ans: 250
+[Batch 41] true_ans: 623
+Current avg_loss: 2.6659, accuracy: 0.0723
+----------------------------------------
+[Batch 41] pred_ans: 600
+[Batch 41] true_ans: 600
+Current avg_loss: 2.6659, accuracy: 0.0833
+----------------------------------------
+[Batch 42] pred_ans: 8
+[Batch 42] true_ans: 15
+Current avg_loss: 2.6657, accuracy: 0.0824
+----------------------------------------
+[Batch 42] pred_ans: 136
+[Batch 42] true_ans: 44
+Current avg_loss: 2.6657, accuracy: 0.0814
+----------------------------------------
+[Batch 43] pred_ans: 12
+[Batch 43] true_ans: 22
+Current avg_loss: 2.6578, accuracy: 0.0805
+----------------------------------------
+[Batch 43] pred_ans: 1,000
+[Batch 43] true_ans: 9360
+Current avg_loss: 2.6578, accuracy: 0.0795
+----------------------------------------
+[Batch 44] pred_ans: 8,400
+[Batch 44] true_ans: 8000
+Current avg_loss: 2.6722, accuracy: 0.0787
+----------------------------------------
+[Batch 44] pred_ans: 2.00
+[Batch 44] true_ans: 24
+Current avg_loss: 2.6722, accuracy: 0.0778
+----------------------------------------
+[Batch 45] pred_ans: 200 lbs
+[Batch 45] true_ans: 225
+Current avg_loss: 2.6665, accuracy: 0.0769
+----------------------------------------
+[Batch 45] pred_ans: 14
+[Batch 45] true_ans: 28
+Current avg_loss: 2.6665, accuracy: 0.0761
+----------------------------------------
+[Batch 46] pred_ans: 8
+[Batch 46] true_ans: 4
+Current avg_loss: 2.6637, accuracy: 0.0753
+----------------------------------------
+[Batch 46] pred_ans: 38.2 seconds
+[Batch 46] true_ans: 36
+Current avg_loss: 2.6637, accuracy: 0.0745
+----------------------------------------
+[Batch 47] pred_ans: 120
+[Batch 47] true_ans: 348
+Current avg_loss: 2.6676, accuracy: 0.0737
+----------------------------------------
+[Batch 47] pred_ans: 20
+[Batch 47] true_ans: 40
+Current avg_loss: 2.6676, accuracy: 0.0729
+----------------------------------------
+[Batch 48] pred_ans: 7
+[Batch 48] true_ans: 3
+Current avg_loss: 2.6777, accuracy: 0.0722
+----------------------------------------
+[Batch 48] pred_ans: 24
+[Batch 48] true_ans: 12
+Current avg_loss: 2.6777, accuracy: 0.0714
+----------------------------------------
+[Batch 49] pred_ans: 15
+[Batch 49] true_ans: 5
+Current avg_loss: 2.6741, accuracy: 0.0707
+----------------------------------------
+[Batch 49] pred_ans: 40
+[Batch 49] true_ans: 58
+Current avg_loss: 2.6741, accuracy: 0.0700
+----------------------------------------
+[Batch 50] pred_ans: 240
+[Batch 50] true_ans: 175
+Current avg_loss: 2.6668, accuracy: 0.0693
+----------------------------------------
+[Batch 50] pred_ans: 4 pages from his Science textbook, 20 pages from his Social Studies textbook,
+[Batch 50] true_ans: 6
+Current avg_loss: 2.6668, accuracy: 0.0686
+----------------------------------------
+[Batch 51] pred_ans: 14
+[Batch 51] true_ans: 26
+Current avg_loss: 2.6619, accuracy: 0.0680
+----------------------------------------
+[Batch 51] pred_ans: 40 minutes
+[Batch 51] true_ans: 140
+Current avg_loss: 2.6619, accuracy: 0.0673
+----------------------------------------
+[Batch 52] pred_ans: 250
+[Batch 52] true_ans: 500
+Current avg_loss: 2.6713, accuracy: 0.0667
+----------------------------------------
+[Batch 52] pred_ans: 15
+[Batch 52] true_ans: 20
+Current avg_loss: 2.6713, accuracy: 0.0660
+----------------------------------------
+[Batch 53] pred_ans: 5 x 6 x 4 = 120 cubic inches
+[Batch 53] true_ans: 72
+Current avg_loss: 2.6601, accuracy: 0.0654
+----------------------------------------
+[Batch 53] pred_ans: 2
+[Batch 53] true_ans: 3
+Current avg_loss: 2.6601, accuracy: 0.0648
+----------------------------------------
+[Batch 54] pred_ans: 100
+[Batch 54] true_ans: 50
+Current avg_loss: 2.6576, accuracy: 0.0642
+----------------------------------------
+[Batch 54] pred_ans: 10 x $3.00 = $30.00
+[Batch 54] true_ans: 28
+Current avg_loss: 2.6576, accuracy: 0.0636
+----------------------------------------
+[Batch 55] pred_ans: 8
+[Batch 55] true_ans: 45
+Current avg_loss: 2.6635, accuracy: 0.0631
+----------------------------------------
+[Batch 55] pred_ans: 32 liters
+[Batch 55] true_ans: 16
+Current avg_loss: 2.6635, accuracy: 0.0625
+----------------------------------------
+[Batch 56] pred_ans: 12
+[Batch 56] true_ans: 24
+Current avg_loss: 2.6613, accuracy: 0.0619
+----------------------------------------
+[Batch 56] pred_ans: 35
+[Batch 56] true_ans: 25
+Current avg_loss: 2.6613, accuracy: 0.0614
+----------------------------------------
+[Batch 57] pred_ans: 30
+[Batch 57] true_ans: 6
+Current avg_loss: 2.6628, accuracy: 0.0609
+----------------------------------------
+[Batch 57] pred_ans: 10 x 50% = 5
+[Batch 57] true_ans: 90
+Current avg_loss: 2.6628, accuracy: 0.0603
+----------------------------------------
+[Batch 58] pred_ans: 84
+[Batch 58] true_ans: 42
+Current avg_loss: 2.6622, accuracy: 0.0598
+----------------------------------------
+[Batch 58] pred_ans: $120
+[Batch 58] true_ans: 360
+Current avg_loss: 2.6622, accuracy: 0.0593
+----------------------------------------
+[Batch 59] pred_ans: 10
+[Batch 59] true_ans: 4
+Current avg_loss: 2.6675, accuracy: 0.0588
+----------------------------------------
+[Batch 59] pred_ans: 100000
+[Batch 59] true_ans: 95200
+Current avg_loss: 2.6675, accuracy: 0.0583
+----------------------------------------
+[Batch 60] pred_ans: 120
+[Batch 60] true_ans: 240
+Current avg_loss: 2.6719, accuracy: 0.0579
+----------------------------------------
+[Batch 60] pred_ans: 20
+[Batch 60] true_ans: 27
+Current avg_loss: 2.6719, accuracy: 0.0574
+----------------------------------------
+[Batch 61] pred_ans: 50 hours
+[Batch 61] true_ans: 48
+Current avg_loss: 2.6704, accuracy: 0.0569
+----------------------------------------
+[Batch 61] pred_ans: 30 miles
+[Batch 61] true_ans: 50
+Current avg_loss: 2.6704, accuracy: 0.0565
+----------------------------------------
+[Batch 62] pred_ans: 40
+[Batch 62] true_ans: 10
+Current avg_loss: 2.6661, accuracy: 0.0560
+----------------------------------------
+[Batch 62] pred_ans: 10
+[Batch 62] true_ans: 10
+Current avg_loss: 2.6661, accuracy: 0.0635
+----------------------------------------
+[Batch 63] pred_ans: 44
+[Batch 63] true_ans: 82
+Current avg_loss: 2.6652, accuracy: 0.0630
+----------------------------------------
+[Batch 63] pred_ans: 150
+[Batch 63] true_ans: 120
+Current avg_loss: 2.6652, accuracy: 0.0625
+----------------------------------------
+[Batch 64] pred_ans: 1, 2, 3, 4, 5, 6
+[Batch 64] true_ans: 880
+Current avg_loss: 2.6635, accuracy: 0.0620
+----------------------------------------
+[Batch 64] pred_ans: $150 * 500 * 24 / 60 = $300,000
+[Batch 64] true_ans: 10000
+Current avg_loss: 2.6635, accuracy: 0.0615
+----------------------------------------
+[Batch 65] pred_ans: 17
+[Batch 65] true_ans: 30
+Current avg_loss: 2.6700, accuracy: 0.0611
+----------------------------------------
+[Batch 65] pred_ans: 500 + 60 = 560
+[Batch 65] true_ans: 940
+Current avg_loss: 2.6700, accuracy: 0.0606
+----------------------------------------
+[Batch 66] pred_ans: 24
+[Batch 66] true_ans: 60
+Current avg_loss: 2.6683, accuracy: 0.0602
+----------------------------------------
+[Batch 66] pred_ans: 25 miles
+[Batch 66] true_ans: 13
+Current avg_loss: 2.6683, accuracy: 0.0597
+----------------------------------------
+[Batch 67] pred_ans: 4 x $15 = $60
+[Batch 67] true_ans: 720
+Current avg_loss: 2.6791, accuracy: 0.0593
+----------------------------------------
+[Batch 67] pred_ans: 25
+[Batch 67] true_ans: 40
+Current avg_loss: 2.6791, accuracy: 0.0588
+----------------------------------------
+[Batch 68] pred_ans: 18
+[Batch 68] true_ans: 6
+Current avg_loss: 2.6777, accuracy: 0.0584
+----------------------------------------
+[Batch 68] pred_ans: $10.00
+[Batch 68] true_ans: 29
+Current avg_loss: 2.6777, accuracy: 0.0580
+----------------------------------------
+[Batch 69] pred_ans: 25
+[Batch 69] true_ans: 105
+Current avg_loss: 2.6706, accuracy: 0.0576
+----------------------------------------
+[Batch 69] pred_ans: 36
+[Batch 69] true_ans: 70
+Current avg_loss: 2.6706, accuracy: 0.0571
+----------------------------------------
+[Batch 70] pred_ans: 20%
+[Batch 70] true_ans: 20
+Current avg_loss: 2.6675, accuracy: 0.0567
+----------------------------------------
+[Batch 70] pred_ans: 350
+[Batch 70] true_ans: 400
+Current avg_loss: 2.6675, accuracy: 0.0563
+----------------------------------------
+[Batch 71] pred_ans: 80
+[Batch 71] true_ans: 140
+Current avg_loss: 2.6687, accuracy: 0.0559
+----------------------------------------
+[Batch 71] pred_ans: 22.4
+[Batch 71] true_ans: 16
+Current avg_loss: 2.6687, accuracy: 0.0556
+----------------------------------------
+[Batch 72] pred_ans: 92 – (2*2 + 5*5) = 92 –
+[Batch 72] true_ans: 20
+Current avg_loss: 2.6641, accuracy: 0.0552
+----------------------------------------
+[Batch 72] pred_ans: 1000 pineapples
+[Batch 72] true_ans: 4000
+Current avg_loss: 2.6641, accuracy: 0.0548
+----------------------------------------
+[Batch 73] pred_ans: 1500
+[Batch 73] true_ans: 2,125
+Current avg_loss: 2.6601, accuracy: 0.0544
+----------------------------------------
+[Batch 73] pred_ans: 30
+[Batch 73] true_ans: 75
+Current avg_loss: 2.6601, accuracy: 0.0541
+----------------------------------------
+[Batch 74] pred_ans: 22
+[Batch 74] true_ans: 30
+Current avg_loss: 2.6567, accuracy: 0.0537
+----------------------------------------
+[Batch 74] pred_ans: 48
+[Batch 74] true_ans: 16
+Current avg_loss: 2.6567, accuracy: 0.0533
+----------------------------------------
+[Batch 75] pred_ans: 1.5 minutes
+[Batch 75] true_ans: 4
+Current avg_loss: 2.6603, accuracy: 0.0530
+----------------------------------------
+[Batch 75] pred_ans: 1.25
+[Batch 75] true_ans: 5
+Current avg_loss: 2.6603, accuracy: 0.0526
+----------------------------------------
+[Batch 76] pred_ans: 9.50
+[Batch 76] true_ans: 4
+Current avg_loss: 2.6613, accuracy: 0.0523
+----------------------------------------
+[Batch 76] pred_ans: 100
+[Batch 76] true_ans: 48
+Current avg_loss: 2.6613, accuracy: 0.0519
+----------------------------------------
+[Batch 77] pred_ans: 1,280 hours
+[Batch 77] true_ans: 272
+Current avg_loss: 2.6572, accuracy: 0.0516
+----------------------------------------
+[Batch 77] pred_ans: 1,000 feet
+[Batch 77] true_ans: 280
+Current avg_loss: 2.6572, accuracy: 0.0513
+----------------------------------------
+[Batch 78] pred_ans: 1000
+[Batch 78] true_ans: 1400
+Current avg_loss: 2.6520, accuracy: 0.0510
+----------------------------------------
+[Batch 78] pred_ans: 100 yards
+[Batch 78] true_ans: 80
+Current avg_loss: 2.6520, accuracy: 0.0506
+----------------------------------------
+[Batch 79] pred_ans: 40
+[Batch 79] true_ans: 34
+Current avg_loss: 2.6558, accuracy: 0.0503
+----------------------------------------
+[Batch 79] pred_ans: 11
+[Batch 79] true_ans: 15
+Current avg_loss: 2.6558, accuracy: 0.0500
+----------------------------------------
+[Batch 80] pred_ans: 24 feet
+[Batch 80] true_ans: 16
+Current avg_loss: 2.6511, accuracy: 0.0497
+----------------------------------------
+[Batch 80] pred_ans: 18
+[Batch 80] true_ans: 32
+Current avg_loss: 2.6511, accuracy: 0.0494
+----------------------------------------
+[Batch 81] pred_ans: 20(1.2)2 = 48
+[Batch 81] true_ans: 92
+Current avg_loss: 2.6558, accuracy: 0.0491
+----------------------------------------
+[Batch 81] pred_ans: 1. $25
+[Batch 81] true_ans: 50
+Current avg_loss: 2.6558, accuracy: 0.0488
+----------------------------------------
+[Batch 82] pred_ans: 5
+[Batch 82] true_ans: 15
+Current avg_loss: 2.6574, accuracy: 0.0485
+----------------------------------------
+[Batch 82] pred_ans: 77
+[Batch 82] true_ans: 77
+Current avg_loss: 2.6574, accuracy: 0.0542
+----------------------------------------
+[Batch 83] pred_ans: 5
+[Batch 83] true_ans: 5
+Current avg_loss: 2.6628, accuracy: 0.0599
+----------------------------------------
+[Batch 83] pred_ans: 10
+[Batch 83] true_ans: 16
+Current avg_loss: 2.6628, accuracy: 0.0595
+----------------------------------------
+[Batch 84] pred_ans: 24
+[Batch 84] true_ans: 18
+Current avg_loss: 2.6717, accuracy: 0.0592
+----------------------------------------
+[Batch 84] pred_ans: 100 miles
+[Batch 84] true_ans: 120
+Current avg_loss: 2.6717, accuracy: 0.0588
+----------------------------------------
+[Batch 85] pred_ans: 100
+[Batch 85] true_ans: 150
+Current avg_loss: 2.6701, accuracy: 0.0585
+----------------------------------------
+[Batch 85] pred_ans: 1, 1, 1, 1, 1, 1
+[Batch 85] true_ans: 1210
+Current avg_loss: 2.6701, accuracy: 0.0581
+----------------------------------------
+[Batch 86] pred_ans: 32
+[Batch 86] true_ans: 51
+Current avg_loss: 2.6701, accuracy: 0.0578
+----------------------------------------
+[Batch 86] pred_ans: 1,200
+[Batch 86] true_ans: 18000
+Current avg_loss: 2.6701, accuracy: 0.0575
+----------------------------------------
+[Batch 87] pred_ans: 1 hour and 5 minutes
+[Batch 87] true_ans: 95
+Current avg_loss: 2.6648, accuracy: 0.0571
+----------------------------------------
+[Batch 87] pred_ans: 10 gallons of lemonade
+[Batch 87] true_ans: 15
+Current avg_loss: 2.6648, accuracy: 0.0568
+----------------------------------------
+[Batch 88] pred_ans: 40
+[Batch 88] true_ans: 100
+Current avg_loss: 2.6664, accuracy: 0.0565
+----------------------------------------
+[Batch 88] pred_ans: 1000$
+[Batch 88] true_ans: 350
+Current avg_loss: 2.6664, accuracy: 0.0562
+----------------------------------------
+[Batch 89] pred_ans: 100
+[Batch 89] true_ans: 122
+Current avg_loss: 2.6693, accuracy: 0.0559
+----------------------------------------
+[Batch 89] pred_ans: 10 x 5 + 10 x 8 = 10 x (5
+[Batch 89] true_ans: 130
+Current avg_loss: 2.6693, accuracy: 0.0556
+----------------------------------------
+[Batch 90] pred_ans: 20
+[Batch 90] true_ans: 20
+Current avg_loss: 2.6710, accuracy: 0.0608
+----------------------------------------
+[Batch 90] pred_ans: 200
+[Batch 90] true_ans: 160
+Current avg_loss: 2.6710, accuracy: 0.0604
+----------------------------------------
+[Batch 91] pred_ans: 32
+[Batch 91] true_ans: 23
+Current avg_loss: 2.6667, accuracy: 0.0601
+----------------------------------------
+[Batch 91] pred_ans: 3 seconds
+[Batch 91] true_ans: 2
+Current avg_loss: 2.6667, accuracy: 0.0598
+----------------------------------------
+[Batch 92] pred_ans: 50% more likely
+[Batch 92] true_ans: 25
+Current avg_loss: 2.6696, accuracy: 0.0595
+----------------------------------------
+[Batch 92] pred_ans: 40
+[Batch 92] true_ans: 30
+Current avg_loss: 2.6696, accuracy: 0.0591
+----------------------------------------
+[Batch 93] pred_ans: 4
+[Batch 93] true_ans: 5
+Current avg_loss: 2.6721, accuracy: 0.0588
+----------------------------------------
+[Batch 93] pred_ans: 100(1+0.02)^3 = 100.06
+[Batch 93] true_ans: 106
+Current avg_loss: 2.6721, accuracy: 0.0585
+----------------------------------------
+[Batch 94] pred_ans: 20
+[Batch 94] true_ans: 50
+Current avg_loss: 2.6695, accuracy: 0.0582
+----------------------------------------
+[Batch 94] pred_ans: 1. The total cost of the tickets is $20.25. The total
+[Batch 94] true_ans: 34
+Current avg_loss: 2.6695, accuracy: 0.0579
+----------------------------------------
+[Batch 95] pred_ans: 36
+[Batch 95] true_ans: 360
+Current avg_loss: 2.6711, accuracy: 0.0576
+----------------------------------------
+[Batch 95] pred_ans: 0.5
+[Batch 95] true_ans: 5
+Current avg_loss: 2.6711, accuracy: 0.0573
+----------------------------------------
+[Batch 96] pred_ans: 50 + 10*10 - 2*10 - 30% of
+[Batch 96] true_ans: 91
+Current avg_loss: 2.6686, accuracy: 0.0570
+----------------------------------------
+[Batch 96] pred_ans: 12
+[Batch 96] true_ans: 24
+Current avg_loss: 2.6686, accuracy: 0.0567
+----------------------------------------
+[Batch 97] pred_ans: 18
+[Batch 97] true_ans: 10
+Current avg_loss: 2.6723, accuracy: 0.0564
+----------------------------------------
+[Batch 97] pred_ans: 8 pens will cost $6.40
+[Batch 97] true_ans: 12
+Current avg_loss: 2.6723, accuracy: 0.0561
+----------------------------------------
+[Batch 98] pred_ans: 0 pounds of carrots will not be used
+[Batch 98] true_ans: 120
+Current avg_loss: 2.6717, accuracy: 0.0558
+----------------------------------------
+[Batch 98] pred_ans: 6357
+[Batch 98] true_ans: 6277
+Current avg_loss: 2.6717, accuracy: 0.0556
+----------------------------------------
+[Batch 99] pred_ans: 120
+[Batch 99] true_ans: 320
+Current avg_loss: 2.6706, accuracy: 0.0553
+----------------------------------------
+[Batch 99] pred_ans: 500
+[Batch 99] true_ans: 7500
+Current avg_loss: 2.6706, accuracy: 0.0550
+----------------------------------------
+[Batch 100] pred_ans: 35 liters
+[Batch 100] true_ans: 55
+Current avg_loss: 2.6688, accuracy: 0.0547
+----------------------------------------
+[Batch 100] pred_ans: 2000 + 2000 + 2000 + 2000 +
+[Batch 100] true_ans: 114,200
+Current avg_loss: 2.6688, accuracy: 0.0545
+----------------------------------------
+[Batch 101] pred_ans: 100 barrels of wine per year
+[Batch 101] true_ans: 100
+Current avg_loss: 2.6651, accuracy: 0.0542
+----------------------------------------
+[Batch 101] pred_ans: 32 slices
+[Batch 101] true_ans: 31
+Current avg_loss: 2.6651, accuracy: 0.0539
+----------------------------------------
+[Batch 102] pred_ans: 42
+[Batch 102] true_ans: 98
+Current avg_loss: 2.6626, accuracy: 0.0537
+----------------------------------------
+[Batch 102] pred_ans: 100
+[Batch 102] true_ans: 98
+Current avg_loss: 2.6626, accuracy: 0.0534
+----------------------------------------
+[Batch 103] pred_ans: 1,000 kilometers
+[Batch 103] true_ans: 860
+Current avg_loss: 2.6609, accuracy: 0.0531
+----------------------------------------
+[Batch 103] pred_ans: 1,200
+[Batch 103] true_ans: 2600
+Current avg_loss: 2.6609, accuracy: 0.0529
+----------------------------------------
+[Batch 104] pred_ans: 28 cakes
+[Batch 104] true_ans: 76
+Current avg_loss: 2.6639, accuracy: 0.0526
+----------------------------------------
+[Batch 104] pred_ans: 6000 cups cost $1200 less than the total cost of half a dozen
+[Batch 104] true_ans: 145
+Current avg_loss: 2.6639, accuracy: 0.0524
+----------------------------------------
+[Batch 105] pred_ans: 3 times
+[Batch 105] true_ans: 10
+Current avg_loss: 2.6595, accuracy: 0.0521
+----------------------------------------
+[Batch 105] pred_ans: 6
+[Batch 105] true_ans: 4
+Current avg_loss: 2.6595, accuracy: 0.0519
+----------------------------------------
+[Batch 106] pred_ans: 1.5 hours
+[Batch 106] true_ans: 5
+Current avg_loss: 2.6579, accuracy: 0.0516
+----------------------------------------
+[Batch 106] pred_ans: 550
+[Batch 106] true_ans: 250
+Current avg_loss: 2.6579, accuracy: 0.0514
+----------------------------------------
+[Batch 107] pred_ans: 4 gallons
+[Batch 107] true_ans: 8
+Current avg_loss: 2.6556, accuracy: 0.0512
+----------------------------------------
+[Batch 107] pred_ans: 48 hours
+[Batch 107] true_ans: 44
+Current avg_loss: 2.6556, accuracy: 0.0509
+----------------------------------------
+[Batch 108] pred_ans: 0
+[Batch 108] true_ans: 220
+Current avg_loss: 2.6572, accuracy: 0.0507
+----------------------------------------
+[Batch 108] pred_ans: 11
+[Batch 108] true_ans: 15
+Current avg_loss: 2.6572, accuracy: 0.0505
+----------------------------------------
+[Batch 109] pred_ans: 21
+[Batch 109] true_ans: 45
+Current avg_loss: 2.6601, accuracy: 0.0502
+----------------------------------------
+[Batch 109] pred_ans: 101
+[Batch 109] true_ans: 54
+Current avg_loss: 2.6601, accuracy: 0.0500
+----------------------------------------
+[Batch 110] pred_ans: 3(10) + 8(5) = 58 minutes
+[Batch 110] true_ans: 70
+Current avg_loss: 2.6592, accuracy: 0.0498
+----------------------------------------
+[Batch 110] pred_ans: 30 liters
+[Batch 110] true_ans: 90
+Current avg_loss: 2.6592, accuracy: 0.0495
+----------------------------------------
+[Batch 111] pred_ans: 130
+[Batch 111] true_ans: 140
+Current avg_loss: 2.6623, accuracy: 0.0493
+----------------------------------------
+[Batch 111] pred_ans: 15000 + 15000/3 = 15000 + 5000
+[Batch 111] true_ans: 20000
+Current avg_loss: 2.6623, accuracy: 0.0491
+----------------------------------------
+[Batch 112] pred_ans: 66
+[Batch 112] true_ans: 180
+Current avg_loss: 2.6610, accuracy: 0.0489
+----------------------------------------
+[Batch 112] pred_ans: 8
+[Batch 112] true_ans: 9
+Current avg_loss: 2.6610, accuracy: 0.0487
+----------------------------------------
+[Batch 113] pred_ans: 30%
+[Batch 113] true_ans: 33
+Current avg_loss: 2.6584, accuracy: 0.0485
+----------------------------------------
+[Batch 113] pred_ans: $3.50
+[Batch 113] true_ans: 9
+Current avg_loss: 2.6584, accuracy: 0.0482
+----------------------------------------
+[Batch 114] pred_ans: 1 hour
+[Batch 114] true_ans: 1
+Current avg_loss: 2.6569, accuracy: 0.0480
+----------------------------------------
+[Batch 114] pred_ans: 12
+[Batch 114] true_ans: 21
+Current avg_loss: 2.6569, accuracy: 0.0478
+----------------------------------------
+[Batch 115] pred_ans: $30,000
+[Batch 115] true_ans: 276,000
+Current avg_loss: 2.6550, accuracy: 0.0476
+----------------------------------------
+[Batch 115] pred_ans: 30
+[Batch 115] true_ans: 50
+Current avg_loss: 2.6550, accuracy: 0.0474
+----------------------------------------
+[Batch 116] pred_ans: 100
+[Batch 116] true_ans: 75
+Current avg_loss: 2.6560, accuracy: 0.0472
+----------------------------------------
+[Batch 116] pred_ans: 12
+[Batch 116] true_ans: 12
+Current avg_loss: 2.6560, accuracy: 0.0513
+----------------------------------------
+[Batch 117] pred_ans: 2 vines
+[Batch 117] true_ans: 21
+Current avg_loss: 2.6581, accuracy: 0.0511
+----------------------------------------
+[Batch 117] pred_ans: 5
+[Batch 117] true_ans: 10
+Current avg_loss: 2.6581, accuracy: 0.0508
+----------------------------------------
+[Batch 118] pred_ans: 25 pens
+[Batch 118] true_ans: 31
+Current avg_loss: 2.6608, accuracy: 0.0506
+----------------------------------------
+[Batch 118] pred_ans: 30
+[Batch 118] true_ans: 90
+Current avg_loss: 2.6608, accuracy: 0.0504
+----------------------------------------
+[Batch 119] pred_ans: 40
+[Batch 119] true_ans: 68
+Current avg_loss: 2.6585, accuracy: 0.0502
+----------------------------------------
+[Batch 119] pred_ans: 300
+[Batch 119] true_ans: 280
+Current avg_loss: 2.6585, accuracy: 0.0500
+----------------------------------------
+[Batch 120] pred_ans: 18
+[Batch 120] true_ans: 21
+Current avg_loss: 2.6600, accuracy: 0.0498
+----------------------------------------
+[Batch 120] pred_ans: 4
+[Batch 120] true_ans: 6
+Current avg_loss: 2.6600, accuracy: 0.0496
+----------------------------------------
+[Batch 121] pred_ans: 20 hours
+[Batch 121] true_ans: 3
+Current avg_loss: 2.6615, accuracy: 0.0494
+----------------------------------------
+[Batch 121] pred_ans: 15 minutes
+[Batch 121] true_ans: 250
+Current avg_loss: 2.6615, accuracy: 0.0492
+----------------------------------------
+[Batch 122] pred_ans: 6
+[Batch 122] true_ans: 20
+Current avg_loss: 2.6604, accuracy: 0.0490
+----------------------------------------
+[Batch 122] pred_ans: 4
+[Batch 122] true_ans: 7
+Current avg_loss: 2.6604, accuracy: 0.0488
+----------------------------------------
+[Batch 123] pred_ans: $250 x 6 x 4 x 5 = $60,000
+[Batch 123] true_ans: 27000
+Current avg_loss: 2.6602, accuracy: 0.0486
+----------------------------------------
+[Batch 123] pred_ans: 12 + 43 + 15 + 4 + 22 = 96
+[Batch 123] true_ans: 32
+Current avg_loss: 2.6602, accuracy: 0.0484
+----------------------------------------
+[Batch 124] pred_ans: 6 bags of onions cost $9.00
+[Batch 124] true_ans: 300
+Current avg_loss: 2.6582, accuracy: 0.0482
+----------------------------------------
+[Batch 124] pred_ans: 1,000 calories
+[Batch 124] true_ans: 5,600
+Current avg_loss: 2.6582, accuracy: 0.0480
+----------------------------------------
+[Batch 125] pred_ans: 13
+[Batch 125] true_ans: 17
+Current avg_loss: 2.6554, accuracy: 0.0478
+----------------------------------------
+[Batch 125] pred_ans: 70
+[Batch 125] true_ans: 70
+Current avg_loss: 2.6554, accuracy: 0.0516
+----------------------------------------
+[Batch 126] pred_ans: 30
+[Batch 126] true_ans: 73
+Current avg_loss: 2.6583, accuracy: 0.0514
+----------------------------------------
+[Batch 126] pred_ans: 15
+[Batch 126] true_ans: 18
+Current avg_loss: 2.6583, accuracy: 0.0512
+----------------------------------------
+[Batch 127] pred_ans: 120
+[Batch 127] true_ans: 84
+Current avg_loss: 2.6603, accuracy: 0.0510
+----------------------------------------
+[Batch 127] pred_ans: 22
+[Batch 127] true_ans: 192
+Current avg_loss: 2.6603, accuracy: 0.0508
+----------------------------------------
+[Batch 128] pred_ans: 5.4
+[Batch 128] true_ans: 45
+Current avg_loss: 2.6595, accuracy: 0.0506
+----------------------------------------
+[Batch 128] pred_ans: 8000 pounds
+[Batch 128] true_ans: 5600
+Current avg_loss: 2.6595, accuracy: 0.0504
+----------------------------------------
+[Batch 129] pred_ans: 8 x $0.50 + $2.00 = $4.00
+[Batch 129] true_ans: 6
+Current avg_loss: 2.6625, accuracy: 0.0502
+----------------------------------------
+[Batch 129] pred_ans: 52
+[Batch 129] true_ans: 168
+Current avg_loss: 2.6625, accuracy: 0.0500
+----------------------------------------
+[Batch 130] pred_ans: 36 cups of flour
+[Batch 130] true_ans: 11
+Current avg_loss: 2.6653, accuracy: 0.0498
+----------------------------------------
+[Batch 130] pred_ans: 1,890
+[Batch 130] true_ans: 62
+Current avg_loss: 2.6653, accuracy: 0.0496
+----------------------------------------
+[Batch 131] pred_ans: 200
+[Batch 131] true_ans: 270
+Current avg_loss: 2.6655, accuracy: 0.0494
+----------------------------------------
+[Batch 131] pred_ans: 5
+[Batch 131] true_ans: 8
+Current avg_loss: 2.6655, accuracy: 0.0492
+----------------------------------------
+[Batch 132] pred_ans: 325
+[Batch 132] true_ans: 400
+Current avg_loss: 2.6643, accuracy: 0.0491
+----------------------------------------
+[Batch 132] pred_ans: 1.05(350000) + 0.12(350000)
+[Batch 132] true_ans: 9500
+Current avg_loss: 2.6643, accuracy: 0.0489
+----------------------------------------
+[Batch 133] pred_ans: 400 000 - 12 000 - 20 000 - 250
+[Batch 133] true_ans: 118000
+Current avg_loss: 2.6613, accuracy: 0.0487
+----------------------------------------
+[Batch 133] pred_ans: 65 minutes
+[Batch 133] true_ans: 91
+Current avg_loss: 2.6613, accuracy: 0.0485
+----------------------------------------
+[Batch 134] pred_ans: 500
+[Batch 134] true_ans: 1375
+Current avg_loss: 2.6602, accuracy: 0.0483
+----------------------------------------
+[Batch 134] pred_ans: 8
+[Batch 134] true_ans: 4
+Current avg_loss: 2.6602, accuracy: 0.0481
+----------------------------------------
+[Batch 135] pred_ans: 300 + 312 + 150 = 762
+[Batch 135] true_ans: 762
+Current avg_loss: 2.6580, accuracy: 0.0480
+----------------------------------------
+[Batch 135] pred_ans: 20
+[Batch 135] true_ans: 20
+Current avg_loss: 2.6580, accuracy: 0.0515
+----------------------------------------
+[Batch 136] pred_ans: 1.20
+[Batch 136] true_ans: 5
+Current avg_loss: 2.6594, accuracy: 0.0513
+----------------------------------------
+[Batch 136] pred_ans: 150
+[Batch 136] true_ans: 315
+Current avg_loss: 2.6594, accuracy: 0.0511
+----------------------------------------
+[Batch 137] pred_ans: 20 x $40 + 80 x $30 = $1,600
+[Batch 137] true_ans: 3200
+Current avg_loss: 2.6575, accuracy: 0.0509
+----------------------------------------
+[Batch 137] pred_ans: 162
+[Batch 137] true_ans: 138
+Current avg_loss: 2.6575, accuracy: 0.0507
+----------------------------------------
+[Batch 138] pred_ans: 10
+[Batch 138] true_ans: 9
+Current avg_loss: 2.6527, accuracy: 0.0505
+----------------------------------------
+[Batch 138] pred_ans: 6 hours
+[Batch 138] true_ans: 4
+Current avg_loss: 2.6527, accuracy: 0.0504
+----------------------------------------
+[Batch 139] pred_ans: 30
+[Batch 139] true_ans: 40
+Current avg_loss: 2.6522, accuracy: 0.0502
+----------------------------------------
+[Batch 139] pred_ans: 3 years
+[Batch 139] true_ans: 6
+Current avg_loss: 2.6522, accuracy: 0.0500
+----------------------------------------
+[Batch 140] pred_ans: 10.00
+[Batch 140] true_ans: 7
+Current avg_loss: 2.6516, accuracy: 0.0498
+----------------------------------------
+[Batch 140] pred_ans: 140
+[Batch 140] true_ans: 2450
+Current avg_loss: 2.6516, accuracy: 0.0496
+----------------------------------------
+[Batch 141] pred_ans: 120
+[Batch 141] true_ans: 195
+Current avg_loss: 2.6521, accuracy: 0.0495
+----------------------------------------
+[Batch 141] pred_ans: 16
+[Batch 141] true_ans: 68
+Current avg_loss: 2.6521, accuracy: 0.0493
+----------------------------------------
+[Batch 142] pred_ans: 120
+[Batch 142] true_ans: 360
+Current avg_loss: 2.6515, accuracy: 0.0491
+----------------------------------------
+[Batch 142] pred_ans: 18
+[Batch 142] true_ans: 21
+Current avg_loss: 2.6515, accuracy: 0.0490
+----------------------------------------
+[Batch 143] pred_ans: 38 cents
+[Batch 143] true_ans: 90
+Current avg_loss: 2.6521, accuracy: 0.0488
+----------------------------------------
+[Batch 143] pred_ans: 3
+[Batch 143] true_ans: 8
+Current avg_loss: 2.6521, accuracy: 0.0486
+----------------------------------------
+[Batch 144] pred_ans: 27
+[Batch 144] true_ans: 3
+Current avg_loss: 2.6481, accuracy: 0.0484
+----------------------------------------
+[Batch 144] pred_ans: 8 hours
+[Batch 144] true_ans: 16
+Current avg_loss: 2.6481, accuracy: 0.0483
+----------------------------------------
+[Batch 145] pred_ans: 220
+[Batch 145] true_ans: 390
+Current avg_loss: 2.6499, accuracy: 0.0481
+----------------------------------------
+[Batch 145] pred_ans: 1
+[Batch 145] true_ans: 2
+Current avg_loss: 2.6499, accuracy: 0.0479
+----------------------------------------
+[Batch 146] pred_ans: 1 hour 30 minutes = 90 minutes
+[Batch 146] true_ans: 75
+Current avg_loss: 2.6493, accuracy: 0.0478
+----------------------------------------
+[Batch 146] pred_ans: 32
+[Batch 146] true_ans: 83
+Current avg_loss: 2.6493, accuracy: 0.0476
+----------------------------------------
+[Batch 147] pred_ans: 3
+[Batch 147] true_ans: 3
+Current avg_loss: 2.6469, accuracy: 0.0508
+----------------------------------------
+[Batch 147] pred_ans: 200
+[Batch 147] true_ans: 370
+Current avg_loss: 2.6469, accuracy: 0.0507
+----------------------------------------
+[Batch 148] pred_ans: 4.5 weeks
+[Batch 148] true_ans: 3
+Current avg_loss: 2.6468, accuracy: 0.0505
+----------------------------------------
+[Batch 148] pred_ans: 3
+[Batch 148] true_ans: 55
+Current avg_loss: 2.6468, accuracy: 0.0503
+----------------------------------------
+[Batch 149] pred_ans: 300
+[Batch 149] true_ans: 500
+Current avg_loss: 2.6453, accuracy: 0.0502
+----------------------------------------
+[Batch 149] pred_ans: $2,500
+[Batch 149] true_ans: 31800
+Current avg_loss: 2.6453, accuracy: 0.0500
+----------------------------------------
+[Batch 150] pred_ans: 47 minutes
+[Batch 150] true_ans: 78
+Current avg_loss: 2.6435, accuracy: 0.0498
+----------------------------------------
+[Batch 150] pred_ans: 32
+[Batch 150] true_ans: 8
+Current avg_loss: 2.6435, accuracy: 0.0497
+----------------------------------------
+[Batch 151] pred_ans: 50 - 25 - 10 = 15
+[Batch 151] true_ans: 15
+Current avg_loss: 2.6458, accuracy: 0.0495
+----------------------------------------
+[Batch 151] pred_ans: 9000
+[Batch 151] true_ans: 1300
+Current avg_loss: 2.6458, accuracy: 0.0493
+----------------------------------------
+[Batch 152] pred_ans: 1,500
+[Batch 152] true_ans: 3200
+Current avg_loss: 2.6477, accuracy: 0.0492
+----------------------------------------
+[Batch 152] pred_ans: 20%
+[Batch 152] true_ans: 4
+Current avg_loss: 2.6477, accuracy: 0.0490
+----------------------------------------
+[Batch 153] pred_ans: 6
+[Batch 153] true_ans: 10
+Current avg_loss: 2.6445, accuracy: 0.0489
+----------------------------------------
+[Batch 153] pred_ans: 4 weeks
+[Batch 153] true_ans: 16
+Current avg_loss: 2.6445, accuracy: 0.0487
+----------------------------------------
+[Batch 154] pred_ans: 2.5
+[Batch 154] true_ans: 6
+Current avg_loss: 2.6461, accuracy: 0.0485
+----------------------------------------
+[Batch 154] pred_ans: 4 arms and 3 legs
+[Batch 154] true_ans: 8
+Current avg_loss: 2.6461, accuracy: 0.0484
+----------------------------------------
+[Batch 155] pred_ans: 2000
+[Batch 155] true_ans: 2050
+Current avg_loss: 2.6469, accuracy: 0.0482
+----------------------------------------
+[Batch 155] pred_ans: 42
+[Batch 155] true_ans: 91
+Current avg_loss: 2.6469, accuracy: 0.0481
+----------------------------------------
+[Batch 156] pred_ans: 34
+[Batch 156] true_ans: 32
+Current avg_loss: 2.6485, accuracy: 0.0479
+----------------------------------------
+[Batch 156] pred_ans: 3000 x 46 = 138000
+[Batch 156] true_ans: 120000
+Current avg_loss: 2.6485, accuracy: 0.0478
+----------------------------------------
+[Batch 157] pred_ans: 35
+[Batch 157] true_ans: 30
+Current avg_loss: 2.6491, accuracy: 0.0476
+----------------------------------------
+[Batch 157] pred_ans: 24
+[Batch 157] true_ans: 14
+Current avg_loss: 2.6491, accuracy: 0.0475
+----------------------------------------
+[Batch 158] pred_ans: 100kgs
+[Batch 158] true_ans: 156
+Current avg_loss: 2.6515, accuracy: 0.0473
+----------------------------------------
+[Batch 158] pred_ans: 6*4*5 = 120 cubic feet.  120*.1
+[Batch 158] true_ans: 12
+Current avg_loss: 2.6515, accuracy: 0.0472
+----------------------------------------
+[Batch 159] pred_ans: 90
+[Batch 159] true_ans: 123
+Current avg_loss: 2.6503, accuracy: 0.0470
+----------------------------------------
+[Batch 159] pred_ans: 15
+[Batch 159] true_ans: 15
+Current avg_loss: 2.6503, accuracy: 0.0500
+----------------------------------------
+[Batch 160] pred_ans: 12
+[Batch 160] true_ans: 8
+Current avg_loss: 2.6482, accuracy: 0.0498
+----------------------------------------
+[Batch 160] pred_ans: 2
+[Batch 160] true_ans: 1
+Current avg_loss: 2.6482, accuracy: 0.0497
+----------------------------------------
+[Batch 161] pred_ans: 4 boxes
+[Batch 161] true_ans: 9
+Current avg_loss: 2.6500, accuracy: 0.0495
+----------------------------------------
+[Batch 161] pred_ans: 12 milliliters weaker
+[Batch 161] true_ans: 75
+Current avg_loss: 2.6500, accuracy: 0.0494
+----------------------------------------
+[Batch 162] pred_ans: 20
+[Batch 162] true_ans: 14
+Current avg_loss: 2.6495, accuracy: 0.0492
+----------------------------------------
+[Batch 162] pred_ans: 1. Let x = number of senior programmers
+[Batch 162] true_ans: 224000
+Current avg_loss: 2.6495, accuracy: 0.0491
+----------------------------------------
+[Batch 163] pred_ans: 20
+[Batch 163] true_ans: 14
+Current avg_loss: 2.6465, accuracy: 0.0489
+----------------------------------------
+[Batch 163] pred_ans: 24
+[Batch 163] true_ans: 31
+Current avg_loss: 2.6465, accuracy: 0.0488
+----------------------------------------
+[Batch 164] pred_ans: 1 hour 40 minutes
+[Batch 164] true_ans: 2
+Current avg_loss: 2.6467, accuracy: 0.0486
+----------------------------------------
+[Batch 164] pred_ans: 7
+[Batch 164] true_ans: 14
+Current avg_loss: 2.6467, accuracy: 0.0485
+----------------------------------------
+[Batch 165] pred_ans: 43
+[Batch 165] true_ans: 31
+Current avg_loss: 2.6461, accuracy: 0.0483
+----------------------------------------
+[Batch 165] pred_ans: 0.00
+[Batch 165] true_ans: 8400
+Current avg_loss: 2.6461, accuracy: 0.0482
+----------------------------------------
+[Batch 166] pred_ans: 11
+[Batch 166] true_ans: 44
+Current avg_loss: 2.6458, accuracy: 0.0480
+----------------------------------------
+[Batch 166] pred_ans: 1,100 + 9 x 250 = 3,650
+[Batch 166] true_ans: 100
+Current avg_loss: 2.6458, accuracy: 0.0479
+----------------------------------------
+[Batch 167] pred_ans: 5
+[Batch 167] true_ans: 6
+Current avg_loss: 2.6440, accuracy: 0.0478
+----------------------------------------
+[Batch 167] pred_ans: 8(30) + 70 = 250 ounces
+[Batch 167] true_ans: 310
+Current avg_loss: 2.6440, accuracy: 0.0476
+----------------------------------------
+[Batch 168] pred_ans: 8.00
+[Batch 168] true_ans: 72
+Current avg_loss: 2.6448, accuracy: 0.0475
+----------------------------------------
+[Batch 168] pred_ans: 3
+[Batch 168] true_ans: 1
+Current avg_loss: 2.6448, accuracy: 0.0473
+----------------------------------------
+[Batch 169] pred_ans: 90
+[Batch 169] true_ans: 60
+Current avg_loss: 2.6442, accuracy: 0.0472
+----------------------------------------
+[Batch 169] pred_ans: 200
+[Batch 169] true_ans: 160
+Current avg_loss: 2.6442, accuracy: 0.0471
+----------------------------------------
+[Batch 170] pred_ans: 1
+[Batch 170] true_ans: 4
+Current avg_loss: 2.6443, accuracy: 0.0469
+----------------------------------------
+[Batch 170] pred_ans: 100 pounds
+[Batch 170] true_ans: 260
+Current avg_loss: 2.6443, accuracy: 0.0468
+----------------------------------------
+[Batch 171] pred_ans: 63
+[Batch 171] true_ans: 87
+Current avg_loss: 2.6474, accuracy: 0.0466
+----------------------------------------
+[Batch 171] pred_ans: 15000 meters
+[Batch 171] true_ans: 180000
+Current avg_loss: 2.6474, accuracy: 0.0465
+----------------------------------------
+[Batch 172] pred_ans: 2 dollars
+[Batch 172] true_ans: 2
+Current avg_loss: 2.6462, accuracy: 0.0464
+----------------------------------------
+[Batch 172] pred_ans: 200
+[Batch 172] true_ans: 310
+Current avg_loss: 2.6462, accuracy: 0.0462
+----------------------------------------
+[Batch 173] pred_ans: 24
+[Batch 173] true_ans: 9
+Current avg_loss: 2.6456, accuracy: 0.0461
+----------------------------------------
+[Batch 173] pred_ans: 2 x 30 x 0.6 = $36
+[Batch 173] true_ans: 36
+Current avg_loss: 2.6456, accuracy: 0.0460
+----------------------------------------
+[Batch 174] pred_ans: 20%
+[Batch 174] true_ans: 10
+Current avg_loss: 2.6428, accuracy: 0.0458
+----------------------------------------
+[Batch 174] pred_ans: 1,200
+[Batch 174] true_ans: 2640
+Current avg_loss: 2.6428, accuracy: 0.0457
+----------------------------------------
+[Batch 175] pred_ans: 6 hours
+[Batch 175] true_ans: 8
+Current avg_loss: 2.6434, accuracy: 0.0456
+----------------------------------------
+[Batch 175] pred_ans: 10
+[Batch 175] true_ans: 10
+Current avg_loss: 2.6434, accuracy: 0.0483
+----------------------------------------
+[Batch 176] pred_ans: 36 - 11 - 4 = 21
+[Batch 176] true_ans: 21
+Current avg_loss: 2.6442, accuracy: 0.0482
+----------------------------------------
+[Batch 176] pred_ans: 4 hours
+[Batch 176] true_ans: 20
+Current avg_loss: 2.6442, accuracy: 0.0480
+----------------------------------------
+[Batch 177] pred_ans: 315
+[Batch 177] true_ans: 45
+Current avg_loss: 2.6401, accuracy: 0.0479
+----------------------------------------
+[Batch 177] pred_ans: 22 feet
+[Batch 177] true_ans: 34
+Current avg_loss: 2.6401, accuracy: 0.0478
+----------------------------------------
+[Batch 178] pred_ans: 6 toy cars cost $12 and 5 teddy bears cost $5
+[Batch 178] true_ans: 21
+Current avg_loss: 2.6384, accuracy: 0.0476
+----------------------------------------
+[Batch 178] pred_ans: 3
+[Batch 178] true_ans: 2
+Current avg_loss: 2.6384, accuracy: 0.0475
+----------------------------------------
+[Batch 179] pred_ans: 5 x 4 = 20 lollipops x 25 cents =
+[Batch 179] true_ans: 20
+Current avg_loss: 2.6374, accuracy: 0.0474
+----------------------------------------
+[Batch 179] pred_ans: 6.67 pounds
+[Batch 179] true_ans: 4
+Current avg_loss: 2.6374, accuracy: 0.0472
+----------------------------------------
+[Batch 180] pred_ans: 20
+[Batch 180] true_ans: 25
+Current avg_loss: 2.6363, accuracy: 0.0471
+----------------------------------------
+[Batch 180] pred_ans: 1,000 days
+[Batch 180] true_ans: 20
+Current avg_loss: 2.6363, accuracy: 0.0470
+----------------------------------------
+[Batch 181] pred_ans: 32
+[Batch 181] true_ans: 23
+Current avg_loss: 2.6330, accuracy: 0.0468
+----------------------------------------
+[Batch 181] pred_ans: 5 hours
+[Batch 181] true_ans: 6
+Current avg_loss: 2.6330, accuracy: 0.0467
+----------------------------------------
+[Batch 182] pred_ans: 39
+[Batch 182] true_ans: 49
+Current avg_loss: 2.6334, accuracy: 0.0466
+----------------------------------------
+[Batch 182] pred_ans: 6
+[Batch 182] true_ans: 18
+Current avg_loss: 2.6334, accuracy: 0.0464
+----------------------------------------
+[Batch 183] pred_ans: 9
+[Batch 183] true_ans: 9
+Current avg_loss: 2.6334, accuracy: 0.0490
+----------------------------------------
+[Batch 183] pred_ans: 0
+[Batch 183] true_ans: 19
+Current avg_loss: 2.6334, accuracy: 0.0489
+----------------------------------------
+[Batch 184] pred_ans: 8
+[Batch 184] true_ans: 18
+Current avg_loss: 2.6351, accuracy: 0.0488
+----------------------------------------
+[Batch 184] pred_ans: $1,000
+[Batch 184] true_ans: 1198
+Current avg_loss: 2.6351, accuracy: 0.0486
+----------------------------------------
+[Batch 185] pred_ans: 320
+[Batch 185] true_ans: 320
+Current avg_loss: 2.6357, accuracy: 0.0512
+----------------------------------------
+[Batch 185] pred_ans: 28
+[Batch 185] true_ans: 50
+Current avg_loss: 2.6357, accuracy: 0.0511
+----------------------------------------
+[Batch 186] pred_ans: 6 hours
+[Batch 186] true_ans: 5
+Current avg_loss: 2.6377, accuracy: 0.0509
+----------------------------------------
+[Batch 186] pred_ans: 240000
+[Batch 186] true_ans: 240000
+Current avg_loss: 2.6377, accuracy: 0.0535
+----------------------------------------
+[Batch 187] pred_ans: 3 kg
+[Batch 187] true_ans: 45
+Current avg_loss: 2.6394, accuracy: 0.0533
+----------------------------------------
+[Batch 187] pred_ans: 12 + 6 + 8 = 26
+[Batch 187] true_ans: 48
+Current avg_loss: 2.6394, accuracy: 0.0532
+----------------------------------------
+[Batch 188] pred_ans: 10
+[Batch 188] true_ans: 15
+Current avg_loss: 2.6385, accuracy: 0.0531
+----------------------------------------
+[Batch 188] pred_ans: 24
+[Batch 188] true_ans: 50
+Current avg_loss: 2.6385, accuracy: 0.0529
+----------------------------------------
+[Batch 189] pred_ans: 5
+[Batch 189] true_ans: 15
+Current avg_loss: 2.6424, accuracy: 0.0528
+----------------------------------------
+[Batch 189] pred_ans: 1
+[Batch 189] true_ans: 21
+Current avg_loss: 2.6424, accuracy: 0.0526
+----------------------------------------
+[Batch 190] pred_ans: 1,000
+[Batch 190] true_ans: 803
+Current avg_loss: 2.6438, accuracy: 0.0525
+----------------------------------------
+[Batch 190] pred_ans: 7 kilometers
+[Batch 190] true_ans: 67
+Current avg_loss: 2.6438, accuracy: 0.0524
+----------------------------------------
+[Batch 191] pred_ans: 200
+[Batch 191] true_ans: 350
+Current avg_loss: 2.6425, accuracy: 0.0522
+----------------------------------------
+[Batch 191] pred_ans: 1.50
+[Batch 191] true_ans: 2
+Current avg_loss: 2.6425, accuracy: 0.0521
+----------------------------------------
+[Batch 192] pred_ans: 16.8 hectares
+[Batch 192] true_ans: 32
+Current avg_loss: 2.6434, accuracy: 0.0519
+----------------------------------------
+[Batch 192] pred_ans: 12
+[Batch 192] true_ans: 16
+Current avg_loss: 2.6434, accuracy: 0.0518
+----------------------------------------
+[Batch 193] pred_ans: 79.5
+[Batch 193] true_ans: 80
+Current avg_loss: 2.6438, accuracy: 0.0517
+----------------------------------------
+[Batch 193] pred_ans: 6 erasers cost $12 and 8 pencils cost $24. $12
+[Batch 193] true_ans: 36
+Current avg_loss: 2.6438, accuracy: 0.0515
+----------------------------------------
+[Batch 194] pred_ans: 66 + 22 = 88
+[Batch 194] true_ans: 88
+Current avg_loss: 2.6450, accuracy: 0.0514
+----------------------------------------
+[Batch 194] pred_ans: $10
+[Batch 194] true_ans: 6
+Current avg_loss: 2.6450, accuracy: 0.0513
+----------------------------------------
+[Batch 195] pred_ans: 24 inches
+[Batch 195] true_ans: 12
+Current avg_loss: 2.6442, accuracy: 0.0512
+----------------------------------------
+[Batch 195] pred_ans: 6
+[Batch 195] true_ans: 15
+Current avg_loss: 2.6442, accuracy: 0.0510
+----------------------------------------
+[Batch 196] pred_ans: $40
+[Batch 196] true_ans: 34
+Current avg_loss: 2.6461, accuracy: 0.0509
+----------------------------------------
+[Batch 196] pred_ans: 11.11%
+[Batch 196] true_ans: 20
+Current avg_loss: 2.6461, accuracy: 0.0508
+----------------------------------------
+[Batch 197] pred_ans: 120
+[Batch 197] true_ans: 92
+Current avg_loss: 2.6478, accuracy: 0.0506
+----------------------------------------
+[Batch 197] pred_ans: 24
+[Batch 197] true_ans: 38
+Current avg_loss: 2.6478, accuracy: 0.0505
+----------------------------------------
+[Batch 198] pred_ans: 5
+[Batch 198] true_ans: 3
+Current avg_loss: 2.6465, accuracy: 0.0504
+----------------------------------------
+[Batch 198] pred_ans: 30 days
+[Batch 198] true_ans: 25
+Current avg_loss: 2.6465, accuracy: 0.0503
+----------------------------------------
+[Batch 199] pred_ans: 90 + 30 + 2(30) - 12 = 138
+[Batch 199] true_ans: 168
+Current avg_loss: 2.6479, accuracy: 0.0501
+----------------------------------------
+[Batch 199] pred_ans: 15
+[Batch 199] true_ans: 12
+Current avg_loss: 2.6479, accuracy: 0.0500
+----------------------------------------
+[Batch 200] pred_ans: 96
+[Batch 200] true_ans: 48
+Current avg_loss: 2.6487, accuracy: 0.0499
+----------------------------------------
+[Batch 200] pred_ans: 12000
+[Batch 200] true_ans: 14400
+Current avg_loss: 2.6487, accuracy: 0.0498
+----------------------------------------
+[Batch 201] pred_ans: 1
+[Batch 201] true_ans: 4
+Current avg_loss: 2.6473, accuracy: 0.0496
+----------------------------------------
+[Batch 201] pred_ans: 900 watts of energy is used by the AC for 8 hours a day
+[Batch 201] true_ans: 81
+Current avg_loss: 2.6473, accuracy: 0.0495
+----------------------------------------
+[Batch 202] pred_ans: 17
+[Batch 202] true_ans: 22
+Current avg_loss: 2.6463, accuracy: 0.0494
+----------------------------------------
+[Batch 202] pred_ans: $140.00
+[Batch 202] true_ans: 50
+Current avg_loss: 2.6463, accuracy: 0.0493
+----------------------------------------
+[Batch 203] pred_ans: 100
+[Batch 203] true_ans: 200
+Current avg_loss: 2.6462, accuracy: 0.0491
+----------------------------------------
+[Batch 203] pred_ans: 1,000
+[Batch 203] true_ans: 2000
+Current avg_loss: 2.6462, accuracy: 0.0490
+----------------------------------------
+[Batch 204] pred_ans: 10 minutes
+[Batch 204] true_ans: 20
+Current avg_loss: 2.6454, accuracy: 0.0489
+----------------------------------------
+[Batch 204] pred_ans: 40 x 15 x 40 = $24,000
+[Batch 204] true_ans: 168000
+Current avg_loss: 2.6454, accuracy: 0.0488
+----------------------------------------
+[Batch 205] pred_ans: $3.50
+[Batch 205] true_ans: 3
+Current avg_loss: 2.6452, accuracy: 0.0487
+----------------------------------------
+[Batch 205] pred_ans: $1,000
+[Batch 205] true_ans: 1110
+Current avg_loss: 2.6452, accuracy: 0.0485
+----------------------------------------
+[Batch 206] pred_ans: 30/12 = 2.5.  She will need 3 dozen
+[Batch 206] true_ans: 5
+Current avg_loss: 2.6466, accuracy: 0.0484
+----------------------------------------
+[Batch 206] pred_ans: 0.00025
+[Batch 206] true_ans: 25
+Current avg_loss: 2.6466, accuracy: 0.0483
+----------------------------------------
+[Batch 207] pred_ans: 4 x $20 = $80.  30% off = $80
+[Batch 207] true_ans: 56
+Current avg_loss: 2.6461, accuracy: 0.0482
+----------------------------------------
+[Batch 207] pred_ans: 150
+[Batch 207] true_ans: 350
+Current avg_loss: 2.6461, accuracy: 0.0481
+----------------------------------------
+[Batch 208] pred_ans: 180
+[Batch 208] true_ans: 56
+Current avg_loss: 2.6447, accuracy: 0.0480
+----------------------------------------
+[Batch 208] pred_ans: 1,000 kilometers
+[Batch 208] true_ans: 3140
+Current avg_loss: 2.6447, accuracy: 0.0478
+----------------------------------------
+[Batch 209] pred_ans: 20 cubic inches
+[Batch 209] true_ans: 40
+Current avg_loss: 2.6434, accuracy: 0.0477
+----------------------------------------
+[Batch 209] pred_ans: 10,000 feet
+[Batch 209] true_ans: 3000
+Current avg_loss: 2.6434, accuracy: 0.0476
+----------------------------------------
+[Batch 210] pred_ans: 15,000
+[Batch 210] true_ans: 17000
+Current avg_loss: 2.6444, accuracy: 0.0475
+----------------------------------------
+[Batch 210] pred_ans: 0
+[Batch 210] true_ans: 12
+Current avg_loss: 2.6444, accuracy: 0.0474
+----------------------------------------
+[Batch 211] pred_ans: 2 years of the service cost him $144
+[Batch 211] true_ans: 284
+Current avg_loss: 2.6424, accuracy: 0.0473
+----------------------------------------
+[Batch 211] pred_ans: 1/3 of the total savings from the jogger jeans is $2
+[Batch 211] true_ans: 8
+Current avg_loss: 2.6424, accuracy: 0.0472
+----------------------------------------
+[Batch 212] pred_ans: 1,200
+[Batch 212] true_ans: 570
+Current avg_loss: 2.6424, accuracy: 0.0471
+----------------------------------------
+[Batch 212] pred_ans: 60
+[Batch 212] true_ans: 150
+Current avg_loss: 2.6424, accuracy: 0.0469
+----------------------------------------
+[Batch 213] pred_ans: 9.5
+[Batch 213] true_ans: 11
+Current avg_loss: 2.6428, accuracy: 0.0468
+----------------------------------------
+[Batch 213] pred_ans: 100
+[Batch 213] true_ans: 150
+Current avg_loss: 2.6428, accuracy: 0.0467
+----------------------------------------
+[Batch 214] pred_ans: 12
+[Batch 214] true_ans: 26
+Current avg_loss: 2.6424, accuracy: 0.0466
+----------------------------------------
+[Batch 214] pred_ans: 10
+[Batch 214] true_ans: 13
+Current avg_loss: 2.6424, accuracy: 0.0465
+----------------------------------------
+[Batch 215] pred_ans: $100.00
+[Batch 215] true_ans: 132
+Current avg_loss: 2.6416, accuracy: 0.0464
+----------------------------------------
+[Batch 215] pred_ans: 2 + 16 = 18
+[Batch 215] true_ans: 1
+Current avg_loss: 2.6416, accuracy: 0.0463
+----------------------------------------
+[Batch 216] pred_ans: 25
+[Batch 216] true_ans: 30
+Current avg_loss: 2.6414, accuracy: 0.0462
+----------------------------------------
+[Batch 216] pred_ans: 15 gallons of gas were equally divided into 5 different containers. Josey needed
+[Batch 216] true_ans: 6
+Current avg_loss: 2.6414, accuracy: 0.0461
+----------------------------------------
+[Batch 217] pred_ans: 2
+[Batch 217] true_ans: 5
+Current avg_loss: 2.6414, accuracy: 0.0460
+----------------------------------------
+[Batch 217] pred_ans: 2
+[Batch 217] true_ans: 5
+Current avg_loss: 2.6414, accuracy: 0.0459
+----------------------------------------
+[Batch 218] pred_ans: 16 ounces
+[Batch 218] true_ans: 15
+Current avg_loss: 2.6448, accuracy: 0.0458
+----------------------------------------
+[Batch 218] pred_ans: 8
+[Batch 218] true_ans: 7
+Current avg_loss: 2.6448, accuracy: 0.0457
+----------------------------------------
+[Batch 219] pred_ans: $2.00
+[Batch 219] true_ans: 2
+Current avg_loss: 2.6434, accuracy: 0.0478
+----------------------------------------
+[Batch 219] pred_ans: 12 minutes
+[Batch 219] true_ans: 17
+Current avg_loss: 2.6434, accuracy: 0.0477
+----------------------------------------
+[Batch 220] pred_ans: 60 feet
+[Batch 220] true_ans: 98
+Current avg_loss: 2.6431, accuracy: 0.0476
+----------------------------------------
+[Batch 220] pred_ans: 20
+[Batch 220] true_ans: 80
+Current avg_loss: 2.6431, accuracy: 0.0475
+----------------------------------------
+[Batch 221] pred_ans: 45 degrees
+[Batch 221] true_ans: 49
+Current avg_loss: 2.6408, accuracy: 0.0474
+----------------------------------------
+[Batch 221] pred_ans: 1 hour and 10 minutes
+[Batch 221] true_ans: 59
+Current avg_loss: 2.6408, accuracy: 0.0473
+----------------------------------------
+[Batch 222] pred_ans: 5
+[Batch 222] true_ans: 20
+Current avg_loss: 2.6414, accuracy: 0.0472
+----------------------------------------
+[Batch 222] pred_ans: 1/2 a bail of hay costs $3. If his horse runs for
+[Batch 222] true_ans: 6
+Current avg_loss: 2.6414, accuracy: 0.0471
+----------------------------------------
+[Batch 223] pred_ans: 5
+[Batch 223] true_ans: 2
+Current avg_loss: 2.6443, accuracy: 0.0470
+----------------------------------------
+[Batch 223] pred_ans: 26 points
+[Batch 223] true_ans: 5
+Current avg_loss: 2.6443, accuracy: 0.0469
+----------------------------------------
+[Batch 224] pred_ans: 576 - 20*17 - 25*31 = 576 -
+[Batch 224] true_ans: 539
+Current avg_loss: 2.6448, accuracy: 0.0468
+----------------------------------------
+[Batch 224] pred_ans: 120
+[Batch 224] true_ans: 112
+Current avg_loss: 2.6448, accuracy: 0.0467
+----------------------------------------
+[Batch 225] pred_ans: 3.00
+[Batch 225] true_ans: 4
+Current avg_loss: 2.6455, accuracy: 0.0466
+----------------------------------------
+[Batch 225] pred_ans: 170 x 20 = 3400
+[Batch 225] true_ans: 11050
+Current avg_loss: 2.6455, accuracy: 0.0465
+----------------------------------------
+[Batch 226] pred_ans: 45 mph
+[Batch 226] true_ans: 50
+Current avg_loss: 2.6444, accuracy: 0.0464
+----------------------------------------
+[Batch 226] pred_ans: 2400
+[Batch 226] true_ans: 6400
+Current avg_loss: 2.6444, accuracy: 0.0463
+----------------------------------------
+[Batch 227] pred_ans: 120 apples
+[Batch 227] true_ans: 150
+Current avg_loss: 2.6428, accuracy: 0.0462
+----------------------------------------
+[Batch 227] pred_ans: 10 x 2 x 8 x 2 = 320 cubic feet of
+[Batch 227] true_ans: 1920
+Current avg_loss: 2.6428, accuracy: 0.0461
+----------------------------------------
+[Batch 228] pred_ans: 100
+[Batch 228] true_ans: 78
+Current avg_loss: 2.6435, accuracy: 0.0460
+----------------------------------------
+[Batch 228] pred_ans: 100
+[Batch 228] true_ans: 45
+Current avg_loss: 2.6435, accuracy: 0.0459
+----------------------------------------
+[Batch 229] pred_ans: 37.5%
+[Batch 229] true_ans: 35
+Current avg_loss: 2.6421, accuracy: 0.0458
+----------------------------------------
+[Batch 229] pred_ans: 6
+[Batch 229] true_ans: 2
+Current avg_loss: 2.6421, accuracy: 0.0457
+----------------------------------------
+[Batch 230] pred_ans: 2 + 3 = 5
+[Batch 230] true_ans: 84
+Current avg_loss: 2.6434, accuracy: 0.0456
+----------------------------------------
+[Batch 230] pred_ans: 20
+[Batch 230] true_ans: 9
+Current avg_loss: 2.6434, accuracy: 0.0455
+----------------------------------------
+[Batch 231] pred_ans: 21 + 50 = 71
+[Batch 231] true_ans: 71
+Current avg_loss: 2.6470, accuracy: 0.0454
+----------------------------------------
+[Batch 231] pred_ans: 30
+[Batch 231] true_ans: 18
+Current avg_loss: 2.6470, accuracy: 0.0453
+----------------------------------------
+[Batch 232] pred_ans: 3rd
+[Batch 232] true_ans: 6
+Current avg_loss: 2.6478, accuracy: 0.0452
+----------------------------------------
+[Batch 232] pred_ans: 100
+[Batch 232] true_ans: 30
+Current avg_loss: 2.6478, accuracy: 0.0451
+----------------------------------------
+[Batch 233] pred_ans: 5 cents
+[Batch 233] true_ans: 1
+Current avg_loss: 2.6472, accuracy: 0.0450
+----------------------------------------
+[Batch 233] pred_ans: 1600
+[Batch 233] true_ans: 1200
+Current avg_loss: 2.6472, accuracy: 0.0449
+----------------------------------------
+[Batch 234] pred_ans: 200 shoes
+[Batch 234] true_ans: 120
+Current avg_loss: 2.6480, accuracy: 0.0448
+----------------------------------------
+[Batch 234] pred_ans: 24 pans worth of cupcakes
+[Batch 234] true_ans: 4
+Current avg_loss: 2.6480, accuracy: 0.0447
+----------------------------------------
+[Batch 235] pred_ans: 4
+[Batch 235] true_ans: 3
+Current avg_loss: 2.6462, accuracy: 0.0446
+----------------------------------------
+[Batch 235] pred_ans: 1/3 of 10 pencils = 3.33 pencils
+[Batch 235] true_ans: 80
+Current avg_loss: 2.6462, accuracy: 0.0445
+----------------------------------------
+[Batch 236] pred_ans: 3
+[Batch 236] true_ans: 6
+Current avg_loss: 2.6466, accuracy: 0.0444
+----------------------------------------
+[Batch 236] pred_ans: 1.2%
+[Batch 236] true_ans: 10
+Current avg_loss: 2.6466, accuracy: 0.0443
+----------------------------------------
+[Batch 237] pred_ans: 8
+[Batch 237] true_ans: 80
+Current avg_loss: 2.6463, accuracy: 0.0442
+----------------------------------------
+[Batch 237] pred_ans: 240/12 = 20 minutes per day
+[Batch 237] true_ans: 20
+Current avg_loss: 2.6463, accuracy: 0.0441
+----------------------------------------
+[Batch 238] pred_ans: 25 books
+[Batch 238] true_ans: 5
+Current avg_loss: 2.6467, accuracy: 0.0440
+----------------------------------------
+[Batch 238] pred_ans: 17
+[Batch 238] true_ans: 20
+Current avg_loss: 2.6467, accuracy: 0.0439
+----------------------------------------
+[Batch 239] pred_ans: 1,200
+[Batch 239] true_ans: 621
+Current avg_loss: 2.6471, accuracy: 0.0438
+----------------------------------------
+[Batch 239] pred_ans: 1.  $15,000
+[Batch 239] true_ans: 15400
+Current avg_loss: 2.6471, accuracy: 0.0437
+----------------------------------------
+[Batch 240] pred_ans: 9
+[Batch 240] true_ans: 11
+Current avg_loss: 2.6452, accuracy: 0.0437
+----------------------------------------
+[Batch 240] pred_ans: 72 grains
+[Batch 240] true_ans: 84
+Current avg_loss: 2.6452, accuracy: 0.0436
+----------------------------------------
+[Batch 241] pred_ans: 26
+[Batch 241] true_ans: 26
+Current avg_loss: 2.6453, accuracy: 0.0455
+----------------------------------------
+[Batch 241] pred_ans: 80
+[Batch 241] true_ans: 40
+Current avg_loss: 2.6453, accuracy: 0.0455
+----------------------------------------
+[Batch 242] pred_ans: 20
+[Batch 242] true_ans: 240
+Current avg_loss: 2.6468, accuracy: 0.0454
+----------------------------------------
+[Batch 242] pred_ans: 240
+[Batch 242] true_ans: 220
+Current avg_loss: 2.6468, accuracy: 0.0453
+----------------------------------------
+[Batch 243] pred_ans: 10 hours
+[Batch 243] true_ans: 6
+Current avg_loss: 2.6472, accuracy: 0.0452
+----------------------------------------
+[Batch 243] pred_ans: 40 bags of oats
+[Batch 243] true_ans: 4
+Current avg_loss: 2.6472, accuracy: 0.0451
+----------------------------------------
+[Batch 244] pred_ans: 9
+[Batch 244] true_ans: 6
+Current avg_loss: 2.6463, accuracy: 0.0450
+----------------------------------------
+[Batch 244] pred_ans: 0 degrees Fahrenheit
+[Batch 244] true_ans: -10
+Current avg_loss: 2.6463, accuracy: 0.0449
+----------------------------------------
+[Batch 245] pred_ans: 2 days
+[Batch 245] true_ans: 4
+Current avg_loss: 2.6459, accuracy: 0.0448
+----------------------------------------
+[Batch 245] pred_ans: 16
+[Batch 245] true_ans: 16
+Current avg_loss: 2.6459, accuracy: 0.0467
+----------------------------------------
+[Batch 246] pred_ans: 16
+[Batch 246] true_ans: 32
+Current avg_loss: 2.6462, accuracy: 0.0467
+----------------------------------------
+[Batch 246] pred_ans: 1.00 cents each
+[Batch 246] true_ans: 25
+Current avg_loss: 2.6462, accuracy: 0.0466
+----------------------------------------
+[Batch 247] pred_ans: 10 feet
+[Batch 247] true_ans: 21
+Current avg_loss: 2.6455, accuracy: 0.0465
+----------------------------------------
+[Batch 247] pred_ans: 40 minutes
+[Batch 247] true_ans: 200
+Current avg_loss: 2.6455, accuracy: 0.0464
+----------------------------------------
+[Batch 248] pred_ans: 6
+[Batch 248] true_ans: 38
+Current avg_loss: 2.6464, accuracy: 0.0463
+----------------------------------------
+[Batch 248] pred_ans: 14 * 2 * 6 + 14 * 2 * 2
+[Batch 248] true_ans: 112
+Current avg_loss: 2.6464, accuracy: 0.0462
+----------------------------------------
+[Batch 249] pred_ans: 20
+[Batch 249] true_ans: 40
+Current avg_loss: 2.6454, accuracy: 0.0461
+----------------------------------------
+[Batch 249] pred_ans: 8
+[Batch 249] true_ans: 10
+Current avg_loss: 2.6454, accuracy: 0.0460
+----------------------------------------
+[Batch 250] pred_ans: 14
+[Batch 250] true_ans: 16
+Current avg_loss: 2.6443, accuracy: 0.0459
+----------------------------------------
+[Batch 250] pred_ans: 1/4 + 1/2 = 3/4
+[Batch 250] true_ans: 273
+Current avg_loss: 2.6443, accuracy: 0.0458
+----------------------------------------
+[Batch 251] pred_ans: 22
+[Batch 251] true_ans: 26
+Current avg_loss: 2.6438, accuracy: 0.0457
+----------------------------------------
+[Batch 251] pred_ans: 14
+[Batch 251] true_ans: 18
+Current avg_loss: 2.6438, accuracy: 0.0456
+----------------------------------------
+[Batch 252] pred_ans: 2
+[Batch 252] true_ans: 2
+Current avg_loss: 2.6419, accuracy: 0.0475
+----------------------------------------
+[Batch 252] pred_ans: 400 sticks
+[Batch 252] true_ans: 1,600
+Current avg_loss: 2.6419, accuracy: 0.0474
+----------------------------------------
+[Batch 253] pred_ans: 96.00
+[Batch 253] true_ans: 144
+Current avg_loss: 2.6431, accuracy: 0.0473
+----------------------------------------
+[Batch 253] pred_ans: 20 - 2.20 x 5 = $10.00
+[Batch 253] true_ans: 2
+Current avg_loss: 2.6431, accuracy: 0.0472
+----------------------------------------
+[Batch 254] pred_ans: 50
+[Batch 254] true_ans: 120
+Current avg_loss: 2.6414, accuracy: 0.0472
+----------------------------------------
+[Batch 254] pred_ans: 2 onions and 1 potato
+[Batch 254] true_ans: 4
+Current avg_loss: 2.6414, accuracy: 0.0471
+----------------------------------------
+[Batch 255] pred_ans: 1,000 calories
+[Batch 255] true_ans: 525
+Current avg_loss: 2.6410, accuracy: 0.0470
+----------------------------------------
+[Batch 255] pred_ans: 10
+[Batch 255] true_ans: 110
+Current avg_loss: 2.6410, accuracy: 0.0469
+----------------------------------------
+[Batch 256] pred_ans: 2400 ml
+[Batch 256] true_ans: 120
+Current avg_loss: 2.6406, accuracy: 0.0468
+----------------------------------------
+[Batch 256] pred_ans: 75% of $500 = $375
+[Batch 256] true_ans: 300
+Current avg_loss: 2.6406, accuracy: 0.0467
+----------------------------------------
+[Batch 257] pred_ans: 100,000
+[Batch 257] true_ans: 90000
+Current avg_loss: 2.6403, accuracy: 0.0466
+----------------------------------------
+[Batch 257] pred_ans: 200%
+[Batch 257] true_ans: 160
+Current avg_loss: 2.6403, accuracy: 0.0465
+----------------------------------------
+[Batch 258] pred_ans: 375
+[Batch 258] true_ans: 375
+Current avg_loss: 2.6403, accuracy: 0.0484
+----------------------------------------
+[Batch 258] pred_ans: 72
+[Batch 258] true_ans: 18
+Current avg_loss: 2.6403, accuracy: 0.0483
+----------------------------------------
+[Batch 259] pred_ans: 1. Ali has four $10 bills and six $20 bills that he saved
+[Batch 259] true_ans: 32
+Current avg_loss: 2.6431, accuracy: 0.0482
+----------------------------------------
+[Batch 259] pred_ans: 120 minutes
+[Batch 259] true_ans: 280
+Current avg_loss: 2.6431, accuracy: 0.0481
+----------------------------------------
+[Batch 260] pred_ans: 36
+[Batch 260] true_ans: 63
+Current avg_loss: 2.6407, accuracy: 0.0480
+----------------------------------------
+[Batch 260] pred_ans: 75
+[Batch 260] true_ans: 39
+Current avg_loss: 2.6407, accuracy: 0.0479
+----------------------------------------
+[Batch 261] pred_ans: 20
+[Batch 261] true_ans: 29
+Current avg_loss: 2.6396, accuracy: 0.0478
+----------------------------------------
+[Batch 261] pred_ans: 144
+[Batch 261] true_ans: 74
+Current avg_loss: 2.6396, accuracy: 0.0477
+----------------------------------------
+[Batch 262] pred_ans: 6
+[Batch 262] true_ans: 9
+Current avg_loss: 2.6374, accuracy: 0.0476
+----------------------------------------
+[Batch 262] pred_ans: 36
+[Batch 262] true_ans: 12
+Current avg_loss: 2.6374, accuracy: 0.0475
+----------------------------------------
+[Batch 263] pred_ans: 30
+[Batch 263] true_ans: 21
+Current avg_loss: 2.6362, accuracy: 0.0474
+----------------------------------------
+[Batch 263] pred_ans: 5 people would take 5 hours to paint a whole house
+[Batch 263] true_ans: 48
+Current avg_loss: 2.6362, accuracy: 0.0473
+----------------------------------------
+[Batch 264] pred_ans: 40 sofas and 80 chairs
+[Batch 264] true_ans: 172
+Current avg_loss: 2.6363, accuracy: 0.0473
+----------------------------------------
+[Batch 264] pred_ans: 11
+[Batch 264] true_ans: 11
+Current avg_loss: 2.6363, accuracy: 0.0491
+----------------------------------------
+[Batch 265] pred_ans: 32
+[Batch 265] true_ans: 36
+Current avg_loss: 2.6358, accuracy: 0.0490
+----------------------------------------
+[Batch 265] pred_ans: 48
+[Batch 265] true_ans: 66
+Current avg_loss: 2.6358, accuracy: 0.0489
+----------------------------------------
+[Batch 266] pred_ans: 5
+[Batch 266] true_ans: 25
+Current avg_loss: 2.6369, accuracy: 0.0488
+----------------------------------------
+[Batch 266] pred_ans: 1 monitor cost $400
+[Batch 266] true_ans: 300
+Current avg_loss: 2.6369, accuracy: 0.0487
+----------------------------------------
+[Batch 267] pred_ans: 84
+[Batch 267] true_ans: 300
+Current avg_loss: 2.6365, accuracy: 0.0486
+----------------------------------------
+[Batch 267] pred_ans: 6
+[Batch 267] true_ans: 16
+Current avg_loss: 2.6365, accuracy: 0.0485
+----------------------------------------
+[Batch 268] pred_ans: 12
+[Batch 268] true_ans: 8
+Current avg_loss: 2.6352, accuracy: 0.0484
+----------------------------------------
+[Batch 268] pred_ans: 146 mm
+[Batch 268] true_ans: 188
+Current avg_loss: 2.6352, accuracy: 0.0483
+----------------------------------------
+[Batch 269] pred_ans: 18 vlogs for the first week, 21 vlogs for the second week
+[Batch 269] true_ans: 18
+Current avg_loss: 2.6351, accuracy: 0.0482
+----------------------------------------
+[Batch 269] pred_ans: 60.00. The 20% tip is on the $50, not
+[Batch 269] true_ans: 35
+Current avg_loss: 2.6351, accuracy: 0.0481
+----------------------------------------
+[Batch 270] pred_ans: 1
+[Batch 270] true_ans: 39
+Current avg_loss: 2.6358, accuracy: 0.0481
+----------------------------------------
+[Batch 270] pred_ans: 1125/15 = 75
+[Batch 270] true_ans: 50
+Current avg_loss: 2.6358, accuracy: 0.0480
+----------------------------------------
+[Batch 271] pred_ans: 5.00
+[Batch 271] true_ans: 7
+Current avg_loss: 2.6359, accuracy: 0.0479
+----------------------------------------
+[Batch 271] pred_ans: 0.3
+[Batch 271] true_ans: 6
+Current avg_loss: 2.6359, accuracy: 0.0478
+----------------------------------------
+[Batch 272] pred_ans: 80
+[Batch 272] true_ans: 80
+Current avg_loss: 2.6363, accuracy: 0.0495
+----------------------------------------
+[Batch 272] pred_ans: 30 miles
+[Batch 272] true_ans: 30
+Current avg_loss: 2.6363, accuracy: 0.0495
+----------------------------------------
+[Batch 273] pred_ans: 6
+[Batch 273] true_ans: 130
+Current avg_loss: 2.6378, accuracy: 0.0494
+----------------------------------------
+[Batch 273] pred_ans: 81
+[Batch 273] true_ans: 81
+Current avg_loss: 2.6378, accuracy: 0.0511
+----------------------------------------
+[Batch 274] pred_ans: 80 pounds
+[Batch 274] true_ans: 100
+Current avg_loss: 2.6408, accuracy: 0.0510
+----------------------------------------
+[Batch 274] pred_ans: 40
+[Batch 274] true_ans: 398
+Current avg_loss: 2.6408, accuracy: 0.0509
+----------------------------------------
+[Batch 275] pred_ans: 1.5 x 5 + 0.25 x 2 +
+[Batch 275] true_ans: 27
+Current avg_loss: 2.6407, accuracy: 0.0508
+----------------------------------------
+[Batch 275] pred_ans: $40.50
+[Batch 275] true_ans: 17
+Current avg_loss: 2.6407, accuracy: 0.0507
+----------------------------------------
+[Batch 276] pred_ans: 750
+[Batch 276] true_ans: 450
+Current avg_loss: 2.6395, accuracy: 0.0506
+----------------------------------------
+[Batch 276] pred_ans: 6
+[Batch 276] true_ans: 92
+Current avg_loss: 2.6395, accuracy: 0.0505
+----------------------------------------
+[Batch 277] pred_ans: 2 hours
+[Batch 277] true_ans: 54
+Current avg_loss: 2.6390, accuracy: 0.0505
+----------------------------------------
+[Batch 277] pred_ans: 4 weeks
+[Batch 277] true_ans: 2
+Current avg_loss: 2.6390, accuracy: 0.0504
+----------------------------------------
+[Batch 278] pred_ans: 40 + 120 = 160
+[Batch 278] true_ans: 160
+Current avg_loss: 2.6402, accuracy: 0.0503
+----------------------------------------
+[Batch 278] pred_ans: 56
+[Batch 278] true_ans: 70
+Current avg_loss: 2.6402, accuracy: 0.0502
+----------------------------------------
+[Batch 279] pred_ans: 6
+[Batch 279] true_ans: 3
+Current avg_loss: 2.6416, accuracy: 0.0501
+----------------------------------------
+[Batch 279] pred_ans: 6
+[Batch 279] true_ans: 16
+Current avg_loss: 2.6416, accuracy: 0.0500
+----------------------------------------
+[Batch 280] pred_ans: 15
+[Batch 280] true_ans: 45
+Current avg_loss: 2.6410, accuracy: 0.0499
+----------------------------------------
+[Batch 280] pred_ans: 100 pounds
+[Batch 280] true_ans: 180
+Current avg_loss: 2.6410, accuracy: 0.0498
+----------------------------------------
+[Batch 281] pred_ans: 42 degrees
+[Batch 281] true_ans: 82
+Current avg_loss: 2.6420, accuracy: 0.0497
+----------------------------------------
+[Batch 281] pred_ans: $6.50
+[Batch 281] true_ans: 12
+Current avg_loss: 2.6420, accuracy: 0.0496
+----------------------------------------
+[Batch 282] pred_ans: 200
+[Batch 282] true_ans: 240
+Current avg_loss: 2.6417, accuracy: 0.0496
+----------------------------------------
+[Batch 282] pred_ans: 3
+[Batch 282] true_ans: 5
+Current avg_loss: 2.6417, accuracy: 0.0495
+----------------------------------------
+[Batch 283] pred_ans: 11
+[Batch 283] true_ans: 10
+Current avg_loss: 2.6398, accuracy: 0.0494
+----------------------------------------
+[Batch 283] pred_ans: $10.50
+[Batch 283] true_ans: 9
+Current avg_loss: 2.6398, accuracy: 0.0493
+----------------------------------------
+[Batch 284] pred_ans: 145
+[Batch 284] true_ans: 175
+Current avg_loss: 2.6408, accuracy: 0.0492
+----------------------------------------
+[Batch 284] pred_ans: 3
+[Batch 284] true_ans: 21
+Current avg_loss: 2.6408, accuracy: 0.0491
+----------------------------------------
+[Batch 285] pred_ans: 14
+[Batch 285] true_ans: 23
+Current avg_loss: 2.6416, accuracy: 0.0490
+----------------------------------------
+[Batch 285] pred_ans: 200 + 20 + 20 + 12 + 12 + 12
+[Batch 285] true_ans: 308
+Current avg_loss: 2.6416, accuracy: 0.0490
+----------------------------------------
+[Batch 286] pred_ans: 40 roses
+[Batch 286] true_ans: 100
+Current avg_loss: 2.6421, accuracy: 0.0489
+----------------------------------------
+[Batch 286] pred_ans: 0
+[Batch 286] true_ans: 600
+Current avg_loss: 2.6421, accuracy: 0.0488
+----------------------------------------
+[Batch 287] pred_ans: $20.00
+[Batch 287] true_ans: 37
+Current avg_loss: 2.6409, accuracy: 0.0487
+----------------------------------------
+[Batch 287] pred_ans: $1.50 x 8 = $12.00
+[Batch 287] true_ans: 36
+Current avg_loss: 2.6409, accuracy: 0.0486
+----------------------------------------
+[Batch 288] pred_ans: The area of the room is 18 x 12 = 216 square
+[Batch 288] true_ans: 11232
+Current avg_loss: 2.6395, accuracy: 0.0485
+----------------------------------------
+[Batch 288] pred_ans: 60
+[Batch 288] true_ans: 40
+Current avg_loss: 2.6395, accuracy: 0.0484
+----------------------------------------
+[Batch 289] pred_ans: 12
+[Batch 289] true_ans: 48
+Current avg_loss: 2.6412, accuracy: 0.0484
+----------------------------------------
+[Batch 289] pred_ans: 8
+[Batch 289] true_ans: 7
+Current avg_loss: 2.6412, accuracy: 0.0483
+----------------------------------------
+[Batch 290] pred_ans: 520 + 468 = 988. 988/2 = 494
+[Batch 290] true_ans: 500
+Current avg_loss: 2.6405, accuracy: 0.0482
+----------------------------------------
+[Batch 290] pred_ans: 3 hours and 35 minutes
+[Batch 290] true_ans: 215
+Current avg_loss: 2.6405, accuracy: 0.0481
+----------------------------------------
+[Batch 291] pred_ans: 1.76 x 10^5
+[Batch 291] true_ans: 129200
+Current avg_loss: 2.6426, accuracy: 0.0480
+----------------------------------------
+[Batch 291] pred_ans: 30
+[Batch 291] true_ans: 120
+Current avg_loss: 2.6426, accuracy: 0.0479
+----------------------------------------
+[Batch 292] pred_ans: 90 single use contacts come in 1 box and will last Pete 45 days
+[Batch 292] true_ans: 2
+Current avg_loss: 2.6434, accuracy: 0.0479
+----------------------------------------
+[Batch 292] pred_ans: $20
+[Batch 292] true_ans: 40
+Current avg_loss: 2.6434, accuracy: 0.0478
+----------------------------------------
+[Batch 293] pred_ans: 2000 ml
+[Batch 293] true_ans: 800
+Current avg_loss: 2.6416, accuracy: 0.0477
+----------------------------------------
+[Batch 293] pred_ans: 100
+[Batch 293] true_ans: 30
+Current avg_loss: 2.6416, accuracy: 0.0476
+----------------------------------------
+[Batch 294] pred_ans: 50 WPM
+[Batch 294] true_ans: 52
+Current avg_loss: 2.6419, accuracy: 0.0475
+----------------------------------------
+[Batch 294] pred_ans: 0.5 pounds
+[Batch 294] true_ans: 15
+Current avg_loss: 2.6419, accuracy: 0.0475
+----------------------------------------
+[Batch 295] pred_ans: 200
+[Batch 295] true_ans: 319
+Current avg_loss: 2.6402, accuracy: 0.0474
+----------------------------------------
+[Batch 295] pred_ans: 440
+[Batch 295] true_ans: 220
+Current avg_loss: 2.6402, accuracy: 0.0473
+----------------------------------------
+[Batch 296] pred_ans: 16 + 4 = 20
+[Batch 296] true_ans: 1
+Current avg_loss: 2.6404, accuracy: 0.0472
+----------------------------------------
+[Batch 296] pred_ans: 4
+[Batch 296] true_ans: 3
+Current avg_loss: 2.6404, accuracy: 0.0471
+----------------------------------------
+[Batch 297] pred_ans: 600
+[Batch 297] true_ans: 42
+Current avg_loss: 2.6413, accuracy: 0.0471
+----------------------------------------
+[Batch 297] pred_ans: 10
+[Batch 297] true_ans: 13
+Current avg_loss: 2.6413, accuracy: 0.0470
+----------------------------------------
+[Batch 298] pred_ans: 100 hours
+[Batch 298] true_ans: 260
+Current avg_loss: 2.6393, accuracy: 0.0469
+----------------------------------------
+[Batch 298] pred_ans: 180
+[Batch 298] true_ans: 90
+Current avg_loss: 2.6393, accuracy: 0.0468
+----------------------------------------
+[Batch 299] pred_ans: 14 gumballs
+[Batch 299] true_ans: 69
+Current avg_loss: 2.6395, accuracy: 0.0467
+----------------------------------------
+[Batch 299] pred_ans: 24
+[Batch 299] true_ans: 48
+Current avg_loss: 2.6395, accuracy: 0.0467
+----------------------------------------
+[Batch 300] pred_ans: 12 pounds
+[Batch 300] true_ans: 10
+Current avg_loss: 2.6382, accuracy: 0.0466
+----------------------------------------
+[Batch 300] pred_ans: 60
+[Batch 300] true_ans: 104
+Current avg_loss: 2.6382, accuracy: 0.0465
+----------------------------------------
+[Batch 301] pred_ans: 6 hours
+[Batch 301] true_ans: 5
+Current avg_loss: 2.6381, accuracy: 0.0464
+----------------------------------------
+[Batch 301] pred_ans: 1,440 pounds
+[Batch 301] true_ans: 1800
+Current avg_loss: 2.6381, accuracy: 0.0464
+----------------------------------------
+[Batch 302] pred_ans: 100 - 8 - 16 - 32 = 44
+[Batch 302] true_ans: 12
+Current avg_loss: 2.6359, accuracy: 0.0463
+----------------------------------------
+[Batch 302] pred_ans: 12
+[Batch 302] true_ans: 42
+Current avg_loss: 2.6359, accuracy: 0.0462
+----------------------------------------
+[Batch 303] pred_ans: 1.5 years
+[Batch 303] true_ans: 6
+Current avg_loss: 2.6378, accuracy: 0.0461
+----------------------------------------
+[Batch 303] pred_ans: 24.00/120 = 0.20 per wash.  0
+[Batch 303] true_ans: 10
+Current avg_loss: 2.6378, accuracy: 0.0461
+----------------------------------------
+[Batch 304] pred_ans: 0
+[Batch 304] true_ans: 8
+Current avg_loss: 2.6370, accuracy: 0.0460
+----------------------------------------
+[Batch 304] pred_ans: 4 pounds
+[Batch 304] true_ans: 7
+Current avg_loss: 2.6370, accuracy: 0.0459
+----------------------------------------
+[Batch 305] pred_ans: 490 meters - 150 meters = 340 meters
+[Batch 305] true_ans: 65,960
+Current avg_loss: 2.6377, accuracy: 0.0458
+----------------------------------------
+[Batch 305] pred_ans: $1,000,000
+[Batch 305] true_ans: 1,450,000
+Current avg_loss: 2.6377, accuracy: 0.0458
+----------------------------------------
+[Batch 306] pred_ans: 15 ounces
+[Batch 306] true_ans: 30
+Current avg_loss: 2.6365, accuracy: 0.0457
+----------------------------------------
+[Batch 306] pred_ans: 1000 x 3 = 3000 posts
+[Batch 306] true_ans: 93000
+Current avg_loss: 2.6365, accuracy: 0.0456
+----------------------------------------
+[Batch 307] pred_ans: 1,040
+[Batch 307] true_ans: 312
+Current avg_loss: 2.6357, accuracy: 0.0455
+----------------------------------------
+[Batch 307] pred_ans: $20.00
+[Batch 307] true_ans: 33
+Current avg_loss: 2.6357, accuracy: 0.0455
+----------------------------------------
+[Batch 308] pred_ans: 11 inches
+[Batch 308] true_ans: 10
+Current avg_loss: 2.6347, accuracy: 0.0454
+----------------------------------------
+[Batch 308] pred_ans: 5 days
+[Batch 308] true_ans: 5
+Current avg_loss: 2.6347, accuracy: 0.0453
+----------------------------------------
+[Batch 309] pred_ans: 108
+[Batch 309] true_ans: 36
+Current avg_loss: 2.6341, accuracy: 0.0452
+----------------------------------------
+[Batch 309] pred_ans: 120
+[Batch 309] true_ans: 76
+Current avg_loss: 2.6341, accuracy: 0.0452
+----------------------------------------
+[Batch 310] pred_ans: 1350
+[Batch 310] true_ans: 1509
+Current avg_loss: 2.6339, accuracy: 0.0451
+----------------------------------------
+[Batch 310] pred_ans: $6,000
+[Batch 310] true_ans: 3000
+Current avg_loss: 2.6339, accuracy: 0.0450
+----------------------------------------
+[Batch 311] pred_ans: 10
+[Batch 311] true_ans: 7
+Current avg_loss: 2.6339, accuracy: 0.0449
+----------------------------------------
+[Batch 311] pred_ans: 16 years old
+[Batch 311] true_ans: 8
+Current avg_loss: 2.6339, accuracy: 0.0449
+----------------------------------------
+[Batch 312] pred_ans: 1
+[Batch 312] true_ans: 85
+Current avg_loss: 2.6325, accuracy: 0.0448
+----------------------------------------
+[Batch 312] pred_ans: 80
+[Batch 312] true_ans: 160
+Current avg_loss: 2.6325, accuracy: 0.0447
+----------------------------------------
+[Batch 313] pred_ans: 1.44 Mb per hour
+[Batch 313] true_ans: 72
+Current avg_loss: 2.6330, accuracy: 0.0447
+----------------------------------------
+[Batch 313] pred_ans: 30
+[Batch 313] true_ans: 54
+Current avg_loss: 2.6330, accuracy: 0.0446
+----------------------------------------
+[Batch 314] pred_ans: 2 years
+[Batch 314] true_ans: 4
+Current avg_loss: 2.6325, accuracy: 0.0445
+----------------------------------------
+[Batch 314] pred_ans: $  7,000
+[Batch 314] true_ans: 17500
+Current avg_loss: 2.6325, accuracy: 0.0444
+----------------------------------------
+[Batch 315] pred_ans: 40
+[Batch 315] true_ans: 10
+Current avg_loss: 2.6328, accuracy: 0.0444
+----------------------------------------
+[Batch 315] pred_ans: 1. Let the price of the diamond jewel be $x
+[Batch 315] true_ans: 4800
+Current avg_loss: 2.6328, accuracy: 0.0443
+----------------------------------------
+[Batch 316] pred_ans: 48
+[Batch 316] true_ans: 45
+Current avg_loss: 2.6306, accuracy: 0.0442
+----------------------------------------
+[Batch 316] pred_ans: 1 hour
+[Batch 316] true_ans: 5
+Current avg_loss: 2.6306, accuracy: 0.0442
+----------------------------------------
+[Batch 317] pred_ans: 23
+[Batch 317] true_ans: 14
+Current avg_loss: 2.6311, accuracy: 0.0441
+----------------------------------------
+[Batch 317] pred_ans: 9
+[Batch 317] true_ans: 4
+Current avg_loss: 2.6311, accuracy: 0.0440
+----------------------------------------
+[Batch 318] pred_ans: 1,400
+[Batch 318] true_ans: 1050
+Current avg_loss: 2.6336, accuracy: 0.0440
+----------------------------------------
+[Batch 318] pred_ans: 2 miles
+[Batch 318] true_ans: 17
+Current avg_loss: 2.6336, accuracy: 0.0439
+----------------------------------------
+[Batch 319] pred_ans: 5 apples cost $2.60, and 5 oranges cost $3
+[Batch 319] true_ans: 12
+Current avg_loss: 2.6323, accuracy: 0.0438
+----------------------------------------
+[Batch 319] pred_ans: 4320 seconds
+[Batch 319] true_ans: 216
+Current avg_loss: 2.6323, accuracy: 0.0437
+----------------------------------------
+[Batch 320] pred_ans: $33,000
+[Batch 320] true_ans: 43,500
+Current avg_loss: 2.6317, accuracy: 0.0437
+----------------------------------------
+[Batch 320] pred_ans: 20000*12 + 20000*0.05*12 +
+[Batch 320] true_ans: 262500
+Current avg_loss: 2.6317, accuracy: 0.0436
+----------------------------------------
+[Batch 321] pred_ans: $15,000
+[Batch 321] true_ans: 10,800
+Current avg_loss: 2.6318, accuracy: 0.0435
+----------------------------------------
+[Batch 321] pred_ans: 560
+[Batch 321] true_ans: 840
+Current avg_loss: 2.6318, accuracy: 0.0435
+----------------------------------------
+[Batch 322] pred_ans: 30
+[Batch 322] true_ans: 29
+Current avg_loss: 2.6317, accuracy: 0.0434
+----------------------------------------
+[Batch 322] pred_ans: 24 kilograms
+[Batch 322] true_ans: 48
+Current avg_loss: 2.6317, accuracy: 0.0433
+----------------------------------------
+[Batch 323] pred_ans: 72 miles
+[Batch 323] true_ans: 79
+Current avg_loss: 2.6311, accuracy: 0.0433
+----------------------------------------
+[Batch 323] pred_ans: 12 hours
+[Batch 323] true_ans: 10
+Current avg_loss: 2.6311, accuracy: 0.0432
+----------------------------------------
+[Batch 324] pred_ans: 54
+[Batch 324] true_ans: 54
+Current avg_loss: 2.6320, accuracy: 0.0447
+----------------------------------------
+[Batch 324] pred_ans: 140000
+[Batch 324] true_ans: 162000
+Current avg_loss: 2.6320, accuracy: 0.0446
+----------------------------------------
+[Batch 325] pred_ans: 20 x 2 = 40
+[Batch 325] true_ans: 142
+Current avg_loss: 2.6318, accuracy: 0.0445
+----------------------------------------
+[Batch 325] pred_ans: 1,200
+[Batch 325] true_ans: 2100
+Current avg_loss: 2.6318, accuracy: 0.0445
+----------------------------------------
+[Batch 326] pred_ans: 45
+[Batch 326] true_ans: 75
+Current avg_loss: 2.6327, accuracy: 0.0444
+----------------------------------------
+[Batch 326] pred_ans: 180
+[Batch 326] true_ans: 80
+Current avg_loss: 2.6327, accuracy: 0.0443
+----------------------------------------
+[Batch 327] pred_ans: 2
+[Batch 327] true_ans: 2
+Current avg_loss: 2.6332, accuracy: 0.0458
+----------------------------------------
+[Batch 327] pred_ans: 10
+[Batch 327] true_ans: 10
+Current avg_loss: 2.6332, accuracy: 0.0473
+----------------------------------------
+[Batch 328] pred_ans: 20 days
+[Batch 328] true_ans: 10
+Current avg_loss: 2.6335, accuracy: 0.0472
+----------------------------------------
+[Batch 328] pred_ans: $200,000
+[Batch 328] true_ans: 330000
+Current avg_loss: 2.6335, accuracy: 0.0471
+----------------------------------------
+[Batch 329] pred_ans: 60
+[Batch 329] true_ans: 120
+Current avg_loss: 2.6324, accuracy: 0.0470
+----------------------------------------
+[Batch 329] pred_ans: 1/3 pound
+[Batch 329] true_ans: 3
+Current avg_loss: 2.6324, accuracy: 0.0470
+----------------------------------------
+[Batch 330] pred_ans: 5
+[Batch 330] true_ans: 15
+Current avg_loss: 2.6329, accuracy: 0.0469
+----------------------------------------
+[Batch 330] pred_ans: $22.00
+[Batch 330] true_ans: 44
+Current avg_loss: 2.6329, accuracy: 0.0468
+----------------------------------------
+[Batch 331] pred_ans: 9.00
+[Batch 331] true_ans: 7
+Current avg_loss: 2.6328, accuracy: 0.0468
+----------------------------------------
+[Batch 331] pred_ans: 193
+[Batch 331] true_ans: 193
+Current avg_loss: 2.6328, accuracy: 0.0482
+----------------------------------------
+[Batch 332] pred_ans: 24
+[Batch 332] true_ans: 32
+Current avg_loss: 2.6324, accuracy: 0.0481
+----------------------------------------
+[Batch 332] pred_ans: 1080 hours
+[Batch 332] true_ans: 360
+Current avg_loss: 2.6324, accuracy: 0.0480
+----------------------------------------
+[Batch 333] pred_ans: 240
+[Batch 333] true_ans: 120
+Current avg_loss: 2.6342, accuracy: 0.0480
+----------------------------------------
+[Batch 333] pred_ans: 50 minutes
+[Batch 333] true_ans: 53
+Current avg_loss: 2.6342, accuracy: 0.0479
+----------------------------------------
+[Batch 334] pred_ans: 6
+[Batch 334] true_ans: 3
+Current avg_loss: 2.6336, accuracy: 0.0478
+----------------------------------------
+[Batch 334] pred_ans: 16 x 5 = 80
+[Batch 334] true_ans: 132
+Current avg_loss: 2.6336, accuracy: 0.0478
+----------------------------------------
+[Batch 335] pred_ans: 12 pounds
+[Batch 335] true_ans: 4
+Current avg_loss: 2.6322, accuracy: 0.0477
+----------------------------------------
+[Batch 335] pred_ans: 1.5
+[Batch 335] true_ans: 4
+Current avg_loss: 2.6322, accuracy: 0.0476
+----------------------------------------
+[Batch 336] pred_ans: 1
+[Batch 336] true_ans: 2
+Current avg_loss: 2.6326, accuracy: 0.0475
+----------------------------------------
+[Batch 336] pred_ans: 9
+[Batch 336] true_ans: 9
+Current avg_loss: 2.6326, accuracy: 0.0490
+----------------------------------------
+[Batch 337] pred_ans: 30
+[Batch 337] true_ans: 12
+Current avg_loss: 2.6335, accuracy: 0.0489
+----------------------------------------
+[Batch 337] pred_ans: 12
+[Batch 337] true_ans: 33
+Current avg_loss: 2.6335, accuracy: 0.0488
+----------------------------------------
+[Batch 338] pred_ans: 1/5 of the total amount
+[Batch 338] true_ans: 240
+Current avg_loss: 2.6335, accuracy: 0.0487
+----------------------------------------
+[Batch 338] pred_ans: 80
+[Batch 338] true_ans: 36
+Current avg_loss: 2.6335, accuracy: 0.0487
+----------------------------------------
+[Batch 339] pred_ans: 60
+[Batch 339] true_ans: 120
+Current avg_loss: 2.6340, accuracy: 0.0486
+----------------------------------------
+[Batch 339] pred_ans: 72 hash browns
+[Batch 339] true_ans: 576
+Current avg_loss: 2.6340, accuracy: 0.0485
+----------------------------------------
+[Batch 340] pred_ans: 100 kg
+[Batch 340] true_ans: 20
+Current avg_loss: 2.6344, accuracy: 0.0485
+----------------------------------------
+[Batch 340] pred_ans: 168
+[Batch 340] true_ans: 298
+Current avg_loss: 2.6344, accuracy: 0.0484
+----------------------------------------
+[Batch 341] pred_ans: 100
+[Batch 341] true_ans: 80
+Current avg_loss: 2.6341, accuracy: 0.0483
+----------------------------------------
+[Batch 341] pred_ans: 40 minutes
+[Batch 341] true_ans: 50
+Current avg_loss: 2.6341, accuracy: 0.0482
+----------------------------------------
+[Batch 342] pred_ans: 11 minutes
+[Batch 342] true_ans: 11
+Current avg_loss: 2.6330, accuracy: 0.0482
+----------------------------------------
+[Batch 342] pred_ans: 12
+[Batch 342] true_ans: 14
+Current avg_loss: 2.6330, accuracy: 0.0481
+----------------------------------------
+[Batch 343] pred_ans: 40
+[Batch 343] true_ans: 80
+Current avg_loss: 2.6329, accuracy: 0.0480
+----------------------------------------
+[Batch 343] pred_ans: 7
+[Batch 343] true_ans: 13
+Current avg_loss: 2.6329, accuracy: 0.0480
+----------------------------------------
+[Batch 344] pred_ans: 60 minutes
+[Batch 344] true_ans: 100
+Current avg_loss: 2.6324, accuracy: 0.0479
+----------------------------------------
+[Batch 344] pred_ans: 10 lollipops and 10 candies will cost $6.40
+[Batch 344] true_ans: 7
+Current avg_loss: 2.6324, accuracy: 0.0478
+----------------------------------------
+[Batch 345] pred_ans: 20 x 12 x 10 = 2400
+[Batch 345] true_ans: 5760
+Current avg_loss: 2.6330, accuracy: 0.0478
+----------------------------------------
+[Batch 345] pred_ans: 0.60(125) + 2(20) = 75 +
+[Batch 345] true_ans: 25
+Current avg_loss: 2.6330, accuracy: 0.0477
+----------------------------------------
+[Batch 346] pred_ans: 1.5 + 6 + 3 = 10.5
+[Batch 346] true_ans: 32
+Current avg_loss: 2.6318, accuracy: 0.0476
+----------------------------------------
+[Batch 346] pred_ans: 100 square feet
+[Batch 346] true_ans: 68
+Current avg_loss: 2.6318, accuracy: 0.0476
+----------------------------------------
+[Batch 347] pred_ans: 32
+[Batch 347] true_ans: 9
+Current avg_loss: 2.6324, accuracy: 0.0475
+----------------------------------------
+[Batch 347] pred_ans: 10
+[Batch 347] true_ans: 5
+Current avg_loss: 2.6324, accuracy: 0.0474
+----------------------------------------
+[Batch 348] pred_ans: 100
+[Batch 348] true_ans: 145
+Current avg_loss: 2.6321, accuracy: 0.0473
+----------------------------------------
+[Batch 348] pred_ans: 27
+[Batch 348] true_ans: 27
+Current avg_loss: 2.6321, accuracy: 0.0487
+----------------------------------------
+[Batch 349] pred_ans: 50% of $2400.00 is $1200.00
+[Batch 349] true_ans: 720
+Current avg_loss: 2.6315, accuracy: 0.0486
+----------------------------------------
+[Batch 349] pred_ans: 10
+[Batch 349] true_ans: 8
+Current avg_loss: 2.6315, accuracy: 0.0486
+----------------------------------------
+[Batch 350] pred_ans: 120
+[Batch 350] true_ans: 135
+Current avg_loss: 2.6318, accuracy: 0.0485
+----------------------------------------
+[Batch 350] pred_ans: 100
+[Batch 350] true_ans: 200
+Current avg_loss: 2.6318, accuracy: 0.0484
+----------------------------------------
+[Batch 351] pred_ans: 4,000 pounds
+[Batch 351] true_ans: 2800
+Current avg_loss: 2.6312, accuracy: 0.0484
+----------------------------------------
+[Batch 351] pred_ans: 36
+[Batch 351] true_ans: 50
+Current avg_loss: 2.6312, accuracy: 0.0483
+----------------------------------------
+[Batch 352] pred_ans: 40
+[Batch 352] true_ans: 50
+Current avg_loss: 2.6330, accuracy: 0.0482
+----------------------------------------
+[Batch 352] pred_ans: 6 feet
+[Batch 352] true_ans: 120
+Current avg_loss: 2.6330, accuracy: 0.0482
+----------------------------------------
+[Batch 353] pred_ans: 6300/2100 = 3. Therefore, they have to fundraise
+[Batch 353] true_ans: 9
+Current avg_loss: 2.6322, accuracy: 0.0481
+----------------------------------------
+[Batch 353] pred_ans: 20%
+[Batch 353] true_ans: 8
+Current avg_loss: 2.6322, accuracy: 0.0480
+----------------------------------------
+[Batch 354] pred_ans: 2 weeks = 14 days. 14 days x $12 per day =
+[Batch 354] true_ans: 168
+Current avg_loss: 2.6323, accuracy: 0.0480
+----------------------------------------
+[Batch 354] pred_ans: 200
+[Batch 354] true_ans: 3000
+Current avg_loss: 2.6323, accuracy: 0.0479
+----------------------------------------
+[Batch 355] pred_ans: $33.00
+[Batch 355] true_ans: 45
+Current avg_loss: 2.6315, accuracy: 0.0478
+----------------------------------------
+[Batch 355] pred_ans: 4
+[Batch 355] true_ans: 6
+Current avg_loss: 2.6315, accuracy: 0.0478
+----------------------------------------
+[Batch 356] pred_ans: 2 pieces
+[Batch 356] true_ans: 14
+Current avg_loss: 2.6332, accuracy: 0.0477
+----------------------------------------
+[Batch 356] pred_ans: 288
+[Batch 356] true_ans: 576
+Current avg_loss: 2.6332, accuracy: 0.0476
+----------------------------------------
+[Batch 357] pred_ans: $15.00
+[Batch 357] true_ans: 10
+Current avg_loss: 2.6337, accuracy: 0.0476
+----------------------------------------
+[Batch 357] pred_ans: 500 x 1.1 x $700 = $385,000
+[Batch 357] true_ans: 385000
+Current avg_loss: 2.6337, accuracy: 0.0475
+----------------------------------------
+[Batch 358] pred_ans: 480 calories
+[Batch 358] true_ans: 770
+Current avg_loss: 2.6329, accuracy: 0.0474
+----------------------------------------
+[Batch 358] pred_ans: 0.50
+[Batch 358] true_ans: 5
+Current avg_loss: 2.6329, accuracy: 0.0474
+----------------------------------------
+[Batch 359] pred_ans: 10
+[Batch 359] true_ans: 2
+Current avg_loss: 2.6325, accuracy: 0.0473
+----------------------------------------
+[Batch 359] pred_ans: 3 x 25 = 75 kilograms and 4 x 25 =
+[Batch 359] true_ans: 175
+Current avg_loss: 2.6325, accuracy: 0.0472
+----------------------------------------
+[Batch 360] pred_ans: 2
+[Batch 360] true_ans: 4
+Current avg_loss: 2.6313, accuracy: 0.0472
+----------------------------------------
+[Batch 360] pred_ans: 12,000
+[Batch 360] true_ans: 2450
+Current avg_loss: 2.6313, accuracy: 0.0471
+----------------------------------------
+[Batch 361] pred_ans: 0
+[Batch 361] true_ans: 255
+Current avg_loss: 2.6308, accuracy: 0.0470
+----------------------------------------
+[Batch 361] pred_ans: 170 - 20 = 150 normal chairs. 23 - 13 =
+[Batch 361] true_ans: 160
+Current avg_loss: 2.6308, accuracy: 0.0470
+----------------------------------------
+[Batch 362] pred_ans: 4
+[Batch 362] true_ans: 18
+Current avg_loss: 2.6304, accuracy: 0.0469
+----------------------------------------
+[Batch 362] pred_ans: 1 hour
+[Batch 362] true_ans: 25
+Current avg_loss: 2.6304, accuracy: 0.0468
+----------------------------------------
+[Batch 363] pred_ans: 10 inches
+[Batch 363] true_ans: 10
+Current avg_loss: 2.6299, accuracy: 0.0468
+----------------------------------------
+[Batch 363] pred_ans: 48
+[Batch 363] true_ans: 112
+Current avg_loss: 2.6299, accuracy: 0.0467
+----------------------------------------
+[Batch 364] pred_ans: 65%
+[Batch 364] true_ans: 40
+Current avg_loss: 2.6283, accuracy: 0.0466
+----------------------------------------
+[Batch 364] pred_ans: 1000
+[Batch 364] true_ans: 1000
+Current avg_loss: 2.6283, accuracy: 0.0479
+----------------------------------------
+[Batch 365] pred_ans: 4 packs
+[Batch 365] true_ans: 8
+Current avg_loss: 2.6284, accuracy: 0.0479
+----------------------------------------
+[Batch 365] pred_ans: 3 boxes
+[Batch 365] true_ans: 1
+Current avg_loss: 2.6284, accuracy: 0.0478
+----------------------------------------
+[Batch 366] pred_ans: 50
+[Batch 366] true_ans: 87
+Current avg_loss: 2.6276, accuracy: 0.0477
+----------------------------------------
+[Batch 366] pred_ans: 5 dollars each
+[Batch 366] true_ans: 5
+Current avg_loss: 2.6276, accuracy: 0.0477
+----------------------------------------
+[Batch 367] pred_ans: 16 pounds
+[Batch 367] true_ans: 17
+Current avg_loss: 2.6264, accuracy: 0.0476
+----------------------------------------
+[Batch 367] pred_ans: 30
+[Batch 367] true_ans: 50
+Current avg_loss: 2.6264, accuracy: 0.0476
+----------------------------------------
+[Batch 368] pred_ans: 13
+[Batch 368] true_ans: 3
+Current avg_loss: 2.6261, accuracy: 0.0475
+----------------------------------------
+[Batch 368] pred_ans: 1/2 ounce
+[Batch 368] true_ans: 2
+Current avg_loss: 2.6261, accuracy: 0.0474
+----------------------------------------
+[Batch 369] pred_ans: 10
+[Batch 369] true_ans: 4
+Current avg_loss: 2.6271, accuracy: 0.0474
+----------------------------------------
+[Batch 369] pred_ans: 10 x 5 + 16 x 2.5 = 70 +
+[Batch 369] true_ans: 98
+Current avg_loss: 2.6271, accuracy: 0.0473
+----------------------------------------
+[Batch 370] pred_ans: 20
+[Batch 370] true_ans: 25
+Current avg_loss: 2.6275, accuracy: 0.0472
+----------------------------------------
+[Batch 370] pred_ans: 20
+[Batch 370] true_ans: 28
+Current avg_loss: 2.6275, accuracy: 0.0472
+----------------------------------------
+[Batch 371] pred_ans: 24
+[Batch 371] true_ans: 24
+Current avg_loss: 2.6276, accuracy: 0.0485
+----------------------------------------
+[Batch 371] pred_ans: 2
+[Batch 371] true_ans: 8
+Current avg_loss: 2.6276, accuracy: 0.0484
+----------------------------------------
+[Batch 372] pred_ans: 28
+[Batch 372] true_ans: 4
+Current avg_loss: 2.6275, accuracy: 0.0483
+----------------------------------------
+[Batch 372] pred_ans: $1000
+[Batch 372] true_ans: 1100
+Current avg_loss: 2.6275, accuracy: 0.0483
+----------------------------------------
+[Batch 373] pred_ans: 2
+[Batch 373] true_ans: 28
+Current avg_loss: 2.6274, accuracy: 0.0482
+----------------------------------------
+[Batch 373] pred_ans: 500 x 7 x.1 = $350
+[Batch 373] true_ans: 350
+Current avg_loss: 2.6274, accuracy: 0.0481
+----------------------------------------
+[Batch 374] pred_ans: 224
+[Batch 374] true_ans: 336
+Current avg_loss: 2.6284, accuracy: 0.0481
+----------------------------------------
+[Batch 374] pred_ans: 3
+[Batch 374] true_ans: 3
+Current avg_loss: 2.6284, accuracy: 0.0493
+----------------------------------------
+[Batch 375] pred_ans: 1,200 chairs
+[Batch 375] true_ans: 4000
+Current avg_loss: 2.6282, accuracy: 0.0493
+----------------------------------------
+[Batch 375] pred_ans: 48
+[Batch 375] true_ans: 43
+Current avg_loss: 2.6282, accuracy: 0.0492
+----------------------------------------
+[Batch 376] pred_ans: 4 roommates, $100 per month, 12 months per year, $
+[Batch 376] true_ans: 240
+Current avg_loss: 2.6292, accuracy: 0.0491
+----------------------------------------
+[Batch 376] pred_ans: 96 glasses and 96 plates
+[Batch 376] true_ans: 128
+Current avg_loss: 2.6292, accuracy: 0.0491
+----------------------------------------
+[Batch 377] pred_ans: 60
+[Batch 377] true_ans: 89
+Current avg_loss: 2.6280, accuracy: 0.0490
+----------------------------------------
+[Batch 377] pred_ans: 5
+[Batch 377] true_ans: 7
+Current avg_loss: 2.6280, accuracy: 0.0489
+----------------------------------------
+[Batch 378] pred_ans: 33
+[Batch 378] true_ans: 22
+Current avg_loss: 2.6275, accuracy: 0.0489
+----------------------------------------
+[Batch 378] pred_ans: 44
+[Batch 378] true_ans: 75
+Current avg_loss: 2.6275, accuracy: 0.0488
+----------------------------------------
+[Batch 379] pred_ans: 5% of $140 is $7.00. $140 - $7
+[Batch 379] true_ans: 133
+Current avg_loss: 2.6280, accuracy: 0.0487
+----------------------------------------
+[Batch 379] pred_ans: 6000
+[Batch 379] true_ans: 60000
+Current avg_loss: 2.6280, accuracy: 0.0487
+----------------------------------------
+[Batch 380] pred_ans: 20% of 50 people think horse #2 will win the big race
+[Batch 380] true_ans: 16
+Current avg_loss: 2.6278, accuracy: 0.0486
+----------------------------------------
+[Batch 380] pred_ans: 9
+[Batch 380] true_ans: 27
+Current avg_loss: 2.6278, accuracy: 0.0486
+----------------------------------------
+[Batch 381] pred_ans: 50
+[Batch 381] true_ans: 85
+Current avg_loss: 2.6287, accuracy: 0.0485
+----------------------------------------
+[Batch 381] pred_ans: 100 cases
+[Batch 381] true_ans: 100
+Current avg_loss: 2.6287, accuracy: 0.0484
+----------------------------------------
+[Batch 382] pred_ans: 11
+[Batch 382] true_ans: 14
+Current avg_loss: 2.6289, accuracy: 0.0484
+----------------------------------------
+[Batch 382] pred_ans: 295
+[Batch 382] true_ans: 490
+Current avg_loss: 2.6289, accuracy: 0.0483
+----------------------------------------
+[Batch 383] pred_ans: 4
+[Batch 383] true_ans: 12
+Current avg_loss: 2.6292, accuracy: 0.0482
+----------------------------------------
+[Batch 383] pred_ans: 4 x 5 x 3 = $60
+[Batch 383] true_ans: 60
+Current avg_loss: 2.6292, accuracy: 0.0482
+----------------------------------------
+[Batch 384] pred_ans: 450
+[Batch 384] true_ans: 675
+Current avg_loss: 2.6303, accuracy: 0.0481
+----------------------------------------
+[Batch 384] pred_ans: 85
+[Batch 384] true_ans: 110
+Current avg_loss: 2.6303, accuracy: 0.0481
+----------------------------------------
+[Batch 385] pred_ans: 3
+[Batch 385] true_ans: 4
+Current avg_loss: 2.6297, accuracy: 0.0480
+----------------------------------------
+[Batch 385] pred_ans: 15
+[Batch 385] true_ans: 3
+Current avg_loss: 2.6297, accuracy: 0.0479
+----------------------------------------
+[Batch 386] pred_ans: 50%
+[Batch 386] true_ans: 50
+Current avg_loss: 2.6289, accuracy: 0.0479
+----------------------------------------
+[Batch 386] pred_ans: 2
+[Batch 386] true_ans: 10
+Current avg_loss: 2.6289, accuracy: 0.0478
+----------------------------------------
+[Batch 387] pred_ans: 10 hours
+[Batch 387] true_ans: 10
+Current avg_loss: 2.6292, accuracy: 0.0477
+----------------------------------------
+[Batch 387] pred_ans: 100
+[Batch 387] true_ans: 276
+Current avg_loss: 2.6292, accuracy: 0.0477
+----------------------------------------
+[Batch 388] pred_ans: 800
+[Batch 388] true_ans: 800
+Current avg_loss: 2.6293, accuracy: 0.0489
+----------------------------------------
+[Batch 388] pred_ans: $3,800
+[Batch 388] true_ans: 4400
+Current avg_loss: 2.6293, accuracy: 0.0488
+----------------------------------------
+[Batch 389] pred_ans: 6 x $2.00 + 8 x $1.00 +
+[Batch 389] true_ans: 38
+Current avg_loss: 2.6285, accuracy: 0.0488
+----------------------------------------
+[Batch 389] pred_ans: 75 miles
+[Batch 389] true_ans: 255
+Current avg_loss: 2.6285, accuracy: 0.0487
+----------------------------------------
+[Batch 390] pred_ans: 8 + 3 - 4 = 7
+[Batch 390] true_ans: 25
+Current avg_loss: 2.6274, accuracy: 0.0487
+----------------------------------------
+[Batch 390] pred_ans: 16
+[Batch 390] true_ans: 17
+Current avg_loss: 2.6274, accuracy: 0.0486
+----------------------------------------
+[Batch 391] pred_ans: 20
+[Batch 391] true_ans: 54
+Current avg_loss: 2.6269, accuracy: 0.0485
+----------------------------------------
+[Batch 391] pred_ans: 3
+[Batch 391] true_ans: 4
+Current avg_loss: 2.6269, accuracy: 0.0485
+----------------------------------------
+[Batch 392] pred_ans: 1.5 gallons per week
+[Batch 392] true_ans: 15
+Current avg_loss: 2.6281, accuracy: 0.0484
+----------------------------------------
+[Batch 392] pred_ans: 1/5 of the twenties = 1/5 x 20 =
+[Batch 392] true_ans: 155
+Current avg_loss: 2.6281, accuracy: 0.0483
+----------------------------------------
+[Batch 393] pred_ans: 5 tomato plants yield 110 tomatoes and 8 eggplant plants yield 32
+[Batch 393] true_ans: 142
+Current avg_loss: 2.6283, accuracy: 0.0483
+----------------------------------------
+[Batch 393] pred_ans: 20
+[Batch 393] true_ans: 25
+Current avg_loss: 2.6283, accuracy: 0.0482
+----------------------------------------
+[Batch 394] pred_ans: 200
+[Batch 394] true_ans: 100
+Current avg_loss: 2.6286, accuracy: 0.0482
+----------------------------------------
+[Batch 394] pred_ans: 4
+[Batch 394] true_ans: 4
+Current avg_loss: 2.6286, accuracy: 0.0494
+----------------------------------------
+[Batch 395] pred_ans: 180
+[Batch 395] true_ans: 108
+Current avg_loss: 2.6295, accuracy: 0.0493
+----------------------------------------
+[Batch 395] pred_ans: 84
+[Batch 395] true_ans: 100
+Current avg_loss: 2.6295, accuracy: 0.0492
+----------------------------------------
+[Batch 396] pred_ans: $75.00
+[Batch 396] true_ans: 75
+Current avg_loss: 2.6301, accuracy: 0.0504
+----------------------------------------
+[Batch 396] pred_ans: 1. $220
+[Batch 396] true_ans: 250
+Current avg_loss: 2.6301, accuracy: 0.0504
+----------------------------------------
+[Batch 397] pred_ans: 32
+[Batch 397] true_ans: 32
+Current avg_loss: 2.6289, accuracy: 0.0516
+----------------------------------------
+[Batch 397] pred_ans: $10.00
+[Batch 397] true_ans: 20
+Current avg_loss: 2.6289, accuracy: 0.0515
+----------------------------------------
+[Batch 398] pred_ans: 4000*200+4000*20+4000*20+400
+[Batch 398] true_ans: 2880000
+Current avg_loss: 2.6284, accuracy: 0.0514
+----------------------------------------
+[Batch 398] pred_ans: 600 seconds
+[Batch 398] true_ans: 540
+Current avg_loss: 2.6284, accuracy: 0.0514
+----------------------------------------
+[Batch 399] pred_ans: 20(10) + 20(10.50) - 20(
+[Batch 399] true_ans: 20
+Current avg_loss: 2.6269, accuracy: 0.0513
+----------------------------------------
+[Batch 399] pred_ans: 1
+[Batch 399] true_ans: 4
+Current avg_loss: 2.6269, accuracy: 0.0512
+----------------------------------------
+[Batch 400] pred_ans: 396
+[Batch 400] true_ans: 428
+Current avg_loss: 2.6267, accuracy: 0.0512
+----------------------------------------
+[Batch 400] pred_ans: 1,200 trees
+[Batch 400] true_ans: 1240
+Current avg_loss: 2.6267, accuracy: 0.0511
+----------------------------------------
+[Batch 401] pred_ans: 4
+[Batch 401] true_ans: 6
+Current avg_loss: 2.6271, accuracy: 0.0511
+----------------------------------------
+[Batch 401] pred_ans: 0 hours
+[Batch 401] true_ans: 9
+Current avg_loss: 2.6271, accuracy: 0.0510
+----------------------------------------
+[Batch 402] pred_ans: 10 miles
+[Batch 402] true_ans: 20
+Current avg_loss: 2.6262, accuracy: 0.0509
+----------------------------------------
+[Batch 402] pred_ans: $1,200
+[Batch 402] true_ans: 1170
+Current avg_loss: 2.6262, accuracy: 0.0509
+----------------------------------------
+[Batch 403] pred_ans: 0.36
+[Batch 403] true_ans: 70
+Current avg_loss: 2.6266, accuracy: 0.0508
+----------------------------------------
+[Batch 403] pred_ans: 18 inches
+[Batch 403] true_ans: 4
+Current avg_loss: 2.6266, accuracy: 0.0507
+----------------------------------------
+[Batch 404] pred_ans: 10 quarts = 1 gallon
+[Batch 404] true_ans: 12
+Current avg_loss: 2.6266, accuracy: 0.0507
+----------------------------------------
+[Batch 404] pred_ans: 50
+[Batch 404] true_ans: 50
+Current avg_loss: 2.6266, accuracy: 0.0519
+----------------------------------------
+[Batch 405] pred_ans: 10
+[Batch 405] true_ans: 310
+Current avg_loss: 2.6266, accuracy: 0.0518
+----------------------------------------
+[Batch 405] pred_ans: 105/4 = 26.25
+[Batch 405] true_ans: 60
+Current avg_loss: 2.6266, accuracy: 0.0517
+----------------------------------------
+[Batch 406] pred_ans: 40
+[Batch 406] true_ans: 79
+Current avg_loss: 2.6251, accuracy: 0.0517
+----------------------------------------
+[Batch 406] pred_ans: 7
+[Batch 406] true_ans: 7
+Current avg_loss: 2.6251, accuracy: 0.0528
+----------------------------------------
+[Batch 407] pred_ans: 1.5 quarters
+[Batch 407] true_ans: 11
+Current avg_loss: 2.6247, accuracy: 0.0528
+----------------------------------------
+[Batch 407] pred_ans: 4
+[Batch 407] true_ans: 4
+Current avg_loss: 2.6247, accuracy: 0.0539
+----------------------------------------
+[Batch 408] pred_ans: 5000
+[Batch 408] true_ans: 4500
+Current avg_loss: 2.6264, accuracy: 0.0539
+----------------------------------------
+[Batch 408] pred_ans: 15
+[Batch 408] true_ans: 15
+Current avg_loss: 2.6264, accuracy: 0.0550
+----------------------------------------
+[Batch 409] pred_ans: 40
+[Batch 409] true_ans: 16
+Current avg_loss: 2.6265, accuracy: 0.0549
+----------------------------------------
+[Batch 409] pred_ans: 12500
+[Batch 409] true_ans: 6,250
+Current avg_loss: 2.6265, accuracy: 0.0549
+----------------------------------------
+[Batch 410] pred_ans: 480 minutes
+[Batch 410] true_ans: 720
+Current avg_loss: 2.6283, accuracy: 0.0548
+----------------------------------------
+[Batch 410] pred_ans: 30
+[Batch 410] true_ans: 35
+Current avg_loss: 2.6283, accuracy: 0.0547
+----------------------------------------
+[Batch 411] pred_ans: 7 x 30 x 5 x $1.20 = $1800
+[Batch 411] true_ans: 1260
+Current avg_loss: 2.6289, accuracy: 0.0547
+----------------------------------------
+[Batch 411] pred_ans: 20
+[Batch 411] true_ans: 14
+Current avg_loss: 2.6289, accuracy: 0.0546
+----------------------------------------
+[Batch 412] pred_ans: 22
+[Batch 412] true_ans: 52
+Current avg_loss: 2.6282, accuracy: 0.0545
+----------------------------------------
+[Batch 412] pred_ans: 84
+[Batch 412] true_ans: 153
+Current avg_loss: 2.6282, accuracy: 0.0545
+----------------------------------------
+[Batch 413] pred_ans: 20
+[Batch 413] true_ans: 27
+Current avg_loss: 2.6276, accuracy: 0.0544
+----------------------------------------
+[Batch 413] pred_ans: 0.35*4 + 0.08*20 + 0
+[Batch 413] true_ans: 11
+Current avg_loss: 2.6276, accuracy: 0.0543
+----------------------------------------
+[Batch 414] pred_ans: 10
+[Batch 414] true_ans: 60
+Current avg_loss: 2.6265, accuracy: 0.0543
+----------------------------------------
+[Batch 414] pred_ans: 12,000
+[Batch 414] true_ans: 14,000
+Current avg_loss: 2.6265, accuracy: 0.0542
+----------------------------------------
+[Batch 415] pred_ans: 72 hours
+[Batch 415] true_ans: 1128
+Current avg_loss: 2.6267, accuracy: 0.0542
+----------------------------------------
+[Batch 415] pred_ans: 6 mirrors + 2 chandeliers + 20 pictures = 28 items
+[Batch 415] true_ans: 324
+Current avg_loss: 2.6267, accuracy: 0.0541
+----------------------------------------
+[Batch 416] pred_ans: $30.00
+[Batch 416] true_ans: 42
+Current avg_loss: 2.6271, accuracy: 0.0540
+----------------------------------------
+[Batch 416] pred_ans: 12 feet
+[Batch 416] true_ans: 40
+Current avg_loss: 2.6271, accuracy: 0.0540
+----------------------------------------
+[Batch 417] pred_ans: 56 miles
+[Batch 417] true_ans: 80
+Current avg_loss: 2.6270, accuracy: 0.0539
+----------------------------------------
+[Batch 417] pred_ans: 36
+[Batch 417] true_ans: 48
+Current avg_loss: 2.6270, accuracy: 0.0538
+----------------------------------------
+[Batch 418] pred_ans: 60
+[Batch 418] true_ans: 140
+Current avg_loss: 2.6266, accuracy: 0.0538
+----------------------------------------
+[Batch 418] pred_ans: 50
+[Batch 418] true_ans: 120
+Current avg_loss: 2.6266, accuracy: 0.0537
+----------------------------------------
+[Batch 419] pred_ans: 5
+[Batch 419] true_ans: 15
+Current avg_loss: 2.6265, accuracy: 0.0536
+----------------------------------------
+[Batch 419] pred_ans: 2
+[Batch 419] true_ans: 2
+Current avg_loss: 2.6265, accuracy: 0.0548
+----------------------------------------
+[Batch 420] pred_ans: 6 millimeters
+[Batch 420] true_ans: 16
+Current avg_loss: 2.6265, accuracy: 0.0547
+----------------------------------------
+[Batch 420] pred_ans: 10000 + 800 - 5000 - 200 = 3600
+[Batch 420] true_ans: 5600
+Current avg_loss: 2.6265, accuracy: 0.0546
+----------------------------------------
+[Batch 421] pred_ans: 10
+[Batch 421] true_ans: 10
+Current avg_loss: 2.6271, accuracy: 0.0558
+----------------------------------------
+[Batch 421] pred_ans: 2
+[Batch 421] true_ans: 19
+Current avg_loss: 2.6271, accuracy: 0.0557
+----------------------------------------
+[Batch 422] pred_ans: 60
+[Batch 422] true_ans: 180
+Current avg_loss: 2.6276, accuracy: 0.0556
+----------------------------------------
+[Batch 422] pred_ans: 13
+[Batch 422] true_ans: 12
+Current avg_loss: 2.6276, accuracy: 0.0556
+----------------------------------------
+[Batch 423] pred_ans: 9
+[Batch 423] true_ans: 11
+Current avg_loss: 2.6280, accuracy: 0.0555
+----------------------------------------
+[Batch 423] pred_ans: 1,000
+[Batch 423] true_ans: 975
+Current avg_loss: 2.6280, accuracy: 0.0554
+----------------------------------------
+[Batch 424] pred_ans: 10
+[Batch 424] true_ans: 10
+Current avg_loss: 2.6278, accuracy: 0.0565
+----------------------------------------
+[Batch 424] pred_ans: 75
+[Batch 424] true_ans: 75
+Current avg_loss: 2.6278, accuracy: 0.0576
+----------------------------------------
+[Batch 425] pred_ans: 100
+[Batch 425] true_ans: 70
+Current avg_loss: 2.6273, accuracy: 0.0576
+----------------------------------------
+[Batch 425] pred_ans: $120
+[Batch 425] true_ans: 110
+Current avg_loss: 2.6273, accuracy: 0.0575
+----------------------------------------
+[Batch 426] pred_ans: 3(25) + 2(18) = 75 + 36
+[Batch 426] true_ans: 123
+Current avg_loss: 2.6269, accuracy: 0.0574
+----------------------------------------
+[Batch 426] pred_ans: 5 hours
+[Batch 426] true_ans: 15
+Current avg_loss: 2.6269, accuracy: 0.0574
+----------------------------------------
+[Batch 427] pred_ans: 48
+[Batch 427] true_ans: 144
+Current avg_loss: 2.6255, accuracy: 0.0573
+----------------------------------------
+[Batch 427] pred_ans: 12
+[Batch 427] true_ans: 13
+Current avg_loss: 2.6255, accuracy: 0.0572
+----------------------------------------
+[Batch 428] pred_ans: 14 packs of glue sticks
+[Batch 428] true_ans: 7
+Current avg_loss: 2.6245, accuracy: 0.0572
+----------------------------------------
+[Batch 428] pred_ans: 12000 gallons
+[Batch 428] true_ans: 14000
+Current avg_loss: 2.6245, accuracy: 0.0571
+----------------------------------------
+[Batch 429] pred_ans: 10,000
+[Batch 429] true_ans: 3430
+Current avg_loss: 2.6252, accuracy: 0.0570
+----------------------------------------
+[Batch 429] pred_ans: 1,600
+[Batch 429] true_ans: 1520
+Current avg_loss: 2.6252, accuracy: 0.0570
+----------------------------------------
+[Batch 430] pred_ans: 3
+[Batch 430] true_ans: 3
+Current avg_loss: 2.6264, accuracy: 0.0581
+----------------------------------------
+[Batch 430] pred_ans: 12
+[Batch 430] true_ans: 30
+Current avg_loss: 2.6264, accuracy: 0.0580
+----------------------------------------
+[Batch 431] pred_ans: 50 cents x 8 slices x 5 hours = $200.00
+[Batch 431] true_ans: 40
+Current avg_loss: 2.6268, accuracy: 0.0579
+----------------------------------------
+[Batch 431] pred_ans: 140
+[Batch 431] true_ans: 110
+Current avg_loss: 2.6268, accuracy: 0.0579
+----------------------------------------
+[Batch 432] pred_ans: 500
+[Batch 432] true_ans: 80
+Current avg_loss: 2.6270, accuracy: 0.0578
+----------------------------------------
+[Batch 432] pred_ans: 15
+[Batch 432] true_ans: 23
+Current avg_loss: 2.6270, accuracy: 0.0577
+----------------------------------------
+[Batch 433] pred_ans: 35
+[Batch 433] true_ans: 28
+Current avg_loss: 2.6263, accuracy: 0.0577
+----------------------------------------
+[Batch 433] pred_ans: 5
+[Batch 433] true_ans: 7
+Current avg_loss: 2.6263, accuracy: 0.0576
+----------------------------------------
+[Batch 434] pred_ans: 30 kids x 4 jello cups = 120 jello cups
+[Batch 434] true_ans: 15
+Current avg_loss: 2.6266, accuracy: 0.0575
+----------------------------------------
+[Batch 434] pred_ans: 1,400
+[Batch 434] true_ans: 500
+Current avg_loss: 2.6266, accuracy: 0.0575
+----------------------------------------
+[Batch 435] pred_ans: 50
+[Batch 435] true_ans: 40
+Current avg_loss: 2.6264, accuracy: 0.0574
+----------------------------------------
+[Batch 435] pred_ans: 36
+[Batch 435] true_ans: 48
+Current avg_loss: 2.6264, accuracy: 0.0573
+----------------------------------------
+[Batch 436] pred_ans: 3 bottles of soda cost $9.00 and 2 bottles of water cost
+[Batch 436] true_ans: 13
+Current avg_loss: 2.6267, accuracy: 0.0573
+----------------------------------------
+[Batch 436] pred_ans: 12.48 - 0.48 = 12.00
+[Batch 436] true_ans: 12
+Current avg_loss: 2.6267, accuracy: 0.0572
+----------------------------------------
+[Batch 437] pred_ans: 132
+[Batch 437] true_ans: 132
+Current avg_loss: 2.6263, accuracy: 0.0583
+----------------------------------------
+[Batch 437] pred_ans: 35
+[Batch 437] true_ans: 60
+Current avg_loss: 2.6263, accuracy: 0.0582
+----------------------------------------
+[Batch 438] pred_ans: 1,000
+[Batch 438] true_ans: 41
+Current avg_loss: 2.6248, accuracy: 0.0582
+----------------------------------------
+[Batch 438] pred_ans: 300 chickens x $50 = $15,000
+[Batch 438] true_ans: 7000
+Current avg_loss: 2.6248, accuracy: 0.0581
+----------------------------------------
+[Batch 439] pred_ans: 2 glasses
+[Batch 439] true_ans: 5
+Current avg_loss: 2.6245, accuracy: 0.0580
+----------------------------------------
+[Batch 439] pred_ans: 1/4 x 400 + 3/4 x 1/4
+[Batch 439] true_ans: 575
+Current avg_loss: 2.6245, accuracy: 0.0580
+----------------------------------------
+[Batch 440] pred_ans: 0.5 meters
+[Batch 440] true_ans: 10
+Current avg_loss: 2.6244, accuracy: 0.0579
+----------------------------------------
+[Batch 440] pred_ans: 6
+[Batch 440] true_ans: 16
+Current avg_loss: 2.6244, accuracy: 0.0578
+----------------------------------------
+[Batch 441] pred_ans: 45
+[Batch 441] true_ans: 5
+Current avg_loss: 2.6241, accuracy: 0.0578
+----------------------------------------
+[Batch 441] pred_ans: 30
+[Batch 441] true_ans: 25
+Current avg_loss: 2.6241, accuracy: 0.0577
+----------------------------------------
+[Batch 442] pred_ans: 110
+[Batch 442] true_ans: 50
+Current avg_loss: 2.6247, accuracy: 0.0576
+----------------------------------------
+[Batch 442] pred_ans: 375
+[Batch 442] true_ans: 500
+Current avg_loss: 2.6247, accuracy: 0.0576
+----------------------------------------
+[Batch 443] pred_ans: 30
+[Batch 443] true_ans: 20
+Current avg_loss: 2.6256, accuracy: 0.0575
+----------------------------------------
+[Batch 443] pred_ans: 36
+[Batch 443] true_ans: 34
+Current avg_loss: 2.6256, accuracy: 0.0574
+----------------------------------------
+[Batch 444] pred_ans: 10
+[Batch 444] true_ans: 10
+Current avg_loss: 2.6269, accuracy: 0.0585
+----------------------------------------
+[Batch 444] pred_ans: 5
+[Batch 444] true_ans: 15
+Current avg_loss: 2.6269, accuracy: 0.0584
+----------------------------------------
+[Batch 445] pred_ans: 50%
+[Batch 445] true_ans: 25
+Current avg_loss: 2.6262, accuracy: 0.0584
+----------------------------------------
+[Batch 445] pred_ans: 24.2 meters per second
+[Batch 445] true_ans: 55
+Current avg_loss: 2.6262, accuracy: 0.0583
+----------------------------------------
+[Batch 446] pred_ans: 1.5
+[Batch 446] true_ans: 1
+Current avg_loss: 2.6266, accuracy: 0.0582
+----------------------------------------
+[Batch 446] pred_ans: $400
+[Batch 446] true_ans: 480
+Current avg_loss: 2.6266, accuracy: 0.0582
+----------------------------------------
+[Batch 447] pred_ans: 40
+[Batch 447] true_ans: 26
+Current avg_loss: 2.6264, accuracy: 0.0581
+----------------------------------------
+[Batch 447] pred_ans: 53
+[Batch 447] true_ans: 74
+Current avg_loss: 2.6264, accuracy: 0.0580
+----------------------------------------
+[Batch 448] pred_ans: $5000
+[Batch 448] true_ans: 250
+Current avg_loss: 2.6270, accuracy: 0.0580
+----------------------------------------
+[Batch 448] pred_ans: 2
+[Batch 448] true_ans: 1
+Current avg_loss: 2.6270, accuracy: 0.0579
+----------------------------------------
+[Batch 449] pred_ans: 75 miles
+[Batch 449] true_ans: 110
+Current avg_loss: 2.6272, accuracy: 0.0578
+----------------------------------------
+[Batch 449] pred_ans: 16 cookies
+[Batch 449] true_ans: 16
+Current avg_loss: 2.6272, accuracy: 0.0578
+----------------------------------------
+[Batch 450] pred_ans: 3
+[Batch 450] true_ans: 15
+Current avg_loss: 2.6274, accuracy: 0.0577
+----------------------------------------
+[Batch 450] pred_ans: 2
+[Batch 450] true_ans: 1
+Current avg_loss: 2.6274, accuracy: 0.0576
+----------------------------------------
+[Batch 451] pred_ans: 7.5
+[Batch 451] true_ans: 8
+Current avg_loss: 2.6276, accuracy: 0.0576
+----------------------------------------
+[Batch 451] pred_ans: 2.5 yards
+[Batch 451] true_ans: 16
+Current avg_loss: 2.6276, accuracy: 0.0575
+----------------------------------------
+[Batch 452] pred_ans: 24
+[Batch 452] true_ans: 8
+Current avg_loss: 2.6290, accuracy: 0.0575
+----------------------------------------
+[Batch 452] pred_ans: 5 hours
+[Batch 452] true_ans: 5
+Current avg_loss: 2.6290, accuracy: 0.0574
+----------------------------------------
+[Batch 453] pred_ans: 3 blue and 2 red shoe boxes are left in Tim's box
+[Batch 453] true_ans: 10
+Current avg_loss: 2.6298, accuracy: 0.0573
+----------------------------------------
+[Batch 453] pred_ans: 18
+[Batch 453] true_ans: 16
+Current avg_loss: 2.6298, accuracy: 0.0573
+----------------------------------------
+[Batch 454] pred_ans: 10
+[Batch 454] true_ans: 14
+Current avg_loss: 2.6306, accuracy: 0.0572
+----------------------------------------
+[Batch 454] pred_ans: 40
+[Batch 454] true_ans: 38
+Current avg_loss: 2.6306, accuracy: 0.0571
+----------------------------------------
+[Batch 455] pred_ans: 500 acres
+[Batch 455] true_ans: 700
+Current avg_loss: 2.6312, accuracy: 0.0571
+----------------------------------------
+[Batch 455] pred_ans: 40
+[Batch 455] true_ans: 64
+Current avg_loss: 2.6312, accuracy: 0.0570
+----------------------------------------
+[Batch 456] pred_ans: 4
+[Batch 456] true_ans: 6
+Current avg_loss: 2.6317, accuracy: 0.0570
+----------------------------------------
+[Batch 456] pred_ans: 38
+[Batch 456] true_ans: 6
+Current avg_loss: 2.6317, accuracy: 0.0569
+----------------------------------------
+[Batch 457] pred_ans: 3
+[Batch 457] true_ans: 3
+Current avg_loss: 2.6317, accuracy: 0.0579
+----------------------------------------
+[Batch 457] pred_ans: 15 hours
+[Batch 457] true_ans: 23
+Current avg_loss: 2.6317, accuracy: 0.0579
+----------------------------------------
+[Batch 458] pred_ans: 1.5
+[Batch 458] true_ans: 14
+Current avg_loss: 2.6316, accuracy: 0.0578
+----------------------------------------
+[Batch 458] pred_ans: 2 apples, 3 bananas and 4 oranges are left
+[Batch 458] true_ans: 12
+Current avg_loss: 2.6316, accuracy: 0.0577
+----------------------------------------
+[Batch 459] pred_ans: 48
+[Batch 459] true_ans: 56
+Current avg_loss: 2.6310, accuracy: 0.0577
+----------------------------------------
+[Batch 459] pred_ans: 20
+[Batch 459] true_ans: 90
+Current avg_loss: 2.6310, accuracy: 0.0576
+----------------------------------------
+[Batch 460] pred_ans: 2 cats, 9 dogs, 7 rabbits, 21 fish,
+[Batch 460] true_ans: 47
+Current avg_loss: 2.6303, accuracy: 0.0575
+----------------------------------------
+[Batch 460] pred_ans: 12 days
+[Batch 460] true_ans: 4
+Current avg_loss: 2.6303, accuracy: 0.0575
+----------------------------------------
+[Batch 461] pred_ans: 60
+[Batch 461] true_ans: 60
+Current avg_loss: 2.6309, accuracy: 0.0585
+----------------------------------------
+[Batch 461] pred_ans: 9
+[Batch 461] true_ans: 2
+Current avg_loss: 2.6309, accuracy: 0.0584
+----------------------------------------
+[Batch 462] pred_ans: 3
+[Batch 462] true_ans: 12
+Current avg_loss: 2.6304, accuracy: 0.0584
+----------------------------------------
+[Batch 462] pred_ans: 2500 gallons
+[Batch 462] true_ans: 2000
+Current avg_loss: 2.6304, accuracy: 0.0583
+----------------------------------------
+[Batch 463] pred_ans: 2
+[Batch 463] true_ans: 1
+Current avg_loss: 2.6297, accuracy: 0.0583
+----------------------------------------
+[Batch 463] pred_ans: 1,800
+[Batch 463] true_ans: 85000
+Current avg_loss: 2.6297, accuracy: 0.0582
+----------------------------------------
+[Batch 464] pred_ans: 48
+[Batch 464] true_ans: 60
+Current avg_loss: 2.6292, accuracy: 0.0581
+----------------------------------------
+[Batch 464] pred_ans: 150 miles
+[Batch 464] true_ans: 60
+Current avg_loss: 2.6292, accuracy: 0.0581
+----------------------------------------
+[Batch 465] pred_ans: 11
+[Batch 465] true_ans: 14
+Current avg_loss: 2.6293, accuracy: 0.0580
+----------------------------------------
+[Batch 465] pred_ans: 40
+[Batch 465] true_ans: 50
+Current avg_loss: 2.6293, accuracy: 0.0579
+----------------------------------------
+[Batch 466] pred_ans: 24
+[Batch 466] true_ans: 24
+Current avg_loss: 2.6292, accuracy: 0.0589
+----------------------------------------
+[Batch 466] pred_ans: 5
+[Batch 466] true_ans: 15
+Current avg_loss: 2.6292, accuracy: 0.0589
+----------------------------------------
+[Batch 467] pred_ans: 12.5 feet
+[Batch 467] true_ans: 410
+Current avg_loss: 2.6288, accuracy: 0.0588
+----------------------------------------
+[Batch 467] pred_ans: 3600 widgets x $6 = $21,600
+[Batch 467] true_ans: 64800
+Current avg_loss: 2.6288, accuracy: 0.0588
+----------------------------------------
+[Batch 468] pred_ans: 1000 pesos
+[Batch 468] true_ans: 250
+Current avg_loss: 2.6280, accuracy: 0.0587
+----------------------------------------
+[Batch 468] pred_ans: 15 goats x 5 pounds = 75 pounds
+[Batch 468] true_ans: 159
+Current avg_loss: 2.6280, accuracy: 0.0586
+----------------------------------------
+[Batch 469] pred_ans: 2
+[Batch 469] true_ans: 4
+Current avg_loss: 2.6283, accuracy: 0.0586
+----------------------------------------
+[Batch 469] pred_ans: 150
+[Batch 469] true_ans: 650
+Current avg_loss: 2.6283, accuracy: 0.0585
+----------------------------------------
+[Batch 470] pred_ans: 140
+[Batch 470] true_ans: 280
+Current avg_loss: 2.6284, accuracy: 0.0584
+----------------------------------------
+[Batch 470] pred_ans: 1
+[Batch 470] true_ans: 842
+Current avg_loss: 2.6284, accuracy: 0.0584
+----------------------------------------
+[Batch 471] pred_ans: 1. Patty's Plumbing charges $40 to visit a house to make a repair
+[Batch 471] true_ans: 205
+Current avg_loss: 2.6296, accuracy: 0.0583
+----------------------------------------
+[Batch 471] pred_ans: 5 CDs were sold for 40.  5 CDs were sold for
+[Batch 471] true_ans: 50
+Current avg_loss: 2.6296, accuracy: 0.0583
+----------------------------------------
+[Batch 472] pred_ans: 6 yams x $1.5 = $9.00
+[Batch 472] true_ans: 34
+Current avg_loss: 2.6293, accuracy: 0.0582
+----------------------------------------
+[Batch 472] pred_ans: 10 hours
+[Batch 472] true_ans: 17
+Current avg_loss: 2.6293, accuracy: 0.0581
+----------------------------------------
+[Batch 473] pred_ans: 280
+[Batch 473] true_ans: 450
+Current avg_loss: 2.6291, accuracy: 0.0581
+----------------------------------------
+[Batch 473] pred_ans: 13
+[Batch 473] true_ans: 13
+Current avg_loss: 2.6291, accuracy: 0.0591
+----------------------------------------
+[Batch 474] pred_ans: 6*5*0.1+10*15*0.08=
+[Batch 474] true_ans: 15
+Current avg_loss: 2.6292, accuracy: 0.0590
+----------------------------------------
+[Batch 474] pred_ans: 52
+[Batch 474] true_ans: 42
+Current avg_loss: 2.6292, accuracy: 0.0589
+----------------------------------------
+[Batch 475] pred_ans: 10
+[Batch 475] true_ans: 5
+Current avg_loss: 2.6295, accuracy: 0.0589
+----------------------------------------
+[Batch 475] pred_ans: 600
+[Batch 475] true_ans: 300
+Current avg_loss: 2.6295, accuracy: 0.0588
+----------------------------------------
+[Batch 476] pred_ans: 120
+[Batch 476] true_ans: 360
+Current avg_loss: 2.6299, accuracy: 0.0588
+----------------------------------------
+[Batch 476] pred_ans: 5
+[Batch 476] true_ans: 452
+Current avg_loss: 2.6299, accuracy: 0.0587
+----------------------------------------
+[Batch 477] pred_ans: 18
+[Batch 477] true_ans: 34
+Current avg_loss: 2.6308, accuracy: 0.0586
+----------------------------------------
+[Batch 477] pred_ans: 1000
+[Batch 477] true_ans: 100
+Current avg_loss: 2.6308, accuracy: 0.0586
+----------------------------------------
+[Batch 478] pred_ans: 2
+[Batch 478] true_ans: 1
+Current avg_loss: 2.6311, accuracy: 0.0585
+----------------------------------------
+[Batch 478] pred_ans: 21
+[Batch 478] true_ans: 45
+Current avg_loss: 2.6311, accuracy: 0.0585
+----------------------------------------
+[Batch 479] pred_ans: 36
+[Batch 479] true_ans: 40
+Current avg_loss: 2.6307, accuracy: 0.0584
+----------------------------------------
+[Batch 479] pred_ans: 12
+[Batch 479] true_ans: 7
+Current avg_loss: 2.6307, accuracy: 0.0583
+----------------------------------------
+[Batch 480] pred_ans: 26
+[Batch 480] true_ans: 11
+Current avg_loss: 2.6308, accuracy: 0.0583
+----------------------------------------
+[Batch 480] pred_ans: 140
+[Batch 480] true_ans: 225
+Current avg_loss: 2.6308, accuracy: 0.0582
+----------------------------------------
+[Batch 481] pred_ans: 600
+[Batch 481] true_ans: 1000
+Current avg_loss: 2.6310, accuracy: 0.0582
+----------------------------------------
+[Batch 481] pred_ans: 13
+[Batch 481] true_ans: 147
+Current avg_loss: 2.6310, accuracy: 0.0581
+----------------------------------------
+[Batch 482] pred_ans: 20 minutes
+[Batch 482] true_ans: 200
+Current avg_loss: 2.6297, accuracy: 0.0580
+----------------------------------------
+[Batch 482] pred_ans: 1,000
+[Batch 482] true_ans: 374
+Current avg_loss: 2.6297, accuracy: 0.0580
+----------------------------------------
+[Batch 483] pred_ans: 4 dozen
+[Batch 483] true_ans: 48
+Current avg_loss: 2.6293, accuracy: 0.0579
+----------------------------------------
+[Batch 483] pred_ans: 50 years
+[Batch 483] true_ans: 30
+Current avg_loss: 2.6293, accuracy: 0.0579
+----------------------------------------
+[Batch 484] pred_ans: 2 hours and 30 minutes
+[Batch 484] true_ans: 227
+Current avg_loss: 2.6285, accuracy: 0.0578
+----------------------------------------
+[Batch 484] pred_ans: $1200
+[Batch 484] true_ans: 1800
+Current avg_loss: 2.6285, accuracy: 0.0577
+----------------------------------------
+[Batch 485] pred_ans: 26
+[Batch 485] true_ans: 33
+Current avg_loss: 2.6283, accuracy: 0.0577
+----------------------------------------
+[Batch 485] pred_ans: 300
+[Batch 485] true_ans: 100
+Current avg_loss: 2.6283, accuracy: 0.0576
+----------------------------------------
+[Batch 486] pred_ans: 8 boxes
+[Batch 486] true_ans: 120
+Current avg_loss: 2.6288, accuracy: 0.0576
+----------------------------------------
+[Batch 486] pred_ans: 52
+[Batch 486] true_ans: 79
+Current avg_loss: 2.6288, accuracy: 0.0575
+----------------------------------------
+[Batch 487] pred_ans: 2 hours
+[Batch 487] true_ans: 5
+Current avg_loss: 2.6287, accuracy: 0.0574
+----------------------------------------
+[Batch 487] pred_ans: 10
+[Batch 487] true_ans: 20
+Current avg_loss: 2.6287, accuracy: 0.0574
+----------------------------------------
+[Batch 488] pred_ans: 225
+[Batch 488] true_ans: 540
+Current avg_loss: 2.6284, accuracy: 0.0573
+----------------------------------------
+[Batch 488] pred_ans: 2 bottles
+[Batch 488] true_ans: 4
+Current avg_loss: 2.6284, accuracy: 0.0573
+----------------------------------------
+[Batch 489] pred_ans: 100 + 40 = 140
+[Batch 489] true_ans: 160
+Current avg_loss: 2.6289, accuracy: 0.0572
+----------------------------------------
+[Batch 489] pred_ans: 44
+[Batch 489] true_ans: 50
+Current avg_loss: 2.6289, accuracy: 0.0571
+----------------------------------------
+[Batch 490] pred_ans: 50
+[Batch 490] true_ans: 90
+Current avg_loss: 2.6294, accuracy: 0.0571
+----------------------------------------
+[Batch 490] pred_ans: 3 + 4(3) + 1/2(4(3
+[Batch 490] true_ans: 7
+Current avg_loss: 2.6294, accuracy: 0.0570
+----------------------------------------
+[Batch 491] pred_ans: 6
+[Batch 491] true_ans: 12
+Current avg_loss: 2.6303, accuracy: 0.0570
+----------------------------------------
+[Batch 491] pred_ans: 5
+[Batch 491] true_ans: 15
+Current avg_loss: 2.6303, accuracy: 0.0569
+----------------------------------------
+[Batch 492] pred_ans: $ 1,  1,  1,  1,
+[Batch 492] true_ans: 342
+Current avg_loss: 2.6305, accuracy: 0.0569
+----------------------------------------
+[Batch 492] pred_ans: 18 pretzels a day x 7 days a week = 126 pret
+[Batch 492] true_ans: 63
+Current avg_loss: 2.6305, accuracy: 0.0568
+----------------------------------------
+[Batch 493] pred_ans: 5 x (3 x 3 + 2 x 2.50)
+[Batch 493] true_ans: 70
+Current avg_loss: 2.6299, accuracy: 0.0567
+----------------------------------------
+[Batch 493] pred_ans: 10
+[Batch 493] true_ans: 3
+Current avg_loss: 2.6299, accuracy: 0.0567
+----------------------------------------
+[Batch 494] pred_ans: 4
+[Batch 494] true_ans: 6
+Current avg_loss: 2.6304, accuracy: 0.0566
+----------------------------------------
+[Batch 494] pred_ans: 20 minutes
+[Batch 494] true_ans: 45
+Current avg_loss: 2.6304, accuracy: 0.0566
+----------------------------------------
+[Batch 495] pred_ans: 8 degrees lower than the starting temperature
+[Batch 495] true_ans: 14
+Current avg_loss: 2.6295, accuracy: 0.0565
+----------------------------------------
+[Batch 495] pred_ans: 30
+[Batch 495] true_ans: 15
+Current avg_loss: 2.6295, accuracy: 0.0565
+----------------------------------------
+[Batch 496] pred_ans: 12
+[Batch 496] true_ans: 52
+Current avg_loss: 2.6293, accuracy: 0.0564
+----------------------------------------
+[Batch 496] pred_ans: 4
+[Batch 496] true_ans: 11
+Current avg_loss: 2.6293, accuracy: 0.0563
+----------------------------------------
+[Batch 497] pred_ans: 1.5
+[Batch 497] true_ans: 2
+Current avg_loss: 2.6289, accuracy: 0.0563
+----------------------------------------
+[Batch 497] pred_ans: 24
+[Batch 497] true_ans: 12
+Current avg_loss: 2.6289, accuracy: 0.0562
+----------------------------------------
+[Batch 498] pred_ans: 8 years
+[Batch 498] true_ans: 3
+Current avg_loss: 2.6294, accuracy: 0.0562
+----------------------------------------
+[Batch 498] pred_ans: 2000
+[Batch 498] true_ans: 6,600
+Current avg_loss: 2.6294, accuracy: 0.0561
+----------------------------------------
+[Batch 499] pred_ans: 50
+[Batch 499] true_ans: 50
+Current avg_loss: 2.6290, accuracy: 0.0571
+----------------------------------------
+[Batch 499] pred_ans: 50%
+[Batch 499] true_ans: 25
+Current avg_loss: 2.6290, accuracy: 0.0570
+----------------------------------------
+[Batch 500] pred_ans: 1 hour
+[Batch 500] true_ans: 1
+Current avg_loss: 2.6285, accuracy: 0.0569
+----------------------------------------
+[Batch 500] pred_ans: 2:00 pm
+[Batch 500] true_ans: 2
+Current avg_loss: 2.6285, accuracy: 0.0569
+----------------------------------------
+[Batch 501] pred_ans: 16
+[Batch 501] true_ans: 8
+Current avg_loss: 2.6280, accuracy: 0.0568
+----------------------------------------
+[Batch 501] pred_ans: 1. The dance studio has 10 students and is rented 3 days a
+[Batch 501] true_ans: 480
+Current avg_loss: 2.6280, accuracy: 0.0568
+----------------------------------------
+[Batch 502] pred_ans: 4
+[Batch 502] true_ans: 8
+Current avg_loss: 2.6269, accuracy: 0.0567
+----------------------------------------
+[Batch 502] pred_ans: 200
+[Batch 502] true_ans: 1490
+Current avg_loss: 2.6269, accuracy: 0.0567
+----------------------------------------
+[Batch 503] pred_ans: 1,000 gallons
+[Batch 503] true_ans: 826
+Current avg_loss: 2.6258, accuracy: 0.0566
+----------------------------------------
+[Batch 503] pred_ans: 24
+[Batch 503] true_ans: 34
+Current avg_loss: 2.6258, accuracy: 0.0565
+----------------------------------------
+[Batch 504] pred_ans: 55
+[Batch 504] true_ans: 230
+Current avg_loss: 2.6247, accuracy: 0.0565
+----------------------------------------
+[Batch 504] pred_ans: 750
+[Batch 504] true_ans: 1,875
+Current avg_loss: 2.6247, accuracy: 0.0564
+----------------------------------------
+[Batch 505] pred_ans: 8
+[Batch 505] true_ans: 5
+Current avg_loss: 2.6235, accuracy: 0.0564
+----------------------------------------
+[Batch 505] pred_ans: 3600
+[Batch 505] true_ans: 6000
+Current avg_loss: 2.6235, accuracy: 0.0563
+----------------------------------------
+[Batch 506] pred_ans: 100
+[Batch 506] true_ans: 94
+Current avg_loss: 2.6231, accuracy: 0.0563
+----------------------------------------
+[Batch 506] pred_ans: 40 hours a week x 50 weeks a year = 2000 hours a
+[Batch 506] true_ans: 2
+Current avg_loss: 2.6231, accuracy: 0.0562
+----------------------------------------
+[Batch 507] pred_ans: 10
+[Batch 507] true_ans: 3
+Current avg_loss: 2.6232, accuracy: 0.0562
+----------------------------------------
+[Batch 507] pred_ans: 50
+[Batch 507] true_ans: 78
+Current avg_loss: 2.6232, accuracy: 0.0561
+----------------------------------------
+[Batch 508] pred_ans: 140
+[Batch 508] true_ans: 138
+Current avg_loss: 2.6237, accuracy: 0.0560
+----------------------------------------
+[Batch 508] pred_ans: 24 selfies and 48 portraits
+[Batch 508] true_ans: 45
+Current avg_loss: 2.6237, accuracy: 0.0560
+----------------------------------------
+[Batch 509] pred_ans: 30
+[Batch 509] true_ans: 60
+Current avg_loss: 2.6235, accuracy: 0.0559
+----------------------------------------
+[Batch 509] pred_ans: 100 + 24 + 15 + 2(15) +
+[Batch 509] true_ans: 98
+Current avg_loss: 2.6235, accuracy: 0.0559
+----------------------------------------
+[Batch 510] pred_ans: 24
+[Batch 510] true_ans: 22
+Current avg_loss: 2.6236, accuracy: 0.0558
+----------------------------------------
+[Batch 510] pred_ans: 30
+[Batch 510] true_ans: 36
+Current avg_loss: 2.6236, accuracy: 0.0558
+----------------------------------------
+[Batch 511] pred_ans: 20
+[Batch 511] true_ans: 12
+Current avg_loss: 2.6227, accuracy: 0.0557
+----------------------------------------
+[Batch 511] pred_ans: 130 sandwiches
+[Batch 511] true_ans: 77
+Current avg_loss: 2.6227, accuracy: 0.0557
+----------------------------------------
+[Batch 512] pred_ans: 1. Calculate the total amount of money earned from selling cookies and cupcakes
+[Batch 512] true_ans: 300
+Current avg_loss: 2.6231, accuracy: 0.0556
+----------------------------------------
+[Batch 512] pred_ans: 30
+[Batch 512] true_ans: 30
+Current avg_loss: 2.6231, accuracy: 0.0565
+----------------------------------------
+[Batch 513] pred_ans: 120,000 pounds of ore
+[Batch 513] true_ans: 43200
+Current avg_loss: 2.6226, accuracy: 0.0565
+----------------------------------------
+[Batch 513] pred_ans: 12
+[Batch 513] true_ans: 12
+Current avg_loss: 2.6226, accuracy: 0.0574
+----------------------------------------
+[Batch 514] pred_ans: 10% of $3000 is $300.  $3000 - $
+[Batch 514] true_ans: 200
+Current avg_loss: 2.6224, accuracy: 0.0573
+----------------------------------------
+[Batch 514] pred_ans: 40
+[Batch 514] true_ans: 34
+Current avg_loss: 2.6224, accuracy: 0.0573
+----------------------------------------
+[Batch 515] pred_ans: 80%
+[Batch 515] true_ans: 24
+Current avg_loss: 2.6225, accuracy: 0.0572
+----------------------------------------
+[Batch 515] pred_ans: 1750
+[Batch 515] true_ans: 5
+Current avg_loss: 2.6225, accuracy: 0.0572
+----------------------------------------
+[Batch 516] pred_ans: 150 small beans
+[Batch 516] true_ans: 450
+Current avg_loss: 2.6223, accuracy: 0.0571
+----------------------------------------
+[Batch 516] pred_ans: 12.00
+[Batch 516] true_ans: 2
+Current avg_loss: 2.6223, accuracy: 0.0571
+----------------------------------------
+[Batch 517] pred_ans: 50
+[Batch 517] true_ans: 66
+Current avg_loss: 2.6227, accuracy: 0.0570
+----------------------------------------
+[Batch 517] pred_ans: 60 seconds
+[Batch 517] true_ans: 35
+Current avg_loss: 2.6227, accuracy: 0.0569
+----------------------------------------
+[Batch 518] pred_ans: 5
+[Batch 518] true_ans: 10
+Current avg_loss: 2.6227, accuracy: 0.0569
+----------------------------------------
+[Batch 518] pred_ans: 1. 2 pounds of Parmesan cheese cost $22. 3 pounds
+[Batch 518] true_ans: 10
+Current avg_loss: 2.6227, accuracy: 0.0568
+----------------------------------------
+[Batch 519] pred_ans: 4 years
+[Batch 519] true_ans: 4
+Current avg_loss: 2.6222, accuracy: 0.0568
+----------------------------------------
+[Batch 519] pred_ans: 144 square feet
+[Batch 519] true_ans: 160
+Current avg_loss: 2.6222, accuracy: 0.0567
+----------------------------------------
+[Batch 520] pred_ans: 425 + 17 + 5 = 447
+[Batch 520] true_ans: 736
+Current avg_loss: 2.6219, accuracy: 0.0567
+----------------------------------------
+[Batch 520] pred_ans: 16 people x $6.50 = $104.00 for the chicken salad
+[Batch 520] true_ans: 101
+Current avg_loss: 2.6219, accuracy: 0.0566
+----------------------------------------
+[Batch 521] pred_ans: 1.5
+[Batch 521] true_ans: 3
+Current avg_loss: 2.6213, accuracy: 0.0566
+----------------------------------------
+[Batch 521] pred_ans: 26 x 5 x 1000 = 130,000 people
+[Batch 521] true_ans: 130000
+Current avg_loss: 2.6213, accuracy: 0.0565
+----------------------------------------
+[Batch 522] pred_ans: 1 inch
+[Batch 522] true_ans: 1
+Current avg_loss: 2.6211, accuracy: 0.0565
+----------------------------------------
+[Batch 522] pred_ans: 640
+[Batch 522] true_ans: 420
+Current avg_loss: 2.6211, accuracy: 0.0564
+----------------------------------------
+[Batch 523] pred_ans: 3/8 x 3/7 x 4 = 9/28
+[Batch 523] true_ans: 189
+Current avg_loss: 2.6212, accuracy: 0.0564
+----------------------------------------
+[Batch 523] pred_ans: 10
+[Batch 523] true_ans: 10
+Current avg_loss: 2.6212, accuracy: 0.0573
+----------------------------------------
+[Batch 524] pred_ans: 10,000
+[Batch 524] true_ans: 7400
+Current avg_loss: 2.6208, accuracy: 0.0572
+----------------------------------------
+[Batch 524] pred_ans: 20
+[Batch 524] true_ans: 20
+Current avg_loss: 2.6208, accuracy: 0.0581
+----------------------------------------
+[Batch 525] pred_ans: 1955 - 325 = 1630
+[Batch 525] true_ans: 655
+Current avg_loss: 2.6210, accuracy: 0.0580
+----------------------------------------
+[Batch 525] pred_ans: 2.5 gallons
+[Batch 525] true_ans: 15
+Current avg_loss: 2.6210, accuracy: 0.0580
+----------------------------------------
+[Batch 526] pred_ans: 200
+[Batch 526] true_ans: 110
+Current avg_loss: 2.6205, accuracy: 0.0579
+----------------------------------------
+[Batch 526] pred_ans: 48
+[Batch 526] true_ans: 55
+Current avg_loss: 2.6205, accuracy: 0.0579
+----------------------------------------
+[Batch 527] pred_ans: 200 SqFt / 1ft = 200 tiles. 200 tiles
+[Batch 527] true_ans: 2400
+Current avg_loss: 2.6211, accuracy: 0.0578
+----------------------------------------
+[Batch 527] pred_ans: 60% of 120 = 72
+[Batch 527] true_ans: 2304
+Current avg_loss: 2.6211, accuracy: 0.0578
+----------------------------------------
+[Batch 528] pred_ans: 52 weeks x 4 twin sets = 208 loads of laundry per year
+[Batch 528] true_ans: 156
+Current avg_loss: 2.6216, accuracy: 0.0577
+----------------------------------------
+[Batch 528] pred_ans: 12
+[Batch 528] true_ans: 24
+Current avg_loss: 2.6216, accuracy: 0.0577
+----------------------------------------
+[Batch 529] pred_ans: 200
+[Batch 529] true_ans: 250
+Current avg_loss: 2.6211, accuracy: 0.0576
+----------------------------------------
+[Batch 529] pred_ans: 720/60 = 12 days
+[Batch 529] true_ans: 2
+Current avg_loss: 2.6211, accuracy: 0.0575
+----------------------------------------
+[Batch 530] pred_ans: 32
+[Batch 530] true_ans: 31
+Current avg_loss: 2.6215, accuracy: 0.0575
+----------------------------------------
+[Batch 530] pred_ans: 76
+[Batch 530] true_ans: 58
+Current avg_loss: 2.6215, accuracy: 0.0574
+----------------------------------------
+[Batch 531] pred_ans: 2 hours of parking = $12. 30 painkillers = $120
+[Batch 531] true_ans: 482
+Current avg_loss: 2.6218, accuracy: 0.0574
+----------------------------------------
+[Batch 531] pred_ans: 80 * 0.8 * 5 = 320
+[Batch 531] true_ans: 320
+Current avg_loss: 2.6218, accuracy: 0.0573
+----------------------------------------
+[Batch 532] pred_ans: 32 + 2(32) + 3(2(32)) +
+[Batch 532] true_ans: 247
+Current avg_loss: 2.6214, accuracy: 0.0573
+----------------------------------------
+[Batch 532] pred_ans: 90
+[Batch 532] true_ans: 95
+Current avg_loss: 2.6214, accuracy: 0.0572
+----------------------------------------
+[Batch 533] pred_ans: 10
+[Batch 533] true_ans: 14
+Current avg_loss: 2.6213, accuracy: 0.0572
+----------------------------------------
+[Batch 533] pred_ans: 1.4
+[Batch 533] true_ans: 245
+Current avg_loss: 2.6213, accuracy: 0.0571
+----------------------------------------
+[Batch 534] pred_ans: 24
+[Batch 534] true_ans: 24
+Current avg_loss: 2.6218, accuracy: 0.0580
+----------------------------------------
+[Batch 534] pred_ans: 40 tons
+[Batch 534] true_ans: 300
+Current avg_loss: 2.6218, accuracy: 0.0579
+----------------------------------------
+[Batch 535] pred_ans: 6 pounds of butter will cost $24.00.  1 pound of
+[Batch 535] true_ans: 18
+Current avg_loss: 2.6215, accuracy: 0.0579
+----------------------------------------
+[Batch 535] pred_ans: 125 + 6(25 + 7 + 13 - 4)
+[Batch 535] true_ans: 251
+Current avg_loss: 2.6215, accuracy: 0.0578
+----------------------------------------
+[Batch 536] pred_ans: 40
+[Batch 536] true_ans: 85
+Current avg_loss: 2.6219, accuracy: 0.0578
+----------------------------------------
+[Batch 536] pred_ans: 11
+[Batch 536] true_ans: 21
+Current avg_loss: 2.6219, accuracy: 0.0577
+----------------------------------------
+[Batch 537] pred_ans: 1000
+[Batch 537] true_ans: 750
+Current avg_loss: 2.6228, accuracy: 0.0577
+----------------------------------------
+[Batch 537] pred_ans: 5 quarters
+[Batch 537] true_ans: 16
+Current avg_loss: 2.6228, accuracy: 0.0576
+----------------------------------------
+[Batch 538] pred_ans: 6 x $5.50 + 9 x $11 + 20 x
+[Batch 538] true_ans: 162
+Current avg_loss: 2.6212, accuracy: 0.0576
+----------------------------------------
+[Batch 538] pred_ans: 40
+[Batch 538] true_ans: 145
+Current avg_loss: 2.6212, accuracy: 0.0575
+----------------------------------------
+[Batch 539] pred_ans: 2 weeks
+[Batch 539] true_ans: 8
+Current avg_loss: 2.6211, accuracy: 0.0575
+----------------------------------------
+[Batch 539] pred_ans: 45%
+[Batch 539] true_ans: 10
+Current avg_loss: 2.6211, accuracy: 0.0574
+----------------------------------------
+[Batch 540] pred_ans: 120
+[Batch 540] true_ans: 72000
+Current avg_loss: 2.6219, accuracy: 0.0574
+----------------------------------------
+[Batch 540] pred_ans: 150
+[Batch 540] true_ans: 195
+Current avg_loss: 2.6219, accuracy: 0.0573
+----------------------------------------
+[Batch 541] pred_ans: 1 hour
+[Batch 541] true_ans: 2
+Current avg_loss: 2.6215, accuracy: 0.0572
+----------------------------------------
+[Batch 541] pred_ans: 0.80 x 10 = 8.00
+[Batch 541] true_ans: 2
+Current avg_loss: 2.6215, accuracy: 0.0572
+----------------------------------------
+[Batch 542] pred_ans: 40 feet. Harry gets 60 feet more than Sam, so Sam gets
+[Batch 542] true_ans: 20
+Current avg_loss: 2.6221, accuracy: 0.0571
+----------------------------------------
+[Batch 542] pred_ans: 13
+[Batch 542] true_ans: 26
+Current avg_loss: 2.6221, accuracy: 0.0571
+----------------------------------------
+[Batch 543] pred_ans: 15000
+[Batch 543] true_ans: 131250
+Current avg_loss: 2.6212, accuracy: 0.0570
+----------------------------------------
+[Batch 543] pred_ans: 10
+[Batch 543] true_ans: 12
+Current avg_loss: 2.6212, accuracy: 0.0570
+----------------------------------------
+[Batch 544] pred_ans: 40 x 5 x 6 + 40 x 2 x 5
+[Batch 544] true_ans: 30
+Current avg_loss: 2.6218, accuracy: 0.0569
+----------------------------------------
+[Batch 544] pred_ans: 16 feet
+[Batch 544] true_ans: 32
+Current avg_loss: 2.6218, accuracy: 0.0569
+----------------------------------------
+[Batch 545] pred_ans: 72
+[Batch 545] true_ans: 72
+Current avg_loss: 2.6210, accuracy: 0.0577
+----------------------------------------
+[Batch 545] pred_ans: 2000 x 5 = 10000
+[Batch 545] true_ans: 1000
+Current avg_loss: 2.6210, accuracy: 0.0577
+----------------------------------------
+[Batch 546] pred_ans: 540
+[Batch 546] true_ans: 1080
+Current avg_loss: 2.6207, accuracy: 0.0576
+----------------------------------------
+[Batch 546] pred_ans: 1 gallon of paint will cover 20 square feet. The north and south walls
+[Batch 546] true_ans: 144
+Current avg_loss: 2.6207, accuracy: 0.0576
+----------------------------------------
+[Batch 547] pred_ans: 25%
+[Batch 547] true_ans: 25
+Current avg_loss: 2.6202, accuracy: 0.0575
+----------------------------------------
+[Batch 547] pred_ans: 60 miles
+[Batch 547] true_ans: 270
+Current avg_loss: 2.6202, accuracy: 0.0575
+----------------------------------------
+[Batch 548] pred_ans: 62
+[Batch 548] true_ans: 240
+Current avg_loss: 2.6205, accuracy: 0.0574
+----------------------------------------
+[Batch 548] pred_ans: 100
+[Batch 548] true_ans: 480
+Current avg_loss: 2.6205, accuracy: 0.0574
+----------------------------------------
+[Batch 549] pred_ans: 34
+[Batch 549] true_ans: 30
+Current avg_loss: 2.6199, accuracy: 0.0573
+----------------------------------------
+[Batch 549] pred_ans: 1.5 minutes
+[Batch 549] true_ans: 2
+Current avg_loss: 2.6199, accuracy: 0.0573
+----------------------------------------
+[Batch 550] pred_ans: 5 hours
+[Batch 550] true_ans: 5
+Current avg_loss: 2.6213, accuracy: 0.0572
+----------------------------------------
+[Batch 550] pred_ans: 40.5
+[Batch 550] true_ans: 16
+Current avg_loss: 2.6213, accuracy: 0.0572
+----------------------------------------
+[Batch 551] pred_ans: $85.00 - $15.00 + $16.00 + $
+[Batch 551] true_ans: 113
+Current avg_loss: 2.6207, accuracy: 0.0571
+----------------------------------------
+[Batch 551] pred_ans: 30
+[Batch 551] true_ans: 90
+Current avg_loss: 2.6207, accuracy: 0.0571
+----------------------------------------
+[Batch 552] pred_ans: 24
+[Batch 552] true_ans: 24
+Current avg_loss: 2.6212, accuracy: 0.0579
+----------------------------------------
+[Batch 552] pred_ans: 10 years
+[Batch 552] true_ans: 40
+Current avg_loss: 2.6212, accuracy: 0.0579
+----------------------------------------
+[Batch 553] pred_ans: 2 centimeters
+[Batch 553] true_ans: 5
+Current avg_loss: 2.6225, accuracy: 0.0578
+----------------------------------------
+[Batch 553] pred_ans: 360
+[Batch 553] true_ans: 360
+Current avg_loss: 2.6225, accuracy: 0.0587
+----------------------------------------
+[Batch 554] pred_ans: 38
+[Batch 554] true_ans: 38
+Current avg_loss: 2.6226, accuracy: 0.0595
+----------------------------------------
+[Batch 554] pred_ans: 3.5 inches
+[Batch 554] true_ans: 3
+Current avg_loss: 2.6226, accuracy: 0.0595
+----------------------------------------
+[Batch 555] pred_ans: 14
+[Batch 555] true_ans: 60
+Current avg_loss: 2.6229, accuracy: 0.0594
+----------------------------------------
+[Batch 555] pred_ans: 1, 2, 3, 4, 5, 6
+[Batch 555] true_ans: 157
+Current avg_loss: 2.6229, accuracy: 0.0594
+----------------------------------------
+[Batch 556] pred_ans: 4 kg
+[Batch 556] true_ans: 5
+Current avg_loss: 2.6232, accuracy: 0.0593
+----------------------------------------
+[Batch 556] pred_ans: 3 degrees Celsius
+[Batch 556] true_ans: -3
+Current avg_loss: 2.6232, accuracy: 0.0592
+----------------------------------------
+[Batch 557] pred_ans: 6
+[Batch 557] true_ans: 8
+Current avg_loss: 2.6233, accuracy: 0.0592
+----------------------------------------
+[Batch 557] pred_ans: 4
+[Batch 557] true_ans: 5
+Current avg_loss: 2.6233, accuracy: 0.0591
+----------------------------------------
+[Batch 558] pred_ans: 60
+[Batch 558] true_ans: 60
+Current avg_loss: 2.6227, accuracy: 0.0600
+----------------------------------------
+[Batch 558] pred_ans: 7.5 minutes
+[Batch 558] true_ans: 9
+Current avg_loss: 2.6227, accuracy: 0.0599
+----------------------------------------
+[Batch 559] pred_ans: 1
+[Batch 559] true_ans: 5
+Current avg_loss: 2.6220, accuracy: 0.0599
+----------------------------------------
+[Batch 559] pred_ans: 12 hours
+[Batch 559] true_ans: 18
+Current avg_loss: 2.6220, accuracy: 0.0598
+----------------------------------------
+[Batch 560] pred_ans: 2800
+[Batch 560] true_ans: 560
+Current avg_loss: 2.6228, accuracy: 0.0598
+----------------------------------------
+[Batch 560] pred_ans: 20
+[Batch 560] true_ans: 35
+Current avg_loss: 2.6228, accuracy: 0.0597
+----------------------------------------
+[Batch 561] pred_ans: 8
+[Batch 561] true_ans: 18
+Current avg_loss: 2.6219, accuracy: 0.0597
+----------------------------------------
+[Batch 561] pred_ans: 120 pounds
+[Batch 561] true_ans: 105
+Current avg_loss: 2.6219, accuracy: 0.0596
+----------------------------------------
+[Batch 562] pred_ans: 16
+[Batch 562] true_ans: 64
+Current avg_loss: 2.6228, accuracy: 0.0596
+----------------------------------------
+[Batch 562] pred_ans: 30
+[Batch 562] true_ans: 90
+Current avg_loss: 2.6228, accuracy: 0.0595
+----------------------------------------
+[Batch 563] pred_ans: 5 days
+[Batch 563] true_ans: 50
+Current avg_loss: 2.6224, accuracy: 0.0594
+----------------------------------------
+[Batch 563] pred_ans: 300 Miles per hour
+[Batch 563] true_ans: 750
+Current avg_loss: 2.6224, accuracy: 0.0594
+----------------------------------------
+[Batch 564] pred_ans: 8 years
+[Batch 564] true_ans: 9
+Current avg_loss: 2.6233, accuracy: 0.0593
+----------------------------------------
+[Batch 564] pred_ans: 12
+[Batch 564] true_ans: 8
+Current avg_loss: 2.6233, accuracy: 0.0593
+----------------------------------------
+[Batch 565] pred_ans: 25 pounds
+[Batch 565] true_ans: 25
+Current avg_loss: 2.6233, accuracy: 0.0592
+----------------------------------------
+[Batch 565] pred_ans: $96.00
+[Batch 565] true_ans: 96
+Current avg_loss: 2.6233, accuracy: 0.0601
+----------------------------------------
+[Batch 566] pred_ans: 1/2 of 5000 is 2500. 2500 +
+[Batch 566] true_ans: 45000
+Current avg_loss: 2.6231, accuracy: 0.0600
+----------------------------------------
+[Batch 566] pred_ans: 60
+[Batch 566] true_ans: 50
+Current avg_loss: 2.6231, accuracy: 0.0600
+----------------------------------------
+[Batch 567] pred_ans: 4 weeks
+[Batch 567] true_ans: 7
+Current avg_loss: 2.6223, accuracy: 0.0599
+----------------------------------------
+[Batch 567] pred_ans: 18
+[Batch 567] true_ans: 32
+Current avg_loss: 2.6223, accuracy: 0.0599
+----------------------------------------
+[Batch 568] pred_ans: 60
+[Batch 568] true_ans: 26
+Current avg_loss: 2.6217, accuracy: 0.0598
+----------------------------------------
+[Batch 568] pred_ans: 50
+[Batch 568] true_ans: 68
+Current avg_loss: 2.6217, accuracy: 0.0598
+----------------------------------------
+[Batch 569] pred_ans: 100
+[Batch 569] true_ans: 700
+Current avg_loss: 2.6222, accuracy: 0.0597
+----------------------------------------
+[Batch 569] pred_ans: 9.00
+[Batch 569] true_ans: 1
+Current avg_loss: 2.6222, accuracy: 0.0596
+----------------------------------------
+[Batch 570] pred_ans: 3
+[Batch 570] true_ans: 27
+Current avg_loss: 2.6223, accuracy: 0.0596
+----------------------------------------
+[Batch 570] pred_ans: 60 dozens
+[Batch 570] true_ans: 20
+Current avg_loss: 2.6223, accuracy: 0.0595
+----------------------------------------
+[Batch 571] pred_ans: 22
+[Batch 571] true_ans: 9
+Current avg_loss: 2.6226, accuracy: 0.0595
+----------------------------------------
+[Batch 571] pred_ans: 6 x 5 x 10 = 300 lemons
+[Batch 571] true_ans: 300
+Current avg_loss: 2.6226, accuracy: 0.0594
+----------------------------------------
+[Batch 572] pred_ans: 54
+[Batch 572] true_ans: 34
+Current avg_loss: 2.6222, accuracy: 0.0594
+----------------------------------------
+[Batch 572] pred_ans: 36
+[Batch 572] true_ans: 291
+Current avg_loss: 2.6222, accuracy: 0.0593
+----------------------------------------
+[Batch 573] pred_ans: 20
+[Batch 573] true_ans: 16
+Current avg_loss: 2.6217, accuracy: 0.0593
+----------------------------------------
+[Batch 573] pred_ans: 10 days
+[Batch 573] true_ans: 22
+Current avg_loss: 2.6217, accuracy: 0.0592
+----------------------------------------
+[Batch 574] pred_ans: 12
+[Batch 574] true_ans: 9
+Current avg_loss: 2.6230, accuracy: 0.0592
+----------------------------------------
+[Batch 574] pred_ans: 30
+[Batch 574] true_ans: 93
+Current avg_loss: 2.6230, accuracy: 0.0591
+----------------------------------------
+[Batch 575] pred_ans: 49
+[Batch 575] true_ans: 21
+Current avg_loss: 2.6239, accuracy: 0.0591
+----------------------------------------
+[Batch 575] pred_ans: 60 miles per hour
+[Batch 575] true_ans: 50
+Current avg_loss: 2.6239, accuracy: 0.0590
+----------------------------------------
+[Batch 576] pred_ans: 0.2%
+[Batch 576] true_ans: 12
+Current avg_loss: 2.6241, accuracy: 0.0590
+----------------------------------------
+[Batch 576] pred_ans: 9
+[Batch 576] true_ans: 20
+Current avg_loss: 2.6241, accuracy: 0.0589
+----------------------------------------
+[Batch 577] pred_ans: 20
+[Batch 577] true_ans: 30
+Current avg_loss: 2.6247, accuracy: 0.0589
+----------------------------------------
+[Batch 577] pred_ans: 10 minutes
+[Batch 577] true_ans: 13
+Current avg_loss: 2.6247, accuracy: 0.0588
+----------------------------------------
+[Batch 578] pred_ans: 2 x 20 + 4 x 40 = 120
+[Batch 578] true_ans: 120
+Current avg_loss: 2.6244, accuracy: 0.0588
+----------------------------------------
+[Batch 578] pred_ans: 5
+[Batch 578] true_ans: 3
+Current avg_loss: 2.6244, accuracy: 0.0587
+----------------------------------------
+[Batch 579] pred_ans: 2300 x 0.2 = 460 bottles
+[Batch 579] true_ans: 7300
+Current avg_loss: 2.6250, accuracy: 0.0587
+----------------------------------------
+[Batch 579] pred_ans: 50%
+[Batch 579] true_ans: 50
+Current avg_loss: 2.6250, accuracy: 0.0586
+----------------------------------------
+[Batch 580] pred_ans: 225
+[Batch 580] true_ans: 1125
+Current avg_loss: 2.6248, accuracy: 0.0586
+----------------------------------------
+[Batch 580] pred_ans: 80 square meters x $3 = $240
+[Batch 580] true_ans: 170
+Current avg_loss: 2.6248, accuracy: 0.0585
+----------------------------------------
+[Batch 581] pred_ans: 8
+[Batch 581] true_ans: 3
+Current avg_loss: 2.6258, accuracy: 0.0585
+----------------------------------------
+[Batch 581] pred_ans: 6
+[Batch 581] true_ans: 12
+Current avg_loss: 2.6258, accuracy: 0.0584
+----------------------------------------
+[Batch 582] pred_ans: 12
+[Batch 582] true_ans: 9
+Current avg_loss: 2.6260, accuracy: 0.0584
+----------------------------------------
+[Batch 582] pred_ans: $ 3.20 x 600 = $ 1920.00
+[Batch 582] true_ans: 1248
+Current avg_loss: 2.6260, accuracy: 0.0583
+----------------------------------------
+[Batch 583] pred_ans: 1,000
+[Batch 583] true_ans: 2350
+Current avg_loss: 2.6253, accuracy: 0.0583
+----------------------------------------
+[Batch 583] pred_ans: 60
+[Batch 583] true_ans: 120
+Current avg_loss: 2.6253, accuracy: 0.0582
+----------------------------------------
+[Batch 584] pred_ans: 12
+[Batch 584] true_ans: 20
+Current avg_loss: 2.6252, accuracy: 0.0582
+----------------------------------------
+[Batch 584] pred_ans: 1/5
+[Batch 584] true_ans: 2
+Current avg_loss: 2.6252, accuracy: 0.0581
+----------------------------------------
+[Batch 585] pred_ans: 2
+[Batch 585] true_ans: 2
+Current avg_loss: 2.6245, accuracy: 0.0589
+----------------------------------------
+[Batch 585] pred_ans: 2000
+[Batch 585] true_ans: 3160
+Current avg_loss: 2.6245, accuracy: 0.0589
+----------------------------------------
+[Batch 586] pred_ans: 31
+[Batch 586] true_ans: 93
+Current avg_loss: 2.6244, accuracy: 0.0588
+----------------------------------------
+[Batch 586] pred_ans: 16.67
+[Batch 586] true_ans: 10
+Current avg_loss: 2.6244, accuracy: 0.0588
+----------------------------------------
+[Batch 587] pred_ans: 100
+[Batch 587] true_ans: 240
+Current avg_loss: 2.6237, accuracy: 0.0587
+----------------------------------------
+[Batch 587] pred_ans: 12
+[Batch 587] true_ans: 16
+Current avg_loss: 2.6237, accuracy: 0.0587
+----------------------------------------
+[Batch 588] pred_ans: 2.5 days
+[Batch 588] true_ans: 2
+Current avg_loss: 2.6229, accuracy: 0.0586
+----------------------------------------
+[Batch 588] pred_ans: 12
+[Batch 588] true_ans: 17
+Current avg_loss: 2.6229, accuracy: 0.0586
+----------------------------------------
+[Batch 589] pred_ans: 20
+[Batch 589] true_ans: 17
+Current avg_loss: 2.6243, accuracy: 0.0585
+----------------------------------------
+[Batch 589] pred_ans: 50%
+[Batch 589] true_ans: 50
+Current avg_loss: 2.6243, accuracy: 0.0585
+----------------------------------------
+[Batch 590] pred_ans: 2800
+[Batch 590] true_ans: 5600
+Current avg_loss: 2.6251, accuracy: 0.0584
+----------------------------------------
+[Batch 590] pred_ans: 2 years
+[Batch 590] true_ans: 20
+Current avg_loss: 2.6251, accuracy: 0.0584
+----------------------------------------
+[Batch 591] pred_ans: 1000 books per school
+[Batch 591] true_ans: 1800
+Current avg_loss: 2.6243, accuracy: 0.0583
+----------------------------------------
+[Batch 591] pred_ans: 2
+[Batch 591] true_ans: 11
+Current avg_loss: 2.6243, accuracy: 0.0583
+----------------------------------------
+[Batch 592] pred_ans: 15,300
+[Batch 592] true_ans: 306
+Current avg_loss: 2.6249, accuracy: 0.0582
+----------------------------------------
+[Batch 592] pred_ans: 2
+[Batch 592] true_ans: 6
+Current avg_loss: 2.6249, accuracy: 0.0582
+----------------------------------------
+[Batch 593] pred_ans: 13 miles
+[Batch 593] true_ans: 19
+Current avg_loss: 2.6247, accuracy: 0.0581
+----------------------------------------
+[Batch 593] pred_ans: 1 hour and 15 minutes
+[Batch 593] true_ans: 5
+Current avg_loss: 2.6247, accuracy: 0.0581
+----------------------------------------
+[Batch 594] pred_ans: 14
+[Batch 594] true_ans: 24
+Current avg_loss: 2.6249, accuracy: 0.0580
+----------------------------------------
+[Batch 594] pred_ans: 3
+[Batch 594] true_ans: 6
+Current avg_loss: 2.6249, accuracy: 0.0580
+----------------------------------------
+[Batch 595] pred_ans: 100
+[Batch 595] true_ans: 19
+Current avg_loss: 2.6243, accuracy: 0.0579
+----------------------------------------
+[Batch 595] pred_ans: 50
+[Batch 595] true_ans: 100
+Current avg_loss: 2.6243, accuracy: 0.0579
+----------------------------------------
+[Batch 596] pred_ans: $  90.00
+[Batch 596] true_ans: 280
+Current avg_loss: 2.6241, accuracy: 0.0578
+----------------------------------------
+[Batch 596] pred_ans: $4.00
+[Batch 596] true_ans: 9
+Current avg_loss: 2.6241, accuracy: 0.0578
+----------------------------------------
+[Batch 597] pred_ans: 120 gallons
+[Batch 597] true_ans: 1200
+Current avg_loss: 2.6243, accuracy: 0.0577
+----------------------------------------
+[Batch 597] pred_ans: 50 + 40 + 80 + 240 = 410
+[Batch 597] true_ans: 320
+Current avg_loss: 2.6243, accuracy: 0.0577
+----------------------------------------
+[Batch 598] pred_ans: 20
+[Batch 598] true_ans: 75
+Current avg_loss: 2.6247, accuracy: 0.0576
+----------------------------------------
+[Batch 598] pred_ans: $1,000
+[Batch 598] true_ans: 2400
+Current avg_loss: 2.6247, accuracy: 0.0576
+----------------------------------------
+[Batch 599] pred_ans: 60
+[Batch 599] true_ans: 140
+Current avg_loss: 2.6246, accuracy: 0.0575
+----------------------------------------
+[Batch 599] pred_ans: 3 gallons
+[Batch 599] true_ans: 2
+Current avg_loss: 2.6246, accuracy: 0.0575
+----------------------------------------
+[Batch 600] pred_ans: 10
+[Batch 600] true_ans: 8
+Current avg_loss: 2.6242, accuracy: 0.0575
+----------------------------------------
+[Batch 600] pred_ans: 33
+[Batch 600] true_ans: 42
+Current avg_loss: 2.6242, accuracy: 0.0574
+----------------------------------------
+[Batch 601] pred_ans: 13
+[Batch 601] true_ans: 19
+Current avg_loss: 2.6247, accuracy: 0.0574
+----------------------------------------
+[Batch 601] pred_ans: 420
+[Batch 601] true_ans: 240
+Current avg_loss: 2.6247, accuracy: 0.0573
+----------------------------------------
+[Batch 602] pred_ans: 140
+[Batch 602] true_ans: 168
+Current avg_loss: 2.6244, accuracy: 0.0573
+----------------------------------------
+[Batch 602] pred_ans: 3 miles
+[Batch 602] true_ans: 4
+Current avg_loss: 2.6244, accuracy: 0.0572
+----------------------------------------
+[Batch 603] pred_ans: 0
+[Batch 603] true_ans: 40,000
+Current avg_loss: 2.6241, accuracy: 0.0572
+----------------------------------------
+[Batch 603] pred_ans: 0.5 x 56 + 0.5 x 46 +
+[Batch 603] true_ans: 64
+Current avg_loss: 2.6241, accuracy: 0.0571
+----------------------------------------
+[Batch 604] pred_ans: 1/8 of the price she bought the magazines. If she bought the magazines
+[Batch 604] true_ans: 27
+Current avg_loss: 2.6228, accuracy: 0.0571
+----------------------------------------
+[Batch 604] pred_ans: 1 + 2 + 4 = 7
+[Batch 604] true_ans: 29
+Current avg_loss: 2.6228, accuracy: 0.0570
+----------------------------------------
+[Batch 605] pred_ans: 300
+[Batch 605] true_ans: 288
+Current avg_loss: 2.6236, accuracy: 0.0570
+----------------------------------------
+[Batch 605] pred_ans: 56 mL
+[Batch 605] true_ans: 448
+Current avg_loss: 2.6236, accuracy: 0.0569
+----------------------------------------
+[Batch 606] pred_ans: 120 students
+[Batch 606] true_ans: 150
+Current avg_loss: 2.6234, accuracy: 0.0569
+----------------------------------------
+[Batch 606] pred_ans: 300(1.02)11 = 331.20
+[Batch 606] true_ans: 31
+Current avg_loss: 2.6234, accuracy: 0.0568
+----------------------------------------
+[Batch 607] pred_ans: 5
+[Batch 607] true_ans: 5
+Current avg_loss: 2.6232, accuracy: 0.0576
+----------------------------------------
+[Batch 607] pred_ans: 900
+[Batch 607] true_ans: 36
+Current avg_loss: 2.6232, accuracy: 0.0576
+----------------------------------------
+[Batch 608] pred_ans: 100
+[Batch 608] true_ans: 20
+Current avg_loss: 2.6230, accuracy: 0.0575
+----------------------------------------
+[Batch 608] pred_ans: 1,000
+[Batch 608] true_ans: 75
+Current avg_loss: 2.6230, accuracy: 0.0575
+----------------------------------------
+[Batch 609] pred_ans: 45 minutes x 10 groups = 450 minutes. 450 minutes /
+[Batch 609] true_ans: 225
+Current avg_loss: 2.6232, accuracy: 0.0574
+----------------------------------------
+[Batch 609] pred_ans: 20 + 10 = 30
+[Batch 609] true_ans: 100
+Current avg_loss: 2.6232, accuracy: 0.0574
+----------------------------------------
+[Batch 610] pred_ans: 20 feet
+[Batch 610] true_ans: 32
+Current avg_loss: 2.6230, accuracy: 0.0573
+----------------------------------------
+[Batch 610] pred_ans: 2.5 cups
+[Batch 610] true_ans: 10
+Current avg_loss: 2.6230, accuracy: 0.0573
+----------------------------------------
+[Batch 611] pred_ans: 175 inches
+[Batch 611] true_ans: 350
+Current avg_loss: 2.6229, accuracy: 0.0572
+----------------------------------------
+[Batch 611] pred_ans: 36 minutes = 36/60 hours = 3/5 hours. The
+[Batch 611] true_ans: 8
+Current avg_loss: 2.6229, accuracy: 0.0572
+----------------------------------------
+[Batch 612] pred_ans: 4 inches
+[Batch 612] true_ans: 5
+Current avg_loss: 2.6230, accuracy: 0.0571
+----------------------------------------
+[Batch 612] pred_ans: 6
+[Batch 612] true_ans: 3
+Current avg_loss: 2.6230, accuracy: 0.0571
+----------------------------------------
+[Batch 613] pred_ans: 1. $35 + $40 = $75
+[Batch 613] true_ans: 90
+Current avg_loss: 2.6233, accuracy: 0.0570
+----------------------------------------
+[Batch 613] pred_ans: 12 + 6 + 4(6) = 36 magazines a year
+[Batch 613] true_ans: 66
+Current avg_loss: 2.6233, accuracy: 0.0570
+----------------------------------------
+[Batch 614] pred_ans: 15
+[Batch 614] true_ans: 31
+Current avg_loss: 2.6234, accuracy: 0.0570
+----------------------------------------
+[Batch 614] pred_ans: 40 + 0.80(40) - 0.50(40
+[Batch 614] true_ans: 36
+Current avg_loss: 2.6234, accuracy: 0.0569
+----------------------------------------
+[Batch 615] pred_ans: $320
+[Batch 615] true_ans: 440
+Current avg_loss: 2.6232, accuracy: 0.0569
+----------------------------------------
+[Batch 615] pred_ans: 68.89
+[Batch 615] true_ans: 70
+Current avg_loss: 2.6232, accuracy: 0.0568
+----------------------------------------
+[Batch 616] pred_ans: 16
+[Batch 616] true_ans: 15
+Current avg_loss: 2.6227, accuracy: 0.0568
+----------------------------------------
+[Batch 616] pred_ans: 1.8
+[Batch 616] true_ans: 81
+Current avg_loss: 2.6227, accuracy: 0.0567
+----------------------------------------
+[Batch 617] pred_ans: 12
+[Batch 617] true_ans: 12
+Current avg_loss: 2.6233, accuracy: 0.0575
+----------------------------------------
+[Batch 617] pred_ans: 75%
+[Batch 617] true_ans: 60
+Current avg_loss: 2.6233, accuracy: 0.0574
+----------------------------------------
+[Batch 618] pred_ans: 72
+[Batch 618] true_ans: 84
+Current avg_loss: 2.6239, accuracy: 0.0574
+----------------------------------------
+[Batch 618] pred_ans: 71
+[Batch 618] true_ans: 78
+Current avg_loss: 2.6239, accuracy: 0.0574
+----------------------------------------
+[Batch 619] pred_ans: $156.00
+[Batch 619] true_ans: 520
+Current avg_loss: 2.6234, accuracy: 0.0573
+----------------------------------------
+[Batch 619] pred_ans: 50%
+[Batch 619] true_ans: 50
+Current avg_loss: 2.6234, accuracy: 0.0573
+----------------------------------------
+[Batch 620] pred_ans: 3
+[Batch 620] true_ans: 2
+Current avg_loss: 2.6233, accuracy: 0.0572
+----------------------------------------
+[Batch 620] pred_ans: 1.20
+[Batch 620] true_ans: 8
+Current avg_loss: 2.6233, accuracy: 0.0572
+----------------------------------------
+[Batch 621] pred_ans: 20
+[Batch 621] true_ans: 20
+Current avg_loss: 2.6238, accuracy: 0.0579
+----------------------------------------
+[Batch 621] pred_ans: 60 cents
+[Batch 621] true_ans: 50
+Current avg_loss: 2.6238, accuracy: 0.0579
+----------------------------------------
+[Batch 622] pred_ans: 28
+[Batch 622] true_ans: 35
+Current avg_loss: 2.6233, accuracy: 0.0578
+----------------------------------------
+[Batch 622] pred_ans: 60
+[Batch 622] true_ans: 96
+Current avg_loss: 2.6233, accuracy: 0.0578
+----------------------------------------
+[Batch 623] pred_ans: 840 points
+[Batch 623] true_ans: 3360
+Current avg_loss: 2.6236, accuracy: 0.0577
+----------------------------------------
+[Batch 623] pred_ans: 4
+[Batch 623] true_ans: 7
+Current avg_loss: 2.6236, accuracy: 0.0577
+----------------------------------------
+[Batch 624] pred_ans: 1,250
+[Batch 624] true_ans: 750
+Current avg_loss: 2.6228, accuracy: 0.0576
+----------------------------------------
+[Batch 624] pred_ans: 20
+[Batch 624] true_ans: 56
+Current avg_loss: 2.6228, accuracy: 0.0576
+----------------------------------------
+[Batch 625] pred_ans: 11
+[Batch 625] true_ans: 22
+Current avg_loss: 2.6228, accuracy: 0.0576
+----------------------------------------
+[Batch 625] pred_ans: 5 + 2(10) + 2(5) = 25
+[Batch 625] true_ans: 30
+Current avg_loss: 2.6228, accuracy: 0.0575
+----------------------------------------
+[Batch 626] pred_ans: 40
+[Batch 626] true_ans: 70
+Current avg_loss: 2.6238, accuracy: 0.0575
+----------------------------------------
+[Batch 626] pred_ans: 120
+[Batch 626] true_ans: 120
+Current avg_loss: 2.6238, accuracy: 0.0582
+----------------------------------------
+[Batch 627] pred_ans: 12 minutes
+[Batch 627] true_ans: 30
+Current avg_loss: 2.6233, accuracy: 0.0582
+----------------------------------------
+[Batch 627] pred_ans: 6
+[Batch 627] true_ans: 12
+Current avg_loss: 2.6233, accuracy: 0.0581
+----------------------------------------
+[Batch 628] pred_ans: 30 minutes
+[Batch 628] true_ans: 15
+Current avg_loss: 2.6229, accuracy: 0.0581
+----------------------------------------
+[Batch 628] pred_ans: 7 boxes at $2.00 per box = $14.00
+[Batch 628] true_ans: 14
+Current avg_loss: 2.6229, accuracy: 0.0580
+----------------------------------------
+[Batch 629] pred_ans: 20 + 2x + x = 20 + 3x
+[Batch 629] true_ans: 60
+Current avg_loss: 2.6233, accuracy: 0.0580
+----------------------------------------
+[Batch 629] pred_ans: 120 x $2 = $240
+[Batch 629] true_ans: 7200
+Current avg_loss: 2.6233, accuracy: 0.0579
+----------------------------------------
+[Batch 630] pred_ans: 3 days
+[Batch 630] true_ans: 5
+Current avg_loss: 2.6228, accuracy: 0.0579
+----------------------------------------
+[Batch 630] pred_ans: 5 blouses x $5.00 = $25.00
+[Batch 630] true_ans: 235
+Current avg_loss: 2.6228, accuracy: 0.0578
+----------------------------------------
+[Batch 631] pred_ans: 1.5 minutes
+[Batch 631] true_ans: 12
+Current avg_loss: 2.6226, accuracy: 0.0578
+----------------------------------------
+[Batch 631] pred_ans: 1,000
+[Batch 631] true_ans: 500
+Current avg_loss: 2.6226, accuracy: 0.0578
+----------------------------------------
+[Batch 632] pred_ans: 120
+[Batch 632] true_ans: 210
+Current avg_loss: 2.6221, accuracy: 0.0577
+----------------------------------------
+[Batch 632] pred_ans: 24 lemons
+[Batch 632] true_ans: 36
+Current avg_loss: 2.6221, accuracy: 0.0577
+----------------------------------------
+[Batch 633] pred_ans: 5 x 7 + 3 x 7 = 56 kg
+[Batch 633] true_ans: 147
+Current avg_loss: 2.6225, accuracy: 0.0576
+----------------------------------------
+[Batch 633] pred_ans: 90
+[Batch 633] true_ans: 40
+Current avg_loss: 2.6225, accuracy: 0.0576
+----------------------------------------
+[Batch 634] pred_ans: 16
+[Batch 634] true_ans: 20
+Current avg_loss: 2.6218, accuracy: 0.0575
+----------------------------------------
+[Batch 634] pred_ans: 36 miles
+[Batch 634] true_ans: 54
+Current avg_loss: 2.6218, accuracy: 0.0575
+----------------------------------------
+[Batch 635] pred_ans: $3600
+[Batch 635] true_ans: 3528
+Current avg_loss: 2.6220, accuracy: 0.0574
+----------------------------------------
+[Batch 635] pred_ans: 54
+[Batch 635] true_ans: 43
+Current avg_loss: 2.6220, accuracy: 0.0574
+----------------------------------------
+[Batch 636] pred_ans: 280
+[Batch 636] true_ans: 296
+Current avg_loss: 2.6228, accuracy: 0.0573
+----------------------------------------
+[Batch 636] pred_ans: 27
+[Batch 636] true_ans: 27
+Current avg_loss: 2.6228, accuracy: 0.0581
+----------------------------------------
+[Batch 637] pred_ans: 32
+[Batch 637] true_ans: 38
+Current avg_loss: 2.6227, accuracy: 0.0580
+----------------------------------------
+[Batch 637] pred_ans: 1.5% of the weight of the car and the luggage.  The
+[Batch 637] true_ans: 16
+Current avg_loss: 2.6227, accuracy: 0.0580
+----------------------------------------
+[Batch 638] pred_ans: 60 feet
+[Batch 638] true_ans: 70
+Current avg_loss: 2.6227, accuracy: 0.0579
+----------------------------------------
+[Batch 638] pred_ans: 28
+[Batch 638] true_ans: 48
+Current avg_loss: 2.6227, accuracy: 0.0579
+----------------------------------------
+[Batch 639] pred_ans: 1,000
+[Batch 639] true_ans: 665
+Current avg_loss: 2.6225, accuracy: 0.0579
+----------------------------------------
+[Batch 639] pred_ans: $6.00 x 12 + $5.00 x 12 +
+[Batch 639] true_ans: 180
+Current avg_loss: 2.6225, accuracy: 0.0578
+----------------------------------------
+[Batch 640] pred_ans: 20 hours
+[Batch 640] true_ans: 7
+Current avg_loss: 2.6230, accuracy: 0.0578
+----------------------------------------
+[Batch 640] pred_ans: 100 pounds
+[Batch 640] true_ans: 20
+Current avg_loss: 2.6230, accuracy: 0.0577
+----------------------------------------
+[Batch 641] pred_ans: $4
+[Batch 641] true_ans: 12
+Current avg_loss: 2.6231, accuracy: 0.0577
+----------------------------------------
+[Batch 641] pred_ans: $10
+[Batch 641] true_ans: 60
+Current avg_loss: 2.6231, accuracy: 0.0576
+----------------------------------------
+[Batch 642] pred_ans: 11
+[Batch 642] true_ans: 25
+Current avg_loss: 2.6229, accuracy: 0.0576
+----------------------------------------
+[Batch 642] pred_ans: 1,256
+[Batch 642] true_ans: 1218
+Current avg_loss: 2.6229, accuracy: 0.0575
+----------------------------------------
+[Batch 643] pred_ans: 25 + 5 + 70 = 100
+[Batch 643] true_ans: 105
+Current avg_loss: 2.6230, accuracy: 0.0575
+----------------------------------------
+[Batch 643] pred_ans: 40 years
+[Batch 643] true_ans: 84
+Current avg_loss: 2.6230, accuracy: 0.0575
+----------------------------------------
+[Batch 644] pred_ans: 10 hours
+[Batch 644] true_ans: 34
+Current avg_loss: 2.6227, accuracy: 0.0574
+----------------------------------------
+[Batch 644] pred_ans: 1. 11 x 3 = 33
+[Batch 644] true_ans: 101
+Current avg_loss: 2.6227, accuracy: 0.0574
+----------------------------------------
+[Batch 645] pred_ans: 54
+[Batch 645] true_ans: 90
+Current avg_loss: 2.6234, accuracy: 0.0573
+----------------------------------------
+[Batch 645] pred_ans: 6
+[Batch 645] true_ans: 27
+Current avg_loss: 2.6234, accuracy: 0.0573
+----------------------------------------
+[Batch 646] pred_ans: 30"
+[Batch 646] true_ans: 67
+Current avg_loss: 2.6239, accuracy: 0.0572
+----------------------------------------
+[Batch 646] pred_ans: 2 weeks = 14 days. 14 days * 5000 bars/day
+[Batch 646] true_ans: 140000
+Current avg_loss: 2.6239, accuracy: 0.0572
+----------------------------------------
+[Batch 647] pred_ans: 40
+[Batch 647] true_ans: 36
+Current avg_loss: 2.6235, accuracy: 0.0571
+----------------------------------------
+[Batch 647] pred_ans: 1.25 x 4 = 5.00
+[Batch 647] true_ans: 2
+Current avg_loss: 2.6235, accuracy: 0.0571
+----------------------------------------
+[Batch 648] pred_ans: 245
+[Batch 648] true_ans: 335
+Current avg_loss: 2.6228, accuracy: 0.0571
+----------------------------------------
+[Batch 648] pred_ans: $1,000
+[Batch 648] true_ans: 60
+Current avg_loss: 2.6228, accuracy: 0.0570
+----------------------------------------
+[Batch 649] pred_ans: 16.25
+[Batch 649] true_ans: 31
+Current avg_loss: 2.6227, accuracy: 0.0570
+----------------------------------------
+[Batch 649] pred_ans: 20
+[Batch 649] true_ans: 13
+Current avg_loss: 2.6227, accuracy: 0.0569
+----------------------------------------
+[Batch 650] pred_ans: 24 cars x $4 = $96
+[Batch 650] true_ans: 120
+Current avg_loss: 2.6226, accuracy: 0.0569
+----------------------------------------
+[Batch 650] pred_ans: 13
+[Batch 650] true_ans: 23
+Current avg_loss: 2.6226, accuracy: 0.0568
+----------------------------------------
+[Batch 651] pred_ans: 12 x 5 = 60 + 12 x 7 = 84
+[Batch 651] true_ans: 72
+Current avg_loss: 2.6225, accuracy: 0.0568
+----------------------------------------
+[Batch 651] pred_ans: 2 weeks
+[Batch 651] true_ans: 4
+Current avg_loss: 2.6225, accuracy: 0.0567
+----------------------------------------
+[Batch 652] pred_ans: 2500
+[Batch 652] true_ans: 1000
+Current avg_loss: 2.6224, accuracy: 0.0567
+----------------------------------------
+[Batch 652] pred_ans: 2325
+[Batch 652] true_ans: 2325
+Current avg_loss: 2.6224, accuracy: 0.0574
+----------------------------------------
+[Batch 653] pred_ans: 2
+[Batch 653] true_ans: 2
+Current avg_loss: 2.6220, accuracy: 0.0581
+----------------------------------------
+[Batch 653] pred_ans: 0
+[Batch 653] true_ans: 8
+Current avg_loss: 2.6220, accuracy: 0.0581
+----------------------------------------
+[Batch 654] pred_ans: 20
+[Batch 654] true_ans: 30
+Current avg_loss: 2.6221, accuracy: 0.0581
+----------------------------------------
+[Batch 654] pred_ans: 1,800
+[Batch 654] true_ans: 2280
+Current avg_loss: 2.6221, accuracy: 0.0580
+----------------------------------------
+[Batch 655] pred_ans: 32
+[Batch 655] true_ans: 64
+Current avg_loss: 2.6220, accuracy: 0.0580
+----------------------------------------
+[Batch 655] pred_ans: 600 feet of line
+[Batch 655] true_ans: 594
+Current avg_loss: 2.6220, accuracy: 0.0579
+----------------------------------------
+[Batch 656] pred_ans: 6 * 2 * 2 * 7 * 5 = $840
+[Batch 656] true_ans: 180
+Current avg_loss: 2.6225, accuracy: 0.0579
+----------------------------------------
+[Batch 656] pred_ans: 5.6
+[Batch 656] true_ans: 2
+Current avg_loss: 2.6225, accuracy: 0.0578
+----------------------------------------
+[Batch 657] pred_ans: 12
+[Batch 657] true_ans: 8
+Current avg_loss: 2.6224, accuracy: 0.0578
+----------------------------------------
+[Batch 657] pred_ans: 15
+[Batch 657] true_ans: 5
+Current avg_loss: 2.6224, accuracy: 0.0578
+----------------------------------------
+[Batch 658] pred_ans: 400 - 320 + 150 = 230
+[Batch 658] true_ans: 230
+Current avg_loss: 2.6223, accuracy: 0.0577
+----------------------------------------
+[Batch 658] pred_ans: 10
+[Batch 658] true_ans: 5
+Current avg_loss: 2.6223, accuracy: 0.0577
+----------------------------------------
+[Batch 659] pred_ans: 2
+[Batch 659] true_ans: 14
+Current avg_loss: 2.6221, accuracy: 0.0576
+----------------------------------------
+
+=== Evaluation Summary ===
+Total samples: 1319, Correct: 76, Evaluated: 1319
+Average loss: 2.6221
+Accuracy: 5.76%
+==================================================

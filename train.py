@@ -1,13 +1,13 @@
 import os
 
 from data.gsm8k import GSM8k
-from utility.scheduler import CosineScheduler, ProportionScheduler
+from utility.scheduler import CosineScheduler, ProportionScheduler, CosineRhoScheduler
 from utility.loss import extract_final_answer, smooth_crossentropy
 from utility.evaluate import evaluate_model
 from trainer.basic_trainer import BaseTrainer
 from trainer.asyflat_trainer import AsyFlatTrainer
 from trainer.flat_trainer import FlatLoRATrainer
-os.environ["CUDA_VISIBLE_DEVICES"] = "6"
+os.environ["CUDA_VISIBLE_DEVICES"] = "7"
 from peft import LoraConfig, get_peft_model
 import torch
 from torch.optim import SGD
@@ -34,7 +34,7 @@ def train():
 
     # 命令行参数
     args = {}
-    args["batch_size"] = 4
+    args["batch_size"] = 2
     args["threads"] = 0
     args["model_type"] = "llama"
     args["model_name"] = "meta-llama/Meta-Llama-3-8B"
@@ -42,7 +42,7 @@ def train():
     args["epochs"] = 3
     args["rho"] = 0.1
     args["rho_max"] = 0.1
-    args["rho_min"] = 0.1
+    args["rho_min"] = 0.02
     args["adaptive"] = False
     args["alpha"] = 0.5
     args["beta"] = 0.5
@@ -109,8 +109,7 @@ def train():
     scheduler = CosineScheduler(T_max=args["epochs"] * len(dataset.train), max_value=args["learning_rate"],
                                 min_value=0.0, optimizer=base_optimizer)
 
-    rho_scheduler = ProportionScheduler(pytorch_lr_scheduler=scheduler, max_lr=args["learning_rate"], min_lr=0.0,
-                                        max_value=args["rho_max"], min_value=args["rho_min"])
+    rho_scheduler = CosineRhoScheduler(max_value=args["rho_max"], min_value=args["rho_min"], total_steps=args["epochs"] * len(dataset.train))
 
     asyflat_optimizer = AsyFlat_LoRA(trainable_params, base_optimizer, rho=args["rho"], rho_scheduler=rho_scheduler, adaptive=args["adaptive"],
                          storage_size=args["storage_size"], alpha=args["alpha"], beta=args["beta"])
@@ -124,7 +123,7 @@ def train():
 
     # trainer = BaseTrainer(model, tokenizer, base_optimizer, device)
     # trainer = AsyFlatTrainer(model, tokenizer, base_optimizer, asyflat_optimizer, device)
-    # trainer = FlatLoRATrainer(model, tokenizer, base_optimizer, device, rho=0.1)
+    trainer = FlatLoRATrainer(model, tokenizer, base_optimizer, device, rho=0.05, rho_schedule=rho_scheduler)
 
     for epoch in range(args["epochs"]):
         model.train()
@@ -136,28 +135,18 @@ def train():
         for batch in dataset.train:
             start_time = time.time()
             tt += 1
-            # trainer.train_step(batch, epoch=epoch, step=tt)
-            # trainer.train_step(batch)
-
-            # 更新 rho
-            with torch.no_grad():
-                scheduler.step()
+            trainer.train_step(batch)
 
             end_time = time.time()
             es_time = end_time - start_time
             whole_time += es_time
 
-            # if tt % 10 == 0 :
-            #     print(whole_time)
+            if tt % 10 == 0 :
+                print(whole_time)
 
-        avg_loss, acc = evaluate_model(model, tokenizer, device, int(args["batch_size"] / 2), args["threads"])
+        avg_loss, acc = evaluate_model(model, tokenizer, device, args["batch_size"], args["threads"])
         print("final: ", avg_loss, acc)
-
-        end_time = time.time()
-        es_time = end_time - start_time
-        whole_time += es_time
-        print(whole_time)
-
+    print(whole_time)
         
 
 

@@ -72,3 +72,33 @@ class CosineScheduler(SchedulerBase):
         phase = (self.t-self.warmup_steps) / (self.total_steps-self.warmup_steps) * math.pi
         value = self.min_value + (self.max_value-self.min_value) * (np.cos(phase) + 1.) / 2.0
         return value
+    
+import math
+
+class CosineRhoScheduler:
+    def __init__(self, max_value, min_value, total_steps):
+        """
+        一个余弦衰减的 ρ 调度器。
+
+        Args:
+            max_value (float): 初始最大 ρ
+            min_value (float): 最小 ρ（衰减下限）
+            total_steps (int): 总步数（epoch * steps_per_epoch）
+        """
+        self.max_value = max_value
+        self.min_value = min_value
+        self.total_steps = total_steps
+        self.current_step = 0
+        self.current_value = max_value
+
+    def step(self):
+        if self.total_steps <= 1:
+            self.current_value = self.min_value
+            return self.current_value
+
+        progress = min(self.current_step / self.total_steps, 1.0)
+        cosine_decay = 0.5 * (1 + math.cos(math.pi * progress))
+        self.current_value = self.min_value + (self.max_value - self.min_value) * cosine_decay
+
+        self.current_step += 1
+        return self.current_value

@@ -14,22 +14,23 @@ class FlatLoRATrainer:
         self.rho_schedule = rho_schedule
         self.lora_layers = find_lora_modules(model)
 
-    def train_step(self, batch, epoch=0, step=0):
+    def train_step(self, batch):
         model = self.model
         model.train()
 
-        inputs, targets, index = [x.to(self.device) for x in batch]
+        input_ids = batch["input_ids"].to(self.device)
+        attention_mask = batch.get("attention_mask", None)
+        if attention_mask is not None:
+            attention_mask = attention_mask.to(self.device)
+        labels = batch["labels"].clone().to(self.device)
+        # 确保 pad 被忽略
+        labels[labels == getattr(self.tokenizer, "pad_token_id", -100)] = -100
 
         # === Step 1: baseline forward ===
         self.optimizer.zero_grad()
-        outputs = model(inputs).logits
-        loss = F.cross_entropy(
-            outputs.view(-1, outputs.size(-1)),
-            targets.view(-1),
-            ignore_index=self.tokenizer.pad_token_id,
-            label_smoothing=0.1
-        )
-        loss.backward(retain_graph=True)
+        outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
+        loss = outputs.loss
+        loss.backward()
 
         # === Step 2: compute perturbation EB for each LoRA layer ===
         layer_EBs = []
@@ -37,12 +38,12 @@ class FlatLoRATrainer:
             A, grad_A = _get_lora_weight_and_grad(m.lora_A)
             B, grad_B = _get_lora_weight_and_grad(m.lora_B)
 
-            grad_A = grad_A if grad_A is not None else torch.zeros_like(A)
-            grad_B = grad_B if grad_B is not None else torch.zeros_like(B)
-            s = getattr(m, "alpha", 1.0)
+            grad_A = grad_A
+            grad_B = grad_B
+            s = 0.5
 
             gW = estimate_full_weight_grad(A.detach(), grad_B.detach(), B.detach(), grad_A.detach(), s)
-            rho = self.rho if self.rho_schedule is None else self.rho_schedule(epoch, step)
+            rho = self.rho_schedule.step()
             EW = compute_ew_from_gw(gW, rho)
             EB = compute_EB_from_EW_and_A(EW, A.detach(), s)
             layer_EBs.append((m, EB))
@@ -64,16 +65,10 @@ class FlatLoRATrainer:
 
         # === Step 4: second forward/backward (perturbed point) ===
         self.optimizer.zero_grad()
-        outputs2 = model(inputs).logits
-        loss2 = F.cross_entropy(
-            outputs2.view(-1, outputs2.size(-1)),
-            targets.view(-1),
-            ignore_index=self.tokenizer.pad_token_id,
-            label_smoothing=0.1
-        )
+        outputs2 = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
+        loss2 = outputs2.loss
         loss2.backward()
-        self.optimizer.step()
-
+        
         # === Step 5: restore original B ===
         with torch.no_grad():
             for (m, _) in layer_EBs:
@@ -84,6 +79,8 @@ class FlatLoRATrainer:
                     else:
                         m.lora_B.data.copy_(m._orig_lora_B)
                     del m._orig_lora_B
+
+        self.optimizer.step()
 
         self.optimizer.zero_grad()
         return loss2.item()
