@@ -9,7 +9,7 @@ from trainer.basic_trainer import BaseTrainer
 from trainer.asyflat_trainer import AsyFlatTrainer
 from trainer.flat_trainer import FlatLoRATrainer
 from trainer.eflat_trainer import EFlatLoRATrainer
-os.environ["CUDA_VISIBLE_DEVICES"] = "5"
+os.environ["CUDA_VISIBLE_DEVICES"] = "4"
 from peft import LoraConfig, get_peft_model
 import torch
 from torch.optim import SGD
@@ -19,8 +19,6 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from tqdm import tqdm
 
 from data.math10k import Math10k
-from models.llama import MODEL_TYPES
-from optimizer.asyflat import AsyFlat_LoRA
 from utility.initialize import initialize
 import torch.nn.functional as F
 
@@ -112,9 +110,6 @@ def train():
                                 min_value=0.0, optimizer=base_optimizer)
 
     rho_scheduler = CosineRhoScheduler(max_value=args["rho_max"], min_value=args["rho_min"], total_steps=args["epochs"] * math.ceil(len(dataset.train) / args["batch_size"]))
-
-    asyflat_optimizer = AsyFlat_LoRA(trainable_params, base_optimizer, rho=args["rho"], rho_scheduler=rho_scheduler, adaptive=args["adaptive"],
-                         storage_size=args["storage_size"], alpha=args["alpha"], beta=args["beta"])
 
     whole_time = 0
 
