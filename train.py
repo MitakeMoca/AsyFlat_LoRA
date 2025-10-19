@@ -1,3 +1,4 @@
+import math
 import os
 
 from data.gsm8k import GSM8k
@@ -7,7 +8,8 @@ from utility.evaluate import evaluate_model
 from trainer.basic_trainer import BaseTrainer
 from trainer.asyflat_trainer import AsyFlatTrainer
 from trainer.flat_trainer import FlatLoRATrainer
-os.environ["CUDA_VISIBLE_DEVICES"] = "7"
+from trainer.eflat_trainer import EFlatLoRATrainer
+os.environ["CUDA_VISIBLE_DEVICES"] = "6"
 from peft import LoraConfig, get_peft_model
 import torch
 from torch.optim import SGD
@@ -109,7 +111,7 @@ def train():
     scheduler = CosineScheduler(T_max=args["epochs"] * len(dataset.train), max_value=args["learning_rate"],
                                 min_value=0.0, optimizer=base_optimizer)
 
-    rho_scheduler = CosineRhoScheduler(max_value=args["rho_max"], min_value=args["rho_min"], total_steps=args["epochs"] * len(dataset.train))
+    rho_scheduler = CosineRhoScheduler(max_value=args["rho_max"], min_value=args["rho_min"], total_steps=args["epochs"] * math.ceil(len(dataset.train) / args["batch_size"]))
 
     asyflat_optimizer = AsyFlat_LoRA(trainable_params, base_optimizer, rho=args["rho"], rho_scheduler=rho_scheduler, adaptive=args["adaptive"],
                          storage_size=args["storage_size"], alpha=args["alpha"], beta=args["beta"])
@@ -123,7 +125,8 @@ def train():
 
     # trainer = BaseTrainer(model, tokenizer, base_optimizer, device)
     # trainer = AsyFlatTrainer(model, tokenizer, base_optimizer, asyflat_optimizer, device)
-    trainer = FlatLoRATrainer(model, tokenizer, base_optimizer, device, rho=0.05, rho_schedule=rho_scheduler)
+    # trainer = FlatLoRATrainer(model, tokenizer, base_optimizer, device, rho=0.05, rho_schedule=rho_scheduler)
+    trainer = EFlatLoRATrainer(model, tokenizer, base_optimizer, device, rho=0.05, rho_schedule=rho_scheduler, beta=0.9)
 
     for epoch in range(args["epochs"]):
         model.train()

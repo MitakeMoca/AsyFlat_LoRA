@@ -34,6 +34,7 @@ class FlatLoRATrainer:
 
         # === Step 2: compute perturbation EB for each LoRA layer ===
         layer_EBs = []
+        rho = self.rho_schedule.step()
         for (m, name) in self.lora_layers:
             A, grad_A = _get_lora_weight_and_grad(m.lora_A)
             B, grad_B = _get_lora_weight_and_grad(m.lora_B)
@@ -43,7 +44,6 @@ class FlatLoRATrainer:
             s = 0.5
 
             gW = estimate_full_weight_grad(A.detach(), grad_B.detach(), B.detach(), grad_A.detach(), s)
-            rho = self.rho_schedule.step()
             EW = compute_ew_from_gw(gW, rho)
             EB = compute_EB_from_EW_and_A(EW, A.detach(), s)
             layer_EBs.append((m, EB))
