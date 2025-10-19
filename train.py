@@ -9,7 +9,7 @@ from trainer.basic_trainer import BaseTrainer
 from trainer.asyflat_trainer import AsyFlatTrainer
 from trainer.flat_trainer import FlatLoRATrainer
 from trainer.eflat_trainer import EFlatLoRATrainer
-os.environ["CUDA_VISIBLE_DEVICES"] = "6"
+os.environ["CUDA_VISIBLE_DEVICES"] = "5"
 from peft import LoraConfig, get_peft_model
 import torch
 from torch.optim import SGD
@@ -124,21 +124,18 @@ def train():
     print(tokenizer.decode(ids))
 
     # trainer = BaseTrainer(model, tokenizer, base_optimizer, device)
-    # trainer = AsyFlatTrainer(model, tokenizer, base_optimizer, asyflat_optimizer, device)
     # trainer = FlatLoRATrainer(model, tokenizer, base_optimizer, device, rho=0.05, rho_schedule=rho_scheduler)
-    trainer = EFlatLoRATrainer(model, tokenizer, base_optimizer, device, rho=0.05, rho_schedule=rho_scheduler, beta=0.9)
+    # trainer = EFlatLoRATrainer(model, tokenizer, base_optimizer, device, rho=0.05, rho_schedule=rho_scheduler, beta=0.9)
+    trainer = AsyFlatTrainer(model, tokenizer, base_optimizer, device, args["storage_size"], args["fmin"], args["fmax"], rho=args["rho"], rho_schedule=rho_scheduler, alpha=args["alpha"])
 
     for epoch in range(args["epochs"]):
         model.train()
         tt = 0
 
-        # 规约化后的最大值，在不断上升
-        fmax_ = args["fmax"] - ((args["epochs"] - epoch) / args["epochs"]) * (args["fmax"] - args["fmin"]) + 0.000000001
-
         for batch in dataset.train:
             start_time = time.time()
             tt += 1
-            trainer.train_step(batch)
+            trainer.train_step(batch, epoch + 1)
 
             end_time = time.time()
             es_time = end_time - start_time
@@ -150,8 +147,6 @@ def train():
         avg_loss, acc = evaluate_model(model, tokenizer, device, args["batch_size"], args["threads"])
         print("final: ", avg_loss, acc)
     print(whole_time)
-        
-
 
 if __name__ == "__main__":
     train()
