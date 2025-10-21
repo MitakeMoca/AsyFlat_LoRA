@@ -9,7 +9,7 @@ from trainer.basic_trainer import BaseTrainer
 from trainer.asyflat_trainer import AsyFlatTrainer
 from trainer.flat_trainer import FlatLoRATrainer
 from trainer.eflat_trainer import EFlatLoRATrainer
-os.environ["CUDA_VISIBLE_DEVICES"] = "4"
+os.environ["CUDA_VISIBLE_DEVICES"] = "7"
 from peft import LoraConfig, get_peft_model
 import torch
 from torch.optim import SGD
@@ -24,6 +24,10 @@ import torch.nn.functional as F
 
 tokenizer = None
 
+import os
+
+os.makedirs('logs', exist_ok=True)
+
 def train():
     global tokenizer
 
@@ -31,6 +35,9 @@ def train():
         config = yaml.safe_load(f)
 
     print(config)
+
+    with open('logs/training_eflat_time.log', 'a') as f:  # 'a' 模式追加，'w' 模式覆盖
+        f.write(f"hello\n")
 
     # 命令行参数
     args = {}
@@ -41,7 +48,7 @@ def train():
     args["learning_rate"] = 2.0e-4
     args["epochs"] = 3
     args["rho"] = 0.1
-    args["rho_max"] = 0.1
+    args["rho_max"] = 0.05
     args["rho_min"] = 0.02
     args["adaptive"] = False
     args["alpha"] = 0.5
@@ -118,10 +125,10 @@ def train():
     print(tokenizer.batch_decode(ids, skip_special_tokens=True))
     print(tokenizer.decode(ids))
 
-    # trainer = BaseTrainer(model, tokenizer, base_optimizer, device)
+    trainer = BaseTrainer(model, tokenizer, base_optimizer, device)
     # trainer = FlatLoRATrainer(model, tokenizer, base_optimizer, device, rho=0.05, rho_schedule=rho_scheduler)
     # trainer = EFlatLoRATrainer(model, tokenizer, base_optimizer, device, rho=0.05, rho_schedule=rho_scheduler, beta=0.9)
-    trainer = AsyFlatTrainer(model, tokenizer, base_optimizer, device, args["storage_size"], args["fmin"], args["fmax"], rho=args["rho"], rho_schedule=rho_scheduler, alpha=args["alpha"])
+    # trainer = AsyFlatTrainer(model, tokenizer, base_optimizer, device, args["storage_size"], args["fmin"], args["fmax"], rho=args["rho"], rho_schedule=rho_scheduler, alpha=args["alpha"])
 
     for epoch in range(args["epochs"]):
         model.train()
@@ -130,18 +137,22 @@ def train():
         for batch in dataset.train:
             start_time = time.time()
             tt += 1
-            trainer.train_step(batch, epoch + 1)
+            trainer.train_step(batch)
 
             end_time = time.time()
             es_time = end_time - start_time
             whole_time += es_time
 
-            if tt % 10 == 0 :
+            if tt % 10 == 0:
                 print(whole_time)
+
 
         avg_loss, acc = evaluate_model(model, tokenizer, device, args["batch_size"], args["threads"])
         print("final: ", avg_loss, acc)
     print(whole_time)
+    # 将时间写入文件
+    with open('logs/training_eflat_time.log', 'a') as f:  # 'a' 模式追加，'w' 模式覆盖
+        f.write(f"Training time: {trainer.time}\n")
 
 if __name__ == "__main__":
     train()

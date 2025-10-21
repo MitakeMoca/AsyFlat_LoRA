@@ -1,0 +1,5288 @@
+=== Starting Evaluation ===
+Device: cuda:0
+Batch size: 2, Threads: 0
+Log file: ./logs/eval_log_20251020_170331.txt
+==================================================
+[Batch 0] pred_ans: 56.0
+[Batch 0] true_ans: 18
+Current avg_loss: 2.1925, accuracy: 0.0000
+----------------------------------------
+[Batch 0] pred_ans: 4.0
+[Batch 0] true_ans: 3
+Current avg_loss: 2.1925, accuracy: 0.0000
+----------------------------------------
+[Batch 1] pred_ans: 100000.0
+[Batch 1] true_ans: 70000
+Current avg_loss: 1.8516, accuracy: 0.0000
+----------------------------------------
+[Batch 1] pred_ans: 1080.0
+[Batch 1] true_ans: 540
+Current avg_loss: 1.8516, accuracy: 0.0000
+----------------------------------------
+[Batch 2] pred_ans: 20.0
+[Batch 2] true_ans: 20
+Current avg_loss: 1.8055, accuracy: 0.2000
+----------------------------------------
+[Batch 2] pred_ans: 80.0
+[Batch 2] true_ans: 64
+Current avg_loss: 1.8055, accuracy: 0.1667
+----------------------------------------
+[Batch 3] pred_ans: 100.0
+[Batch 3] true_ans: 260
+Current avg_loss: 1.8194, accuracy: 0.1429
+----------------------------------------
+[Batch 3] pred_ans: 2.0
+[Batch 3] true_ans: 160
+Current avg_loss: 1.8194, accuracy: 0.1250
+----------------------------------------
+[Batch 4] pred_ans: 80.0
+[Batch 4] true_ans: 45
+Current avg_loss: 1.7922, accuracy: 0.1111
+----------------------------------------
+[Batch 4] pred_ans: 510.0
+[Batch 4] true_ans: 460
+Current avg_loss: 1.7922, accuracy: 0.1000
+----------------------------------------
+[Batch 5] pred_ans: 180.0
+[Batch 5] true_ans: 366
+Current avg_loss: 1.7352, accuracy: 0.0909
+----------------------------------------
+[Batch 5] pred_ans: 1000.0
+[Batch 5] true_ans: 694
+Current avg_loss: 1.7352, accuracy: 0.0833
+----------------------------------------
+[Batch 6] pred_ans: 2.0
+[Batch 6] true_ans: 13
+Current avg_loss: 1.7196, accuracy: 0.0769
+----------------------------------------
+[Batch 6] pred_ans: 15.0
+[Batch 6] true_ans: 18
+Current avg_loss: 1.7196, accuracy: 0.0714
+----------------------------------------
+[Batch 7] pred_ans: 55.0
+[Batch 7] true_ans: 60
+Current avg_loss: 1.7365, accuracy: 0.0667
+----------------------------------------
+[Batch 7] pred_ans: 100.0
+[Batch 7] true_ans: 125
+Current avg_loss: 1.7365, accuracy: 0.0625
+----------------------------------------
+[Batch 8] pred_ans: 230.0
+[Batch 8] true_ans: 230
+Current avg_loss: 1.7473, accuracy: 0.1176
+----------------------------------------
+[Batch 8] pred_ans: 10500.0
+[Batch 8] true_ans: 57500
+Current avg_loss: 1.7473, accuracy: 0.1111
+----------------------------------------
+[Batch 9] pred_ans: 48.0
+[Batch 9] true_ans: 7
+Current avg_loss: 1.7228, accuracy: 0.1053
+----------------------------------------
+[Batch 9] pred_ans: 8.0
+[Batch 9] true_ans: 6
+Current avg_loss: 1.7228, accuracy: 0.1000
+----------------------------------------
+[Batch 10] pred_ans: 12.0
+[Batch 10] true_ans: 15
+Current avg_loss: 1.7271, accuracy: 0.0952
+----------------------------------------
+[Batch 10] pred_ans: 8.0
+[Batch 10] true_ans: 14
+Current avg_loss: 1.7271, accuracy: 0.0909
+----------------------------------------
+[Batch 11] pred_ans: 6.0
+[Batch 11] true_ans: 7
+Current avg_loss: 1.6986, accuracy: 0.0870
+----------------------------------------
+[Batch 11] pred_ans: 10.0
+[Batch 11] true_ans: 8
+Current avg_loss: 1.6986, accuracy: 0.0833
+----------------------------------------
+[Batch 12] pred_ans: 26.0
+[Batch 12] true_ans: 26
+Current avg_loss: 1.6980, accuracy: 0.1200
+----------------------------------------
+[Batch 12] pred_ans: 2.0
+[Batch 12] true_ans: 2
+Current avg_loss: 1.6980, accuracy: 0.1538
+----------------------------------------
+[Batch 13] pred_ans: 225.0
+[Batch 13] true_ans: 243
+Current avg_loss: 1.6720, accuracy: 0.1481
+----------------------------------------
+[Batch 13] pred_ans: 240.0
+[Batch 13] true_ans: 16
+Current avg_loss: 1.6720, accuracy: 0.1429
+----------------------------------------
+[Batch 14] pred_ans: 25.0
+[Batch 14] true_ans: 25
+Current avg_loss: 1.6736, accuracy: 0.1724
+----------------------------------------
+[Batch 14] pred_ans: 33.0
+[Batch 14] true_ans: 104
+Current avg_loss: 1.6736, accuracy: 0.1667
+----------------------------------------
+[Batch 15] pred_ans: 66.0
+[Batch 15] true_ans: 109
+Current avg_loss: 1.6735, accuracy: 0.1613
+----------------------------------------
+[Batch 15] pred_ans: 70.0
+[Batch 15] true_ans: 80
+Current avg_loss: 1.6735, accuracy: 0.1562
+----------------------------------------
+[Batch 16] pred_ans: 10.0
+[Batch 16] true_ans: 35
+Current avg_loss: 1.6570, accuracy: 0.1515
+----------------------------------------
+[Batch 16] pred_ans: 40.0
+[Batch 16] true_ans: 70
+Current avg_loss: 1.6570, accuracy: 0.1471
+----------------------------------------
+[Batch 17] pred_ans: 30.0
+[Batch 17] true_ans: 23
+Current avg_loss: 1.6381, accuracy: 0.1429
+----------------------------------------
+[Batch 17] pred_ans: 28.0
+[Batch 17] true_ans: 9
+Current avg_loss: 1.6381, accuracy: 0.1389
+----------------------------------------
+[Batch 18] pred_ans: 60.0
+[Batch 18] true_ans: 75
+Current avg_loss: 1.6322, accuracy: 0.1351
+----------------------------------------
+[Batch 18] pred_ans: 5.0
+[Batch 18] true_ans: 2
+Current avg_loss: 1.6322, accuracy: 0.1316
+----------------------------------------
+[Batch 19] pred_ans: 6.0
+[Batch 19] true_ans: 10
+Current avg_loss: 1.6241, accuracy: 0.1282
+----------------------------------------
+[Batch 19] pred_ans: 9.0
+[Batch 19] true_ans: 18
+Current avg_loss: 1.6241, accuracy: 0.1250
+----------------------------------------
+[Batch 20] pred_ans: 4.0
+[Batch 20] true_ans: 8
+Current avg_loss: 1.6458, accuracy: 0.1220
+----------------------------------------
+[Batch 20] pred_ans: 2000.0
+[Batch 20] true_ans: 200
+Current avg_loss: 1.6458, accuracy: 0.1190
+----------------------------------------
+[Batch 21] pred_ans: 32.0
+[Batch 21] true_ans: 26
+Current avg_loss: 1.6453, accuracy: 0.1163
+----------------------------------------
+[Batch 21] pred_ans: 100.0
+[Batch 21] true_ans: 48
+Current avg_loss: 1.6453, accuracy: 0.1136
+----------------------------------------
+[Batch 22] pred_ans: 20.0
+[Batch 22] true_ans: 20
+Current avg_loss: 1.6518, accuracy: 0.1333
+----------------------------------------
+[Batch 22] pred_ans: 48.0
+[Batch 22] true_ans: 104
+Current avg_loss: 1.6518, accuracy: 0.1304
+----------------------------------------
+[Batch 23] pred_ans: 37.0
+[Batch 23] true_ans: 163
+Current avg_loss: 1.6585, accuracy: 0.1277
+----------------------------------------
+[Batch 23] pred_ans: 400.0
+[Batch 23] true_ans: 800
+Current avg_loss: 1.6585, accuracy: 0.1250
+----------------------------------------
+[Batch 24] pred_ans: 60.0
+[Batch 24] true_ans: 8
+Current avg_loss: 1.6580, accuracy: 0.1224
+----------------------------------------
+[Batch 24] pred_ans: 12.0
+[Batch 24] true_ans: 30
+Current avg_loss: 1.6580, accuracy: 0.1200
+----------------------------------------
+[Batch 25] pred_ans: 2520.0
+[Batch 25] true_ans: 294
+Current avg_loss: 1.6605, accuracy: 0.1176
+----------------------------------------
+[Batch 25] pred_ans: 4.0
+[Batch 25] true_ans: 5
+Current avg_loss: 1.6605, accuracy: 0.1154
+----------------------------------------
+[Batch 26] pred_ans: 60.0
+[Batch 26] true_ans: 15
+Current avg_loss: 1.6539, accuracy: 0.1132
+----------------------------------------
+[Batch 26] pred_ans: 240.0
+[Batch 26] true_ans: 40
+Current avg_loss: 1.6539, accuracy: 0.1111
+----------------------------------------
+[Batch 27] pred_ans: 37.0
+[Batch 27] true_ans: 40
+Current avg_loss: 1.6610, accuracy: 0.1091
+----------------------------------------
+[Batch 27] pred_ans: 14.0
+[Batch 27] true_ans: 14
+Current avg_loss: 1.6610, accuracy: 0.1250
+----------------------------------------
+[Batch 28] pred_ans: 3.0
+[Batch 28] true_ans: 3
+Current avg_loss: 1.6569, accuracy: 0.1404
+----------------------------------------
+[Batch 28] pred_ans: 333.0
+[Batch 28] true_ans: 83
+Current avg_loss: 1.6569, accuracy: 0.1379
+----------------------------------------
+[Batch 29] pred_ans: 53.0
+[Batch 29] true_ans: 57
+Current avg_loss: 1.6652, accuracy: 0.1356
+----------------------------------------
+[Batch 29] pred_ans: 187.0
+[Batch 29] true_ans: 187
+Current avg_loss: 1.6652, accuracy: 0.1500
+----------------------------------------
+[Batch 30] pred_ans: 9.0
+[Batch 30] true_ans: 17
+Current avg_loss: 1.6702, accuracy: 0.1475
+----------------------------------------
+[Batch 30] pred_ans: 1500.0
+[Batch 30] true_ans: 1430
+Current avg_loss: 1.6702, accuracy: 0.1452
+----------------------------------------
+[Batch 31] pred_ans: 50000.0
+[Batch 31] true_ans: 25000
+Current avg_loss: 1.6729, accuracy: 0.1429
+----------------------------------------
+[Batch 31] pred_ans: 1680.0
+[Batch 31] true_ans: 1596
+Current avg_loss: 1.6729, accuracy: 0.1406
+----------------------------------------
+[Batch 32] pred_ans: 120.0
+[Batch 32] true_ans: 300
+Current avg_loss: 1.6659, accuracy: 0.1385
+----------------------------------------
+[Batch 32] pred_ans: 48.0
+[Batch 32] true_ans: 36
+Current avg_loss: 1.6659, accuracy: 0.1364
+----------------------------------------
+[Batch 33] pred_ans: 80.0
+[Batch 33] true_ans: 48
+Current avg_loss: 1.6663, accuracy: 0.1343
+----------------------------------------
+[Batch 33] pred_ans: 350.0
+[Batch 33] true_ans: 595
+Current avg_loss: 1.6663, accuracy: 0.1324
+----------------------------------------
+[Batch 34] pred_ans: 4.0
+[Batch 34] true_ans: 36
+Current avg_loss: 1.6616, accuracy: 0.1304
+----------------------------------------
+[Batch 34] pred_ans: 80.0
+[Batch 34] true_ans: 60
+Current avg_loss: 1.6616, accuracy: 0.1286
+----------------------------------------
+[Batch 35] pred_ans: 13500.0
+[Batch 35] true_ans: 7425
+Current avg_loss: 1.6656, accuracy: 0.1268
+----------------------------------------
+[Batch 35] pred_ans: 60.0
+[Batch 35] true_ans: 60
+Current avg_loss: 1.6656, accuracy: 0.1389
+----------------------------------------
+[Batch 36] pred_ans: 161.0
+[Batch 36] true_ans: 221
+Current avg_loss: 1.6704, accuracy: 0.1370
+----------------------------------------
+[Batch 36] pred_ans: 150.0
+[Batch 36] true_ans: 255
+Current avg_loss: 1.6704, accuracy: 0.1351
+----------------------------------------
+[Batch 37] pred_ans: 60.0
+[Batch 37] true_ans: 88
+Current avg_loss: 1.6649, accuracy: 0.1333
+----------------------------------------
+[Batch 37] pred_ans: 8.0
+[Batch 37] true_ans: 60
+Current avg_loss: 1.6649, accuracy: 0.1316
+----------------------------------------
+[Batch 38] pred_ans: 2.0
+[Batch 38] true_ans: 5
+Current avg_loss: 1.6563, accuracy: 0.1299
+----------------------------------------
+[Batch 38] pred_ans: 200.0
+[Batch 38] true_ans: 100
+Current avg_loss: 1.6563, accuracy: 0.1282
+----------------------------------------
+[Batch 39] pred_ans: 2.0
+[Batch 39] true_ans: 6
+Current avg_loss: 1.6513, accuracy: 0.1266
+----------------------------------------
+[Batch 39] pred_ans: 70.0
+[Batch 39] true_ans: 70
+Current avg_loss: 1.6513, accuracy: 0.1375
+----------------------------------------
+[Batch 40] pred_ans: 6.0
+[Batch 40] true_ans: 10
+Current avg_loss: 1.6515, accuracy: 0.1358
+----------------------------------------
+[Batch 40] pred_ans: 17.0
+[Batch 40] true_ans: 17
+Current avg_loss: 1.6515, accuracy: 0.1463
+----------------------------------------
+[Batch 41] pred_ans: 500.0
+[Batch 41] true_ans: 623
+Current avg_loss: 1.6489, accuracy: 0.1446
+----------------------------------------
+[Batch 41] pred_ans: 600.0
+[Batch 41] true_ans: 600
+Current avg_loss: 1.6489, accuracy: 0.1548
+----------------------------------------
+[Batch 42] pred_ans: 14.0
+[Batch 42] true_ans: 15
+Current avg_loss: 1.6515, accuracy: 0.1529
+----------------------------------------
+[Batch 42] pred_ans: 136.0
+[Batch 42] true_ans: 44
+Current avg_loss: 1.6515, accuracy: 0.1512
+----------------------------------------
+[Batch 43] pred_ans: 16.0
+[Batch 43] true_ans: 22
+Current avg_loss: 1.6477, accuracy: 0.1494
+----------------------------------------
+[Batch 43] pred_ans: 1320.0
+[Batch 43] true_ans: 9360
+Current avg_loss: 1.6477, accuracy: 0.1477
+----------------------------------------
+[Batch 44] pred_ans: 8800.0
+[Batch 44] true_ans: 8000
+Current avg_loss: 1.6572, accuracy: 0.1461
+----------------------------------------
+[Batch 44] pred_ans: 12.0
+[Batch 44] true_ans: 24
+Current avg_loss: 1.6572, accuracy: 0.1444
+----------------------------------------
+[Batch 45] pred_ans: 200.0
+[Batch 45] true_ans: 225
+Current avg_loss: 1.6527, accuracy: 0.1429
+----------------------------------------
+[Batch 45] pred_ans: 20.0
+[Batch 45] true_ans: 28
+Current avg_loss: 1.6527, accuracy: 0.1413
+----------------------------------------
+[Batch 46] pred_ans: 7.0
+[Batch 46] true_ans: 4
+Current avg_loss: 1.6522, accuracy: 0.1398
+----------------------------------------
+[Batch 46] pred_ans: 39.0
+[Batch 46] true_ans: 36
+Current avg_loss: 1.6522, accuracy: 0.1383
+----------------------------------------
+[Batch 47] pred_ans: 120.0
+[Batch 47] true_ans: 348
+Current avg_loss: 1.6502, accuracy: 0.1368
+----------------------------------------
+[Batch 47] pred_ans: 40.0
+[Batch 47] true_ans: 40
+Current avg_loss: 1.6502, accuracy: 0.1458
+----------------------------------------
+[Batch 48] pred_ans: 5.0
+[Batch 48] true_ans: 3
+Current avg_loss: 1.6533, accuracy: 0.1443
+----------------------------------------
+[Batch 48] pred_ans: 12.0
+[Batch 48] true_ans: 12
+Current avg_loss: 1.6533, accuracy: 0.1531
+----------------------------------------
+[Batch 49] pred_ans: 10.0
+[Batch 49] true_ans: 5
+Current avg_loss: 1.6552, accuracy: 0.1515
+----------------------------------------
+[Batch 49] pred_ans: 38.0
+[Batch 49] true_ans: 58
+Current avg_loss: 1.6552, accuracy: 0.1500
+----------------------------------------
+[Batch 50] pred_ans: 200.0
+[Batch 50] true_ans: 175
+Current avg_loss: 1.6546, accuracy: 0.1485
+----------------------------------------
+[Batch 50] pred_ans: 8.0
+[Batch 50] true_ans: 6
+Current avg_loss: 1.6546, accuracy: 0.1471
+----------------------------------------
+[Batch 51] pred_ans: 14.0
+[Batch 51] true_ans: 26
+Current avg_loss: 1.6523, accuracy: 0.1456
+----------------------------------------
+[Batch 51] pred_ans: 140.0
+[Batch 51] true_ans: 140
+Current avg_loss: 1.6523, accuracy: 0.1538
+----------------------------------------
+[Batch 52] pred_ans: 250.0
+[Batch 52] true_ans: 500
+Current avg_loss: 1.6521, accuracy: 0.1524
+----------------------------------------
+[Batch 52] pred_ans: 20.0
+[Batch 52] true_ans: 20
+Current avg_loss: 1.6521, accuracy: 0.1604
+----------------------------------------
+[Batch 53] pred_ans: 360.0
+[Batch 53] true_ans: 72
+Current avg_loss: 1.6454, accuracy: 0.1589
+----------------------------------------
+[Batch 53] pred_ans: 2.0
+[Batch 53] true_ans: 3
+Current avg_loss: 1.6454, accuracy: 0.1574
+----------------------------------------
+[Batch 54] pred_ans: 50.0
+[Batch 54] true_ans: 50
+Current avg_loss: 1.6483, accuracy: 0.1651
+----------------------------------------
+[Batch 54] pred_ans: 28.0
+[Batch 54] true_ans: 28
+Current avg_loss: 1.6483, accuracy: 0.1727
+----------------------------------------
+[Batch 55] pred_ans: 8.0
+[Batch 55] true_ans: 45
+Current avg_loss: 1.6561, accuracy: 0.1712
+----------------------------------------
+[Batch 55] pred_ans: 8.0
+[Batch 55] true_ans: 16
+Current avg_loss: 1.6561, accuracy: 0.1696
+----------------------------------------
+[Batch 56] pred_ans: 12.0
+[Batch 56] true_ans: 24
+Current avg_loss: 1.6547, accuracy: 0.1681
+----------------------------------------
+[Batch 56] pred_ans: 25.0
+[Batch 56] true_ans: 25
+Current avg_loss: 1.6547, accuracy: 0.1754
+----------------------------------------
+[Batch 57] pred_ans: 300.0
+[Batch 57] true_ans: 6
+Current avg_loss: 1.6561, accuracy: 0.1739
+----------------------------------------
+[Batch 57] pred_ans: 100.0
+[Batch 57] true_ans: 90
+Current avg_loss: 1.6561, accuracy: 0.1724
+----------------------------------------
+[Batch 58] pred_ans: 84.0
+[Batch 58] true_ans: 42
+Current avg_loss: 1.6543, accuracy: 0.1709
+----------------------------------------
+[Batch 58] pred_ans: 360.0
+[Batch 58] true_ans: 360
+Current avg_loss: 1.6543, accuracy: 0.1780
+----------------------------------------
+[Batch 59] pred_ans: 5.0
+[Batch 59] true_ans: 4
+Current avg_loss: 1.6609, accuracy: 0.1765
+----------------------------------------
+[Batch 59] pred_ans: 120000.0
+[Batch 59] true_ans: 95200
+Current avg_loss: 1.6609, accuracy: 0.1750
+----------------------------------------
+[Batch 60] pred_ans: 120.0
+[Batch 60] true_ans: 240
+Current avg_loss: 1.6580, accuracy: 0.1736
+----------------------------------------
+[Batch 60] pred_ans: 23.0
+[Batch 60] true_ans: 27
+Current avg_loss: 1.6580, accuracy: 0.1721
+----------------------------------------
+[Batch 61] pred_ans: 38.0
+[Batch 61] true_ans: 48
+Current avg_loss: 1.6556, accuracy: 0.1707
+----------------------------------------
+[Batch 61] pred_ans: 55.0
+[Batch 61] true_ans: 50
+Current avg_loss: 1.6556, accuracy: 0.1694
+----------------------------------------
+[Batch 62] pred_ans: 20.0
+[Batch 62] true_ans: 10
+Current avg_loss: 1.6554, accuracy: 0.1680
+----------------------------------------
+[Batch 62] pred_ans: 9.0
+[Batch 62] true_ans: 10
+Current avg_loss: 1.6554, accuracy: 0.1667
+----------------------------------------
+[Batch 63] pred_ans: 44.0
+[Batch 63] true_ans: 82
+Current avg_loss: 1.6541, accuracy: 0.1654
+----------------------------------------
+[Batch 63] pred_ans: 70.0
+[Batch 63] true_ans: 120
+Current avg_loss: 1.6541, accuracy: 0.1641
+----------------------------------------
+[Batch 64] pred_ans: 1200.0
+[Batch 64] true_ans: 880
+Current avg_loss: 1.6566, accuracy: 0.1628
+----------------------------------------
+[Batch 64] pred_ans: 120000.0
+[Batch 64] true_ans: 10000
+Current avg_loss: 1.6566, accuracy: 0.1615
+----------------------------------------
+[Batch 65] pred_ans: 30.0
+[Batch 65] true_ans: 30
+Current avg_loss: 1.6639, accuracy: 0.1679
+----------------------------------------
+[Batch 65] pred_ans: 550.0
+[Batch 65] true_ans: 940
+Current avg_loss: 1.6639, accuracy: 0.1667
+----------------------------------------
+[Batch 66] pred_ans: 48.0
+[Batch 66] true_ans: 60
+Current avg_loss: 1.6609, accuracy: 0.1654
+----------------------------------------
+[Batch 66] pred_ans: 25.0
+[Batch 66] true_ans: 13
+Current avg_loss: 1.6609, accuracy: 0.1642
+----------------------------------------
+[Batch 67] pred_ans: 360.0
+[Batch 67] true_ans: 720
+Current avg_loss: 1.6627, accuracy: 0.1630
+----------------------------------------
+[Batch 67] pred_ans: 35.0
+[Batch 67] true_ans: 40
+Current avg_loss: 1.6627, accuracy: 0.1618
+----------------------------------------
+[Batch 68] pred_ans: 9.0
+[Batch 68] true_ans: 6
+Current avg_loss: 1.6619, accuracy: 0.1606
+----------------------------------------
+[Batch 68] pred_ans: 25.0
+[Batch 68] true_ans: 29
+Current avg_loss: 1.6619, accuracy: 0.1594
+----------------------------------------
+[Batch 69] pred_ans: 25.0
+[Batch 69] true_ans: 105
+Current avg_loss: 1.6583, accuracy: 0.1583
+----------------------------------------
+[Batch 69] pred_ans: 60.0
+[Batch 69] true_ans: 70
+Current avg_loss: 1.6583, accuracy: 0.1571
+----------------------------------------
+[Batch 70] pred_ans: 40.0
+[Batch 70] true_ans: 20
+Current avg_loss: 1.6541, accuracy: 0.1560
+----------------------------------------
+[Batch 70] pred_ans: 400.0
+[Batch 70] true_ans: 400
+Current avg_loss: 1.6541, accuracy: 0.1620
+----------------------------------------
+[Batch 71] pred_ans: 140.0
+[Batch 71] true_ans: 140
+Current avg_loss: 1.6540, accuracy: 0.1678
+----------------------------------------
+[Batch 71] pred_ans: 20.0
+[Batch 71] true_ans: 16
+Current avg_loss: 1.6540, accuracy: 0.1667
+----------------------------------------
+[Batch 72] pred_ans: 44.0
+[Batch 72] true_ans: 20
+Current avg_loss: 1.6559, accuracy: 0.1655
+----------------------------------------
+[Batch 72] pred_ans: 4000.0
+[Batch 72] true_ans: 4000
+Current avg_loss: 1.6559, accuracy: 0.1712
+----------------------------------------
+[Batch 73] pred_ans: 1500.0
+[Batch 73] true_ans: 2,125
+Current avg_loss: 1.6566, accuracy: 0.1701
+----------------------------------------
+[Batch 73] pred_ans: 30.0
+[Batch 73] true_ans: 75
+Current avg_loss: 1.6566, accuracy: 0.1689
+----------------------------------------
+[Batch 74] pred_ans: 20.0
+[Batch 74] true_ans: 30
+Current avg_loss: 1.6532, accuracy: 0.1678
+----------------------------------------
+[Batch 74] pred_ans: 48.0
+[Batch 74] true_ans: 16
+Current avg_loss: 1.6532, accuracy: 0.1667
+----------------------------------------
+[Batch 75] pred_ans: 0.0
+[Batch 75] true_ans: 4
+Current avg_loss: 1.6582, accuracy: 0.1656
+----------------------------------------
+[Batch 75] pred_ans: 2.0
+[Batch 75] true_ans: 5
+Current avg_loss: 1.6582, accuracy: 0.1645
+----------------------------------------
+[Batch 76] pred_ans: 4.0
+[Batch 76] true_ans: 4
+Current avg_loss: 1.6623, accuracy: 0.1699
+----------------------------------------
+[Batch 76] pred_ans: 49.0
+[Batch 76] true_ans: 48
+Current avg_loss: 1.6623, accuracy: 0.1688
+----------------------------------------
+[Batch 77] pred_ans: 480.0
+[Batch 77] true_ans: 272
+Current avg_loss: 1.6600, accuracy: 0.1677
+----------------------------------------
+[Batch 77] pred_ans: 120.0
+[Batch 77] true_ans: 280
+Current avg_loss: 1.6600, accuracy: 0.1667
+----------------------------------------
+[Batch 78] pred_ans: 1400.0
+[Batch 78] true_ans: 1400
+Current avg_loss: 1.6588, accuracy: 0.1720
+----------------------------------------
+[Batch 78] pred_ans: 100.0
+[Batch 78] true_ans: 80
+Current avg_loss: 1.6588, accuracy: 0.1709
+----------------------------------------
+[Batch 79] pred_ans: 40.0
+[Batch 79] true_ans: 34
+Current avg_loss: 1.6614, accuracy: 0.1698
+----------------------------------------
+[Batch 79] pred_ans: 5.0
+[Batch 79] true_ans: 15
+Current avg_loss: 1.6614, accuracy: 0.1688
+----------------------------------------
+[Batch 80] pred_ans: 9.0
+[Batch 80] true_ans: 16
+Current avg_loss: 1.6595, accuracy: 0.1677
+----------------------------------------
+[Batch 80] pred_ans: 20.0
+[Batch 80] true_ans: 32
+Current avg_loss: 1.6595, accuracy: 0.1667
+----------------------------------------
+[Batch 81] pred_ans: 100.0
+[Batch 81] true_ans: 92
+Current avg_loss: 1.6619, accuracy: 0.1656
+----------------------------------------
+[Batch 81] pred_ans: 49.0
+[Batch 81] true_ans: 50
+Current avg_loss: 1.6619, accuracy: 0.1646
+----------------------------------------
+[Batch 82] pred_ans: 15.0
+[Batch 82] true_ans: 15
+Current avg_loss: 1.6667, accuracy: 0.1697
+----------------------------------------
+[Batch 82] pred_ans: 97.0
+[Batch 82] true_ans: 77
+Current avg_loss: 1.6667, accuracy: 0.1687
+----------------------------------------
+[Batch 83] pred_ans: 5.0
+[Batch 83] true_ans: 5
+Current avg_loss: 1.6684, accuracy: 0.1737
+----------------------------------------
+[Batch 83] pred_ans: 16.0
+[Batch 83] true_ans: 16
+Current avg_loss: 1.6684, accuracy: 0.1786
+----------------------------------------
+[Batch 84] pred_ans: 20.0
+[Batch 84] true_ans: 18
+Current avg_loss: 1.6683, accuracy: 0.1775
+----------------------------------------
+[Batch 84] pred_ans: 100.0
+[Batch 84] true_ans: 120
+Current avg_loss: 1.6683, accuracy: 0.1765
+----------------------------------------
+[Batch 85] pred_ans: 100.0
+[Batch 85] true_ans: 150
+Current avg_loss: 1.6672, accuracy: 0.1754
+----------------------------------------
+[Batch 85] pred_ans: 1020.0
+[Batch 85] true_ans: 1210
+Current avg_loss: 1.6672, accuracy: 0.1744
+----------------------------------------
+[Batch 86] pred_ans: 32.0
+[Batch 86] true_ans: 51
+Current avg_loss: 1.6690, accuracy: 0.1734
+----------------------------------------
+[Batch 86] pred_ans: 18000.0
+[Batch 86] true_ans: 18000
+Current avg_loss: 1.6690, accuracy: 0.1782
+----------------------------------------
+[Batch 87] pred_ans: 45.0
+[Batch 87] true_ans: 95
+Current avg_loss: 1.6666, accuracy: 0.1771
+----------------------------------------
+[Batch 87] pred_ans: 10.0
+[Batch 87] true_ans: 15
+Current avg_loss: 1.6666, accuracy: 0.1761
+----------------------------------------
+[Batch 88] pred_ans: 40.0
+[Batch 88] true_ans: 100
+Current avg_loss: 1.6676, accuracy: 0.1751
+----------------------------------------
+[Batch 88] pred_ans: 1000.0
+[Batch 88] true_ans: 350
+Current avg_loss: 1.6676, accuracy: 0.1742
+----------------------------------------
+[Batch 89] pred_ans: 94.0
+[Batch 89] true_ans: 122
+Current avg_loss: 1.6679, accuracy: 0.1732
+----------------------------------------
+[Batch 89] pred_ans: 100.0
+[Batch 89] true_ans: 130
+Current avg_loss: 1.6679, accuracy: 0.1722
+----------------------------------------
+[Batch 90] pred_ans: 20.0
+[Batch 90] true_ans: 20
+Current avg_loss: 1.6719, accuracy: 0.1768
+----------------------------------------
+[Batch 90] pred_ans: 200.0
+[Batch 90] true_ans: 160
+Current avg_loss: 1.6719, accuracy: 0.1758
+----------------------------------------
+[Batch 91] pred_ans: 32.0
+[Batch 91] true_ans: 23
+Current avg_loss: 1.6714, accuracy: 0.1749
+----------------------------------------
+[Batch 91] pred_ans: 12.0
+[Batch 91] true_ans: 2
+Current avg_loss: 1.6714, accuracy: 0.1739
+----------------------------------------
+[Batch 92] pred_ans: 50.0
+[Batch 92] true_ans: 25
+Current avg_loss: 1.6701, accuracy: 0.1730
+----------------------------------------
+[Batch 92] pred_ans: 40.0
+[Batch 92] true_ans: 30
+Current avg_loss: 1.6701, accuracy: 0.1720
+----------------------------------------
+[Batch 93] pred_ans: 2.0
+[Batch 93] true_ans: 5
+Current avg_loss: 1.6720, accuracy: 0.1711
+----------------------------------------
+[Batch 93] pred_ans: 102.0
+[Batch 93] true_ans: 106
+Current avg_loss: 1.6720, accuracy: 0.1702
+----------------------------------------
+[Batch 94] pred_ans: 20.0
+[Batch 94] true_ans: 50
+Current avg_loss: 1.6709, accuracy: 0.1693
+----------------------------------------
+[Batch 94] pred_ans: 20.0
+[Batch 94] true_ans: 34
+Current avg_loss: 1.6709, accuracy: 0.1684
+----------------------------------------
+[Batch 95] pred_ans: 360.0
+[Batch 95] true_ans: 360
+Current avg_loss: 1.6687, accuracy: 0.1728
+----------------------------------------
+[Batch 95] pred_ans: 0.5
+[Batch 95] true_ans: 5
+Current avg_loss: 1.6687, accuracy: 0.1719
+----------------------------------------
+[Batch 96] pred_ans: 80.0
+[Batch 96] true_ans: 91
+Current avg_loss: 1.6685, accuracy: 0.1710
+----------------------------------------
+[Batch 96] pred_ans: 9.0
+[Batch 96] true_ans: 24
+Current avg_loss: 1.6685, accuracy: 0.1701
+----------------------------------------
+[Batch 97] pred_ans: 0.0
+[Batch 97] true_ans: 10
+Current avg_loss: 1.6679, accuracy: 0.1692
+----------------------------------------
+[Batch 97] pred_ans: 8.0
+[Batch 97] true_ans: 12
+Current avg_loss: 1.6679, accuracy: 0.1684
+----------------------------------------
+[Batch 98] pred_ans: 0.0
+[Batch 98] true_ans: 120
+Current avg_loss: 1.6685, accuracy: 0.1675
+----------------------------------------
+[Batch 98] pred_ans: 7217.0
+[Batch 98] true_ans: 6277
+Current avg_loss: 1.6685, accuracy: 0.1667
+----------------------------------------
+[Batch 99] pred_ans: 160.0
+[Batch 99] true_ans: 320
+Current avg_loss: 1.6682, accuracy: 0.1658
+----------------------------------------
+[Batch 99] pred_ans: 2500.0
+[Batch 99] true_ans: 7500
+Current avg_loss: 1.6682, accuracy: 0.1650
+----------------------------------------
+[Batch 100] pred_ans: 55.0
+[Batch 100] true_ans: 55
+Current avg_loss: 1.6674, accuracy: 0.1692
+----------------------------------------
+[Batch 100] pred_ans: 105000.0
+[Batch 100] true_ans: 114,200
+Current avg_loss: 1.6674, accuracy: 0.1683
+----------------------------------------
+[Batch 101] pred_ans: 100.0
+[Batch 101] true_ans: 100
+Current avg_loss: 1.6666, accuracy: 0.1724
+----------------------------------------
+[Batch 101] pred_ans: 32.0
+[Batch 101] true_ans: 31
+Current avg_loss: 1.6666, accuracy: 0.1716
+----------------------------------------
+[Batch 102] pred_ans: 78.0
+[Batch 102] true_ans: 98
+Current avg_loss: 1.6646, accuracy: 0.1707
+----------------------------------------
+[Batch 102] pred_ans: 100.0
+[Batch 102] true_ans: 98
+Current avg_loss: 1.6646, accuracy: 0.1699
+----------------------------------------
+[Batch 103] pred_ans: 1500.0
+[Batch 103] true_ans: 860
+Current avg_loss: 1.6643, accuracy: 0.1691
+----------------------------------------
+[Batch 103] pred_ans: 5000.0
+[Batch 103] true_ans: 2600
+Current avg_loss: 1.6643, accuracy: 0.1683
+----------------------------------------
+[Batch 104] pred_ans: 80.0
+[Batch 104] true_ans: 76
+Current avg_loss: 1.6655, accuracy: 0.1675
+----------------------------------------
+[Batch 104] pred_ans: 100.0
+[Batch 104] true_ans: 145
+Current avg_loss: 1.6655, accuracy: 0.1667
+----------------------------------------
+[Batch 105] pred_ans: 2.0
+[Batch 105] true_ans: 10
+Current avg_loss: 1.6629, accuracy: 0.1659
+----------------------------------------
+[Batch 105] pred_ans: 6.0
+[Batch 105] true_ans: 4
+Current avg_loss: 1.6629, accuracy: 0.1651
+----------------------------------------
+[Batch 106] pred_ans: 3.0
+[Batch 106] true_ans: 5
+Current avg_loss: 1.6619, accuracy: 0.1643
+----------------------------------------
+[Batch 106] pred_ans: 250.0
+[Batch 106] true_ans: 250
+Current avg_loss: 1.6619, accuracy: 0.1682
+----------------------------------------
+[Batch 107] pred_ans: 8.0
+[Batch 107] true_ans: 8
+Current avg_loss: 1.6612, accuracy: 0.1721
+----------------------------------------
+[Batch 107] pred_ans: 50.0
+[Batch 107] true_ans: 44
+Current avg_loss: 1.6612, accuracy: 0.1713
+----------------------------------------
+[Batch 108] pred_ans: 0.0
+[Batch 108] true_ans: 220
+Current avg_loss: 1.6600, accuracy: 0.1705
+----------------------------------------
+[Batch 108] pred_ans: 11.0
+[Batch 108] true_ans: 15
+Current avg_loss: 1.6600, accuracy: 0.1697
+----------------------------------------
+[Batch 109] pred_ans: 27.0
+[Batch 109] true_ans: 45
+Current avg_loss: 1.6621, accuracy: 0.1689
+----------------------------------------
+[Batch 109] pred_ans: 56.0
+[Batch 109] true_ans: 54
+Current avg_loss: 1.6621, accuracy: 0.1682
+----------------------------------------
+[Batch 110] pred_ans: 85.0
+[Batch 110] true_ans: 70
+Current avg_loss: 1.6606, accuracy: 0.1674
+----------------------------------------
+[Batch 110] pred_ans: 60.0
+[Batch 110] true_ans: 90
+Current avg_loss: 1.6606, accuracy: 0.1667
+----------------------------------------
+[Batch 111] pred_ans: 130.0
+[Batch 111] true_ans: 140
+Current avg_loss: 1.6607, accuracy: 0.1659
+----------------------------------------
+[Batch 111] pred_ans: 30000.0
+[Batch 111] true_ans: 20000
+Current avg_loss: 1.6607, accuracy: 0.1652
+----------------------------------------
+[Batch 112] pred_ans: 126.0
+[Batch 112] true_ans: 180
+Current avg_loss: 1.6603, accuracy: 0.1644
+----------------------------------------
+[Batch 112] pred_ans: 9.0
+[Batch 112] true_ans: 9
+Current avg_loss: 1.6603, accuracy: 0.1681
+----------------------------------------
+[Batch 113] pred_ans: 40.0
+[Batch 113] true_ans: 33
+Current avg_loss: 1.6591, accuracy: 0.1674
+----------------------------------------
+[Batch 113] pred_ans: 2.0
+[Batch 113] true_ans: 9
+Current avg_loss: 1.6591, accuracy: 0.1667
+----------------------------------------
+[Batch 114] pred_ans: 9.0
+[Batch 114] true_ans: 1
+Current avg_loss: 1.6605, accuracy: 0.1659
+----------------------------------------
+[Batch 114] pred_ans: 9.0
+[Batch 114] true_ans: 21
+Current avg_loss: 1.6605, accuracy: 0.1652
+----------------------------------------
+[Batch 115] pred_ans: 30000.0
+[Batch 115] true_ans: 276,000
+Current avg_loss: 1.6590, accuracy: 0.1645
+----------------------------------------
+[Batch 115] pred_ans: 30.0
+[Batch 115] true_ans: 50
+Current avg_loss: 1.6590, accuracy: 0.1638
+----------------------------------------
+[Batch 116] pred_ans: 75.0
+[Batch 116] true_ans: 75
+Current avg_loss: 1.6608, accuracy: 0.1674
+----------------------------------------
+[Batch 116] pred_ans: 12.0
+[Batch 116] true_ans: 12
+Current avg_loss: 1.6608, accuracy: 0.1709
+----------------------------------------
+[Batch 117] pred_ans: 2.0
+[Batch 117] true_ans: 21
+Current avg_loss: 1.6627, accuracy: 0.1702
+----------------------------------------
+[Batch 117] pred_ans: 5.0
+[Batch 117] true_ans: 10
+Current avg_loss: 1.6627, accuracy: 0.1695
+----------------------------------------
+[Batch 118] pred_ans: 40.0
+[Batch 118] true_ans: 31
+Current avg_loss: 1.6645, accuracy: 0.1688
+----------------------------------------
+[Batch 118] pred_ans: 100.0
+[Batch 118] true_ans: 90
+Current avg_loss: 1.6645, accuracy: 0.1681
+----------------------------------------
+[Batch 119] pred_ans: 47.0
+[Batch 119] true_ans: 68
+Current avg_loss: 1.6621, accuracy: 0.1674
+----------------------------------------
+[Batch 119] pred_ans: 300.0
+[Batch 119] true_ans: 280
+Current avg_loss: 1.6621, accuracy: 0.1667
+----------------------------------------
+[Batch 120] pred_ans: 18.0
+[Batch 120] true_ans: 21
+Current avg_loss: 1.6617, accuracy: 0.1660
+----------------------------------------
+[Batch 120] pred_ans: 6.0
+[Batch 120] true_ans: 6
+Current avg_loss: 1.6617, accuracy: 0.1694
+----------------------------------------
+[Batch 121] pred_ans: 20.0
+[Batch 121] true_ans: 3
+Current avg_loss: 1.6631, accuracy: 0.1687
+----------------------------------------
+[Batch 121] pred_ans: 150.0
+[Batch 121] true_ans: 250
+Current avg_loss: 1.6631, accuracy: 0.1680
+----------------------------------------
+[Batch 122] pred_ans: 9.0
+[Batch 122] true_ans: 20
+Current avg_loss: 1.6624, accuracy: 0.1673
+----------------------------------------
+[Batch 122] pred_ans: 4.0
+[Batch 122] true_ans: 7
+Current avg_loss: 1.6624, accuracy: 0.1667
+----------------------------------------
+[Batch 123] pred_ans: 30000.0
+[Batch 123] true_ans: 27000
+Current avg_loss: 1.6655, accuracy: 0.1660
+----------------------------------------
+[Batch 123] pred_ans: 22.0
+[Batch 123] true_ans: 32
+Current avg_loss: 1.6655, accuracy: 0.1653
+----------------------------------------
+[Batch 124] pred_ans: 300.0
+[Batch 124] true_ans: 300
+Current avg_loss: 1.6624, accuracy: 0.1687
+----------------------------------------
+[Batch 124] pred_ans: 2000.0
+[Batch 124] true_ans: 5,600
+Current avg_loss: 1.6624, accuracy: 0.1680
+----------------------------------------
+[Batch 125] pred_ans: 13.0
+[Batch 125] true_ans: 17
+Current avg_loss: 1.6595, accuracy: 0.1673
+----------------------------------------
+[Batch 125] pred_ans: 70.0
+[Batch 125] true_ans: 70
+Current avg_loss: 1.6595, accuracy: 0.1706
+----------------------------------------
+[Batch 126] pred_ans: 48.0
+[Batch 126] true_ans: 73
+Current avg_loss: 1.6606, accuracy: 0.1700
+----------------------------------------
+[Batch 126] pred_ans: 21.0
+[Batch 126] true_ans: 18
+Current avg_loss: 1.6606, accuracy: 0.1693
+----------------------------------------
+[Batch 127] pred_ans: 120.0
+[Batch 127] true_ans: 84
+Current avg_loss: 1.6617, accuracy: 0.1686
+----------------------------------------
+[Batch 127] pred_ans: 30.0
+[Batch 127] true_ans: 192
+Current avg_loss: 1.6617, accuracy: 0.1680
+----------------------------------------
+[Batch 128] pred_ans: 6.0
+[Batch 128] true_ans: 45
+Current avg_loss: 1.6613, accuracy: 0.1673
+----------------------------------------
+[Batch 128] pred_ans: 120000.0
+[Batch 128] true_ans: 5600
+Current avg_loss: 1.6613, accuracy: 0.1667
+----------------------------------------
+[Batch 129] pred_ans: 5.0
+[Batch 129] true_ans: 6
+Current avg_loss: 1.6618, accuracy: 0.1660
+----------------------------------------
+[Batch 129] pred_ans: 80.0
+[Batch 129] true_ans: 168
+Current avg_loss: 1.6618, accuracy: 0.1654
+----------------------------------------
+[Batch 130] pred_ans: 12.0
+[Batch 130] true_ans: 11
+Current avg_loss: 1.6622, accuracy: 0.1648
+----------------------------------------
+[Batch 130] pred_ans: 3.0
+[Batch 130] true_ans: 62
+Current avg_loss: 1.6622, accuracy: 0.1641
+----------------------------------------
+[Batch 131] pred_ans: 300.0
+[Batch 131] true_ans: 270
+Current avg_loss: 1.6594, accuracy: 0.1635
+----------------------------------------
+[Batch 131] pred_ans: 5.0
+[Batch 131] true_ans: 8
+Current avg_loss: 1.6594, accuracy: 0.1629
+----------------------------------------
+[Batch 132] pred_ans: 225.0
+[Batch 132] true_ans: 400
+Current avg_loss: 1.6580, accuracy: 0.1623
+----------------------------------------
+[Batch 132] pred_ans: 10000.0
+[Batch 132] true_ans: 9500
+Current avg_loss: 1.6580, accuracy: 0.1617
+----------------------------------------
+[Batch 133] pred_ans: 300000.0
+[Batch 133] true_ans: 118000
+Current avg_loss: 1.6573, accuracy: 0.1610
+----------------------------------------
+[Batch 133] pred_ans: 65.0
+[Batch 133] true_ans: 91
+Current avg_loss: 1.6573, accuracy: 0.1604
+----------------------------------------
+[Batch 134] pred_ans: 1250.0
+[Batch 134] true_ans: 1375
+Current avg_loss: 1.6558, accuracy: 0.1599
+----------------------------------------
+[Batch 134] pred_ans: 4.0
+[Batch 134] true_ans: 4
+Current avg_loss: 1.6558, accuracy: 0.1630
+----------------------------------------
+[Batch 135] pred_ans: 486.0
+[Batch 135] true_ans: 762
+Current avg_loss: 1.6529, accuracy: 0.1624
+----------------------------------------
+[Batch 135] pred_ans: 32.0
+[Batch 135] true_ans: 20
+Current avg_loss: 1.6529, accuracy: 0.1618
+----------------------------------------
+[Batch 136] pred_ans: 0.0
+[Batch 136] true_ans: 5
+Current avg_loss: 1.6543, accuracy: 0.1612
+----------------------------------------
+[Batch 136] pred_ans: 150.0
+[Batch 136] true_ans: 315
+Current avg_loss: 1.6543, accuracy: 0.1606
+----------------------------------------
+[Batch 137] pred_ans: 2000.0
+[Batch 137] true_ans: 3200
+Current avg_loss: 1.6539, accuracy: 0.1600
+----------------------------------------
+[Batch 137] pred_ans: 114.0
+[Batch 137] true_ans: 138
+Current avg_loss: 1.6539, accuracy: 0.1594
+----------------------------------------
+[Batch 138] pred_ans: 10.0
+[Batch 138] true_ans: 9
+Current avg_loss: 1.6509, accuracy: 0.1588
+----------------------------------------
+[Batch 138] pred_ans: 2.0
+[Batch 138] true_ans: 4
+Current avg_loss: 1.6509, accuracy: 0.1583
+----------------------------------------
+[Batch 139] pred_ans: 50.0
+[Batch 139] true_ans: 40
+Current avg_loss: 1.6497, accuracy: 0.1577
+----------------------------------------
+[Batch 139] pred_ans: 3.0
+[Batch 139] true_ans: 6
+Current avg_loss: 1.6497, accuracy: 0.1571
+----------------------------------------
+[Batch 140] pred_ans: 12.0
+[Batch 140] true_ans: 7
+Current avg_loss: 1.6489, accuracy: 0.1566
+----------------------------------------
+[Batch 140] pred_ans: 1400.0
+[Batch 140] true_ans: 2450
+Current avg_loss: 1.6489, accuracy: 0.1560
+----------------------------------------
+[Batch 141] pred_ans: 270.0
+[Batch 141] true_ans: 195
+Current avg_loss: 1.6488, accuracy: 0.1555
+----------------------------------------
+[Batch 141] pred_ans: 8.0
+[Batch 141] true_ans: 68
+Current avg_loss: 1.6488, accuracy: 0.1549
+----------------------------------------
+[Batch 142] pred_ans: 240.0
+[Batch 142] true_ans: 360
+Current avg_loss: 1.6493, accuracy: 0.1544
+----------------------------------------
+[Batch 142] pred_ans: 27.0
+[Batch 142] true_ans: 21
+Current avg_loss: 1.6493, accuracy: 0.1538
+----------------------------------------
+[Batch 143] pred_ans: 35.0
+[Batch 143] true_ans: 90
+Current avg_loss: 1.6479, accuracy: 0.1533
+----------------------------------------
+[Batch 143] pred_ans: 2.0
+[Batch 143] true_ans: 8
+Current avg_loss: 1.6479, accuracy: 0.1528
+----------------------------------------
+[Batch 144] pred_ans: 2.0
+[Batch 144] true_ans: 3
+Current avg_loss: 1.6463, accuracy: 0.1522
+----------------------------------------
+[Batch 144] pred_ans: 8.0
+[Batch 144] true_ans: 16
+Current avg_loss: 1.6463, accuracy: 0.1517
+----------------------------------------
+[Batch 145] pred_ans: 110.0
+[Batch 145] true_ans: 390
+Current avg_loss: 1.6466, accuracy: 0.1512
+----------------------------------------
+[Batch 145] pred_ans: 1.0
+[Batch 145] true_ans: 2
+Current avg_loss: 1.6466, accuracy: 0.1507
+----------------------------------------
+[Batch 146] pred_ans: 50.0
+[Batch 146] true_ans: 75
+Current avg_loss: 1.6476, accuracy: 0.1502
+----------------------------------------
+[Batch 146] pred_ans: 44.0
+[Batch 146] true_ans: 83
+Current avg_loss: 1.6476, accuracy: 0.1497
+----------------------------------------
+[Batch 147] pred_ans: 3.0
+[Batch 147] true_ans: 3
+Current avg_loss: 1.6468, accuracy: 0.1525
+----------------------------------------
+[Batch 147] pred_ans: 300.0
+[Batch 147] true_ans: 370
+Current avg_loss: 1.6468, accuracy: 0.1520
+----------------------------------------
+[Batch 148] pred_ans: 7.0
+[Batch 148] true_ans: 3
+Current avg_loss: 1.6481, accuracy: 0.1515
+----------------------------------------
+[Batch 148] pred_ans: 3.0
+[Batch 148] true_ans: 55
+Current avg_loss: 1.6481, accuracy: 0.1510
+----------------------------------------
+[Batch 149] pred_ans: 400.0
+[Batch 149] true_ans: 500
+Current avg_loss: 1.6484, accuracy: 0.1505
+----------------------------------------
+[Batch 149] pred_ans: 15000.0
+[Batch 149] true_ans: 31800
+Current avg_loss: 1.6484, accuracy: 0.1500
+----------------------------------------
+[Batch 150] pred_ans: 79.0
+[Batch 150] true_ans: 78
+Current avg_loss: 1.6490, accuracy: 0.1495
+----------------------------------------
+[Batch 150] pred_ans: 2.0
+[Batch 150] true_ans: 8
+Current avg_loss: 1.6490, accuracy: 0.1490
+----------------------------------------
+[Batch 151] pred_ans: 25.0
+[Batch 151] true_ans: 15
+Current avg_loss: 1.6514, accuracy: 0.1485
+----------------------------------------
+[Batch 151] pred_ans: 1500.0
+[Batch 151] true_ans: 1300
+Current avg_loss: 1.6514, accuracy: 0.1480
+----------------------------------------
+[Batch 152] pred_ans: 5000.0
+[Batch 152] true_ans: 3200
+Current avg_loss: 1.6509, accuracy: 0.1475
+----------------------------------------
+[Batch 152] pred_ans: 4.0
+[Batch 152] true_ans: 4
+Current avg_loss: 1.6509, accuracy: 0.1503
+----------------------------------------
+[Batch 153] pred_ans: 6.0
+[Batch 153] true_ans: 10
+Current avg_loss: 1.6484, accuracy: 0.1498
+----------------------------------------
+[Batch 153] pred_ans: 16.0
+[Batch 153] true_ans: 16
+Current avg_loss: 1.6484, accuracy: 0.1526
+----------------------------------------
+[Batch 154] pred_ans: 6.0
+[Batch 154] true_ans: 6
+Current avg_loss: 1.6508, accuracy: 0.1553
+----------------------------------------
+[Batch 154] pred_ans: 8.0
+[Batch 154] true_ans: 8
+Current avg_loss: 1.6508, accuracy: 0.1581
+----------------------------------------
+[Batch 155] pred_ans: 2000.0
+[Batch 155] true_ans: 2050
+Current avg_loss: 1.6510, accuracy: 0.1576
+----------------------------------------
+[Batch 155] pred_ans: 210.0
+[Batch 155] true_ans: 91
+Current avg_loss: 1.6510, accuracy: 0.1571
+----------------------------------------
+[Batch 156] pred_ans: 35.0
+[Batch 156] true_ans: 32
+Current avg_loss: 1.6515, accuracy: 0.1565
+----------------------------------------
+[Batch 156] pred_ans: 3000.0
+[Batch 156] true_ans: 120000
+Current avg_loss: 1.6515, accuracy: 0.1561
+----------------------------------------
+[Batch 157] pred_ans: 35.0
+[Batch 157] true_ans: 30
+Current avg_loss: 1.6508, accuracy: 0.1556
+----------------------------------------
+[Batch 157] pred_ans: 32.0
+[Batch 157] true_ans: 14
+Current avg_loss: 1.6508, accuracy: 0.1551
+----------------------------------------
+[Batch 158] pred_ans: 120.0
+[Batch 158] true_ans: 156
+Current avg_loss: 1.6529, accuracy: 0.1546
+----------------------------------------
+[Batch 158] pred_ans: 240.0
+[Batch 158] true_ans: 12
+Current avg_loss: 1.6529, accuracy: 0.1541
+----------------------------------------
+[Batch 159] pred_ans: 90.0
+[Batch 159] true_ans: 123
+Current avg_loss: 1.6526, accuracy: 0.1536
+----------------------------------------
+[Batch 159] pred_ans: 15.0
+[Batch 159] true_ans: 15
+Current avg_loss: 1.6526, accuracy: 0.1562
+----------------------------------------
+[Batch 160] pred_ans: 9.0
+[Batch 160] true_ans: 8
+Current avg_loss: 1.6509, accuracy: 0.1558
+----------------------------------------
+[Batch 160] pred_ans: 2.0
+[Batch 160] true_ans: 1
+Current avg_loss: 1.6509, accuracy: 0.1553
+----------------------------------------
+[Batch 161] pred_ans: 5.0
+[Batch 161] true_ans: 9
+Current avg_loss: 1.6533, accuracy: 0.1548
+----------------------------------------
+[Batch 161] pred_ans: 0.0
+[Batch 161] true_ans: 75
+Current avg_loss: 1.6533, accuracy: 0.1543
+----------------------------------------
+[Batch 162] pred_ans: 14.0
+[Batch 162] true_ans: 14
+Current avg_loss: 1.6529, accuracy: 0.1569
+----------------------------------------
+[Batch 162] pred_ans: 160000.0
+[Batch 162] true_ans: 224000
+Current avg_loss: 1.6529, accuracy: 0.1564
+----------------------------------------
+[Batch 163] pred_ans: 7.0
+[Batch 163] true_ans: 14
+Current avg_loss: 1.6514, accuracy: 0.1560
+----------------------------------------
+[Batch 163] pred_ans: 30.0
+[Batch 163] true_ans: 31
+Current avg_loss: 1.6514, accuracy: 0.1555
+----------------------------------------
+[Batch 164] pred_ans: 0.5
+[Batch 164] true_ans: 2
+Current avg_loss: 1.6507, accuracy: 0.1550
+----------------------------------------
+[Batch 164] pred_ans: 14.0
+[Batch 164] true_ans: 14
+Current avg_loss: 1.6507, accuracy: 0.1576
+----------------------------------------
+[Batch 165] pred_ans: 8.0
+[Batch 165] true_ans: 31
+Current avg_loss: 1.6514, accuracy: 0.1571
+----------------------------------------
+[Batch 165] pred_ans: 1000.0
+[Batch 165] true_ans: 8400
+Current avg_loss: 1.6514, accuracy: 0.1566
+----------------------------------------
+[Batch 166] pred_ans: 44.0
+[Batch 166] true_ans: 44
+Current avg_loss: 1.6521, accuracy: 0.1592
+----------------------------------------
+[Batch 166] pred_ans: 150.0
+[Batch 166] true_ans: 100
+Current avg_loss: 1.6521, accuracy: 0.1587
+----------------------------------------
+[Batch 167] pred_ans: 5.0
+[Batch 167] true_ans: 6
+Current avg_loss: 1.6518, accuracy: 0.1582
+----------------------------------------
+[Batch 167] pred_ans: 1040.0
+[Batch 167] true_ans: 310
+Current avg_loss: 1.6518, accuracy: 0.1577
+----------------------------------------
+[Batch 168] pred_ans: 16.0
+[Batch 168] true_ans: 72
+Current avg_loss: 1.6505, accuracy: 0.1573
+----------------------------------------
+[Batch 168] pred_ans: 2.0
+[Batch 168] true_ans: 1
+Current avg_loss: 1.6505, accuracy: 0.1568
+----------------------------------------
+[Batch 169] pred_ans: 60.0
+[Batch 169] true_ans: 60
+Current avg_loss: 1.6505, accuracy: 0.1593
+----------------------------------------
+[Batch 169] pred_ans: 240.0
+[Batch 169] true_ans: 160
+Current avg_loss: 1.6505, accuracy: 0.1588
+----------------------------------------
+[Batch 170] pred_ans: 2.0
+[Batch 170] true_ans: 4
+Current avg_loss: 1.6526, accuracy: 0.1584
+----------------------------------------
+[Batch 170] pred_ans: 150.0
+[Batch 170] true_ans: 260
+Current avg_loss: 1.6526, accuracy: 0.1579
+----------------------------------------
+[Batch 171] pred_ans: 63.0
+[Batch 171] true_ans: 87
+Current avg_loss: 1.6547, accuracy: 0.1574
+----------------------------------------
+[Batch 171] pred_ans: 600000.0
+[Batch 171] true_ans: 180000
+Current avg_loss: 1.6547, accuracy: 0.1570
+----------------------------------------
+[Batch 172] pred_ans: 2.0
+[Batch 172] true_ans: 2
+Current avg_loss: 1.6525, accuracy: 0.1594
+----------------------------------------
+[Batch 172] pred_ans: 300.0
+[Batch 172] true_ans: 310
+Current avg_loss: 1.6525, accuracy: 0.1590
+----------------------------------------
+[Batch 173] pred_ans: 21.0
+[Batch 173] true_ans: 9
+Current avg_loss: 1.6512, accuracy: 0.1585
+----------------------------------------
+[Batch 173] pred_ans: 36.0
+[Batch 173] true_ans: 36
+Current avg_loss: 1.6512, accuracy: 0.1609
+----------------------------------------
+[Batch 174] pred_ans: 20.0
+[Batch 174] true_ans: 10
+Current avg_loss: 1.6497, accuracy: 0.1605
+----------------------------------------
+[Batch 174] pred_ans: 1400.0
+[Batch 174] true_ans: 2640
+Current avg_loss: 1.6497, accuracy: 0.1600
+----------------------------------------
+[Batch 175] pred_ans: 8.0
+[Batch 175] true_ans: 8
+Current avg_loss: 1.6510, accuracy: 0.1624
+----------------------------------------
+[Batch 175] pred_ans: 20.0
+[Batch 175] true_ans: 10
+Current avg_loss: 1.6510, accuracy: 0.1619
+----------------------------------------
+[Batch 176] pred_ans: 21.0
+[Batch 176] true_ans: 21
+Current avg_loss: 1.6521, accuracy: 0.1643
+----------------------------------------
+[Batch 176] pred_ans: 4.0
+[Batch 176] true_ans: 20
+Current avg_loss: 1.6521, accuracy: 0.1638
+----------------------------------------
+[Batch 177] pred_ans: 215.0
+[Batch 177] true_ans: 45
+Current avg_loss: 1.6500, accuracy: 0.1634
+----------------------------------------
+[Batch 177] pred_ans: 26.0
+[Batch 177] true_ans: 34
+Current avg_loss: 1.6500, accuracy: 0.1629
+----------------------------------------
+[Batch 178] pred_ans: 8.0
+[Batch 178] true_ans: 21
+Current avg_loss: 1.6499, accuracy: 0.1625
+----------------------------------------
+[Batch 178] pred_ans: 3.0
+[Batch 178] true_ans: 2
+Current avg_loss: 1.6499, accuracy: 0.1620
+----------------------------------------
+[Batch 179] pred_ans: 50.0
+[Batch 179] true_ans: 20
+Current avg_loss: 1.6497, accuracy: 0.1616
+----------------------------------------
+[Batch 179] pred_ans: 6.0
+[Batch 179] true_ans: 4
+Current avg_loss: 1.6497, accuracy: 0.1611
+----------------------------------------
+[Batch 180] pred_ans: 20.0
+[Batch 180] true_ans: 25
+Current avg_loss: 1.6494, accuracy: 0.1607
+----------------------------------------
+[Batch 180] pred_ans: 6.0
+[Batch 180] true_ans: 20
+Current avg_loss: 1.6494, accuracy: 0.1602
+----------------------------------------
+[Batch 181] pred_ans: 32.0
+[Batch 181] true_ans: 23
+Current avg_loss: 1.6477, accuracy: 0.1598
+----------------------------------------
+[Batch 181] pred_ans: 6.0
+[Batch 181] true_ans: 6
+Current avg_loss: 1.6477, accuracy: 0.1621
+----------------------------------------
+[Batch 182] pred_ans: 33.0
+[Batch 182] true_ans: 49
+Current avg_loss: 1.6471, accuracy: 0.1616
+----------------------------------------
+[Batch 182] pred_ans: 12.0
+[Batch 182] true_ans: 18
+Current avg_loss: 1.6471, accuracy: 0.1612
+----------------------------------------
+[Batch 183] pred_ans: 9.0
+[Batch 183] true_ans: 9
+Current avg_loss: 1.6481, accuracy: 0.1635
+----------------------------------------
+[Batch 183] pred_ans: 2.0
+[Batch 183] true_ans: 19
+Current avg_loss: 1.6481, accuracy: 0.1630
+----------------------------------------
+[Batch 184] pred_ans: 8.0
+[Batch 184] true_ans: 18
+Current avg_loss: 1.6501, accuracy: 0.1626
+----------------------------------------
+[Batch 184] pred_ans: 1440.0
+[Batch 184] true_ans: 1198
+Current avg_loss: 1.6501, accuracy: 0.1622
+----------------------------------------
+[Batch 185] pred_ans: 320.0
+[Batch 185] true_ans: 320
+Current avg_loss: 1.6517, accuracy: 0.1644
+----------------------------------------
+[Batch 185] pred_ans: 42.0
+[Batch 185] true_ans: 50
+Current avg_loss: 1.6517, accuracy: 0.1640
+----------------------------------------
+[Batch 186] pred_ans: 7.0
+[Batch 186] true_ans: 5
+Current avg_loss: 1.6533, accuracy: 0.1635
+----------------------------------------
+[Batch 186] pred_ans: 240000.0
+[Batch 186] true_ans: 240000
+Current avg_loss: 1.6533, accuracy: 0.1658
+----------------------------------------
+[Batch 187] pred_ans: 6.0
+[Batch 187] true_ans: 45
+Current avg_loss: 1.6538, accuracy: 0.1653
+----------------------------------------
+[Batch 187] pred_ans: 24.0
+[Batch 187] true_ans: 48
+Current avg_loss: 1.6538, accuracy: 0.1649
+----------------------------------------
+[Batch 188] pred_ans: 10.0
+[Batch 188] true_ans: 15
+Current avg_loss: 1.6536, accuracy: 0.1645
+----------------------------------------
+[Batch 188] pred_ans: 24.0
+[Batch 188] true_ans: 50
+Current avg_loss: 1.6536, accuracy: 0.1640
+----------------------------------------
+[Batch 189] pred_ans: 5.0
+[Batch 189] true_ans: 15
+Current avg_loss: 1.6554, accuracy: 0.1636
+----------------------------------------
+[Batch 189] pred_ans: 61.0
+[Batch 189] true_ans: 21
+Current avg_loss: 1.6554, accuracy: 0.1632
+----------------------------------------
+[Batch 190] pred_ans: 730.0
+[Batch 190] true_ans: 803
+Current avg_loss: 1.6561, accuracy: 0.1627
+----------------------------------------
+[Batch 190] pred_ans: 14.0
+[Batch 190] true_ans: 67
+Current avg_loss: 1.6561, accuracy: 0.1623
+----------------------------------------
+[Batch 191] pred_ans: 250.0
+[Batch 191] true_ans: 350
+Current avg_loss: 1.6553, accuracy: 0.1619
+----------------------------------------
+[Batch 191] pred_ans: 2.0
+[Batch 191] true_ans: 2
+Current avg_loss: 1.6553, accuracy: 0.1641
+----------------------------------------
+[Batch 192] pred_ans: 20.0
+[Batch 192] true_ans: 32
+Current avg_loss: 1.6567, accuracy: 0.1636
+----------------------------------------
+[Batch 192] pred_ans: 26.0
+[Batch 192] true_ans: 16
+Current avg_loss: 1.6567, accuracy: 0.1632
+----------------------------------------
+[Batch 193] pred_ans: 81.0
+[Batch 193] true_ans: 80
+Current avg_loss: 1.6572, accuracy: 0.1628
+----------------------------------------
+[Batch 193] pred_ans: 42.0
+[Batch 193] true_ans: 36
+Current avg_loss: 1.6572, accuracy: 0.1624
+----------------------------------------
+[Batch 194] pred_ans: 99.0
+[Batch 194] true_ans: 88
+Current avg_loss: 1.6579, accuracy: 0.1620
+----------------------------------------
+[Batch 194] pred_ans: 6.0
+[Batch 194] true_ans: 6
+Current avg_loss: 1.6579, accuracy: 0.1641
+----------------------------------------
+[Batch 195] pred_ans: 12.0
+[Batch 195] true_ans: 12
+Current avg_loss: 1.6569, accuracy: 0.1662
+----------------------------------------
+[Batch 195] pred_ans: 15.0
+[Batch 195] true_ans: 15
+Current avg_loss: 1.6569, accuracy: 0.1684
+----------------------------------------
+[Batch 196] pred_ans: 40.0
+[Batch 196] true_ans: 34
+Current avg_loss: 1.6574, accuracy: 0.1679
+----------------------------------------
+[Batch 196] pred_ans: 15.0
+[Batch 196] true_ans: 20
+Current avg_loss: 1.6574, accuracy: 0.1675
+----------------------------------------
+[Batch 197] pred_ans: 144.0
+[Batch 197] true_ans: 92
+Current avg_loss: 1.6588, accuracy: 0.1671
+----------------------------------------
+[Batch 197] pred_ans: 22.0
+[Batch 197] true_ans: 38
+Current avg_loss: 1.6588, accuracy: 0.1667
+----------------------------------------
+[Batch 198] pred_ans: 3.0
+[Batch 198] true_ans: 3
+Current avg_loss: 1.6574, accuracy: 0.1688
+----------------------------------------
+[Batch 198] pred_ans: 30.0
+[Batch 198] true_ans: 25
+Current avg_loss: 1.6574, accuracy: 0.1683
+----------------------------------------
+[Batch 199] pred_ans: 180.0
+[Batch 199] true_ans: 168
+Current avg_loss: 1.6576, accuracy: 0.1679
+----------------------------------------
+[Batch 199] pred_ans: 17.0
+[Batch 199] true_ans: 12
+Current avg_loss: 1.6576, accuracy: 0.1675
+----------------------------------------
+[Batch 200] pred_ans: 96.0
+[Batch 200] true_ans: 48
+Current avg_loss: 1.6569, accuracy: 0.1671
+----------------------------------------
+[Batch 200] pred_ans: 12000.0
+[Batch 200] true_ans: 14400
+Current avg_loss: 1.6569, accuracy: 0.1667
+----------------------------------------
+[Batch 201] pred_ans: 1.0
+[Batch 201] true_ans: 4
+Current avg_loss: 1.6562, accuracy: 0.1663
+----------------------------------------
+[Batch 201] pred_ans: 180.0
+[Batch 201] true_ans: 81
+Current avg_loss: 1.6562, accuracy: 0.1658
+----------------------------------------
+[Batch 202] pred_ans: 20.0
+[Batch 202] true_ans: 22
+Current avg_loss: 1.6560, accuracy: 0.1654
+----------------------------------------
+[Batch 202] pred_ans: 140.0
+[Batch 202] true_ans: 50
+Current avg_loss: 1.6560, accuracy: 0.1650
+----------------------------------------
+[Batch 203] pred_ans: 100.0
+[Batch 203] true_ans: 200
+Current avg_loss: 1.6570, accuracy: 0.1646
+----------------------------------------
+[Batch 203] pred_ans: 2000.0
+[Batch 203] true_ans: 2000
+Current avg_loss: 1.6570, accuracy: 0.1667
+----------------------------------------
+[Batch 204] pred_ans: 0.0
+[Batch 204] true_ans: 20
+Current avg_loss: 1.6568, accuracy: 0.1663
+----------------------------------------
+[Batch 204] pred_ans: 12000.0
+[Batch 204] true_ans: 168000
+Current avg_loss: 1.6568, accuracy: 0.1659
+----------------------------------------
+[Batch 205] pred_ans: 0.5
+[Batch 205] true_ans: 3
+Current avg_loss: 1.6573, accuracy: 0.1655
+----------------------------------------
+[Batch 205] pred_ans: 1000.0
+[Batch 205] true_ans: 1110
+Current avg_loss: 1.6573, accuracy: 0.1650
+----------------------------------------
+[Batch 206] pred_ans: 4.0
+[Batch 206] true_ans: 5
+Current avg_loss: 1.6593, accuracy: 0.1646
+----------------------------------------
+[Batch 206] pred_ans: 2500.0
+[Batch 206] true_ans: 25
+Current avg_loss: 1.6593, accuracy: 0.1643
+----------------------------------------
+[Batch 207] pred_ans: 48.0
+[Batch 207] true_ans: 56
+Current avg_loss: 1.6588, accuracy: 0.1639
+----------------------------------------
+[Batch 207] pred_ans: 100.0
+[Batch 207] true_ans: 350
+Current avg_loss: 1.6588, accuracy: 0.1635
+----------------------------------------
+[Batch 208] pred_ans: 44.0
+[Batch 208] true_ans: 56
+Current avg_loss: 1.6587, accuracy: 0.1631
+----------------------------------------
+[Batch 208] pred_ans: 2000.0
+[Batch 208] true_ans: 3140
+Current avg_loss: 1.6587, accuracy: 0.1627
+----------------------------------------
+[Batch 209] pred_ans: 20.0
+[Batch 209] true_ans: 40
+Current avg_loss: 1.6584, accuracy: 0.1623
+----------------------------------------
+[Batch 209] pred_ans: 7000.0
+[Batch 209] true_ans: 3000
+Current avg_loss: 1.6584, accuracy: 0.1619
+----------------------------------------
+[Batch 210] pred_ans: 12000.0
+[Batch 210] true_ans: 17000
+Current avg_loss: 1.6600, accuracy: 0.1615
+----------------------------------------
+[Batch 210] pred_ans: 20.0
+[Batch 210] true_ans: 12
+Current avg_loss: 1.6600, accuracy: 0.1611
+----------------------------------------
+[Batch 211] pred_ans: 240.0
+[Batch 211] true_ans: 284
+Current avg_loss: 1.6599, accuracy: 0.1608
+----------------------------------------
+[Batch 211] pred_ans: 4.0
+[Batch 211] true_ans: 8
+Current avg_loss: 1.6599, accuracy: 0.1604
+----------------------------------------
+[Batch 212] pred_ans: 150.0
+[Batch 212] true_ans: 570
+Current avg_loss: 1.6610, accuracy: 0.1600
+----------------------------------------
+[Batch 212] pred_ans: 90.0
+[Batch 212] true_ans: 150
+Current avg_loss: 1.6610, accuracy: 0.1596
+----------------------------------------
+[Batch 213] pred_ans: 9.0
+[Batch 213] true_ans: 11
+Current avg_loss: 1.6615, accuracy: 0.1593
+----------------------------------------
+[Batch 213] pred_ans: 200.0
+[Batch 213] true_ans: 150
+Current avg_loss: 1.6615, accuracy: 0.1589
+----------------------------------------
+[Batch 214] pred_ans: 4.0
+[Batch 214] true_ans: 26
+Current avg_loss: 1.6619, accuracy: 0.1585
+----------------------------------------
+[Batch 214] pred_ans: 14.0
+[Batch 214] true_ans: 13
+Current avg_loss: 1.6619, accuracy: 0.1581
+----------------------------------------
+[Batch 215] pred_ans: 100.0
+[Batch 215] true_ans: 132
+Current avg_loss: 1.6617, accuracy: 0.1578
+----------------------------------------
+[Batch 215] pred_ans: 5.0
+[Batch 215] true_ans: 1
+Current avg_loss: 1.6617, accuracy: 0.1574
+----------------------------------------
+[Batch 216] pred_ans: 20.0
+[Batch 216] true_ans: 30
+Current avg_loss: 1.6633, accuracy: 0.1570
+----------------------------------------
+[Batch 216] pred_ans: 3.0
+[Batch 216] true_ans: 6
+Current avg_loss: 1.6633, accuracy: 0.1567
+----------------------------------------
+[Batch 217] pred_ans: 2.0
+[Batch 217] true_ans: 5
+Current avg_loss: 1.6624, accuracy: 0.1563
+----------------------------------------
+[Batch 217] pred_ans: 2.0
+[Batch 217] true_ans: 5
+Current avg_loss: 1.6624, accuracy: 0.1560
+----------------------------------------
+[Batch 218] pred_ans: 10.0
+[Batch 218] true_ans: 15
+Current avg_loss: 1.6644, accuracy: 0.1556
+----------------------------------------
+[Batch 218] pred_ans: 5.0
+[Batch 218] true_ans: 7
+Current avg_loss: 1.6644, accuracy: 0.1553
+----------------------------------------
+[Batch 219] pred_ans: 2.0
+[Batch 219] true_ans: 2
+Current avg_loss: 1.6646, accuracy: 0.1572
+----------------------------------------
+[Batch 219] pred_ans: 4.0
+[Batch 219] true_ans: 17
+Current avg_loss: 1.6646, accuracy: 0.1568
+----------------------------------------
+[Batch 220] pred_ans: 36.0
+[Batch 220] true_ans: 98
+Current avg_loss: 1.6640, accuracy: 0.1565
+----------------------------------------
+[Batch 220] pred_ans: 20.0
+[Batch 220] true_ans: 80
+Current avg_loss: 1.6640, accuracy: 0.1561
+----------------------------------------
+[Batch 221] pred_ans: 45.0
+[Batch 221] true_ans: 49
+Current avg_loss: 1.6630, accuracy: 0.1558
+----------------------------------------
+[Batch 221] pred_ans: 45.0
+[Batch 221] true_ans: 59
+Current avg_loss: 1.6630, accuracy: 0.1554
+----------------------------------------
+[Batch 222] pred_ans: 15.0
+[Batch 222] true_ans: 20
+Current avg_loss: 1.6637, accuracy: 0.1551
+----------------------------------------
+[Batch 222] pred_ans: 2.0
+[Batch 222] true_ans: 6
+Current avg_loss: 1.6637, accuracy: 0.1547
+----------------------------------------
+[Batch 223] pred_ans: 6.0
+[Batch 223] true_ans: 2
+Current avg_loss: 1.6658, accuracy: 0.1544
+----------------------------------------
+[Batch 223] pred_ans: 5.0
+[Batch 223] true_ans: 5
+Current avg_loss: 1.6658, accuracy: 0.1562
+----------------------------------------
+[Batch 224] pred_ans: 96.0
+[Batch 224] true_ans: 539
+Current avg_loss: 1.6662, accuracy: 0.1559
+----------------------------------------
+[Batch 224] pred_ans: 160.0
+[Batch 224] true_ans: 112
+Current avg_loss: 1.6662, accuracy: 0.1556
+----------------------------------------
+[Batch 225] pred_ans: 4.0
+[Batch 225] true_ans: 4
+Current avg_loss: 1.6681, accuracy: 0.1574
+----------------------------------------
+[Batch 225] pred_ans: 12600.0
+[Batch 225] true_ans: 11050
+Current avg_loss: 1.6681, accuracy: 0.1571
+----------------------------------------
+[Batch 226] pred_ans: 45.0
+[Batch 226] true_ans: 50
+Current avg_loss: 1.6667, accuracy: 0.1567
+----------------------------------------
+[Batch 226] pred_ans: 4000.0
+[Batch 226] true_ans: 6400
+Current avg_loss: 1.6667, accuracy: 0.1564
+----------------------------------------
+[Batch 227] pred_ans: 120.0
+[Batch 227] true_ans: 150
+Current avg_loss: 1.6655, accuracy: 0.1560
+----------------------------------------
+[Batch 227] pred_ans: 480.0
+[Batch 227] true_ans: 1920
+Current avg_loss: 1.6655, accuracy: 0.1557
+----------------------------------------
+[Batch 228] pred_ans: 90.0
+[Batch 228] true_ans: 78
+Current avg_loss: 1.6670, accuracy: 0.1554
+----------------------------------------
+[Batch 228] pred_ans: 40.0
+[Batch 228] true_ans: 45
+Current avg_loss: 1.6670, accuracy: 0.1550
+----------------------------------------
+[Batch 229] pred_ans: 0.25
+[Batch 229] true_ans: 35
+Current avg_loss: 1.6672, accuracy: 0.1547
+----------------------------------------
+[Batch 229] pred_ans: 5.0
+[Batch 229] true_ans: 2
+Current avg_loss: 1.6672, accuracy: 0.1543
+----------------------------------------
+[Batch 230] pred_ans: 48.0
+[Batch 230] true_ans: 84
+Current avg_loss: 1.6671, accuracy: 0.1540
+----------------------------------------
+[Batch 230] pred_ans: 3.0
+[Batch 230] true_ans: 9
+Current avg_loss: 1.6671, accuracy: 0.1537
+----------------------------------------
+[Batch 231] pred_ans: 61.0
+[Batch 231] true_ans: 71
+Current avg_loss: 1.6677, accuracy: 0.1533
+----------------------------------------
+[Batch 231] pred_ans: 30.0
+[Batch 231] true_ans: 18
+Current avg_loss: 1.6677, accuracy: 0.1530
+----------------------------------------
+[Batch 232] pred_ans: 3.0
+[Batch 232] true_ans: 6
+Current avg_loss: 1.6683, accuracy: 0.1527
+----------------------------------------
+[Batch 232] pred_ans: 20.0
+[Batch 232] true_ans: 30
+Current avg_loss: 1.6683, accuracy: 0.1524
+----------------------------------------
+[Batch 233] pred_ans: 0.0
+[Batch 233] true_ans: 1
+Current avg_loss: 1.6675, accuracy: 0.1520
+----------------------------------------
+[Batch 233] pred_ans: 1600.0
+[Batch 233] true_ans: 1200
+Current avg_loss: 1.6675, accuracy: 0.1517
+----------------------------------------
+[Batch 234] pred_ans: 300.0
+[Batch 234] true_ans: 120
+Current avg_loss: 1.6677, accuracy: 0.1514
+----------------------------------------
+[Batch 234] pred_ans: 3.0
+[Batch 234] true_ans: 4
+Current avg_loss: 1.6677, accuracy: 0.1511
+----------------------------------------
+[Batch 235] pred_ans: 4.0
+[Batch 235] true_ans: 3
+Current avg_loss: 1.6666, accuracy: 0.1507
+----------------------------------------
+[Batch 235] pred_ans: 6.0
+[Batch 235] true_ans: 80
+Current avg_loss: 1.6666, accuracy: 0.1504
+----------------------------------------
+[Batch 236] pred_ans: 8.0
+[Batch 236] true_ans: 6
+Current avg_loss: 1.6665, accuracy: 0.1501
+----------------------------------------
+[Batch 236] pred_ans: 0.2
+[Batch 236] true_ans: 10
+Current avg_loss: 1.6665, accuracy: 0.1498
+----------------------------------------
+[Batch 237] pred_ans: 80.0
+[Batch 237] true_ans: 80
+Current avg_loss: 1.6663, accuracy: 0.1516
+----------------------------------------
+[Batch 237] pred_ans: 60.0
+[Batch 237] true_ans: 20
+Current avg_loss: 1.6663, accuracy: 0.1513
+----------------------------------------
+[Batch 238] pred_ans: 10.0
+[Batch 238] true_ans: 5
+Current avg_loss: 1.6657, accuracy: 0.1509
+----------------------------------------
+[Batch 238] pred_ans: 13.0
+[Batch 238] true_ans: 20
+Current avg_loss: 1.6657, accuracy: 0.1506
+----------------------------------------
+[Batch 239] pred_ans: 1400.0
+[Batch 239] true_ans: 621
+Current avg_loss: 1.6663, accuracy: 0.1503
+----------------------------------------
+[Batch 239] pred_ans: 18000.0
+[Batch 239] true_ans: 15400
+Current avg_loss: 1.6663, accuracy: 0.1500
+----------------------------------------
+[Batch 240] pred_ans: 9.0
+[Batch 240] true_ans: 11
+Current avg_loss: 1.6644, accuracy: 0.1497
+----------------------------------------
+[Batch 240] pred_ans: 72.0
+[Batch 240] true_ans: 84
+Current avg_loss: 1.6644, accuracy: 0.1494
+----------------------------------------
+[Batch 241] pred_ans: 26.0
+[Batch 241] true_ans: 26
+Current avg_loss: 1.6647, accuracy: 0.1511
+----------------------------------------
+[Batch 241] pred_ans: 80.0
+[Batch 241] true_ans: 40
+Current avg_loss: 1.6647, accuracy: 0.1508
+----------------------------------------
+[Batch 242] pred_ans: 24.0
+[Batch 242] true_ans: 240
+Current avg_loss: 1.6652, accuracy: 0.1505
+----------------------------------------
+[Batch 242] pred_ans: 100.0
+[Batch 242] true_ans: 220
+Current avg_loss: 1.6652, accuracy: 0.1502
+----------------------------------------
+[Batch 243] pred_ans: 30.0
+[Batch 243] true_ans: 6
+Current avg_loss: 1.6648, accuracy: 0.1499
+----------------------------------------
+[Batch 243] pred_ans: 40.0
+[Batch 243] true_ans: 4
+Current avg_loss: 1.6648, accuracy: 0.1496
+----------------------------------------
+[Batch 244] pred_ans: 9.0
+[Batch 244] true_ans: 6
+Current avg_loss: 1.6638, accuracy: 0.1493
+----------------------------------------
+[Batch 244] pred_ans: 0.0
+[Batch 244] true_ans: -10
+Current avg_loss: 1.6638, accuracy: 0.1490
+----------------------------------------
+[Batch 245] pred_ans: 2.0
+[Batch 245] true_ans: 4
+Current avg_loss: 1.6634, accuracy: 0.1487
+----------------------------------------
+[Batch 245] pred_ans: 8.0
+[Batch 245] true_ans: 16
+Current avg_loss: 1.6634, accuracy: 0.1484
+----------------------------------------
+[Batch 246] pred_ans: 32.0
+[Batch 246] true_ans: 32
+Current avg_loss: 1.6629, accuracy: 0.1501
+----------------------------------------
+[Batch 246] pred_ans: 100.0
+[Batch 246] true_ans: 25
+Current avg_loss: 1.6629, accuracy: 0.1498
+----------------------------------------
+[Batch 247] pred_ans: 4.0
+[Batch 247] true_ans: 21
+Current avg_loss: 1.6626, accuracy: 0.1495
+----------------------------------------
+[Batch 247] pred_ans: 240.0
+[Batch 247] true_ans: 200
+Current avg_loss: 1.6626, accuracy: 0.1492
+----------------------------------------
+[Batch 248] pred_ans: 11.0
+[Batch 248] true_ans: 38
+Current avg_loss: 1.6625, accuracy: 0.1489
+----------------------------------------
+[Batch 248] pred_ans: 140.0
+[Batch 248] true_ans: 112
+Current avg_loss: 1.6625, accuracy: 0.1486
+----------------------------------------
+[Batch 249] pred_ans: 20.0
+[Batch 249] true_ans: 40
+Current avg_loss: 1.6628, accuracy: 0.1483
+----------------------------------------
+[Batch 249] pred_ans: 8.0
+[Batch 249] true_ans: 10
+Current avg_loss: 1.6628, accuracy: 0.1480
+----------------------------------------
+[Batch 250] pred_ans: 14.0
+[Batch 250] true_ans: 16
+Current avg_loss: 1.6620, accuracy: 0.1477
+----------------------------------------
+[Batch 250] pred_ans: 182.0
+[Batch 250] true_ans: 273
+Current avg_loss: 1.6620, accuracy: 0.1474
+----------------------------------------
+[Batch 251] pred_ans: 35.0
+[Batch 251] true_ans: 26
+Current avg_loss: 1.6619, accuracy: 0.1471
+----------------------------------------
+[Batch 251] pred_ans: 18.0
+[Batch 251] true_ans: 18
+Current avg_loss: 1.6619, accuracy: 0.1488
+----------------------------------------
+[Batch 252] pred_ans: 2.0
+[Batch 252] true_ans: 2
+Current avg_loss: 1.6615, accuracy: 0.1505
+----------------------------------------
+[Batch 252] pred_ans: 800.0
+[Batch 252] true_ans: 1,600
+Current avg_loss: 1.6615, accuracy: 0.1502
+----------------------------------------
+[Batch 253] pred_ans: 288.0
+[Batch 253] true_ans: 144
+Current avg_loss: 1.6613, accuracy: 0.1499
+----------------------------------------
+[Batch 253] pred_ans: 2.0
+[Batch 253] true_ans: 2
+Current avg_loss: 1.6613, accuracy: 0.1516
+----------------------------------------
+[Batch 254] pred_ans: 80.0
+[Batch 254] true_ans: 120
+Current avg_loss: 1.6602, accuracy: 0.1513
+----------------------------------------
+[Batch 254] pred_ans: 2.0
+[Batch 254] true_ans: 4
+Current avg_loss: 1.6602, accuracy: 0.1510
+----------------------------------------
+[Batch 255] pred_ans: 1000.0
+[Batch 255] true_ans: 525
+Current avg_loss: 1.6602, accuracy: 0.1507
+----------------------------------------
+[Batch 255] pred_ans: 50.0
+[Batch 255] true_ans: 110
+Current avg_loss: 1.6602, accuracy: 0.1504
+----------------------------------------
+[Batch 256] pred_ans: 240.0
+[Batch 256] true_ans: 120
+Current avg_loss: 1.6590, accuracy: 0.1501
+----------------------------------------
+[Batch 256] pred_ans: 300.0
+[Batch 256] true_ans: 300
+Current avg_loss: 1.6590, accuracy: 0.1518
+----------------------------------------
+[Batch 257] pred_ans: 90.0
+[Batch 257] true_ans: 90000
+Current avg_loss: 1.6580, accuracy: 0.1515
+----------------------------------------
+[Batch 257] pred_ans: 64.0
+[Batch 257] true_ans: 160
+Current avg_loss: 1.6580, accuracy: 0.1512
+----------------------------------------
+[Batch 258] pred_ans: 375.0
+[Batch 258] true_ans: 375
+Current avg_loss: 1.6581, accuracy: 0.1528
+----------------------------------------
+[Batch 258] pred_ans: 72.0
+[Batch 258] true_ans: 18
+Current avg_loss: 1.6581, accuracy: 0.1525
+----------------------------------------
+[Batch 259] pred_ans: 60.0
+[Batch 259] true_ans: 32
+Current avg_loss: 1.6595, accuracy: 0.1522
+----------------------------------------
+[Batch 259] pred_ans: 120.0
+[Batch 259] true_ans: 280
+Current avg_loss: 1.6595, accuracy: 0.1519
+----------------------------------------
+[Batch 260] pred_ans: 48.0
+[Batch 260] true_ans: 63
+Current avg_loss: 1.6576, accuracy: 0.1516
+----------------------------------------
+[Batch 260] pred_ans: 12.0
+[Batch 260] true_ans: 39
+Current avg_loss: 1.6576, accuracy: 0.1513
+----------------------------------------
+[Batch 261] pred_ans: 20.0
+[Batch 261] true_ans: 29
+Current avg_loss: 1.6575, accuracy: 0.1511
+----------------------------------------
+[Batch 261] pred_ans: 62.0
+[Batch 261] true_ans: 74
+Current avg_loss: 1.6575, accuracy: 0.1508
+----------------------------------------
+[Batch 262] pred_ans: 9.0
+[Batch 262] true_ans: 9
+Current avg_loss: 1.6560, accuracy: 0.1524
+----------------------------------------
+[Batch 262] pred_ans: 9.0
+[Batch 262] true_ans: 12
+Current avg_loss: 1.6560, accuracy: 0.1521
+----------------------------------------
+[Batch 263] pred_ans: 30.0
+[Batch 263] true_ans: 21
+Current avg_loss: 1.6553, accuracy: 0.1518
+----------------------------------------
+[Batch 263] pred_ans: 40.0
+[Batch 263] true_ans: 48
+Current avg_loss: 1.6553, accuracy: 0.1515
+----------------------------------------
+[Batch 264] pred_ans: 80.0
+[Batch 264] true_ans: 172
+Current avg_loss: 1.6555, accuracy: 0.1512
+----------------------------------------
+[Batch 264] pred_ans: 10.0
+[Batch 264] true_ans: 11
+Current avg_loss: 1.6555, accuracy: 0.1509
+----------------------------------------
+[Batch 265] pred_ans: 40.0
+[Batch 265] true_ans: 36
+Current avg_loss: 1.6553, accuracy: 0.1507
+----------------------------------------
+[Batch 265] pred_ans: 33.0
+[Batch 265] true_ans: 66
+Current avg_loss: 1.6553, accuracy: 0.1504
+----------------------------------------
+[Batch 266] pred_ans: 5.0
+[Batch 266] true_ans: 25
+Current avg_loss: 1.6554, accuracy: 0.1501
+----------------------------------------
+[Batch 266] pred_ans: 200.0
+[Batch 266] true_ans: 300
+Current avg_loss: 1.6554, accuracy: 0.1498
+----------------------------------------
+[Batch 267] pred_ans: 64.0
+[Batch 267] true_ans: 300
+Current avg_loss: 1.6559, accuracy: 0.1495
+----------------------------------------
+[Batch 267] pred_ans: 11.0
+[Batch 267] true_ans: 16
+Current avg_loss: 1.6559, accuracy: 0.1493
+----------------------------------------
+[Batch 268] pred_ans: 14.0
+[Batch 268] true_ans: 8
+Current avg_loss: 1.6545, accuracy: 0.1490
+----------------------------------------
+[Batch 268] pred_ans: 136.0
+[Batch 268] true_ans: 188
+Current avg_loss: 1.6545, accuracy: 0.1487
+----------------------------------------
+[Batch 269] pred_ans: 17.0
+[Batch 269] true_ans: 18
+Current avg_loss: 1.6548, accuracy: 0.1484
+----------------------------------------
+[Batch 269] pred_ans: 70.0
+[Batch 269] true_ans: 35
+Current avg_loss: 1.6548, accuracy: 0.1481
+----------------------------------------
+[Batch 270] pred_ans: 41.0
+[Batch 270] true_ans: 39
+Current avg_loss: 1.6563, accuracy: 0.1479
+----------------------------------------
+[Batch 270] pred_ans: 37.5
+[Batch 270] true_ans: 50
+Current avg_loss: 1.6563, accuracy: 0.1476
+----------------------------------------
+[Batch 271] pred_ans: 0.0
+[Batch 271] true_ans: 7
+Current avg_loss: 1.6565, accuracy: 0.1473
+----------------------------------------
+[Batch 271] pred_ans: 4.0
+[Batch 271] true_ans: 6
+Current avg_loss: 1.6565, accuracy: 0.1471
+----------------------------------------
+[Batch 272] pred_ans: 80.0
+[Batch 272] true_ans: 80
+Current avg_loss: 1.6562, accuracy: 0.1486
+----------------------------------------
+[Batch 272] pred_ans: 60.0
+[Batch 272] true_ans: 30
+Current avg_loss: 1.6562, accuracy: 0.1484
+----------------------------------------
+[Batch 273] pred_ans: 12.0
+[Batch 273] true_ans: 130
+Current avg_loss: 1.6577, accuracy: 0.1481
+----------------------------------------
+[Batch 273] pred_ans: 81.0
+[Batch 273] true_ans: 81
+Current avg_loss: 1.6577, accuracy: 0.1496
+----------------------------------------
+[Batch 274] pred_ans: 130.0
+[Batch 274] true_ans: 100
+Current avg_loss: 1.6593, accuracy: 0.1494
+----------------------------------------
+[Batch 274] pred_ans: 40.0
+[Batch 274] true_ans: 398
+Current avg_loss: 1.6593, accuracy: 0.1491
+----------------------------------------
+[Batch 275] pred_ans: 80.0
+[Batch 275] true_ans: 27
+Current avg_loss: 1.6595, accuracy: 0.1488
+----------------------------------------
+[Batch 275] pred_ans: 0.0
+[Batch 275] true_ans: 17
+Current avg_loss: 1.6595, accuracy: 0.1486
+----------------------------------------
+[Batch 276] pred_ans: 1000.0
+[Batch 276] true_ans: 450
+Current avg_loss: 1.6592, accuracy: 0.1483
+----------------------------------------
+[Batch 276] pred_ans: 10.0
+[Batch 276] true_ans: 92
+Current avg_loss: 1.6592, accuracy: 0.1480
+----------------------------------------
+[Batch 277] pred_ans: 8.0
+[Batch 277] true_ans: 54
+Current avg_loss: 1.6584, accuracy: 0.1477
+----------------------------------------
+[Batch 277] pred_ans: 2.0
+[Batch 277] true_ans: 2
+Current avg_loss: 1.6584, accuracy: 0.1493
+----------------------------------------
+[Batch 278] pred_ans: 80.0
+[Batch 278] true_ans: 160
+Current avg_loss: 1.6597, accuracy: 0.1490
+----------------------------------------
+[Batch 278] pred_ans: 42.0
+[Batch 278] true_ans: 70
+Current avg_loss: 1.6597, accuracy: 0.1487
+----------------------------------------
+[Batch 279] pred_ans: 6.0
+[Batch 279] true_ans: 3
+Current avg_loss: 1.6600, accuracy: 0.1485
+----------------------------------------
+[Batch 279] pred_ans: 2.0
+[Batch 279] true_ans: 16
+Current avg_loss: 1.6600, accuracy: 0.1482
+----------------------------------------
+[Batch 280] pred_ans: 65.0
+[Batch 280] true_ans: 45
+Current avg_loss: 1.6591, accuracy: 0.1480
+----------------------------------------
+[Batch 280] pred_ans: 150.0
+[Batch 280] true_ans: 180
+Current avg_loss: 1.6591, accuracy: 0.1477
+----------------------------------------
+[Batch 281] pred_ans: 62.0
+[Batch 281] true_ans: 82
+Current avg_loss: 1.6601, accuracy: 0.1474
+----------------------------------------
+[Batch 281] pred_ans: 9.0
+[Batch 281] true_ans: 12
+Current avg_loss: 1.6601, accuracy: 0.1472
+----------------------------------------
+[Batch 282] pred_ans: 200.0
+[Batch 282] true_ans: 240
+Current avg_loss: 1.6593, accuracy: 0.1469
+----------------------------------------
+[Batch 282] pred_ans: 4.0
+[Batch 282] true_ans: 5
+Current avg_loss: 1.6593, accuracy: 0.1466
+----------------------------------------
+[Batch 283] pred_ans: 11.0
+[Batch 283] true_ans: 10
+Current avg_loss: 1.6579, accuracy: 0.1464
+----------------------------------------
+[Batch 283] pred_ans: 11.0
+[Batch 283] true_ans: 9
+Current avg_loss: 1.6579, accuracy: 0.1461
+----------------------------------------
+[Batch 284] pred_ans: 125.0
+[Batch 284] true_ans: 175
+Current avg_loss: 1.6591, accuracy: 0.1459
+----------------------------------------
+[Batch 284] pred_ans: 3.0
+[Batch 284] true_ans: 21
+Current avg_loss: 1.6591, accuracy: 0.1456
+----------------------------------------
+[Batch 285] pred_ans: 28.0
+[Batch 285] true_ans: 23
+Current avg_loss: 1.6601, accuracy: 0.1454
+----------------------------------------
+[Batch 285] pred_ans: 264.0
+[Batch 285] true_ans: 308
+Current avg_loss: 1.6601, accuracy: 0.1451
+----------------------------------------
+[Batch 286] pred_ans: 10.0
+[Batch 286] true_ans: 100
+Current avg_loss: 1.6605, accuracy: 0.1449
+----------------------------------------
+[Batch 286] pred_ans: 6000.0
+[Batch 286] true_ans: 600
+Current avg_loss: 1.6605, accuracy: 0.1446
+----------------------------------------
+[Batch 287] pred_ans: 20.0
+[Batch 287] true_ans: 37
+Current avg_loss: 1.6609, accuracy: 0.1443
+----------------------------------------
+[Batch 287] pred_ans: 120.0
+[Batch 287] true_ans: 36
+Current avg_loss: 1.6609, accuracy: 0.1441
+----------------------------------------
+[Batch 288] pred_ans: 1000.0
+[Batch 288] true_ans: 11232
+Current avg_loss: 1.6605, accuracy: 0.1438
+----------------------------------------
+[Batch 288] pred_ans: 40.0
+[Batch 288] true_ans: 40
+Current avg_loss: 1.6605, accuracy: 0.1453
+----------------------------------------
+[Batch 289] pred_ans: 8.0
+[Batch 289] true_ans: 48
+Current avg_loss: 1.6608, accuracy: 0.1451
+----------------------------------------
+[Batch 289] pred_ans: 8.0
+[Batch 289] true_ans: 7
+Current avg_loss: 1.6608, accuracy: 0.1448
+----------------------------------------
+[Batch 290] pred_ans: 550.0
+[Batch 290] true_ans: 500
+Current avg_loss: 1.6601, accuracy: 0.1446
+----------------------------------------
+[Batch 290] pred_ans: 235.0
+[Batch 290] true_ans: 215
+Current avg_loss: 1.6601, accuracy: 0.1443
+----------------------------------------
+[Batch 291] pred_ans: 152000.0
+[Batch 291] true_ans: 129200
+Current avg_loss: 1.6607, accuracy: 0.1441
+----------------------------------------
+[Batch 291] pred_ans: 100.0
+[Batch 291] true_ans: 120
+Current avg_loss: 1.6607, accuracy: 0.1438
+----------------------------------------
+[Batch 292] pred_ans: 0.0
+[Batch 292] true_ans: 2
+Current avg_loss: 1.6610, accuracy: 0.1436
+----------------------------------------
+[Batch 292] pred_ans: 20.0
+[Batch 292] true_ans: 40
+Current avg_loss: 1.6610, accuracy: 0.1433
+----------------------------------------
+[Batch 293] pred_ans: 1000.0
+[Batch 293] true_ans: 800
+Current avg_loss: 1.6597, accuracy: 0.1431
+----------------------------------------
+[Batch 293] pred_ans: 150.0
+[Batch 293] true_ans: 30
+Current avg_loss: 1.6597, accuracy: 0.1429
+----------------------------------------
+[Batch 294] pred_ans: 50.0
+[Batch 294] true_ans: 52
+Current avg_loss: 1.6601, accuracy: 0.1426
+----------------------------------------
+[Batch 294] pred_ans: 0.0
+[Batch 294] true_ans: 15
+Current avg_loss: 1.6601, accuracy: 0.1424
+----------------------------------------
+[Batch 295] pred_ans: 220.0
+[Batch 295] true_ans: 319
+Current avg_loss: 1.6595, accuracy: 0.1421
+----------------------------------------
+[Batch 295] pred_ans: 176.0
+[Batch 295] true_ans: 220
+Current avg_loss: 1.6595, accuracy: 0.1419
+----------------------------------------
+[Batch 296] pred_ans: 5.0
+[Batch 296] true_ans: 1
+Current avg_loss: 1.6595, accuracy: 0.1417
+----------------------------------------
+[Batch 296] pred_ans: 3.0
+[Batch 296] true_ans: 3
+Current avg_loss: 1.6595, accuracy: 0.1431
+----------------------------------------
+[Batch 297] pred_ans: 840.0
+[Batch 297] true_ans: 42
+Current avg_loss: 1.6586, accuracy: 0.1429
+----------------------------------------
+[Batch 297] pred_ans: 11.0
+[Batch 297] true_ans: 13
+Current avg_loss: 1.6586, accuracy: 0.1426
+----------------------------------------
+[Batch 298] pred_ans: 100.0
+[Batch 298] true_ans: 260
+Current avg_loss: 1.6579, accuracy: 0.1424
+----------------------------------------
+[Batch 298] pred_ans: 120.0
+[Batch 298] true_ans: 90
+Current avg_loss: 1.6579, accuracy: 0.1421
+----------------------------------------
+[Batch 299] pred_ans: 40.0
+[Batch 299] true_ans: 69
+Current avg_loss: 1.6569, accuracy: 0.1419
+----------------------------------------
+[Batch 299] pred_ans: 46.0
+[Batch 299] true_ans: 48
+Current avg_loss: 1.6569, accuracy: 0.1417
+----------------------------------------
+[Batch 300] pred_ans: 12.0
+[Batch 300] true_ans: 10
+Current avg_loss: 1.6565, accuracy: 0.1414
+----------------------------------------
+[Batch 300] pred_ans: 80.0
+[Batch 300] true_ans: 104
+Current avg_loss: 1.6565, accuracy: 0.1412
+----------------------------------------
+[Batch 301] pred_ans: 4.0
+[Batch 301] true_ans: 5
+Current avg_loss: 1.6566, accuracy: 0.1410
+----------------------------------------
+[Batch 301] pred_ans: 1800.0
+[Batch 301] true_ans: 1800
+Current avg_loss: 1.6566, accuracy: 0.1424
+----------------------------------------
+[Batch 302] pred_ans: 64.0
+[Batch 302] true_ans: 12
+Current avg_loss: 1.6549, accuracy: 0.1421
+----------------------------------------
+[Batch 302] pred_ans: 90.0
+[Batch 302] true_ans: 42
+Current avg_loss: 1.6549, accuracy: 0.1419
+----------------------------------------
+[Batch 303] pred_ans: 0.5
+[Batch 303] true_ans: 6
+Current avg_loss: 1.6568, accuracy: 0.1417
+----------------------------------------
+[Batch 303] pred_ans: 200.0
+[Batch 303] true_ans: 10
+Current avg_loss: 1.6568, accuracy: 0.1414
+----------------------------------------
+[Batch 304] pred_ans: 0.0
+[Batch 304] true_ans: 8
+Current avg_loss: 1.6564, accuracy: 0.1412
+----------------------------------------
+[Batch 304] pred_ans: 8.0
+[Batch 304] true_ans: 7
+Current avg_loss: 1.6564, accuracy: 0.1410
+----------------------------------------
+[Batch 305] pred_ans: 10400.0
+[Batch 305] true_ans: 65,960
+Current avg_loss: 1.6576, accuracy: 0.1408
+----------------------------------------
+[Batch 305] pred_ans: 1000000.0
+[Batch 305] true_ans: 1,450,000
+Current avg_loss: 1.6576, accuracy: 0.1405
+----------------------------------------
+[Batch 306] pred_ans: 20.0
+[Batch 306] true_ans: 30
+Current avg_loss: 1.6577, accuracy: 0.1403
+----------------------------------------
+[Batch 306] pred_ans: 9000.0
+[Batch 306] true_ans: 93000
+Current avg_loss: 1.6577, accuracy: 0.1401
+----------------------------------------
+[Batch 307] pred_ans: 312.0
+[Batch 307] true_ans: 312
+Current avg_loss: 1.6570, accuracy: 0.1415
+----------------------------------------
+[Batch 307] pred_ans: 20.0
+[Batch 307] true_ans: 33
+Current avg_loss: 1.6570, accuracy: 0.1412
+----------------------------------------
+[Batch 308] pred_ans: 13.0
+[Batch 308] true_ans: 10
+Current avg_loss: 1.6565, accuracy: 0.1410
+----------------------------------------
+[Batch 308] pred_ans: 5.0
+[Batch 308] true_ans: 5
+Current avg_loss: 1.6565, accuracy: 0.1424
+----------------------------------------
+[Batch 309] pred_ans: 72.0
+[Batch 309] true_ans: 36
+Current avg_loss: 1.6559, accuracy: 0.1422
+----------------------------------------
+[Batch 309] pred_ans: 80.0
+[Batch 309] true_ans: 76
+Current avg_loss: 1.6559, accuracy: 0.1419
+----------------------------------------
+[Batch 310] pred_ans: 1879.0
+[Batch 310] true_ans: 1509
+Current avg_loss: 1.6554, accuracy: 0.1417
+----------------------------------------
+[Batch 310] pred_ans: 15000.0
+[Batch 310] true_ans: 3000
+Current avg_loss: 1.6554, accuracy: 0.1415
+----------------------------------------
+[Batch 311] pred_ans: 9.0
+[Batch 311] true_ans: 7
+Current avg_loss: 1.6550, accuracy: 0.1413
+----------------------------------------
+[Batch 311] pred_ans: 14.0
+[Batch 311] true_ans: 8
+Current avg_loss: 1.6550, accuracy: 0.1410
+----------------------------------------
+[Batch 312] pred_ans: 49.0
+[Batch 312] true_ans: 85
+Current avg_loss: 1.6540, accuracy: 0.1408
+----------------------------------------
+[Batch 312] pred_ans: 80.0
+[Batch 312] true_ans: 160
+Current avg_loss: 1.6540, accuracy: 0.1406
+----------------------------------------
+[Batch 313] pred_ans: 0.0
+[Batch 313] true_ans: 72
+Current avg_loss: 1.6543, accuracy: 0.1404
+----------------------------------------
+[Batch 313] pred_ans: 60.0
+[Batch 313] true_ans: 54
+Current avg_loss: 1.6543, accuracy: 0.1401
+----------------------------------------
+[Batch 314] pred_ans: 2.0
+[Batch 314] true_ans: 4
+Current avg_loss: 1.6538, accuracy: 0.1399
+----------------------------------------
+[Batch 314] pred_ans: 150000.0
+[Batch 314] true_ans: 17500
+Current avg_loss: 1.6538, accuracy: 0.1397
+----------------------------------------
+[Batch 315] pred_ans: 20.0
+[Batch 315] true_ans: 10
+Current avg_loss: 1.6543, accuracy: 0.1395
+----------------------------------------
+[Batch 315] pred_ans: 10000.0
+[Batch 315] true_ans: 4800
+Current avg_loss: 1.6543, accuracy: 0.1392
+----------------------------------------
+[Batch 316] pred_ans: 40.0
+[Batch 316] true_ans: 45
+Current avg_loss: 1.6530, accuracy: 0.1390
+----------------------------------------
+[Batch 316] pred_ans: 2.0
+[Batch 316] true_ans: 5
+Current avg_loss: 1.6530, accuracy: 0.1388
+----------------------------------------
+[Batch 317] pred_ans: 25.0
+[Batch 317] true_ans: 14
+Current avg_loss: 1.6532, accuracy: 0.1386
+----------------------------------------
+[Batch 317] pred_ans: 4.0
+[Batch 317] true_ans: 4
+Current avg_loss: 1.6532, accuracy: 0.1399
+----------------------------------------
+[Batch 318] pred_ans: 1400.0
+[Batch 318] true_ans: 1050
+Current avg_loss: 1.6551, accuracy: 0.1397
+----------------------------------------
+[Batch 318] pred_ans: 3.0
+[Batch 318] true_ans: 17
+Current avg_loss: 1.6551, accuracy: 0.1395
+----------------------------------------
+[Batch 319] pred_ans: 27.0
+[Batch 319] true_ans: 12
+Current avg_loss: 1.6539, accuracy: 0.1393
+----------------------------------------
+[Batch 319] pred_ans: 216.0
+[Batch 319] true_ans: 216
+Current avg_loss: 1.6539, accuracy: 0.1406
+----------------------------------------
+[Batch 320] pred_ans: 34500.0
+[Batch 320] true_ans: 43,500
+Current avg_loss: 1.6541, accuracy: 0.1404
+----------------------------------------
+[Batch 320] pred_ans: 240000.0
+[Batch 320] true_ans: 262500
+Current avg_loss: 1.6541, accuracy: 0.1402
+----------------------------------------
+[Batch 321] pred_ans: 10500.0
+[Batch 321] true_ans: 10,800
+Current avg_loss: 1.6544, accuracy: 0.1400
+----------------------------------------
+[Batch 321] pred_ans: 560.0
+[Batch 321] true_ans: 840
+Current avg_loss: 1.6544, accuracy: 0.1398
+----------------------------------------
+[Batch 322] pred_ans: 30.0
+[Batch 322] true_ans: 29
+Current avg_loss: 1.6540, accuracy: 0.1395
+----------------------------------------
+[Batch 322] pred_ans: 48.0
+[Batch 322] true_ans: 48
+Current avg_loss: 1.6540, accuracy: 0.1409
+----------------------------------------
+[Batch 323] pred_ans: 90.0
+[Batch 323] true_ans: 79
+Current avg_loss: 1.6530, accuracy: 0.1406
+----------------------------------------
+[Batch 323] pred_ans: 8.0
+[Batch 323] true_ans: 10
+Current avg_loss: 1.6530, accuracy: 0.1404
+----------------------------------------
+[Batch 324] pred_ans: 54.0
+[Batch 324] true_ans: 54
+Current avg_loss: 1.6544, accuracy: 0.1418
+----------------------------------------
+[Batch 324] pred_ans: 70000.0
+[Batch 324] true_ans: 162000
+Current avg_loss: 1.6544, accuracy: 0.1415
+----------------------------------------
+[Batch 325] pred_ans: 100.0
+[Batch 325] true_ans: 142
+Current avg_loss: 1.6551, accuracy: 0.1413
+----------------------------------------
+[Batch 325] pred_ans: 1200.0
+[Batch 325] true_ans: 2100
+Current avg_loss: 1.6551, accuracy: 0.1411
+----------------------------------------
+[Batch 326] pred_ans: 45.0
+[Batch 326] true_ans: 75
+Current avg_loss: 1.6560, accuracy: 0.1409
+----------------------------------------
+[Batch 326] pred_ans: 60.0
+[Batch 326] true_ans: 80
+Current avg_loss: 1.6560, accuracy: 0.1407
+----------------------------------------
+[Batch 327] pred_ans: 2.0
+[Batch 327] true_ans: 2
+Current avg_loss: 1.6559, accuracy: 0.1420
+----------------------------------------
+[Batch 327] pred_ans: 10.0
+[Batch 327] true_ans: 10
+Current avg_loss: 1.6559, accuracy: 0.1433
+----------------------------------------
+[Batch 328] pred_ans: 20.0
+[Batch 328] true_ans: 10
+Current avg_loss: 1.6560, accuracy: 0.1431
+----------------------------------------
+[Batch 328] pred_ans: 300000.0
+[Batch 328] true_ans: 330000
+Current avg_loss: 1.6560, accuracy: 0.1429
+----------------------------------------
+[Batch 329] pred_ans: 60.0
+[Batch 329] true_ans: 120
+Current avg_loss: 1.6553, accuracy: 0.1426
+----------------------------------------
+[Batch 329] pred_ans: 2.0
+[Batch 329] true_ans: 3
+Current avg_loss: 1.6553, accuracy: 0.1424
+----------------------------------------
+[Batch 330] pred_ans: 10.0
+[Batch 330] true_ans: 15
+Current avg_loss: 1.6556, accuracy: 0.1422
+----------------------------------------
+[Batch 330] pred_ans: 40.0
+[Batch 330] true_ans: 44
+Current avg_loss: 1.6556, accuracy: 0.1420
+----------------------------------------
+[Batch 331] pred_ans: 9.0
+[Batch 331] true_ans: 7
+Current avg_loss: 1.6555, accuracy: 0.1418
+----------------------------------------
+[Batch 331] pred_ans: 193.0
+[Batch 331] true_ans: 193
+Current avg_loss: 1.6555, accuracy: 0.1431
+----------------------------------------
+[Batch 332] pred_ans: 32.0
+[Batch 332] true_ans: 32
+Current avg_loss: 1.6551, accuracy: 0.1444
+----------------------------------------
+[Batch 332] pred_ans: 1080.0
+[Batch 332] true_ans: 360
+Current avg_loss: 1.6551, accuracy: 0.1441
+----------------------------------------
+[Batch 333] pred_ans: 240.0
+[Batch 333] true_ans: 120
+Current avg_loss: 1.6561, accuracy: 0.1439
+----------------------------------------
+[Batch 333] pred_ans: 55.0
+[Batch 333] true_ans: 53
+Current avg_loss: 1.6561, accuracy: 0.1437
+----------------------------------------
+[Batch 334] pred_ans: 6.0
+[Batch 334] true_ans: 3
+Current avg_loss: 1.6556, accuracy: 0.1435
+----------------------------------------
+[Batch 334] pred_ans: 96.0
+[Batch 334] true_ans: 132
+Current avg_loss: 1.6556, accuracy: 0.1433
+----------------------------------------
+[Batch 335] pred_ans: 4.0
+[Batch 335] true_ans: 4
+Current avg_loss: 1.6546, accuracy: 0.1446
+----------------------------------------
+[Batch 335] pred_ans: 2.0
+[Batch 335] true_ans: 4
+Current avg_loss: 1.6546, accuracy: 0.1443
+----------------------------------------
+[Batch 336] pred_ans: 0.0
+[Batch 336] true_ans: 2
+Current avg_loss: 1.6543, accuracy: 0.1441
+----------------------------------------
+[Batch 336] pred_ans: 9.0
+[Batch 336] true_ans: 9
+Current avg_loss: 1.6543, accuracy: 0.1454
+----------------------------------------
+[Batch 337] pred_ans: 20.0
+[Batch 337] true_ans: 12
+Current avg_loss: 1.6553, accuracy: 0.1452
+----------------------------------------
+[Batch 337] pred_ans: 20.0
+[Batch 337] true_ans: 33
+Current avg_loss: 1.6553, accuracy: 0.1450
+----------------------------------------
+[Batch 338] pred_ans: 240.0
+[Batch 338] true_ans: 240
+Current avg_loss: 1.6559, accuracy: 0.1462
+----------------------------------------
+[Batch 338] pred_ans: 36.0
+[Batch 338] true_ans: 36
+Current avg_loss: 1.6559, accuracy: 0.1475
+----------------------------------------
+[Batch 339] pred_ans: 120.0
+[Batch 339] true_ans: 120
+Current avg_loss: 1.6554, accuracy: 0.1487
+----------------------------------------
+[Batch 339] pred_ans: 576.0
+[Batch 339] true_ans: 576
+Current avg_loss: 1.6554, accuracy: 0.1500
+----------------------------------------
+[Batch 340] pred_ans: 40.0
+[Batch 340] true_ans: 20
+Current avg_loss: 1.6555, accuracy: 0.1498
+----------------------------------------
+[Batch 340] pred_ans: 141.0
+[Batch 340] true_ans: 298
+Current avg_loss: 1.6555, accuracy: 0.1496
+----------------------------------------
+[Batch 341] pred_ans: 80.0
+[Batch 341] true_ans: 80
+Current avg_loss: 1.6556, accuracy: 0.1508
+----------------------------------------
+[Batch 341] pred_ans: 50.0
+[Batch 341] true_ans: 50
+Current avg_loss: 1.6556, accuracy: 0.1520
+----------------------------------------
+[Batch 342] pred_ans: 11.0
+[Batch 342] true_ans: 11
+Current avg_loss: 1.6546, accuracy: 0.1533
+----------------------------------------
+[Batch 342] pred_ans: 14.0
+[Batch 342] true_ans: 14
+Current avg_loss: 1.6546, accuracy: 0.1545
+----------------------------------------
+[Batch 343] pred_ans: 50.0
+[Batch 343] true_ans: 80
+Current avg_loss: 1.6541, accuracy: 0.1543
+----------------------------------------
+[Batch 343] pred_ans: 20.0
+[Batch 343] true_ans: 13
+Current avg_loss: 1.6541, accuracy: 0.1541
+----------------------------------------
+[Batch 344] pred_ans: 60.0
+[Batch 344] true_ans: 100
+Current avg_loss: 1.6536, accuracy: 0.1538
+----------------------------------------
+[Batch 344] pred_ans: 40.0
+[Batch 344] true_ans: 7
+Current avg_loss: 1.6536, accuracy: 0.1536
+----------------------------------------
+[Batch 345] pred_ans: 2400.0
+[Batch 345] true_ans: 5760
+Current avg_loss: 1.6541, accuracy: 0.1534
+----------------------------------------
+[Batch 345] pred_ans: 25.0
+[Batch 345] true_ans: 25
+Current avg_loss: 1.6541, accuracy: 0.1546
+----------------------------------------
+[Batch 346] pred_ans: 20.0
+[Batch 346] true_ans: 32
+Current avg_loss: 1.6542, accuracy: 0.1544
+----------------------------------------
+[Batch 346] pred_ans: 36.0
+[Batch 346] true_ans: 68
+Current avg_loss: 1.6542, accuracy: 0.1542
+----------------------------------------
+[Batch 347] pred_ans: 8.0
+[Batch 347] true_ans: 9
+Current avg_loss: 1.6543, accuracy: 0.1540
+----------------------------------------
+[Batch 347] pred_ans: 10.0
+[Batch 347] true_ans: 5
+Current avg_loss: 1.6543, accuracy: 0.1537
+----------------------------------------
+[Batch 348] pred_ans: 100.0
+[Batch 348] true_ans: 145
+Current avg_loss: 1.6546, accuracy: 0.1535
+----------------------------------------
+[Batch 348] pred_ans: 27.0
+[Batch 348] true_ans: 27
+Current avg_loss: 1.6546, accuracy: 0.1547
+----------------------------------------
+[Batch 349] pred_ans: 1200.0
+[Batch 349] true_ans: 720
+Current avg_loss: 1.6541, accuracy: 0.1545
+----------------------------------------
+[Batch 349] pred_ans: 5.0
+[Batch 349] true_ans: 8
+Current avg_loss: 1.6541, accuracy: 0.1543
+----------------------------------------
+[Batch 350] pred_ans: 102.0
+[Batch 350] true_ans: 135
+Current avg_loss: 1.6547, accuracy: 0.1541
+----------------------------------------
+[Batch 350] pred_ans: 120.0
+[Batch 350] true_ans: 200
+Current avg_loss: 1.6547, accuracy: 0.1538
+----------------------------------------
+[Batch 351] pred_ans: 2000.0
+[Batch 351] true_ans: 2800
+Current avg_loss: 1.6543, accuracy: 0.1536
+----------------------------------------
+[Batch 351] pred_ans: 48.0
+[Batch 351] true_ans: 50
+Current avg_loss: 1.6543, accuracy: 0.1534
+----------------------------------------
+[Batch 352] pred_ans: 20.0
+[Batch 352] true_ans: 50
+Current avg_loss: 1.6542, accuracy: 0.1532
+----------------------------------------
+[Batch 352] pred_ans: 30.0
+[Batch 352] true_ans: 120
+Current avg_loss: 1.6542, accuracy: 0.1530
+----------------------------------------
+[Batch 353] pred_ans: 9.0
+[Batch 353] true_ans: 9
+Current avg_loss: 1.6541, accuracy: 0.1542
+----------------------------------------
+[Batch 353] pred_ans: 16.0
+[Batch 353] true_ans: 8
+Current avg_loss: 1.6541, accuracy: 0.1540
+----------------------------------------
+[Batch 354] pred_ans: 168.0
+[Batch 354] true_ans: 168
+Current avg_loss: 1.6540, accuracy: 0.1551
+----------------------------------------
+[Batch 354] pred_ans: 2000.0
+[Batch 354] true_ans: 3000
+Current avg_loss: 1.6540, accuracy: 0.1549
+----------------------------------------
+[Batch 355] pred_ans: 47.0
+[Batch 355] true_ans: 45
+Current avg_loss: 1.6537, accuracy: 0.1547
+----------------------------------------
+[Batch 355] pred_ans: 4.0
+[Batch 355] true_ans: 6
+Current avg_loss: 1.6537, accuracy: 0.1545
+----------------------------------------
+[Batch 356] pred_ans: 2.0
+[Batch 356] true_ans: 14
+Current avg_loss: 1.6542, accuracy: 0.1543
+----------------------------------------
+[Batch 356] pred_ans: 144.0
+[Batch 356] true_ans: 576
+Current avg_loss: 1.6542, accuracy: 0.1541
+----------------------------------------
+[Batch 357] pred_ans: 0.0
+[Batch 357] true_ans: 10
+Current avg_loss: 1.6544, accuracy: 0.1538
+----------------------------------------
+[Batch 357] pred_ans: 385000.0
+[Batch 357] true_ans: 385000
+Current avg_loss: 1.6544, accuracy: 0.1550
+----------------------------------------
+[Batch 358] pred_ans: 720.0
+[Batch 358] true_ans: 770
+Current avg_loss: 1.6531, accuracy: 0.1548
+----------------------------------------
+[Batch 358] pred_ans: 0.0
+[Batch 358] true_ans: 5
+Current avg_loss: 1.6531, accuracy: 0.1546
+----------------------------------------
+[Batch 359] pred_ans: 4.0
+[Batch 359] true_ans: 2
+Current avg_loss: 1.6527, accuracy: 0.1544
+----------------------------------------
+[Batch 359] pred_ans: 105.0
+[Batch 359] true_ans: 175
+Current avg_loss: 1.6527, accuracy: 0.1542
+----------------------------------------
+[Batch 360] pred_ans: 3.0
+[Batch 360] true_ans: 4
+Current avg_loss: 1.6526, accuracy: 0.1540
+----------------------------------------
+[Batch 360] pred_ans: 10000.0
+[Batch 360] true_ans: 2450
+Current avg_loss: 1.6526, accuracy: 0.1537
+----------------------------------------
+[Batch 361] pred_ans: 105.0
+[Batch 361] true_ans: 255
+Current avg_loss: 1.6528, accuracy: 0.1535
+----------------------------------------
+[Batch 361] pred_ans: 153.0
+[Batch 361] true_ans: 160
+Current avg_loss: 1.6528, accuracy: 0.1533
+----------------------------------------
+[Batch 362] pred_ans: 12.0
+[Batch 362] true_ans: 18
+Current avg_loss: 1.6527, accuracy: 0.1531
+----------------------------------------
+[Batch 362] pred_ans: 0.0
+[Batch 362] true_ans: 25
+Current avg_loss: 1.6527, accuracy: 0.1529
+----------------------------------------
+[Batch 363] pred_ans: 8.0
+[Batch 363] true_ans: 10
+Current avg_loss: 1.6526, accuracy: 0.1527
+----------------------------------------
+[Batch 363] pred_ans: 96.0
+[Batch 363] true_ans: 112
+Current avg_loss: 1.6526, accuracy: 0.1525
+----------------------------------------
+[Batch 364] pred_ans: 65.0
+[Batch 364] true_ans: 40
+Current avg_loss: 1.6519, accuracy: 0.1523
+----------------------------------------
+[Batch 364] pred_ans: 1000.0
+[Batch 364] true_ans: 1000
+Current avg_loss: 1.6519, accuracy: 0.1534
+----------------------------------------
+[Batch 365] pred_ans: 6.0
+[Batch 365] true_ans: 8
+Current avg_loss: 1.6518, accuracy: 0.1532
+----------------------------------------
+[Batch 365] pred_ans: 3.0
+[Batch 365] true_ans: 1
+Current avg_loss: 1.6518, accuracy: 0.1530
+----------------------------------------
+[Batch 366] pred_ans: 52.0
+[Batch 366] true_ans: 87
+Current avg_loss: 1.6507, accuracy: 0.1528
+----------------------------------------
+[Batch 366] pred_ans: 5.0
+[Batch 366] true_ans: 5
+Current avg_loss: 1.6507, accuracy: 0.1540
+----------------------------------------
+[Batch 367] pred_ans: 20.0
+[Batch 367] true_ans: 17
+Current avg_loss: 1.6493, accuracy: 0.1537
+----------------------------------------
+[Batch 367] pred_ans: 30.0
+[Batch 367] true_ans: 50
+Current avg_loss: 1.6493, accuracy: 0.1535
+----------------------------------------
+[Batch 368] pred_ans: 13.0
+[Batch 368] true_ans: 3
+Current avg_loss: 1.6485, accuracy: 0.1533
+----------------------------------------
+[Batch 368] pred_ans: 0.0
+[Batch 368] true_ans: 2
+Current avg_loss: 1.6485, accuracy: 0.1531
+----------------------------------------
+[Batch 369] pred_ans: 4.0
+[Batch 369] true_ans: 4
+Current avg_loss: 1.6482, accuracy: 0.1543
+----------------------------------------
+[Batch 369] pred_ans: 160.0
+[Batch 369] true_ans: 98
+Current avg_loss: 1.6482, accuracy: 0.1541
+----------------------------------------
+[Batch 370] pred_ans: 20.0
+[Batch 370] true_ans: 25
+Current avg_loss: 1.6483, accuracy: 0.1538
+----------------------------------------
+[Batch 370] pred_ans: 40.0
+[Batch 370] true_ans: 28
+Current avg_loss: 1.6483, accuracy: 0.1536
+----------------------------------------
+[Batch 371] pred_ans: 12.0
+[Batch 371] true_ans: 24
+Current avg_loss: 1.6485, accuracy: 0.1534
+----------------------------------------
+[Batch 371] pred_ans: 4.0
+[Batch 371] true_ans: 8
+Current avg_loss: 1.6485, accuracy: 0.1532
+----------------------------------------
+[Batch 372] pred_ans: 4.0
+[Batch 372] true_ans: 4
+Current avg_loss: 1.6485, accuracy: 0.1544
+----------------------------------------
+[Batch 372] pred_ans: 1000.0
+[Batch 372] true_ans: 1100
+Current avg_loss: 1.6485, accuracy: 0.1542
+----------------------------------------
+[Batch 373] pred_ans: 4.0
+[Batch 373] true_ans: 28
+Current avg_loss: 1.6481, accuracy: 0.1539
+----------------------------------------
+[Batch 373] pred_ans: 1000.0
+[Batch 373] true_ans: 350
+Current avg_loss: 1.6481, accuracy: 0.1537
+----------------------------------------
+[Batch 374] pred_ans: 224.0
+[Batch 374] true_ans: 336
+Current avg_loss: 1.6478, accuracy: 0.1535
+----------------------------------------
+[Batch 374] pred_ans: 3.0
+[Batch 374] true_ans: 3
+Current avg_loss: 1.6478, accuracy: 0.1547
+----------------------------------------
+[Batch 375] pred_ans: 2800.0
+[Batch 375] true_ans: 4000
+Current avg_loss: 1.6484, accuracy: 0.1545
+----------------------------------------
+[Batch 375] pred_ans: 41.0
+[Batch 375] true_ans: 43
+Current avg_loss: 1.6484, accuracy: 0.1543
+----------------------------------------
+[Batch 376] pred_ans: 400.0
+[Batch 376] true_ans: 240
+Current avg_loss: 1.6488, accuracy: 0.1541
+----------------------------------------
+[Batch 376] pred_ans: 92.0
+[Batch 376] true_ans: 128
+Current avg_loss: 1.6488, accuracy: 0.1538
+----------------------------------------
+[Batch 377] pred_ans: 120.0
+[Batch 377] true_ans: 89
+Current avg_loss: 1.6483, accuracy: 0.1536
+----------------------------------------
+[Batch 377] pred_ans: 9.0
+[Batch 377] true_ans: 7
+Current avg_loss: 1.6483, accuracy: 0.1534
+----------------------------------------
+[Batch 378] pred_ans: 66.0
+[Batch 378] true_ans: 22
+Current avg_loss: 1.6482, accuracy: 0.1532
+----------------------------------------
+[Batch 378] pred_ans: 44.0
+[Batch 378] true_ans: 75
+Current avg_loss: 1.6482, accuracy: 0.1530
+----------------------------------------
+[Batch 379] pred_ans: 133.0
+[Batch 379] true_ans: 133
+Current avg_loss: 1.6485, accuracy: 0.1542
+----------------------------------------
+[Batch 379] pred_ans: 6000.0
+[Batch 379] true_ans: 60000
+Current avg_loss: 1.6485, accuracy: 0.1539
+----------------------------------------
+[Batch 380] pred_ans: 10.0
+[Batch 380] true_ans: 16
+Current avg_loss: 1.6475, accuracy: 0.1537
+----------------------------------------
+[Batch 380] pred_ans: 18.0
+[Batch 380] true_ans: 27
+Current avg_loss: 1.6475, accuracy: 0.1535
+----------------------------------------
+[Batch 381] pred_ans: 30.0
+[Batch 381] true_ans: 85
+Current avg_loss: 1.6482, accuracy: 0.1533
+----------------------------------------
+[Batch 381] pred_ans: 100.0
+[Batch 381] true_ans: 100
+Current avg_loss: 1.6482, accuracy: 0.1545
+----------------------------------------
+[Batch 382] pred_ans: 13.0
+[Batch 382] true_ans: 14
+Current avg_loss: 1.6481, accuracy: 0.1542
+----------------------------------------
+[Batch 382] pred_ans: 300.0
+[Batch 382] true_ans: 490
+Current avg_loss: 1.6481, accuracy: 0.1540
+----------------------------------------
+[Batch 383] pred_ans: 8.0
+[Batch 383] true_ans: 12
+Current avg_loss: 1.6479, accuracy: 0.1538
+----------------------------------------
+[Batch 383] pred_ans: 48.0
+[Batch 383] true_ans: 60
+Current avg_loss: 1.6479, accuracy: 0.1536
+----------------------------------------
+[Batch 384] pred_ans: 750.0
+[Batch 384] true_ans: 675
+Current avg_loss: 1.6484, accuracy: 0.1534
+----------------------------------------
+[Batch 384] pred_ans: 100.0
+[Batch 384] true_ans: 110
+Current avg_loss: 1.6484, accuracy: 0.1532
+----------------------------------------
+[Batch 385] pred_ans: 3.0
+[Batch 385] true_ans: 4
+Current avg_loss: 1.6484, accuracy: 0.1530
+----------------------------------------
+[Batch 385] pred_ans: 9.0
+[Batch 385] true_ans: 3
+Current avg_loss: 1.6484, accuracy: 0.1528
+----------------------------------------
+[Batch 386] pred_ans: 50.0
+[Batch 386] true_ans: 50
+Current avg_loss: 1.6474, accuracy: 0.1539
+----------------------------------------
+[Batch 386] pred_ans: 10.0
+[Batch 386] true_ans: 10
+Current avg_loss: 1.6474, accuracy: 0.1550
+----------------------------------------
+[Batch 387] pred_ans: 12.0
+[Batch 387] true_ans: 10
+Current avg_loss: 1.6477, accuracy: 0.1548
+----------------------------------------
+[Batch 387] pred_ans: 9.0
+[Batch 387] true_ans: 276
+Current avg_loss: 1.6477, accuracy: 0.1546
+----------------------------------------
+[Batch 388] pred_ans: 800.0
+[Batch 388] true_ans: 800
+Current avg_loss: 1.6482, accuracy: 0.1557
+----------------------------------------
+[Batch 388] pred_ans: 3000.0
+[Batch 388] true_ans: 4400
+Current avg_loss: 1.6482, accuracy: 0.1555
+----------------------------------------
+[Batch 389] pred_ans: 38.0
+[Batch 389] true_ans: 38
+Current avg_loss: 1.6475, accuracy: 0.1566
+----------------------------------------
+[Batch 389] pred_ans: 375.0
+[Batch 389] true_ans: 255
+Current avg_loss: 1.6475, accuracy: 0.1564
+----------------------------------------
+[Batch 390] pred_ans: 20.0
+[Batch 390] true_ans: 25
+Current avg_loss: 1.6472, accuracy: 0.1562
+----------------------------------------
+[Batch 390] pred_ans: 8.0
+[Batch 390] true_ans: 17
+Current avg_loss: 1.6472, accuracy: 0.1560
+----------------------------------------
+[Batch 391] pred_ans: 30.0
+[Batch 391] true_ans: 54
+Current avg_loss: 1.6477, accuracy: 0.1558
+----------------------------------------
+[Batch 391] pred_ans: 4.0
+[Batch 391] true_ans: 4
+Current avg_loss: 1.6477, accuracy: 0.1569
+----------------------------------------
+[Batch 392] pred_ans: 15.0
+[Batch 392] true_ans: 15
+Current avg_loss: 1.6481, accuracy: 0.1580
+----------------------------------------
+[Batch 392] pred_ans: 200.0
+[Batch 392] true_ans: 155
+Current avg_loss: 1.6481, accuracy: 0.1578
+----------------------------------------
+[Batch 393] pred_ans: 140.0
+[Batch 393] true_ans: 142
+Current avg_loss: 1.6483, accuracy: 0.1576
+----------------------------------------
+[Batch 393] pred_ans: 20.0
+[Batch 393] true_ans: 25
+Current avg_loss: 1.6483, accuracy: 0.1574
+----------------------------------------
+[Batch 394] pred_ans: 125.0
+[Batch 394] true_ans: 100
+Current avg_loss: 1.6486, accuracy: 0.1572
+----------------------------------------
+[Batch 394] pred_ans: 4.0
+[Batch 394] true_ans: 4
+Current avg_loss: 1.6486, accuracy: 0.1582
+----------------------------------------
+[Batch 395] pred_ans: 108.0
+[Batch 395] true_ans: 108
+Current avg_loss: 1.6497, accuracy: 0.1593
+----------------------------------------
+[Batch 395] pred_ans: 90.0
+[Batch 395] true_ans: 100
+Current avg_loss: 1.6497, accuracy: 0.1591
+----------------------------------------
+[Batch 396] pred_ans: 75.0
+[Batch 396] true_ans: 75
+Current avg_loss: 1.6503, accuracy: 0.1602
+----------------------------------------
+[Batch 396] pred_ans: 280.0
+[Batch 396] true_ans: 250
+Current avg_loss: 1.6503, accuracy: 0.1599
+----------------------------------------
+[Batch 397] pred_ans: 38.0
+[Batch 397] true_ans: 32
+Current avg_loss: 1.6495, accuracy: 0.1597
+----------------------------------------
+[Batch 397] pred_ans: 5.0
+[Batch 397] true_ans: 20
+Current avg_loss: 1.6495, accuracy: 0.1595
+----------------------------------------
+[Batch 398] pred_ans: 480000.0
+[Batch 398] true_ans: 2880000
+Current avg_loss: 1.6492, accuracy: 0.1593
+----------------------------------------
+[Batch 398] pred_ans: 390.0
+[Batch 398] true_ans: 540
+Current avg_loss: 1.6492, accuracy: 0.1591
+----------------------------------------
+[Batch 399] pred_ans: 10.0
+[Batch 399] true_ans: 20
+Current avg_loss: 1.6483, accuracy: 0.1589
+----------------------------------------
+[Batch 399] pred_ans: 2.0
+[Batch 399] true_ans: 4
+Current avg_loss: 1.6483, accuracy: 0.1588
+----------------------------------------
+[Batch 400] pred_ans: 446.0
+[Batch 400] true_ans: 428
+Current avg_loss: 1.6483, accuracy: 0.1586
+----------------------------------------
+[Batch 400] pred_ans: 3000.0
+[Batch 400] true_ans: 1240
+Current avg_loss: 1.6483, accuracy: 0.1584
+----------------------------------------
+[Batch 401] pred_ans: 6.0
+[Batch 401] true_ans: 6
+Current avg_loss: 1.6485, accuracy: 0.1594
+----------------------------------------
+[Batch 401] pred_ans: 0.0
+[Batch 401] true_ans: 9
+Current avg_loss: 1.6485, accuracy: 0.1592
+----------------------------------------
+[Batch 402] pred_ans: 40.0
+[Batch 402] true_ans: 20
+Current avg_loss: 1.6476, accuracy: 0.1590
+----------------------------------------
+[Batch 402] pred_ans: 1200.0
+[Batch 402] true_ans: 1170
+Current avg_loss: 1.6476, accuracy: 0.1588
+----------------------------------------
+[Batch 403] pred_ans: 0.44
+[Batch 403] true_ans: 70
+Current avg_loss: 1.6481, accuracy: 0.1586
+----------------------------------------
+[Batch 403] pred_ans: 36.0
+[Batch 403] true_ans: 4
+Current avg_loss: 1.6481, accuracy: 0.1584
+----------------------------------------
+[Batch 404] pred_ans: 2.0
+[Batch 404] true_ans: 12
+Current avg_loss: 1.6485, accuracy: 0.1582
+----------------------------------------
+[Batch 404] pred_ans: 50.0
+[Batch 404] true_ans: 50
+Current avg_loss: 1.6485, accuracy: 0.1593
+----------------------------------------
+[Batch 405] pred_ans: 40.0
+[Batch 405] true_ans: 310
+Current avg_loss: 1.6490, accuracy: 0.1591
+----------------------------------------
+[Batch 405] pred_ans: 15.0
+[Batch 405] true_ans: 60
+Current avg_loss: 1.6490, accuracy: 0.1589
+----------------------------------------
+[Batch 406] pred_ans: 98.0
+[Batch 406] true_ans: 79
+Current avg_loss: 1.6485, accuracy: 0.1587
+----------------------------------------
+[Batch 406] pred_ans: 7.0
+[Batch 406] true_ans: 7
+Current avg_loss: 1.6485, accuracy: 0.1597
+----------------------------------------
+[Batch 407] pred_ans: 120.0
+[Batch 407] true_ans: 11
+Current avg_loss: 1.6485, accuracy: 0.1595
+----------------------------------------
+[Batch 407] pred_ans: 8.0
+[Batch 407] true_ans: 4
+Current avg_loss: 1.6485, accuracy: 0.1593
+----------------------------------------
+[Batch 408] pred_ans: 4500.0
+[Batch 408] true_ans: 4500
+Current avg_loss: 1.6486, accuracy: 0.1603
+----------------------------------------
+[Batch 408] pred_ans: 15.0
+[Batch 408] true_ans: 15
+Current avg_loss: 1.6486, accuracy: 0.1614
+----------------------------------------
+[Batch 409] pred_ans: 40.0
+[Batch 409] true_ans: 16
+Current avg_loss: 1.6489, accuracy: 0.1612
+----------------------------------------
+[Batch 409] pred_ans: 2500.0
+[Batch 409] true_ans: 6,250
+Current avg_loss: 1.6489, accuracy: 0.1610
+----------------------------------------
+[Batch 410] pred_ans: 480.0
+[Batch 410] true_ans: 720
+Current avg_loss: 1.6504, accuracy: 0.1608
+----------------------------------------
+[Batch 410] pred_ans: 25.0
+[Batch 410] true_ans: 35
+Current avg_loss: 1.6504, accuracy: 0.1606
+----------------------------------------
+[Batch 411] pred_ans: 252.0
+[Batch 411] true_ans: 1260
+Current avg_loss: 1.6508, accuracy: 0.1604
+----------------------------------------
+[Batch 411] pred_ans: 20.0
+[Batch 411] true_ans: 14
+Current avg_loss: 1.6508, accuracy: 0.1602
+----------------------------------------
+[Batch 412] pred_ans: 22.0
+[Batch 412] true_ans: 52
+Current avg_loss: 1.6502, accuracy: 0.1600
+----------------------------------------
+[Batch 412] pred_ans: 80.0
+[Batch 412] true_ans: 153
+Current avg_loss: 1.6502, accuracy: 0.1598
+----------------------------------------
+[Batch 413] pred_ans: 40.0
+[Batch 413] true_ans: 27
+Current avg_loss: 1.6504, accuracy: 0.1596
+----------------------------------------
+[Batch 413] pred_ans: 9.0
+[Batch 413] true_ans: 11
+Current avg_loss: 1.6504, accuracy: 0.1594
+----------------------------------------
+[Batch 414] pred_ans: 50.0
+[Batch 414] true_ans: 60
+Current avg_loss: 1.6500, accuracy: 0.1592
+----------------------------------------
+[Batch 414] pred_ans: 16000.0
+[Batch 414] true_ans: 14,000
+Current avg_loss: 1.6500, accuracy: 0.1590
+----------------------------------------
+[Batch 415] pred_ans: 96.0
+[Batch 415] true_ans: 1128
+Current avg_loss: 1.6511, accuracy: 0.1588
+----------------------------------------
+[Batch 415] pred_ans: 129.0
+[Batch 415] true_ans: 324
+Current avg_loss: 1.6511, accuracy: 0.1587
+----------------------------------------
+[Batch 416] pred_ans: 60.0
+[Batch 416] true_ans: 42
+Current avg_loss: 1.6520, accuracy: 0.1585
+----------------------------------------
+[Batch 416] pred_ans: 120.0
+[Batch 416] true_ans: 40
+Current avg_loss: 1.6520, accuracy: 0.1583
+----------------------------------------
+[Batch 417] pred_ans: 88.0
+[Batch 417] true_ans: 80
+Current avg_loss: 1.6519, accuracy: 0.1581
+----------------------------------------
+[Batch 417] pred_ans: 36.0
+[Batch 417] true_ans: 48
+Current avg_loss: 1.6519, accuracy: 0.1579
+----------------------------------------
+[Batch 418] pred_ans: 100.0
+[Batch 418] true_ans: 140
+Current avg_loss: 1.6520, accuracy: 0.1577
+----------------------------------------
+[Batch 418] pred_ans: 250.0
+[Batch 418] true_ans: 120
+Current avg_loss: 1.6520, accuracy: 0.1575
+----------------------------------------
+[Batch 419] pred_ans: 5.0
+[Batch 419] true_ans: 15
+Current avg_loss: 1.6516, accuracy: 0.1573
+----------------------------------------
+[Batch 419] pred_ans: 2.0
+[Batch 419] true_ans: 2
+Current avg_loss: 1.6516, accuracy: 0.1583
+----------------------------------------
+[Batch 420] pred_ans: 6.0
+[Batch 420] true_ans: 16
+Current avg_loss: 1.6513, accuracy: 0.1581
+----------------------------------------
+[Batch 420] pred_ans: 3000.0
+[Batch 420] true_ans: 5600
+Current avg_loss: 1.6513, accuracy: 0.1580
+----------------------------------------
+[Batch 421] pred_ans: 10.0
+[Batch 421] true_ans: 10
+Current avg_loss: 1.6515, accuracy: 0.1590
+----------------------------------------
+[Batch 421] pred_ans: 4.0
+[Batch 421] true_ans: 19
+Current avg_loss: 1.6515, accuracy: 0.1588
+----------------------------------------
+[Batch 422] pred_ans: 120.0
+[Batch 422] true_ans: 180
+Current avg_loss: 1.6517, accuracy: 0.1586
+----------------------------------------
+[Batch 422] pred_ans: 13.0
+[Batch 422] true_ans: 12
+Current avg_loss: 1.6517, accuracy: 0.1584
+----------------------------------------
+[Batch 423] pred_ans: 9.0
+[Batch 423] true_ans: 11
+Current avg_loss: 1.6520, accuracy: 0.1582
+----------------------------------------
+[Batch 423] pred_ans: 1125.0
+[Batch 423] true_ans: 975
+Current avg_loss: 1.6520, accuracy: 0.1580
+----------------------------------------
+[Batch 424] pred_ans: 10.0
+[Batch 424] true_ans: 10
+Current avg_loss: 1.6518, accuracy: 0.1590
+----------------------------------------
+[Batch 424] pred_ans: 75.0
+[Batch 424] true_ans: 75
+Current avg_loss: 1.6518, accuracy: 0.1600
+----------------------------------------
+[Batch 425] pred_ans: 80.0
+[Batch 425] true_ans: 70
+Current avg_loss: 1.6510, accuracy: 0.1598
+----------------------------------------
+[Batch 425] pred_ans: 120.0
+[Batch 425] true_ans: 110
+Current avg_loss: 1.6510, accuracy: 0.1596
+----------------------------------------
+[Batch 426] pred_ans: 81.0
+[Batch 426] true_ans: 123
+Current avg_loss: 1.6510, accuracy: 0.1594
+----------------------------------------
+[Batch 426] pred_ans: 3.0
+[Batch 426] true_ans: 15
+Current avg_loss: 1.6510, accuracy: 0.1593
+----------------------------------------
+[Batch 427] pred_ans: 96.0
+[Batch 427] true_ans: 144
+Current avg_loss: 1.6504, accuracy: 0.1591
+----------------------------------------
+[Batch 427] pred_ans: 22.0
+[Batch 427] true_ans: 13
+Current avg_loss: 1.6504, accuracy: 0.1589
+----------------------------------------
+[Batch 428] pred_ans: 4.0
+[Batch 428] true_ans: 7
+Current avg_loss: 1.6499, accuracy: 0.1587
+----------------------------------------
+[Batch 428] pred_ans: 20000.0
+[Batch 428] true_ans: 14000
+Current avg_loss: 1.6499, accuracy: 0.1585
+----------------------------------------
+[Batch 429] pred_ans: 1260.0
+[Batch 429] true_ans: 3430
+Current avg_loss: 1.6504, accuracy: 0.1583
+----------------------------------------
+[Batch 429] pred_ans: 2000.0
+[Batch 429] true_ans: 1520
+Current avg_loss: 1.6504, accuracy: 0.1581
+----------------------------------------
+[Batch 430] pred_ans: 3.0
+[Batch 430] true_ans: 3
+Current avg_loss: 1.6509, accuracy: 0.1591
+----------------------------------------
+[Batch 430] pred_ans: 6.0
+[Batch 430] true_ans: 30
+Current avg_loss: 1.6509, accuracy: 0.1589
+----------------------------------------
+[Batch 431] pred_ans: 1200.0
+[Batch 431] true_ans: 40
+Current avg_loss: 1.6511, accuracy: 0.1587
+----------------------------------------
+[Batch 431] pred_ans: 100.0
+[Batch 431] true_ans: 110
+Current avg_loss: 1.6511, accuracy: 0.1586
+----------------------------------------
+[Batch 432] pred_ans: 100.0
+[Batch 432] true_ans: 80
+Current avg_loss: 1.6513, accuracy: 0.1584
+----------------------------------------
+[Batch 432] pred_ans: 9.0
+[Batch 432] true_ans: 23
+Current avg_loss: 1.6513, accuracy: 0.1582
+----------------------------------------
+[Batch 433] pred_ans: 41.0
+[Batch 433] true_ans: 28
+Current avg_loss: 1.6505, accuracy: 0.1580
+----------------------------------------
+[Batch 433] pred_ans: 5.0
+[Batch 433] true_ans: 7
+Current avg_loss: 1.6505, accuracy: 0.1578
+----------------------------------------
+[Batch 434] pred_ans: 6.25
+[Batch 434] true_ans: 15
+Current avg_loss: 1.6511, accuracy: 0.1577
+----------------------------------------
+[Batch 434] pred_ans: 3000.0
+[Batch 434] true_ans: 500
+Current avg_loss: 1.6511, accuracy: 0.1575
+----------------------------------------
+[Batch 435] pred_ans: 50.0
+[Batch 435] true_ans: 40
+Current avg_loss: 1.6510, accuracy: 0.1573
+----------------------------------------
+[Batch 435] pred_ans: 46.0
+[Batch 435] true_ans: 48
+Current avg_loss: 1.6510, accuracy: 0.1571
+----------------------------------------
+[Batch 436] pred_ans: 27.0
+[Batch 436] true_ans: 13
+Current avg_loss: 1.6507, accuracy: 0.1569
+----------------------------------------
+[Batch 436] pred_ans: 0.48
+[Batch 436] true_ans: 12
+Current avg_loss: 1.6507, accuracy: 0.1568
+----------------------------------------
+[Batch 437] pred_ans: 99.0
+[Batch 437] true_ans: 132
+Current avg_loss: 1.6499, accuracy: 0.1566
+----------------------------------------
+[Batch 437] pred_ans: 39.0
+[Batch 437] true_ans: 60
+Current avg_loss: 1.6499, accuracy: 0.1564
+----------------------------------------
+[Batch 438] pred_ans: 190.0
+[Batch 438] true_ans: 41
+Current avg_loss: 1.6491, accuracy: 0.1562
+----------------------------------------
+[Batch 438] pred_ans: 1500.0
+[Batch 438] true_ans: 7000
+Current avg_loss: 1.6491, accuracy: 0.1560
+----------------------------------------
+[Batch 439] pred_ans: 7.0
+[Batch 439] true_ans: 5
+Current avg_loss: 1.6489, accuracy: 0.1559
+----------------------------------------
+[Batch 439] pred_ans: 600.0
+[Batch 439] true_ans: 575
+Current avg_loss: 1.6489, accuracy: 0.1557
+----------------------------------------
+[Batch 440] pred_ans: 5.0
+[Batch 440] true_ans: 10
+Current avg_loss: 1.6485, accuracy: 0.1555
+----------------------------------------
+[Batch 440] pred_ans: 5.0
+[Batch 440] true_ans: 16
+Current avg_loss: 1.6485, accuracy: 0.1553
+----------------------------------------
+[Batch 441] pred_ans: 5.0
+[Batch 441] true_ans: 5
+Current avg_loss: 1.6489, accuracy: 0.1563
+----------------------------------------
+[Batch 441] pred_ans: 20.0
+[Batch 441] true_ans: 25
+Current avg_loss: 1.6489, accuracy: 0.1561
+----------------------------------------
+[Batch 442] pred_ans: 50.0
+[Batch 442] true_ans: 50
+Current avg_loss: 1.6492, accuracy: 0.1571
+----------------------------------------
+[Batch 442] pred_ans: 375.0
+[Batch 442] true_ans: 500
+Current avg_loss: 1.6492, accuracy: 0.1569
+----------------------------------------
+[Batch 443] pred_ans: 20.0
+[Batch 443] true_ans: 20
+Current avg_loss: 1.6501, accuracy: 0.1578
+----------------------------------------
+[Batch 443] pred_ans: 38.0
+[Batch 443] true_ans: 34
+Current avg_loss: 1.6501, accuracy: 0.1577
+----------------------------------------
+[Batch 444] pred_ans: 9.0
+[Batch 444] true_ans: 10
+Current avg_loss: 1.6501, accuracy: 0.1575
+----------------------------------------
+[Batch 444] pred_ans: 5.0
+[Batch 444] true_ans: 15
+Current avg_loss: 1.6501, accuracy: 0.1573
+----------------------------------------
+[Batch 445] pred_ans: 25.0
+[Batch 445] true_ans: 25
+Current avg_loss: 1.6497, accuracy: 0.1582
+----------------------------------------
+[Batch 445] pred_ans: 121.0
+[Batch 445] true_ans: 55
+Current avg_loss: 1.6497, accuracy: 0.1581
+----------------------------------------
+[Batch 446] pred_ans: 1.0
+[Batch 446] true_ans: 1
+Current avg_loss: 1.6498, accuracy: 0.1590
+----------------------------------------
+[Batch 446] pred_ans: 400.0
+[Batch 446] true_ans: 480
+Current avg_loss: 1.6498, accuracy: 0.1588
+----------------------------------------
+[Batch 447] pred_ans: 40.0
+[Batch 447] true_ans: 26
+Current avg_loss: 1.6500, accuracy: 0.1587
+----------------------------------------
+[Batch 447] pred_ans: 47.0
+[Batch 447] true_ans: 74
+Current avg_loss: 1.6500, accuracy: 0.1585
+----------------------------------------
+[Batch 448] pred_ans: 2500.0
+[Batch 448] true_ans: 250
+Current avg_loss: 1.6502, accuracy: 0.1583
+----------------------------------------
+[Batch 448] pred_ans: 4.0
+[Batch 448] true_ans: 1
+Current avg_loss: 1.6502, accuracy: 0.1581
+----------------------------------------
+[Batch 449] pred_ans: 150.0
+[Batch 449] true_ans: 110
+Current avg_loss: 1.6508, accuracy: 0.1580
+----------------------------------------
+[Batch 449] pred_ans: 15.0
+[Batch 449] true_ans: 16
+Current avg_loss: 1.6508, accuracy: 0.1578
+----------------------------------------
+[Batch 450] pred_ans: 3.0
+[Batch 450] true_ans: 15
+Current avg_loss: 1.6512, accuracy: 0.1576
+----------------------------------------
+[Batch 450] pred_ans: 2.0
+[Batch 450] true_ans: 1
+Current avg_loss: 1.6512, accuracy: 0.1574
+----------------------------------------
+[Batch 451] pred_ans: 8.0
+[Batch 451] true_ans: 8
+Current avg_loss: 1.6514, accuracy: 0.1584
+----------------------------------------
+[Batch 451] pred_ans: 40.0
+[Batch 451] true_ans: 16
+Current avg_loss: 1.6514, accuracy: 0.1582
+----------------------------------------
+[Batch 452] pred_ans: 8.0
+[Batch 452] true_ans: 8
+Current avg_loss: 1.6522, accuracy: 0.1591
+----------------------------------------
+[Batch 452] pred_ans: 4.0
+[Batch 452] true_ans: 5
+Current avg_loss: 1.6522, accuracy: 0.1589
+----------------------------------------
+[Batch 453] pred_ans: 5.0
+[Batch 453] true_ans: 10
+Current avg_loss: 1.6523, accuracy: 0.1588
+----------------------------------------
+[Batch 453] pred_ans: 18.0
+[Batch 453] true_ans: 16
+Current avg_loss: 1.6523, accuracy: 0.1586
+----------------------------------------
+[Batch 454] pred_ans: 20.0
+[Batch 454] true_ans: 14
+Current avg_loss: 1.6521, accuracy: 0.1584
+----------------------------------------
+[Batch 454] pred_ans: 40.0
+[Batch 454] true_ans: 38
+Current avg_loss: 1.6521, accuracy: 0.1582
+----------------------------------------
+[Batch 455] pred_ans: 600.0
+[Batch 455] true_ans: 700
+Current avg_loss: 1.6522, accuracy: 0.1581
+----------------------------------------
+[Batch 455] pred_ans: 80.0
+[Batch 455] true_ans: 64
+Current avg_loss: 1.6522, accuracy: 0.1579
+----------------------------------------
+[Batch 456] pred_ans: 6.0
+[Batch 456] true_ans: 6
+Current avg_loss: 1.6525, accuracy: 0.1588
+----------------------------------------
+[Batch 456] pred_ans: 38.0
+[Batch 456] true_ans: 6
+Current avg_loss: 1.6525, accuracy: 0.1586
+----------------------------------------
+[Batch 457] pred_ans: 3.0
+[Batch 457] true_ans: 3
+Current avg_loss: 1.6516, accuracy: 0.1596
+----------------------------------------
+[Batch 457] pred_ans: 19.0
+[Batch 457] true_ans: 23
+Current avg_loss: 1.6516, accuracy: 0.1594
+----------------------------------------
+[Batch 458] pred_ans: 8.0
+[Batch 458] true_ans: 14
+Current avg_loss: 1.6518, accuracy: 0.1592
+----------------------------------------
+[Batch 458] pred_ans: 12.0
+[Batch 458] true_ans: 12
+Current avg_loss: 1.6518, accuracy: 0.1601
+----------------------------------------
+[Batch 459] pred_ans: 52.0
+[Batch 459] true_ans: 56
+Current avg_loss: 1.6516, accuracy: 0.1600
+----------------------------------------
+[Batch 459] pred_ans: 60.0
+[Batch 459] true_ans: 90
+Current avg_loss: 1.6516, accuracy: 0.1598
+----------------------------------------
+[Batch 460] pred_ans: 39.0
+[Batch 460] true_ans: 47
+Current avg_loss: 1.6510, accuracy: 0.1596
+----------------------------------------
+[Batch 460] pred_ans: 12.0
+[Batch 460] true_ans: 4
+Current avg_loss: 1.6510, accuracy: 0.1594
+----------------------------------------
+[Batch 461] pred_ans: 5.0
+[Batch 461] true_ans: 60
+Current avg_loss: 1.6513, accuracy: 0.1593
+----------------------------------------
+[Batch 461] pred_ans: 3.0
+[Batch 461] true_ans: 2
+Current avg_loss: 1.6513, accuracy: 0.1591
+----------------------------------------
+[Batch 462] pred_ans: 6.0
+[Batch 462] true_ans: 12
+Current avg_loss: 1.6513, accuracy: 0.1589
+----------------------------------------
+[Batch 462] pred_ans: 2500.0
+[Batch 462] true_ans: 2000
+Current avg_loss: 1.6513, accuracy: 0.1587
+----------------------------------------
+[Batch 463] pred_ans: 2.0
+[Batch 463] true_ans: 1
+Current avg_loss: 1.6515, accuracy: 0.1586
+----------------------------------------
+[Batch 463] pred_ans: 180000.0
+[Batch 463] true_ans: 85000
+Current avg_loss: 1.6515, accuracy: 0.1584
+----------------------------------------
+[Batch 464] pred_ans: 45.0
+[Batch 464] true_ans: 60
+Current avg_loss: 1.6511, accuracy: 0.1582
+----------------------------------------
+[Batch 464] pred_ans: 300.0
+[Batch 464] true_ans: 60
+Current avg_loss: 1.6511, accuracy: 0.1581
+----------------------------------------
+[Batch 465] pred_ans: 13.0
+[Batch 465] true_ans: 14
+Current avg_loss: 1.6515, accuracy: 0.1579
+----------------------------------------
+[Batch 465] pred_ans: 30.0
+[Batch 465] true_ans: 50
+Current avg_loss: 1.6515, accuracy: 0.1577
+----------------------------------------
+[Batch 466] pred_ans: 20.0
+[Batch 466] true_ans: 24
+Current avg_loss: 1.6514, accuracy: 0.1576
+----------------------------------------
+[Batch 466] pred_ans: 5.0
+[Batch 466] true_ans: 15
+Current avg_loss: 1.6514, accuracy: 0.1574
+----------------------------------------
+[Batch 467] pred_ans: 11.0
+[Batch 467] true_ans: 410
+Current avg_loss: 1.6515, accuracy: 0.1572
+----------------------------------------
+[Batch 467] pred_ans: 4320.0
+[Batch 467] true_ans: 64800
+Current avg_loss: 1.6515, accuracy: 0.1571
+----------------------------------------
+[Batch 468] pred_ans: 1000.0
+[Batch 468] true_ans: 250
+Current avg_loss: 1.6514, accuracy: 0.1569
+----------------------------------------
+[Batch 468] pred_ans: 225.0
+[Batch 468] true_ans: 159
+Current avg_loss: 1.6514, accuracy: 0.1567
+----------------------------------------
+[Batch 469] pred_ans: 2.0
+[Batch 469] true_ans: 4
+Current avg_loss: 1.6520, accuracy: 0.1565
+----------------------------------------
+[Batch 469] pred_ans: 300.0
+[Batch 469] true_ans: 650
+Current avg_loss: 1.6520, accuracy: 0.1564
+----------------------------------------
+[Batch 470] pred_ans: 280.0
+[Batch 470] true_ans: 280
+Current avg_loss: 1.6527, accuracy: 0.1573
+----------------------------------------
+[Batch 470] pred_ans: 1.0
+[Batch 470] true_ans: 842
+Current avg_loss: 1.6527, accuracy: 0.1571
+----------------------------------------
+[Batch 471] pred_ans: 200.0
+[Batch 471] true_ans: 205
+Current avg_loss: 1.6532, accuracy: 0.1569
+----------------------------------------
+[Batch 471] pred_ans: 50.0
+[Batch 471] true_ans: 50
+Current avg_loss: 1.6532, accuracy: 0.1578
+----------------------------------------
+[Batch 472] pred_ans: 37.0
+[Batch 472] true_ans: 34
+Current avg_loss: 1.6531, accuracy: 0.1577
+----------------------------------------
+[Batch 472] pred_ans: 10.0
+[Batch 472] true_ans: 17
+Current avg_loss: 1.6531, accuracy: 0.1575
+----------------------------------------
+[Batch 473] pred_ans: 140.0
+[Batch 473] true_ans: 450
+Current avg_loss: 1.6531, accuracy: 0.1573
+----------------------------------------
+[Batch 473] pred_ans: 13.0
+[Batch 473] true_ans: 13
+Current avg_loss: 1.6531, accuracy: 0.1582
+----------------------------------------
+[Batch 474] pred_ans: 200.0
+[Batch 474] true_ans: 15
+Current avg_loss: 1.6533, accuracy: 0.1581
+----------------------------------------
+[Batch 474] pred_ans: 52.0
+[Batch 474] true_ans: 42
+Current avg_loss: 1.6533, accuracy: 0.1579
+----------------------------------------
+[Batch 475] pred_ans: 10.0
+[Batch 475] true_ans: 5
+Current avg_loss: 1.6538, accuracy: 0.1577
+----------------------------------------
+[Batch 475] pred_ans: 150.0
+[Batch 475] true_ans: 300
+Current avg_loss: 1.6538, accuracy: 0.1576
+----------------------------------------
+[Batch 476] pred_ans: 720.0
+[Batch 476] true_ans: 360
+Current avg_loss: 1.6542, accuracy: 0.1574
+----------------------------------------
+[Batch 476] pred_ans: 8.0
+[Batch 476] true_ans: 452
+Current avg_loss: 1.6542, accuracy: 0.1572
+----------------------------------------
+[Batch 477] pred_ans: 18.0
+[Batch 477] true_ans: 34
+Current avg_loss: 1.6548, accuracy: 0.1571
+----------------------------------------
+[Batch 477] pred_ans: 1000.0
+[Batch 477] true_ans: 100
+Current avg_loss: 1.6548, accuracy: 0.1569
+----------------------------------------
+[Batch 478] pred_ans: 2.0
+[Batch 478] true_ans: 1
+Current avg_loss: 1.6546, accuracy: 0.1567
+----------------------------------------
+[Batch 478] pred_ans: 15.0
+[Batch 478] true_ans: 45
+Current avg_loss: 1.6546, accuracy: 0.1566
+----------------------------------------
+[Batch 479] pred_ans: 39.0
+[Batch 479] true_ans: 40
+Current avg_loss: 1.6549, accuracy: 0.1564
+----------------------------------------
+[Batch 479] pred_ans: 8.0
+[Batch 479] true_ans: 7
+Current avg_loss: 1.6549, accuracy: 0.1562
+----------------------------------------
+[Batch 480] pred_ans: 20.0
+[Batch 480] true_ans: 11
+Current avg_loss: 1.6556, accuracy: 0.1561
+----------------------------------------
+[Batch 480] pred_ans: 210.0
+[Batch 480] true_ans: 225
+Current avg_loss: 1.6556, accuracy: 0.1559
+----------------------------------------
+[Batch 481] pred_ans: 600.0
+[Batch 481] true_ans: 1000
+Current avg_loss: 1.6560, accuracy: 0.1558
+----------------------------------------
+[Batch 481] pred_ans: 39.0
+[Batch 481] true_ans: 147
+Current avg_loss: 1.6560, accuracy: 0.1556
+----------------------------------------
+[Batch 482] pred_ans: 200.0
+[Batch 482] true_ans: 200
+Current avg_loss: 1.6553, accuracy: 0.1565
+----------------------------------------
+[Batch 482] pred_ans: 150.0
+[Batch 482] true_ans: 374
+Current avg_loss: 1.6553, accuracy: 0.1563
+----------------------------------------
+[Batch 483] pred_ans: 9.0
+[Batch 483] true_ans: 48
+Current avg_loss: 1.6556, accuracy: 0.1562
+----------------------------------------
+[Batch 483] pred_ans: 41.0
+[Batch 483] true_ans: 30
+Current avg_loss: 1.6556, accuracy: 0.1560
+----------------------------------------
+[Batch 484] pred_ans: 300.0
+[Batch 484] true_ans: 227
+Current avg_loss: 1.6553, accuracy: 0.1558
+----------------------------------------
+[Batch 484] pred_ans: 2400.0
+[Batch 484] true_ans: 1800
+Current avg_loss: 1.6553, accuracy: 0.1557
+----------------------------------------
+[Batch 485] pred_ans: 40.0
+[Batch 485] true_ans: 33
+Current avg_loss: 1.6550, accuracy: 0.1555
+----------------------------------------
+[Batch 485] pred_ans: 300.0
+[Batch 485] true_ans: 100
+Current avg_loss: 1.6550, accuracy: 0.1553
+----------------------------------------
+[Batch 486] pred_ans: 80.0
+[Batch 486] true_ans: 120
+Current avg_loss: 1.6546, accuracy: 0.1552
+----------------------------------------
+[Batch 486] pred_ans: 80.0
+[Batch 486] true_ans: 79
+Current avg_loss: 1.6546, accuracy: 0.1550
+----------------------------------------
+[Batch 487] pred_ans: 2.0
+[Batch 487] true_ans: 5
+Current avg_loss: 1.6546, accuracy: 0.1549
+----------------------------------------
+[Batch 487] pred_ans: 10.0
+[Batch 487] true_ans: 20
+Current avg_loss: 1.6546, accuracy: 0.1547
+----------------------------------------
+[Batch 488] pred_ans: 210.0
+[Batch 488] true_ans: 540
+Current avg_loss: 1.6545, accuracy: 0.1546
+----------------------------------------
+[Batch 488] pred_ans: 4.0
+[Batch 488] true_ans: 4
+Current avg_loss: 1.6545, accuracy: 0.1554
+----------------------------------------
+[Batch 489] pred_ans: 120.0
+[Batch 489] true_ans: 160
+Current avg_loss: 1.6541, accuracy: 0.1553
+----------------------------------------
+[Batch 489] pred_ans: 38.0
+[Batch 489] true_ans: 50
+Current avg_loss: 1.6541, accuracy: 0.1551
+----------------------------------------
+[Batch 490] pred_ans: 70.0
+[Batch 490] true_ans: 90
+Current avg_loss: 1.6543, accuracy: 0.1549
+----------------------------------------
+[Batch 490] pred_ans: 9.0
+[Batch 490] true_ans: 7
+Current avg_loss: 1.6543, accuracy: 0.1548
+----------------------------------------
+[Batch 491] pred_ans: 9.0
+[Batch 491] true_ans: 12
+Current avg_loss: 1.6549, accuracy: 0.1546
+----------------------------------------
+[Batch 491] pred_ans: 7.0
+[Batch 491] true_ans: 15
+Current avg_loss: 1.6549, accuracy: 0.1545
+----------------------------------------
+[Batch 492] pred_ans: 102.0
+[Batch 492] true_ans: 342
+Current avg_loss: 1.6550, accuracy: 0.1543
+----------------------------------------
+[Batch 492] pred_ans: 126.0
+[Batch 492] true_ans: 63
+Current avg_loss: 1.6550, accuracy: 0.1542
+----------------------------------------
+[Batch 493] pred_ans: 75.0
+[Batch 493] true_ans: 70
+Current avg_loss: 1.6546, accuracy: 0.1540
+----------------------------------------
+[Batch 493] pred_ans: 10.0
+[Batch 493] true_ans: 3
+Current avg_loss: 1.6546, accuracy: 0.1538
+----------------------------------------
+[Batch 494] pred_ans: 4.0
+[Batch 494] true_ans: 6
+Current avg_loss: 1.6545, accuracy: 0.1537
+----------------------------------------
+[Batch 494] pred_ans: 20.0
+[Batch 494] true_ans: 45
+Current avg_loss: 1.6545, accuracy: 0.1535
+----------------------------------------
+[Batch 495] pred_ans: 8.0
+[Batch 495] true_ans: 14
+Current avg_loss: 1.6539, accuracy: 0.1534
+----------------------------------------
+[Batch 495] pred_ans: 30.0
+[Batch 495] true_ans: 15
+Current avg_loss: 1.6539, accuracy: 0.1532
+----------------------------------------
+[Batch 496] pred_ans: 20.0
+[Batch 496] true_ans: 52
+Current avg_loss: 1.6543, accuracy: 0.1531
+----------------------------------------
+[Batch 496] pred_ans: 8.0
+[Batch 496] true_ans: 11
+Current avg_loss: 1.6543, accuracy: 0.1529
+----------------------------------------
+[Batch 497] pred_ans: 2.0
+[Batch 497] true_ans: 2
+Current avg_loss: 1.6545, accuracy: 0.1538
+----------------------------------------
+[Batch 497] pred_ans: 12.0
+[Batch 497] true_ans: 12
+Current avg_loss: 1.6545, accuracy: 0.1546
+----------------------------------------
+[Batch 498] pred_ans: 5.0
+[Batch 498] true_ans: 3
+Current avg_loss: 1.6551, accuracy: 0.1545
+----------------------------------------
+[Batch 498] pred_ans: 6000.0
+[Batch 498] true_ans: 6,600
+Current avg_loss: 1.6551, accuracy: 0.1543
+----------------------------------------
+[Batch 499] pred_ans: 50.0
+[Batch 499] true_ans: 50
+Current avg_loss: 1.6549, accuracy: 0.1552
+----------------------------------------
+[Batch 499] pred_ans: 33.33333333333333
+[Batch 499] true_ans: 25
+Current avg_loss: 1.6549, accuracy: 0.1550
+----------------------------------------
+[Batch 500] pred_ans: 3.0
+[Batch 500] true_ans: 1
+Current avg_loss: 1.6551, accuracy: 0.1548
+----------------------------------------
+[Batch 500] pred_ans: 2:00:00
+[Batch 500] true_ans: 2
+Current avg_loss: 1.6551, accuracy: 0.1547
+----------------------------------------
+[Batch 501] pred_ans: 16.0
+[Batch 501] true_ans: 8
+Current avg_loss: 1.6551, accuracy: 0.1545
+----------------------------------------
+[Batch 501] pred_ans: 450.0
+[Batch 501] true_ans: 480
+Current avg_loss: 1.6551, accuracy: 0.1544
+----------------------------------------
+[Batch 502] pred_ans: 2.0
+[Batch 502] true_ans: 8
+Current avg_loss: 1.6542, accuracy: 0.1542
+----------------------------------------
+[Batch 502] pred_ans: 240.0
+[Batch 502] true_ans: 1490
+Current avg_loss: 1.6542, accuracy: 0.1541
+----------------------------------------
+[Batch 503] pred_ans: 1040.0
+[Batch 503] true_ans: 826
+Current avg_loss: 1.6539, accuracy: 0.1539
+----------------------------------------
+[Batch 503] pred_ans: 23.0
+[Batch 503] true_ans: 34
+Current avg_loss: 1.6539, accuracy: 0.1538
+----------------------------------------
+[Batch 504] pred_ans: 100.0
+[Batch 504] true_ans: 230
+Current avg_loss: 1.6535, accuracy: 0.1536
+----------------------------------------
+[Batch 504] pred_ans: 1500.0
+[Batch 504] true_ans: 1,875
+Current avg_loss: 1.6535, accuracy: 0.1535
+----------------------------------------
+[Batch 505] pred_ans: 8.0
+[Batch 505] true_ans: 5
+Current avg_loss: 1.6530, accuracy: 0.1533
+----------------------------------------
+[Batch 505] pred_ans: 9000.0
+[Batch 505] true_ans: 6000
+Current avg_loss: 1.6530, accuracy: 0.1532
+----------------------------------------
+[Batch 506] pred_ans: 80.0
+[Batch 506] true_ans: 94
+Current avg_loss: 1.6532, accuracy: 0.1530
+----------------------------------------
+[Batch 506] pred_ans: 40.0
+[Batch 506] true_ans: 2
+Current avg_loss: 1.6532, accuracy: 0.1529
+----------------------------------------
+[Batch 507] pred_ans: 5.0
+[Batch 507] true_ans: 3
+Current avg_loss: 1.6533, accuracy: 0.1527
+----------------------------------------
+[Batch 507] pred_ans: 12.0
+[Batch 507] true_ans: 78
+Current avg_loss: 1.6533, accuracy: 0.1526
+----------------------------------------
+[Batch 508] pred_ans: 146
+[Batch 508] true_ans: 138
+Current avg_loss: 1.6538, accuracy: 0.1524
+----------------------------------------
+[Batch 508] pred_ans: 18.0
+[Batch 508] true_ans: 45
+Current avg_loss: 1.6538, accuracy: 0.1523
+----------------------------------------
+[Batch 509] pred_ans: 60.0
+[Batch 509] true_ans: 60
+Current avg_loss: 1.6541, accuracy: 0.1531
+----------------------------------------
+[Batch 509] pred_ans: 146.0
+[Batch 509] true_ans: 98
+Current avg_loss: 1.6541, accuracy: 0.1529
+----------------------------------------
+[Batch 510] pred_ans: 20.0
+[Batch 510] true_ans: 22
+Current avg_loss: 1.6539, accuracy: 0.1528
+----------------------------------------
+[Batch 510] pred_ans: 30.0
+[Batch 510] true_ans: 36
+Current avg_loss: 1.6539, accuracy: 0.1526
+----------------------------------------
+[Batch 511] pred_ans: 20.0
+[Batch 511] true_ans: 12
+Current avg_loss: 1.6532, accuracy: 0.1525
+----------------------------------------
+[Batch 511] pred_ans: 140.0
+[Batch 511] true_ans: 77
+Current avg_loss: 1.6532, accuracy: 0.1523
+----------------------------------------
+[Batch 512] pred_ans: 100.0
+[Batch 512] true_ans: 300
+Current avg_loss: 1.6536, accuracy: 0.1522
+----------------------------------------
+[Batch 512] pred_ans: 40.0
+[Batch 512] true_ans: 30
+Current avg_loss: 1.6536, accuracy: 0.1520
+----------------------------------------
+[Batch 513] pred_ans: 144000.0
+[Batch 513] true_ans: 43200
+Current avg_loss: 1.6535, accuracy: 0.1519
+----------------------------------------
+[Batch 513] pred_ans: 12.0
+[Batch 513] true_ans: 12
+Current avg_loss: 1.6535, accuracy: 0.1527
+----------------------------------------
+[Batch 514] pred_ans: 250.0
+[Batch 514] true_ans: 200
+Current avg_loss: 1.6538, accuracy: 0.1526
+----------------------------------------
+[Batch 514] pred_ans: 39.0
+[Batch 514] true_ans: 34
+Current avg_loss: 1.6538, accuracy: 0.1524
+----------------------------------------
+[Batch 515] pred_ans: 0.2
+[Batch 515] true_ans: 24
+Current avg_loss: 1.6544, accuracy: 0.1523
+----------------------------------------
+[Batch 515] pred_ans: 3750.0
+[Batch 515] true_ans: 5
+Current avg_loss: 1.6544, accuracy: 0.1521
+----------------------------------------
+[Batch 516] pred_ans: 150.0
+[Batch 516] true_ans: 450
+Current avg_loss: 1.6544, accuracy: 0.1520
+----------------------------------------
+[Batch 516] pred_ans: 12.0
+[Batch 516] true_ans: 2
+Current avg_loss: 1.6544, accuracy: 0.1518
+----------------------------------------
+[Batch 517] pred_ans: 96.0
+[Batch 517] true_ans: 66
+Current avg_loss: 1.6552, accuracy: 0.1517
+----------------------------------------
+[Batch 517] pred_ans: 120.0
+[Batch 517] true_ans: 35
+Current avg_loss: 1.6552, accuracy: 0.1515
+----------------------------------------
+[Batch 518] pred_ans: 5.0
+[Batch 518] true_ans: 10
+Current avg_loss: 1.6556, accuracy: 0.1514
+----------------------------------------
+[Batch 518] pred_ans: 4.0
+[Batch 518] true_ans: 10
+Current avg_loss: 1.6556, accuracy: 0.1513
+----------------------------------------
+[Batch 519] pred_ans: 4.0
+[Batch 519] true_ans: 4
+Current avg_loss: 1.6558, accuracy: 0.1521
+----------------------------------------
+[Batch 519] pred_ans: 144.0
+[Batch 519] true_ans: 160
+Current avg_loss: 1.6558, accuracy: 0.1519
+----------------------------------------
+[Batch 520] pred_ans: 477.0
+[Batch 520] true_ans: 736
+Current avg_loss: 1.6555, accuracy: 0.1518
+----------------------------------------
+[Batch 520] pred_ans: 130.0
+[Batch 520] true_ans: 101
+Current avg_loss: 1.6555, accuracy: 0.1516
+----------------------------------------
+[Batch 521] pred_ans: 0.0
+[Batch 521] true_ans: 3
+Current avg_loss: 1.6553, accuracy: 0.1515
+----------------------------------------
+[Batch 521] pred_ans: 1300000.0
+[Batch 521] true_ans: 130000
+Current avg_loss: 1.6553, accuracy: 0.1513
+----------------------------------------
+[Batch 522] pred_ans: 2.0
+[Batch 522] true_ans: 1
+Current avg_loss: 1.6552, accuracy: 0.1512
+----------------------------------------
+[Batch 522] pred_ans: 640.0
+[Batch 522] true_ans: 420
+Current avg_loss: 1.6552, accuracy: 0.1511
+----------------------------------------
+[Batch 523] pred_ans: 36.0
+[Batch 523] true_ans: 189
+Current avg_loss: 1.6550, accuracy: 0.1509
+----------------------------------------
+[Batch 523] pred_ans: 8.0
+[Batch 523] true_ans: 10
+Current avg_loss: 1.6550, accuracy: 0.1508
+----------------------------------------
+[Batch 524] pred_ans: 10000.0
+[Batch 524] true_ans: 7400
+Current avg_loss: 1.6544, accuracy: 0.1506
+----------------------------------------
+[Batch 524] pred_ans: 15.0
+[Batch 524] true_ans: 20
+Current avg_loss: 1.6544, accuracy: 0.1505
+----------------------------------------
+[Batch 525] pred_ans: 1630.0
+[Batch 525] true_ans: 655
+Current avg_loss: 1.6539, accuracy: 0.1503
+----------------------------------------
+[Batch 525] pred_ans: 4.0
+[Batch 525] true_ans: 15
+Current avg_loss: 1.6539, accuracy: 0.1502
+----------------------------------------
+[Batch 526] pred_ans: 200.0
+[Batch 526] true_ans: 110
+Current avg_loss: 1.6540, accuracy: 0.1500
+----------------------------------------
+[Batch 526] pred_ans: 47.0
+[Batch 526] true_ans: 55
+Current avg_loss: 1.6540, accuracy: 0.1499
+----------------------------------------
+[Batch 527] pred_ans: 2400.0
+[Batch 527] true_ans: 2400
+Current avg_loss: 1.6544, accuracy: 0.1507
+----------------------------------------
+[Batch 527] pred_ans: 1440.0
+[Batch 527] true_ans: 2304
+Current avg_loss: 1.6544, accuracy: 0.1506
+----------------------------------------
+[Batch 528] pred_ans: 52.0
+[Batch 528] true_ans: 156
+Current avg_loss: 1.6544, accuracy: 0.1504
+----------------------------------------
+[Batch 528] pred_ans: 48.0
+[Batch 528] true_ans: 24
+Current avg_loss: 1.6544, accuracy: 0.1503
+----------------------------------------
+[Batch 529] pred_ans: 200.0
+[Batch 529] true_ans: 250
+Current avg_loss: 1.6538, accuracy: 0.1501
+----------------------------------------
+[Batch 529] pred_ans: 4.0
+[Batch 529] true_ans: 2
+Current avg_loss: 1.6538, accuracy: 0.1500
+----------------------------------------
+[Batch 530] pred_ans: 32.0
+[Batch 530] true_ans: 31
+Current avg_loss: 1.6536, accuracy: 0.1499
+----------------------------------------
+[Batch 530] pred_ans: 58.0
+[Batch 530] true_ans: 58
+Current avg_loss: 1.6536, accuracy: 0.1507
+----------------------------------------
+[Batch 531] pred_ans: 1000.0
+[Batch 531] true_ans: 482
+Current avg_loss: 1.6536, accuracy: 0.1505
+----------------------------------------
+[Batch 531] pred_ans: 1200.0
+[Batch 531] true_ans: 320
+Current avg_loss: 1.6536, accuracy: 0.1504
+----------------------------------------
+[Batch 532] pred_ans: 225.0
+[Batch 532] true_ans: 247
+Current avg_loss: 1.6530, accuracy: 0.1502
+----------------------------------------
+[Batch 532] pred_ans: 90.0
+[Batch 532] true_ans: 95
+Current avg_loss: 1.6530, accuracy: 0.1501
+----------------------------------------
+[Batch 533] pred_ans: 10.0
+[Batch 533] true_ans: 14
+Current avg_loss: 1.6527, accuracy: 0.1500
+----------------------------------------
+[Batch 533] pred_ans: 1400.0
+[Batch 533] true_ans: 245
+Current avg_loss: 1.6527, accuracy: 0.1498
+----------------------------------------
+[Batch 534] pred_ans: 36.0
+[Batch 534] true_ans: 24
+Current avg_loss: 1.6537, accuracy: 0.1497
+----------------------------------------
+[Batch 534] pred_ans: 80.0
+[Batch 534] true_ans: 300
+Current avg_loss: 1.6537, accuracy: 0.1495
+----------------------------------------
+[Batch 535] pred_ans: 24.0
+[Batch 535] true_ans: 18
+Current avg_loss: 1.6536, accuracy: 0.1494
+----------------------------------------
+[Batch 535] pred_ans: 200.0
+[Batch 535] true_ans: 251
+Current avg_loss: 1.6536, accuracy: 0.1493
+----------------------------------------
+[Batch 536] pred_ans: 120.0
+[Batch 536] true_ans: 85
+Current avg_loss: 1.6537, accuracy: 0.1491
+----------------------------------------
+[Batch 536] pred_ans: 5.0
+[Batch 536] true_ans: 21
+Current avg_loss: 1.6537, accuracy: 0.1490
+----------------------------------------
+[Batch 537] pred_ans: 1000.0
+[Batch 537] true_ans: 750
+Current avg_loss: 1.6542, accuracy: 0.1488
+----------------------------------------
+[Batch 537] pred_ans: 5.0
+[Batch 537] true_ans: 16
+Current avg_loss: 1.6542, accuracy: 0.1487
+----------------------------------------
+[Batch 538] pred_ans: 200.0
+[Batch 538] true_ans: 162
+Current avg_loss: 1.6534, accuracy: 0.1486
+----------------------------------------
+[Batch 538] pred_ans: 40.0
+[Batch 538] true_ans: 145
+Current avg_loss: 1.6534, accuracy: 0.1484
+----------------------------------------
+[Batch 539] pred_ans: 2.0
+[Batch 539] true_ans: 8
+Current avg_loss: 1.6536, accuracy: 0.1483
+----------------------------------------
+[Batch 539] pred_ans: 40.0
+[Batch 539] true_ans: 10
+Current avg_loss: 1.6536, accuracy: 0.1481
+----------------------------------------
+[Batch 540] pred_ans: 720.0
+[Batch 540] true_ans: 72000
+Current avg_loss: 1.6542, accuracy: 0.1480
+----------------------------------------
+[Batch 540] pred_ans: 180.0
+[Batch 540] true_ans: 195
+Current avg_loss: 1.6542, accuracy: 0.1479
+----------------------------------------
+[Batch 541] pred_ans: 1.0
+[Batch 541] true_ans: 2
+Current avg_loss: 1.6538, accuracy: 0.1477
+----------------------------------------
+[Batch 541] pred_ans: 2.0
+[Batch 541] true_ans: 2
+Current avg_loss: 1.6538, accuracy: 0.1485
+----------------------------------------
+[Batch 542] pred_ans: 20.0
+[Batch 542] true_ans: 20
+Current avg_loss: 1.6538, accuracy: 0.1493
+----------------------------------------
+[Batch 542] pred_ans: 52.0
+[Batch 542] true_ans: 26
+Current avg_loss: 1.6538, accuracy: 0.1492
+----------------------------------------
+[Batch 543] pred_ans: 120000.0
+[Batch 543] true_ans: 131250
+Current avg_loss: 1.6536, accuracy: 0.1490
+----------------------------------------
+[Batch 543] pred_ans: 12.0
+[Batch 543] true_ans: 12
+Current avg_loss: 1.6536, accuracy: 0.1498
+----------------------------------------
+[Batch 544] pred_ans: 20.0
+[Batch 544] true_ans: 30
+Current avg_loss: 1.6540, accuracy: 0.1497
+----------------------------------------
+[Batch 544] pred_ans: 8.0
+[Batch 544] true_ans: 32
+Current avg_loss: 1.6540, accuracy: 0.1495
+----------------------------------------
+[Batch 545] pred_ans: 69.0
+[Batch 545] true_ans: 72
+Current avg_loss: 1.6533, accuracy: 0.1494
+----------------------------------------
+[Batch 545] pred_ans: 10000.0
+[Batch 545] true_ans: 1000
+Current avg_loss: 1.6533, accuracy: 0.1493
+----------------------------------------
+[Batch 546] pred_ans: 540.0
+[Batch 546] true_ans: 1080
+Current avg_loss: 1.6532, accuracy: 0.1491
+----------------------------------------
+[Batch 546] pred_ans: 96.0
+[Batch 546] true_ans: 144
+Current avg_loss: 1.6532, accuracy: 0.1490
+----------------------------------------
+[Batch 547] pred_ans: 25.0
+[Batch 547] true_ans: 25
+Current avg_loss: 1.6533, accuracy: 0.1498
+----------------------------------------
+[Batch 547] pred_ans: 180.0
+[Batch 547] true_ans: 270
+Current avg_loss: 1.6533, accuracy: 0.1496
+----------------------------------------
+[Batch 548] pred_ans: 120.0
+[Batch 548] true_ans: 240
+Current avg_loss: 1.6535, accuracy: 0.1495
+----------------------------------------
+[Batch 548] pred_ans: 105.0
+[Batch 548] true_ans: 480
+Current avg_loss: 1.6535, accuracy: 0.1494
+----------------------------------------
+[Batch 549] pred_ans: 34.0
+[Batch 549] true_ans: 30
+Current avg_loss: 1.6531, accuracy: 0.1492
+----------------------------------------
+[Batch 549] pred_ans: 2.0
+[Batch 549] true_ans: 2
+Current avg_loss: 1.6531, accuracy: 0.1500
+----------------------------------------
+[Batch 550] pred_ans: 5.0
+[Batch 550] true_ans: 5
+Current avg_loss: 1.6535, accuracy: 0.1508
+----------------------------------------
+[Batch 550] pred_ans: 40.0
+[Batch 550] true_ans: 16
+Current avg_loss: 1.6535, accuracy: 0.1506
+----------------------------------------
+[Batch 551] pred_ans: 100.0
+[Batch 551] true_ans: 113
+Current avg_loss: 1.6533, accuracy: 0.1505
+----------------------------------------
+[Batch 551] pred_ans: 30.0
+[Batch 551] true_ans: 90
+Current avg_loss: 1.6533, accuracy: 0.1504
+----------------------------------------
+[Batch 552] pred_ans: 12.0
+[Batch 552] true_ans: 24
+Current avg_loss: 1.6534, accuracy: 0.1502
+----------------------------------------
+[Batch 552] pred_ans: 2.0
+[Batch 552] true_ans: 40
+Current avg_loss: 1.6534, accuracy: 0.1501
+----------------------------------------
+[Batch 553] pred_ans: 5.0
+[Batch 553] true_ans: 5
+Current avg_loss: 1.6533, accuracy: 0.1509
+----------------------------------------
+[Batch 553] pred_ans: 360.0
+[Batch 553] true_ans: 360
+Current avg_loss: 1.6533, accuracy: 0.1516
+----------------------------------------
+[Batch 554] pred_ans: 38.0
+[Batch 554] true_ans: 38
+Current avg_loss: 1.6533, accuracy: 0.1524
+----------------------------------------
+[Batch 554] pred_ans: 3.0
+[Batch 554] true_ans: 3
+Current avg_loss: 1.6533, accuracy: 0.1532
+----------------------------------------
+[Batch 555] pred_ans: 125.0
+[Batch 555] true_ans: 60
+Current avg_loss: 1.6538, accuracy: 0.1530
+----------------------------------------
+[Batch 555] pred_ans: 300.0
+[Batch 555] true_ans: 157
+Current avg_loss: 1.6538, accuracy: 0.1529
+----------------------------------------
+[Batch 556] pred_ans: 2.0
+[Batch 556] true_ans: 5
+Current avg_loss: 1.6537, accuracy: 0.1527
+----------------------------------------
+[Batch 556] pred_ans: 3.0
+[Batch 556] true_ans: -3
+Current avg_loss: 1.6537, accuracy: 0.1526
+----------------------------------------
+[Batch 557] pred_ans: 8.0
+[Batch 557] true_ans: 8
+Current avg_loss: 1.6537, accuracy: 0.1534
+----------------------------------------
+[Batch 557] pred_ans: 4.0
+[Batch 557] true_ans: 5
+Current avg_loss: 1.6537, accuracy: 0.1532
+----------------------------------------
+[Batch 558] pred_ans: 60.0
+[Batch 558] true_ans: 60
+Current avg_loss: 1.6531, accuracy: 0.1540
+----------------------------------------
+[Batch 558] pred_ans: 7.5
+[Batch 558] true_ans: 9
+Current avg_loss: 1.6531, accuracy: 0.1538
+----------------------------------------
+[Batch 559] pred_ans: 4.0
+[Batch 559] true_ans: 5
+Current avg_loss: 1.6529, accuracy: 0.1537
+----------------------------------------
+[Batch 559] pred_ans: 14.0
+[Batch 559] true_ans: 18
+Current avg_loss: 1.6529, accuracy: 0.1536
+----------------------------------------
+[Batch 560] pred_ans: 2800.0
+[Batch 560] true_ans: 560
+Current avg_loss: 1.6528, accuracy: 0.1534
+----------------------------------------
+[Batch 560] pred_ans: 70.0
+[Batch 560] true_ans: 35
+Current avg_loss: 1.6528, accuracy: 0.1533
+----------------------------------------
+[Batch 561] pred_ans: 2.0
+[Batch 561] true_ans: 18
+Current avg_loss: 1.6525, accuracy: 0.1532
+----------------------------------------
+[Batch 561] pred_ans: 90.0
+[Batch 561] true_ans: 105
+Current avg_loss: 1.6525, accuracy: 0.1530
+----------------------------------------
+[Batch 562] pred_ans: 28.0
+[Batch 562] true_ans: 64
+Current avg_loss: 1.6529, accuracy: 0.1529
+----------------------------------------
+[Batch 562] pred_ans: 180.0
+[Batch 562] true_ans: 90
+Current avg_loss: 1.6529, accuracy: 0.1528
+----------------------------------------
+[Batch 563] pred_ans: 5.0
+[Batch 563] true_ans: 50
+Current avg_loss: 1.6527, accuracy: 0.1526
+----------------------------------------
+[Batch 563] pred_ans: 300.0
+[Batch 563] true_ans: 750
+Current avg_loss: 1.6527, accuracy: 0.1525
+----------------------------------------
+[Batch 564] pred_ans: 8.0
+[Batch 564] true_ans: 9
+Current avg_loss: 1.6527, accuracy: 0.1523
+----------------------------------------
+[Batch 564] pred_ans: 4.0
+[Batch 564] true_ans: 8
+Current avg_loss: 1.6527, accuracy: 0.1522
+----------------------------------------
+[Batch 565] pred_ans: 25.0
+[Batch 565] true_ans: 25
+Current avg_loss: 1.6528, accuracy: 0.1530
+----------------------------------------
+[Batch 565] pred_ans: 288.0
+[Batch 565] true_ans: 96
+Current avg_loss: 1.6528, accuracy: 0.1528
+----------------------------------------
+[Batch 566] pred_ans: 20000.0
+[Batch 566] true_ans: 45000
+Current avg_loss: 1.6526, accuracy: 0.1527
+----------------------------------------
+[Batch 566] pred_ans: 60.0
+[Batch 566] true_ans: 50
+Current avg_loss: 1.6526, accuracy: 0.1526
+----------------------------------------
+[Batch 567] pred_ans: 4.0
+[Batch 567] true_ans: 7
+Current avg_loss: 1.6521, accuracy: 0.1524
+----------------------------------------
+[Batch 567] pred_ans: 28.0
+[Batch 567] true_ans: 32
+Current avg_loss: 1.6521, accuracy: 0.1523
+----------------------------------------
+[Batch 568] pred_ans: 50.0
+[Batch 568] true_ans: 26
+Current avg_loss: 1.6519, accuracy: 0.1522
+----------------------------------------
+[Batch 568] pred_ans: 47.0
+[Batch 568] true_ans: 68
+Current avg_loss: 1.6519, accuracy: 0.1520
+----------------------------------------
+[Batch 569] pred_ans: 250.0
+[Batch 569] true_ans: 700
+Current avg_loss: 1.6525, accuracy: 0.1519
+----------------------------------------
+[Batch 569] pred_ans: 1.0
+[Batch 569] true_ans: 1
+Current avg_loss: 1.6525, accuracy: 0.1526
+----------------------------------------
+[Batch 570] pred_ans: 9.0
+[Batch 570] true_ans: 27
+Current avg_loss: 1.6526, accuracy: 0.1525
+----------------------------------------
+[Batch 570] pred_ans: 60.0
+[Batch 570] true_ans: 20
+Current avg_loss: 1.6526, accuracy: 0.1524
+----------------------------------------
+[Batch 571] pred_ans: 26.0
+[Batch 571] true_ans: 9
+Current avg_loss: 1.6523, accuracy: 0.1522
+----------------------------------------
+[Batch 571] pred_ans: 1800.0
+[Batch 571] true_ans: 300
+Current avg_loss: 1.6523, accuracy: 0.1521
+----------------------------------------
+[Batch 572] pred_ans: 39.0
+[Batch 572] true_ans: 34
+Current avg_loss: 1.6521, accuracy: 0.1520
+----------------------------------------
+[Batch 572] pred_ans: 144.0
+[Batch 572] true_ans: 291
+Current avg_loss: 1.6521, accuracy: 0.1518
+----------------------------------------
+[Batch 573] pred_ans: 20.0
+[Batch 573] true_ans: 16
+Current avg_loss: 1.6519, accuracy: 0.1517
+----------------------------------------
+[Batch 573] pred_ans: 8.0
+[Batch 573] true_ans: 22
+Current avg_loss: 1.6519, accuracy: 0.1516
+----------------------------------------
+[Batch 574] pred_ans: 3.0
+[Batch 574] true_ans: 9
+Current avg_loss: 1.6525, accuracy: 0.1514
+----------------------------------------
+[Batch 574] pred_ans: 30.0
+[Batch 574] true_ans: 93
+Current avg_loss: 1.6525, accuracy: 0.1513
+----------------------------------------
+[Batch 575] pred_ans: 41.0
+[Batch 575] true_ans: 21
+Current avg_loss: 1.6525, accuracy: 0.1512
+----------------------------------------
+[Batch 575] pred_ans: 20.0
+[Batch 575] true_ans: 50
+Current avg_loss: 1.6525, accuracy: 0.1510
+----------------------------------------
+[Batch 576] pred_ans: 0.0
+[Batch 576] true_ans: 12
+Current avg_loss: 1.6525, accuracy: 0.1509
+----------------------------------------
+[Batch 576] pred_ans: 9.0
+[Batch 576] true_ans: 20
+Current avg_loss: 1.6525, accuracy: 0.1508
+----------------------------------------
+[Batch 577] pred_ans: 22.0
+[Batch 577] true_ans: 30
+Current avg_loss: 1.6524, accuracy: 0.1506
+----------------------------------------
+[Batch 577] pred_ans: 10.0
+[Batch 577] true_ans: 13
+Current avg_loss: 1.6524, accuracy: 0.1505
+----------------------------------------
+[Batch 578] pred_ans: 40.0
+[Batch 578] true_ans: 120
+Current avg_loss: 1.6524, accuracy: 0.1504
+----------------------------------------
+[Batch 578] pred_ans: 3.0
+[Batch 578] true_ans: 3
+Current avg_loss: 1.6524, accuracy: 0.1511
+----------------------------------------
+[Batch 579] pred_ans: 4200.0
+[Batch 579] true_ans: 7300
+Current avg_loss: 1.6532, accuracy: 0.1510
+----------------------------------------
+[Batch 579] pred_ans: 75.0
+[Batch 579] true_ans: 50
+Current avg_loss: 1.6532, accuracy: 0.1509
+----------------------------------------
+[Batch 580] pred_ans: 1205.0
+[Batch 580] true_ans: 1125
+Current avg_loss: 1.6531, accuracy: 0.1507
+----------------------------------------
+[Batch 580] pred_ans: 1200.0
+[Batch 580] true_ans: 170
+Current avg_loss: 1.6531, accuracy: 0.1506
+----------------------------------------
+[Batch 581] pred_ans: 8.0
+[Batch 581] true_ans: 3
+Current avg_loss: 1.6534, accuracy: 0.1505
+----------------------------------------
+[Batch 581] pred_ans: 6.0
+[Batch 581] true_ans: 12
+Current avg_loss: 1.6534, accuracy: 0.1503
+----------------------------------------
+[Batch 582] pred_ans: 42.0
+[Batch 582] true_ans: 9
+Current avg_loss: 1.6536, accuracy: 0.1502
+----------------------------------------
+[Batch 582] pred_ans: 1440.0
+[Batch 582] true_ans: 1248
+Current avg_loss: 1.6536, accuracy: 0.1501
+----------------------------------------
+[Batch 583] pred_ans: 1000.0
+[Batch 583] true_ans: 2350
+Current avg_loss: 1.6533, accuracy: 0.1500
+----------------------------------------
+[Batch 583] pred_ans: 60.0
+[Batch 583] true_ans: 120
+Current avg_loss: 1.6533, accuracy: 0.1498
+----------------------------------------
+[Batch 584] pred_ans: 20.0
+[Batch 584] true_ans: 20
+Current avg_loss: 1.6533, accuracy: 0.1506
+----------------------------------------
+[Batch 584] pred_ans: 2.0
+[Batch 584] true_ans: 2
+Current avg_loss: 1.6533, accuracy: 0.1513
+----------------------------------------
+[Batch 585] pred_ans: 4.0
+[Batch 585] true_ans: 2
+Current avg_loss: 1.6528, accuracy: 0.1512
+----------------------------------------
+[Batch 585] pred_ans: 2000.0
+[Batch 585] true_ans: 3160
+Current avg_loss: 1.6528, accuracy: 0.1510
+----------------------------------------
+[Batch 586] pred_ans: 31.0
+[Batch 586] true_ans: 93
+Current avg_loss: 1.6532, accuracy: 0.1509
+----------------------------------------
+[Batch 586] pred_ans: 8.0
+[Batch 586] true_ans: 10
+Current avg_loss: 1.6532, accuracy: 0.1508
+----------------------------------------
+[Batch 587] pred_ans: 1000.0
+[Batch 587] true_ans: 240
+Current avg_loss: 1.6528, accuracy: 0.1506
+----------------------------------------
+[Batch 587] pred_ans: 14.0
+[Batch 587] true_ans: 16
+Current avg_loss: 1.6528, accuracy: 0.1505
+----------------------------------------
+[Batch 588] pred_ans: 2.0
+[Batch 588] true_ans: 2
+Current avg_loss: 1.6527, accuracy: 0.1512
+----------------------------------------
+[Batch 588] pred_ans: 12.0
+[Batch 588] true_ans: 17
+Current avg_loss: 1.6527, accuracy: 0.1511
+----------------------------------------
+[Batch 589] pred_ans: 19.0
+[Batch 589] true_ans: 17
+Current avg_loss: 1.6531, accuracy: 0.1510
+----------------------------------------
+[Batch 589] pred_ans: 40.0
+[Batch 589] true_ans: 50
+Current avg_loss: 1.6531, accuracy: 0.1508
+----------------------------------------
+[Batch 590] pred_ans: 280.0
+[Batch 590] true_ans: 5600
+Current avg_loss: 1.6535, accuracy: 0.1507
+----------------------------------------
+[Batch 590] pred_ans: 5.0
+[Batch 590] true_ans: 20
+Current avg_loss: 1.6535, accuracy: 0.1506
+----------------------------------------
+[Batch 591] pred_ans: 100.0
+[Batch 591] true_ans: 1800
+Current avg_loss: 1.6533, accuracy: 0.1505
+----------------------------------------
+[Batch 591] pred_ans: 8.0
+[Batch 591] true_ans: 11
+Current avg_loss: 1.6533, accuracy: 0.1503
+----------------------------------------
+[Batch 592] pred_ans: 12600.0
+[Batch 592] true_ans: 306
+Current avg_loss: 1.6535, accuracy: 0.1502
+----------------------------------------
+[Batch 592] pred_ans: 2.0
+[Batch 592] true_ans: 6
+Current avg_loss: 1.6535, accuracy: 0.1501
+----------------------------------------
+[Batch 593] pred_ans: 21.0
+[Batch 593] true_ans: 19
+Current avg_loss: 1.6530, accuracy: 0.1500
+----------------------------------------
+[Batch 593] pred_ans: 2.0
+[Batch 593] true_ans: 5
+Current avg_loss: 1.6530, accuracy: 0.1498
+----------------------------------------
+[Batch 594] pred_ans: 14.0
+[Batch 594] true_ans: 24
+Current avg_loss: 1.6533, accuracy: 0.1497
+----------------------------------------
+[Batch 594] pred_ans: 3.0
+[Batch 594] true_ans: 6
+Current avg_loss: 1.6533, accuracy: 0.1496
+----------------------------------------
+[Batch 595] pred_ans: 82.0
+[Batch 595] true_ans: 19
+Current avg_loss: 1.6530, accuracy: 0.1495
+----------------------------------------
+[Batch 595] pred_ans: 100.0
+[Batch 595] true_ans: 100
+Current avg_loss: 1.6530, accuracy: 0.1502
+----------------------------------------
+[Batch 596] pred_ans: 450.0
+[Batch 596] true_ans: 280
+Current avg_loss: 1.6532, accuracy: 0.1500
+----------------------------------------
+[Batch 596] pred_ans: 8.0
+[Batch 596] true_ans: 9
+Current avg_loss: 1.6532, accuracy: 0.1499
+----------------------------------------
+[Batch 597] pred_ans: 1200.0
+[Batch 597] true_ans: 1200
+Current avg_loss: 1.6536, accuracy: 0.1506
+----------------------------------------
+[Batch 597] pred_ans: 230.0
+[Batch 597] true_ans: 320
+Current avg_loss: 1.6536, accuracy: 0.1505
+----------------------------------------
+[Batch 598] pred_ans: 40.0
+[Batch 598] true_ans: 75
+Current avg_loss: 1.6536, accuracy: 0.1504
+----------------------------------------
+[Batch 598] pred_ans: 1200.0
+[Batch 598] true_ans: 2400
+Current avg_loss: 1.6536, accuracy: 0.1503
+----------------------------------------
+[Batch 599] pred_ans: 80.0
+[Batch 599] true_ans: 140
+Current avg_loss: 1.6541, accuracy: 0.1501
+----------------------------------------
+[Batch 599] pred_ans: 2.0
+[Batch 599] true_ans: 2
+Current avg_loss: 1.6541, accuracy: 0.1508
+----------------------------------------
+[Batch 600] pred_ans: 10.0
+[Batch 600] true_ans: 8
+Current avg_loss: 1.6536, accuracy: 0.1507
+----------------------------------------
+[Batch 600] pred_ans: 33.0
+[Batch 600] true_ans: 42
+Current avg_loss: 1.6536, accuracy: 0.1506
+----------------------------------------
+[Batch 601] pred_ans: 15.0
+[Batch 601] true_ans: 19
+Current avg_loss: 1.6538, accuracy: 0.1505
+----------------------------------------
+[Batch 601] pred_ans: 420.0
+[Batch 601] true_ans: 240
+Current avg_loss: 1.6538, accuracy: 0.1503
+----------------------------------------
+[Batch 602] pred_ans: 140.0
+[Batch 602] true_ans: 168
+Current avg_loss: 1.6539, accuracy: 0.1502
+----------------------------------------
+[Batch 602] pred_ans: 2.0
+[Batch 602] true_ans: 4
+Current avg_loss: 1.6539, accuracy: 0.1501
+----------------------------------------
+[Batch 603] pred_ans: 150000.0
+[Batch 603] true_ans: 40,000
+Current avg_loss: 1.6538, accuracy: 0.1500
+----------------------------------------
+[Batch 603] pred_ans: 104.0
+[Batch 603] true_ans: 64
+Current avg_loss: 1.6538, accuracy: 0.1498
+----------------------------------------
+[Batch 604] pred_ans: 9.0
+[Batch 604] true_ans: 27
+Current avg_loss: 1.6531, accuracy: 0.1497
+----------------------------------------
+[Batch 604] pred_ans: 39.0
+[Batch 604] true_ans: 29
+Current avg_loss: 1.6531, accuracy: 0.1496
+----------------------------------------
+[Batch 605] pred_ans: 288.0
+[Batch 605] true_ans: 288
+Current avg_loss: 1.6535, accuracy: 0.1503
+----------------------------------------
+[Batch 605] pred_ans: 112.0
+[Batch 605] true_ans: 448
+Current avg_loss: 1.6535, accuracy: 0.1502
+----------------------------------------
+[Batch 606] pred_ans: 240.0
+[Batch 606] true_ans: 150
+Current avg_loss: 1.6537, accuracy: 0.1500
+----------------------------------------
+[Batch 606] pred_ans: 50.0
+[Batch 606] true_ans: 31
+Current avg_loss: 1.6537, accuracy: 0.1499
+----------------------------------------
+[Batch 607] pred_ans: 5.0
+[Batch 607] true_ans: 5
+Current avg_loss: 1.6539, accuracy: 0.1506
+----------------------------------------
+[Batch 607] pred_ans: 0.0
+[Batch 607] true_ans: 36
+Current avg_loss: 1.6539, accuracy: 0.1505
+----------------------------------------
+[Batch 608] pred_ans: 80.0
+[Batch 608] true_ans: 20
+Current avg_loss: 1.6539, accuracy: 0.1504
+----------------------------------------
+[Batch 608] pred_ans: 96.0
+[Batch 608] true_ans: 75
+Current avg_loss: 1.6539, accuracy: 0.1502
+----------------------------------------
+[Batch 609] pred_ans: 7.5
+[Batch 609] true_ans: 225
+Current avg_loss: 1.6543, accuracy: 0.1501
+----------------------------------------
+[Batch 609] pred_ans: 100.0
+[Batch 609] true_ans: 100
+Current avg_loss: 1.6543, accuracy: 0.1508
+----------------------------------------
+[Batch 610] pred_ans: 32.0
+[Batch 610] true_ans: 32
+Current avg_loss: 1.6541, accuracy: 0.1515
+----------------------------------------
+[Batch 610] pred_ans: 4.0
+[Batch 610] true_ans: 10
+Current avg_loss: 1.6541, accuracy: 0.1514
+----------------------------------------
+[Batch 611] pred_ans: 350.0
+[Batch 611] true_ans: 350
+Current avg_loss: 1.6541, accuracy: 0.1521
+----------------------------------------
+[Batch 611] pred_ans: 9.0
+[Batch 611] true_ans: 8
+Current avg_loss: 1.6541, accuracy: 0.1520
+----------------------------------------
+[Batch 612] pred_ans: 6.0
+[Batch 612] true_ans: 5
+Current avg_loss: 1.6540, accuracy: 0.1518
+----------------------------------------
+[Batch 612] pred_ans: 6.0
+[Batch 612] true_ans: 3
+Current avg_loss: 1.6540, accuracy: 0.1517
+----------------------------------------
+[Batch 613] pred_ans: 125.0
+[Batch 613] true_ans: 90
+Current avg_loss: 1.6543, accuracy: 0.1516
+----------------------------------------
+[Batch 613] pred_ans: 20.0
+[Batch 613] true_ans: 66
+Current avg_loss: 1.6543, accuracy: 0.1515
+----------------------------------------
+[Batch 614] pred_ans: 9.0
+[Batch 614] true_ans: 31
+Current avg_loss: 1.6540, accuracy: 0.1513
+----------------------------------------
+[Batch 614] pred_ans: 28.0
+[Batch 614] true_ans: 36
+Current avg_loss: 1.6540, accuracy: 0.1512
+----------------------------------------
+[Batch 615] pred_ans: 320.0
+[Batch 615] true_ans: 440
+Current avg_loss: 1.6539, accuracy: 0.1511
+----------------------------------------
+[Batch 615] pred_ans: 69.0
+[Batch 615] true_ans: 70
+Current avg_loss: 1.6539, accuracy: 0.1510
+----------------------------------------
+[Batch 616] pred_ans: 15.0
+[Batch 616] true_ans: 15
+Current avg_loss: 1.6535, accuracy: 0.1517
+----------------------------------------
+[Batch 616] pred_ans: 72.0
+[Batch 616] true_ans: 81
+Current avg_loss: 1.6535, accuracy: 0.1515
+----------------------------------------
+[Batch 617] pred_ans: 12.0
+[Batch 617] true_ans: 12
+Current avg_loss: 1.6538, accuracy: 0.1522
+----------------------------------------
+[Batch 617] pred_ans: 37.5
+[Batch 617] true_ans: 60
+Current avg_loss: 1.6538, accuracy: 0.1521
+----------------------------------------
+[Batch 618] pred_ans: 48.0
+[Batch 618] true_ans: 84
+Current avg_loss: 1.6542, accuracy: 0.1520
+----------------------------------------
+[Batch 618] pred_ans: 58.0
+[Batch 618] true_ans: 78
+Current avg_loss: 1.6542, accuracy: 0.1519
+----------------------------------------
+[Batch 619] pred_ans: 208.0
+[Batch 619] true_ans: 520
+Current avg_loss: 1.6539, accuracy: 0.1517
+----------------------------------------
+[Batch 619] pred_ans: 0.0
+[Batch 619] true_ans: 50
+Current avg_loss: 1.6539, accuracy: 0.1516
+----------------------------------------
+[Batch 620] pred_ans: 4.0
+[Batch 620] true_ans: 2
+Current avg_loss: 1.6538, accuracy: 0.1515
+----------------------------------------
+[Batch 620] pred_ans: 0.0
+[Batch 620] true_ans: 8
+Current avg_loss: 1.6538, accuracy: 0.1514
+----------------------------------------
+[Batch 621] pred_ans: 20.0
+[Batch 621] true_ans: 20
+Current avg_loss: 1.6539, accuracy: 0.1521
+----------------------------------------
+[Batch 621] pred_ans: 60.0
+[Batch 621] true_ans: 50
+Current avg_loss: 1.6539, accuracy: 0.1519
+----------------------------------------
+[Batch 622] pred_ans: 16.0
+[Batch 622] true_ans: 35
+Current avg_loss: 1.6535, accuracy: 0.1518
+----------------------------------------
+[Batch 622] pred_ans: 60.0
+[Batch 622] true_ans: 96
+Current avg_loss: 1.6535, accuracy: 0.1517
+----------------------------------------
+[Batch 623] pred_ans: 3360.0
+[Batch 623] true_ans: 3360
+Current avg_loss: 1.6539, accuracy: 0.1524
+----------------------------------------
+[Batch 623] pred_ans: 4.0
+[Batch 623] true_ans: 7
+Current avg_loss: 1.6539, accuracy: 0.1522
+----------------------------------------
+[Batch 624] pred_ans: 750.0
+[Batch 624] true_ans: 750
+Current avg_loss: 1.6538, accuracy: 0.1529
+----------------------------------------
+[Batch 624] pred_ans: 28.0
+[Batch 624] true_ans: 56
+Current avg_loss: 1.6538, accuracy: 0.1528
+----------------------------------------
+[Batch 625] pred_ans: 11.0
+[Batch 625] true_ans: 22
+Current avg_loss: 1.6538, accuracy: 0.1527
+----------------------------------------
+[Batch 625] pred_ans: 40.0
+[Batch 625] true_ans: 30
+Current avg_loss: 1.6538, accuracy: 0.1526
+----------------------------------------
+[Batch 626] pred_ans: 40.0
+[Batch 626] true_ans: 70
+Current avg_loss: 1.6543, accuracy: 0.1524
+----------------------------------------
+[Batch 626] pred_ans: 600.0
+[Batch 626] true_ans: 120
+Current avg_loss: 1.6543, accuracy: 0.1523
+----------------------------------------
+[Batch 627] pred_ans: 36.0
+[Batch 627] true_ans: 30
+Current avg_loss: 1.6538, accuracy: 0.1522
+----------------------------------------
+[Batch 627] pred_ans: 8.0
+[Batch 627] true_ans: 12
+Current avg_loss: 1.6538, accuracy: 0.1521
+----------------------------------------
+[Batch 628] pred_ans: 20.0
+[Batch 628] true_ans: 15
+Current avg_loss: 1.6537, accuracy: 0.1519
+----------------------------------------
+[Batch 628] pred_ans: 28.0
+[Batch 628] true_ans: 14
+Current avg_loss: 1.6537, accuracy: 0.1518
+----------------------------------------
+[Batch 629] pred_ans: 40.0
+[Batch 629] true_ans: 60
+Current avg_loss: 1.6538, accuracy: 0.1517
+----------------------------------------
+[Batch 629] pred_ans: 600.0
+[Batch 629] true_ans: 7200
+Current avg_loss: 1.6538, accuracy: 0.1516
+----------------------------------------
+[Batch 630] pred_ans: 3.0
+[Batch 630] true_ans: 5
+Current avg_loss: 1.6536, accuracy: 0.1515
+----------------------------------------
+[Batch 630] pred_ans: 125.0
+[Batch 630] true_ans: 235
+Current avg_loss: 1.6536, accuracy: 0.1513
+----------------------------------------
+[Batch 631] pred_ans: 0.0
+[Batch 631] true_ans: 12
+Current avg_loss: 1.6537, accuracy: 0.1512
+----------------------------------------
+[Batch 631] pred_ans: 1000.0
+[Batch 631] true_ans: 500
+Current avg_loss: 1.6537, accuracy: 0.1511
+----------------------------------------
+[Batch 632] pred_ans: 120.0
+[Batch 632] true_ans: 210
+Current avg_loss: 1.6537, accuracy: 0.1510
+----------------------------------------
+[Batch 632] pred_ans: 48.0
+[Batch 632] true_ans: 36
+Current avg_loss: 1.6537, accuracy: 0.1509
+----------------------------------------
+[Batch 633] pred_ans: 210.0
+[Batch 633] true_ans: 147
+Current avg_loss: 1.6534, accuracy: 0.1507
+----------------------------------------
+[Batch 633] pred_ans: 100.0
+[Batch 633] true_ans: 40
+Current avg_loss: 1.6534, accuracy: 0.1506
+----------------------------------------
+[Batch 634] pred_ans: 8.0
+[Batch 634] true_ans: 20
+Current avg_loss: 1.6531, accuracy: 0.1505
+----------------------------------------
+[Batch 634] pred_ans: 180.0
+[Batch 634] true_ans: 54
+Current avg_loss: 1.6531, accuracy: 0.1504
+----------------------------------------
+[Batch 635] pred_ans: 3600.0
+[Batch 635] true_ans: 3528
+Current avg_loss: 1.6529, accuracy: 0.1503
+----------------------------------------
+[Batch 635] pred_ans: 54.0
+[Batch 635] true_ans: 43
+Current avg_loss: 1.6529, accuracy: 0.1502
+----------------------------------------
+[Batch 636] pred_ans: 320.0
+[Batch 636] true_ans: 296
+Current avg_loss: 1.6534, accuracy: 0.1500
+----------------------------------------
+[Batch 636] pred_ans: 27.0
+[Batch 636] true_ans: 27
+Current avg_loss: 1.6534, accuracy: 0.1507
+----------------------------------------
+[Batch 637] pred_ans: 42.0
+[Batch 637] true_ans: 38
+Current avg_loss: 1.6533, accuracy: 0.1506
+----------------------------------------
+[Batch 637] pred_ans: 150.0
+[Batch 637] true_ans: 16
+Current avg_loss: 1.6533, accuracy: 0.1505
+----------------------------------------
+[Batch 638] pred_ans: 100.0
+[Batch 638] true_ans: 70
+Current avg_loss: 1.6532, accuracy: 0.1504
+----------------------------------------
+[Batch 638] pred_ans: 48.0
+[Batch 638] true_ans: 48
+Current avg_loss: 1.6532, accuracy: 0.1510
+----------------------------------------
+[Batch 639] pred_ans: 633.0
+[Batch 639] true_ans: 665
+Current avg_loss: 1.6532, accuracy: 0.1509
+----------------------------------------
+[Batch 639] pred_ans: 144.0
+[Batch 639] true_ans: 180
+Current avg_loss: 1.6532, accuracy: 0.1508
+----------------------------------------
+[Batch 640] pred_ans: 13.0
+[Batch 640] true_ans: 7
+Current avg_loss: 1.6534, accuracy: 0.1507
+----------------------------------------
+[Batch 640] pred_ans: 100.0
+[Batch 640] true_ans: 20
+Current avg_loss: 1.6534, accuracy: 0.1505
+----------------------------------------
+[Batch 641] pred_ans: 8.0
+[Batch 641] true_ans: 12
+Current avg_loss: 1.6533, accuracy: 0.1504
+----------------------------------------
+[Batch 641] pred_ans: 0.0
+[Batch 641] true_ans: 60
+Current avg_loss: 1.6533, accuracy: 0.1503
+----------------------------------------
+[Batch 642] pred_ans: 15.0
+[Batch 642] true_ans: 25
+Current avg_loss: 1.6536, accuracy: 0.1502
+----------------------------------------
+[Batch 642] pred_ans: 1228.0
+[Batch 642] true_ans: 1218
+Current avg_loss: 1.6536, accuracy: 0.1501
+----------------------------------------
+[Batch 643] pred_ans: 35.0
+[Batch 643] true_ans: 105
+Current avg_loss: 1.6533, accuracy: 0.1500
+----------------------------------------
+[Batch 643] pred_ans: 48.0
+[Batch 643] true_ans: 84
+Current avg_loss: 1.6533, accuracy: 0.1498
+----------------------------------------
+[Batch 644] pred_ans: 300.0
+[Batch 644] true_ans: 34
+Current avg_loss: 1.6534, accuracy: 0.1497
+----------------------------------------
+[Batch 644] pred_ans: 198.0
+[Batch 644] true_ans: 101
+Current avg_loss: 1.6534, accuracy: 0.1496
+----------------------------------------
+[Batch 645] pred_ans: 66.0
+[Batch 645] true_ans: 90
+Current avg_loss: 1.6530, accuracy: 0.1495
+----------------------------------------
+[Batch 645] pred_ans: 9.0
+[Batch 645] true_ans: 27
+Current avg_loss: 1.6530, accuracy: 0.1494
+----------------------------------------
+[Batch 646] pred_ans: 30.0
+[Batch 646] true_ans: 67
+Current avg_loss: 1.6532, accuracy: 0.1493
+----------------------------------------
+[Batch 646] pred_ans: 140000.0
+[Batch 646] true_ans: 140000
+Current avg_loss: 1.6532, accuracy: 0.1499
+----------------------------------------
+[Batch 647] pred_ans: 40.0
+[Batch 647] true_ans: 36
+Current avg_loss: 1.6528, accuracy: 0.1498
+----------------------------------------
+[Batch 647] pred_ans: 2.0
+[Batch 647] true_ans: 2
+Current avg_loss: 1.6528, accuracy: 0.1505
+----------------------------------------
+[Batch 648] pred_ans: 245.0
+[Batch 648] true_ans: 335
+Current avg_loss: 1.6526, accuracy: 0.1503
+----------------------------------------
+[Batch 648] pred_ans: 1000.0
+[Batch 648] true_ans: 60
+Current avg_loss: 1.6526, accuracy: 0.1502
+----------------------------------------
+[Batch 649] pred_ans: 8.0
+[Batch 649] true_ans: 31
+Current avg_loss: 1.6524, accuracy: 0.1501
+----------------------------------------
+[Batch 649] pred_ans: 20.0
+[Batch 649] true_ans: 13
+Current avg_loss: 1.6524, accuracy: 0.1500
+----------------------------------------
+[Batch 650] pred_ans: 48.0
+[Batch 650] true_ans: 120
+Current avg_loss: 1.6523, accuracy: 0.1499
+----------------------------------------
+[Batch 650] pred_ans: 19.0
+[Batch 650] true_ans: 23
+Current avg_loss: 1.6523, accuracy: 0.1498
+----------------------------------------
+[Batch 651] pred_ans: 120.0
+[Batch 651] true_ans: 72
+Current avg_loss: 1.6524, accuracy: 0.1497
+----------------------------------------
+[Batch 651] pred_ans: 2.0
+[Batch 651] true_ans: 4
+Current avg_loss: 1.6524, accuracy: 0.1495
+----------------------------------------
+[Batch 652] pred_ans: 3000.0
+[Batch 652] true_ans: 1000
+Current avg_loss: 1.6524, accuracy: 0.1494
+----------------------------------------
+[Batch 652] pred_ans: 2325.0
+[Batch 652] true_ans: 2325
+Current avg_loss: 1.6524, accuracy: 0.1501
+----------------------------------------
+[Batch 653] pred_ans: 2.0
+[Batch 653] true_ans: 2
+Current avg_loss: 1.6522, accuracy: 0.1507
+----------------------------------------
+[Batch 653] pred_ans: 8.0
+[Batch 653] true_ans: 8
+Current avg_loss: 1.6522, accuracy: 0.1514
+----------------------------------------
+[Batch 654] pred_ans: 30.0
+[Batch 654] true_ans: 30
+Current avg_loss: 1.6524, accuracy: 0.1520
+----------------------------------------
+[Batch 654] pred_ans: 2000.0
+[Batch 654] true_ans: 2280
+Current avg_loss: 1.6524, accuracy: 0.1519
+----------------------------------------
+[Batch 655] pred_ans: 32.0
+[Batch 655] true_ans: 64
+Current avg_loss: 1.6524, accuracy: 0.1518
+----------------------------------------
+[Batch 655] pred_ans: 594.0
+[Batch 655] true_ans: 594
+Current avg_loss: 1.6524, accuracy: 0.1524
+----------------------------------------
+[Batch 656] pred_ans: 360.0
+[Batch 656] true_ans: 180
+Current avg_loss: 1.6525, accuracy: 0.1523
+----------------------------------------
+[Batch 656] pred_ans: 16.0
+[Batch 656] true_ans: 2
+Current avg_loss: 1.6525, accuracy: 0.1522
+----------------------------------------
+[Batch 657] pred_ans: 9.0
+[Batch 657] true_ans: 8
+Current avg_loss: 1.6525, accuracy: 0.1521
+----------------------------------------
+[Batch 657] pred_ans: 15.0
+[Batch 657] true_ans: 5
+Current avg_loss: 1.6525, accuracy: 0.1520
+----------------------------------------
+[Batch 658] pred_ans: 400.0
+[Batch 658] true_ans: 230
+Current avg_loss: 1.6525, accuracy: 0.1519
+----------------------------------------
+[Batch 658] pred_ans: 10.0
+[Batch 658] true_ans: 5
+Current avg_loss: 1.6525, accuracy: 0.1517
+----------------------------------------
+[Batch 659] pred_ans: 2.0
+[Batch 659] true_ans: 14
+Current avg_loss: 1.6522, accuracy: 0.1516
+----------------------------------------
+
+=== Evaluation Summary ===
+Total samples: 1319, Correct: 200, Evaluated: 1319
+Average loss: 1.6522
+Accuracy: 15.16%
+==================================================
+asyflat_lora

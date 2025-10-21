@@ -1,0 +1,4 @@
+hello
+hello
+hello
+Training time: defaultdict(<class 'float'>, {'init': 2.9875664710998535, 'sample': 4.119759798049927, 'add_EB': 637.4626879692078, 'backward': 3417.4893114566803, 'calc_EB': 15020.700416564941, 'restore': 307.99484300613403, 'optimize': 41.91444420814514, 'update_ema': 81.30736565589905, 'update_loss': 2.759711742401123})

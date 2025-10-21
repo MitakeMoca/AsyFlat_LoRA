@@ -168,7 +168,6 @@ def evaluate_model(model, tokenizer, device, batch_size, threads, log_dir="./log
                 log(f"Current avg_loss: {total_loss / total_samples:.4f}, accuracy: {correct / total:.4f}")
                 log("-" * 40)
 
-                log("ASY")
 
     # === 汇总结果 ===
     avg_loss = total_loss / total_samples if total_samples > 0 else 0
@@ -179,11 +178,9 @@ def evaluate_model(model, tokenizer, device, batch_size, threads, log_dir="./log
     log(f"Average loss: {avg_loss:.4f}")
     log(f"Accuracy: {accuracy:.2%}")
     log("=" * 50)
+    log("eflat_lora")
 
     log_file.close()
     print(f"\n✅ Evaluation log saved to: {log_path}")
 
-    return avg_loss, accuracy
-
-    
     return avg_loss, accuracy
